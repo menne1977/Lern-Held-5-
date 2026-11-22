@@ -1,0 +1,401 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 2: Auf Spurensuche (Berichten)",
+ "key": "Berichte informieren sachlich über ein Ereignis. Sie beantworten die W-Fragen und nutzen adverbiale Bestimmungen.\nIm Buch: S. 38–63",
+ "slides": [
+  {
+   "title": "Der Bericht",
+   "text": "Ein Bericht informiert über ein Ereignis. Er beantwortet die W-Fragen: Wer, was, wann, wo, warum und wie.",
+   "emoji": "📰"
+  },
+  {
+   "title": "Sachlich bleiben",
+   "text": "Im Bericht schreibst du genau und ohne Gefühle. Du schreibst über Vergangenes, meist im Präteritum oder Perfekt.",
+   "emoji": "🔍"
+  },
+  {
+   "title": "Aufbau",
+   "text": "Ein Bericht hat Überschrift, Einleitung, Hauptteil und Schluss. Die Einleitung nennt das Wichtigste.",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Adverbiale Bestimmungen der Zeit",
+   "text": "Sie antworten auf Wann? Wie lange? Wie oft? Beispiel: Am Samstag, seit zwei Tagen.",
+   "emoji": "⏰"
+  },
+  {
+   "title": "Adverbiale Bestimmungen des Ortes",
+   "text": "Sie antworten auf Wo? Wohin? Woher? Beispiel: im Hafen, zum Snack-Stand, aus dem Schulhof.",
+   "emoji": "📍"
+  },
+  {
+   "title": "Ableiten bei ä und äu",
+   "text": "Du weißt nicht, ob es ä oder äu heißt? Suche ein verwandtes Wort: Maus gibt Mäuse, Baum gibt Bäume.",
+   "emoji": "🌳"
+  }
+ ],
+ "vocab": [
+  [
+   "Bericht",
+   "Text, der über ein Ereignis informiert"
+  ],
+  [
+   "W-Fragen",
+   "Wer, was, wann, wo, warum, wie"
+  ],
+  [
+   "sachlich",
+   "genau und ohne Gefühle"
+  ],
+  [
+   "adverbiale Bestimmung der Zeit",
+   "Satzteil, der Wann? Wie lange? beantwortet"
+  ],
+  [
+   "adverbiale Bestimmung des Ortes",
+   "Satzteil, der Wo? Wohin? Woher? beantwortet"
+  ],
+  [
+   "Zeuge",
+   "Person, die etwas gesehen oder gehört hat"
+  ],
+  [
+   "Wortfamilie",
+   "Wörter mit gleichem Wortstamm"
+  ],
+  [
+   "Ableiten",
+   "Verwandtes Wort suchen, um die Schreibweise zu finden"
+  ],
+  [
+   "Präteritum",
+   "einfache Vergangenheit: er ging"
+  ],
+  [
+   "Perfekt",
+   "Vergangenheit mit haben/sein: er ist gegangen"
+  ],
+  [
+   "Einleitung",
+   "Anfang eines Textes"
+  ],
+  [
+   "Schlussteil",
+   "Ende eines Textes"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welche Aussage ist sachlich?",
+   "options": [
+    "Am 13. August öffnete jemand das Ventil.",
+    "Der Dieb war total gemein!",
+    "Ich glaube, es war wohl der Schüler."
+   ],
+   "answer": "Am 13. August öffnete jemand das Ventil.",
+   "hint": "Sachlich heißt: ohne Gefühle, genau.",
+   "explain": "Ein Bericht informiert genau: Wer, was, wann, wo."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform ist im Bericht üblich?",
+   "options": [
+    "Vergangenheit (Präteritum oder Perfekt)",
+    "Zukunft",
+    "Befehlsform"
+   ],
+   "answer": "Vergangenheit (Präteritum oder Perfekt)",
+   "hint": "Ein Bericht erzählt, was war.",
+   "explain": "Ein Bericht über ein Ereignis steht in der Vergangenheit."
+  },
+  {
+   "type": "choice",
+   "q": "Welche W-Frage beantwortet eine Zeitangabe?",
+   "options": [
+    "Wann?",
+    "Wo?",
+    "Wer?"
+   ],
+   "answer": "Wann?",
+   "hint": "Ein Zeitpunkt.",
+   "explain": "Am Samstag um 14 Uhr fragt nach dem Wann."
+  },
+  {
+   "type": "text",
+   "q": "Welche Frage beantwortet 'seit zwei Tagen'?",
+   "answer": "Wie lange?",
+   "alt": [
+    "Seit wann?"
+   ],
+   "hint": "Es geht um eine Dauer.",
+   "explain": "Seit zwei Tagen beschreibt, wie lange etwas dauert: Wie lange?"
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage beantwortet die Ortsangabe 'im Hafen'?",
+   "options": [
+    "Wo?",
+    "Wann?",
+    "Wie?"
+   ],
+   "answer": "Wo?",
+   "hint": "Wo passiert es?",
+   "explain": "Die adverbiale Bestimmung des Ortes fragt nach Wo?, Wohin? oder Woher?."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Angabe ist keine Ortsangabe?",
+   "options": [
+    "gestern",
+    "im Hafen",
+    "zum Snack-Stand"
+   ],
+   "answer": "gestern",
+   "hint": "Gestern ist ein Zeitpunkt.",
+   "explain": "gestern ist eine Zeitangabe, keine Ortsangabe."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Bestimmung antwortet auf 'Wohin?'",
+   "options": [
+    "zum Snack-Stand",
+    "im Hafen",
+    "seit gestern"
+   ],
+   "answer": "zum Snack-Stand",
+   "hint": "Bewegung in eine Richtung.",
+   "explain": "Wohin? beschreibt eine Bewegung zum Ziel."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Bestimmung antwortet auf 'Woher?'",
+   "options": [
+    "aus dem Schulhof",
+    "gestern Mittag",
+    "sehr schnell"
+   ],
+   "answer": "aus dem Schulhof",
+   "hint": "Woher kommt etwas?",
+   "explain": "Woher? beschreibt, wo etwas herkommt."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort gehört zur Wortfamilie 'Haus'?",
+   "options": [
+    "Häuschen",
+    "Hund",
+    "Hut"
+   ],
+   "answer": "Häuschen",
+   "hint": "Gleicher Wortstamm.",
+   "explain": "Häuschen stammt vom Wort Haus ab. Hund und Hut haben einen anderen Wortstamm."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Mehrzahl ist richtig? (Maus)",
+   "options": [
+    "Mäuse",
+    "Meuse",
+    "Mause"
+   ],
+   "answer": "Mäuse",
+   "hint": "Ableiten: Die Maus, Mäuse.",
+   "explain": "Bei ä/äu hilft das Ableiten: Maus gibt Mäuse."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Schreibweise ist richtig? (Baum, Mehrzahl)",
+   "options": [
+    "Bäume",
+    "Baume",
+    "Beume"
+   ],
+   "answer": "Bäume",
+   "hint": "Denk an die Wortfamilie: Baum.",
+   "explain": "Mehrzahl von Baum ist Bäume. Das ä leitet man vom Baum ab."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Bericht enthält vor allem …",
+   "options": [
+    "die Antworten auf die W-Fragen",
+    "nur Gefühle",
+    "eine Frage an den Leser"
+   ],
+   "answer": "die Antworten auf die W-Fragen",
+   "hint": "Wer, was, wann, wo, warum?",
+   "explain": "Ein Bericht informiert über ein Ereignis und beantwortet dazu die W-Fragen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Teile hat ein Bericht meist?",
+   "options": [
+    "Einleitung, Hauptteil, Schluss",
+    "Nur Schluss",
+    "Anrede und Gruß"
+   ],
+   "answer": "Einleitung, Hauptteil, Schluss",
+   "hint": "Vom Anfang bis zum Ende.",
+   "explain": "Ein Bericht hat einen Anfang, den Hauptteil mit den Einzelheiten und einen Schluss."
+  },
+  {
+   "type": "text",
+   "q": "Welche W-Frage fragt nach dem Grund?",
+   "answer": "Warum",
+   "alt": [
+    "Weshalb",
+    "Wieso"
+   ],
+   "hint": "Eine W-Frage mit W am Anfang.",
+   "explain": "Warum fragt nach einem Grund."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Zeuge?",
+   "options": [
+    "Eine Person, die etwas beobachtet hat",
+    "Ein Täter",
+    "Ein Polizist"
+   ],
+   "answer": "Eine Person, die etwas beobachtet hat",
+   "hint": "Wer hat es gesehen?",
+   "explain": "Ein Zeuge hat den Vorfall mit eigenen Augen gesehen oder gehört."
+  },
+  {
+   "type": "choice",
+   "q": "Zu welcher Art gehört 'vor zwei Tagen'?",
+   "options": [
+    "Zeit",
+    "Art",
+    "Ort"
+   ],
+   "answer": "Zeit",
+   "hint": "Frage: Wann?",
+   "explain": "vor zwei Tagen beantwortet die Frage Wann? also eine Zeitangabe."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz steht im Präteritum?",
+   "options": [
+    "Das Fuchs-Team ermittelte gestern.",
+    "Das Fuchs-Team ermittelt gestern.",
+    "Das Fuchs-Team wird ermitteln."
+   ],
+   "answer": "Das Fuchs-Team ermittelte gestern.",
+   "hint": "Präteritum: ermittelte.",
+   "explain": "ermittelte ist Präteritum: Die Vergangenheit einfach erzählt."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'sachlich'?",
+   "options": [
+    "ohne Gefühle und genau",
+    "witzig",
+    "sehr laut"
+   ],
+   "answer": "ohne Gefühle und genau",
+   "hint": "Ein Bericht soll so sein.",
+   "explain": "Sachlich schreiben heißt: genau, ohne persönliche Wertung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Überschrift passt zu einem Bericht?",
+   "options": [
+    "Die Gerechtigkeit siegt! – Schlauchbootrennen am Hafen",
+    "Mein toller Tag",
+    "Hallo Freunde"
+   ],
+   "answer": "Die Gerechtigkeit siegt! – Schlauchbootrennen am Hafen",
+   "hint": "Die Überschrift nennt das Thema.",
+   "explain": "Eine Berichtsüberschrift nennt das Ereignis, z. B. ein Rennen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche W-Frage fragt nach der Person, die handelt?",
+   "options": [
+    "Wer?",
+    "Wo?",
+    "Wann?"
+   ],
+   "answer": "Wer?",
+   "hint": "Eine Person handelt.",
+   "explain": "Wer fragt nach der Person, die handelt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform steht im Perfekt?",
+   "options": [
+    "Das Team hat ermittelt.",
+    "Das Team ermittelte.",
+    "Das Team ermittelt."
+   ],
+   "answer": "Das Team hat ermittelt.",
+   "hint": "hat ... ermittelt",
+   "explain": "Das Perfekt bildet man mit haben oder sein und dem Partizip."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage gehört zu einem Bericht?",
+   "options": [
+    "Wo ist es passiert?",
+    "Wie geht es dir?",
+    "Was wünschst du dir?"
+   ],
+   "answer": "Wo ist es passiert?",
+   "hint": "W-Frage.",
+   "explain": "Die W-Frage nach dem Ort gehört zum Bericht."
+  },
+  {
+   "type": "choice",
+   "q": "Eine Mind-Map zum Bericht hilft beim …",
+   "options": [
+    "Gliedern der Informationen",
+    "Rechnen",
+    "Malen"
+   ],
+   "answer": "Gliedern der Informationen",
+   "hint": "Sortieren und ordnen.",
+   "explain": "Eine Mind-Map ordnet die Informationen nach Hauptgedanken."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage beantwortet 'mit einem Schlauchboot'?",
+   "options": [
+    "Womit?",
+    "Wann?",
+    "Wohin?"
+   ],
+   "answer": "Womit?",
+   "hint": "Ein Hilfsmittel.",
+   "explain": "Womit? fragt nach dem Mittel oder Hilfsmittel."
+  },
+  {
+   "type": "choice",
+   "q": "Im Bericht steht: 'Gestern fand das Rennen statt.' Welche Zeit?",
+   "options": [
+    "Vergangenheit",
+    "Gegenwart",
+    "Zukunft"
+   ],
+   "answer": "Vergangenheit",
+   "hint": "gestern",
+   "explain": "gestern verweist auf die Vergangenheit."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Angabe ist ein Ort?",
+   "options": [
+    "auf dem Hof",
+    "vor einer Stunde",
+    "am Montag"
+   ],
+   "answer": "auf dem Hof",
+   "hint": "Wo?",
+   "explain": "auf dem Hof beschreibt den Ort."
+  }
+ ]
+}

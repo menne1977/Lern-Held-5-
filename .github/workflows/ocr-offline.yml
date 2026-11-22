@@ -1,0 +1,35 @@
+name: OCR offline laden
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/ocr-offline.yml']
+permissions:
+  contents: write
+jobs:
+  ocr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Texterkennung (Tesseract) in den Ordner ocr/ laden
+        run: |
+          set -e
+          mkdir -p ocr/core ocr/lang tmp
+          cd tmp
+          npm pack tesseract.js@5 tesseract.js-core@5
+          mkdir tj core
+          tar xzf tesseract.js-5*.tgz -C tj
+          tar xzf tesseract.js-core-5*.tgz -C core
+          cp tj/package/dist/tesseract.min.js tj/package/dist/worker.min.js ../ocr/
+          cp core/package/*lstm* ../ocr/core/
+          cd ..
+          for l in deu eng; do curl -fL -o ocr/lang/$l.traineddata https://github.com/tesseract-ocr/tessdata_fast/raw/main/$l.traineddata; done
+          rm -rf tmp
+          ls -la ocr ocr/core ocr/lang
+      - name: Dateien einchecken
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add ocr
+          git diff --cached --quiet || (git commit -m "OCR-Dateien für Offline-Nutzung" && git push)

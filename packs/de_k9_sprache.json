@@ -1,0 +1,452 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 9: Sprache untersuchen (Wortarten und Satzglieder)",
+ "key": "Wortarten erkennst du an Artikel, Form und Fragen. Mit Umstellprobe und Fragen findest du Satzglieder.\nIm Buch: S. 228–246",
+ "slides": [
+  {
+   "title": "Wortarten",
+   "text": "Es gibt Nomen, Verben, Adjektive, Pronomen, Adverbien, Präpositionen und Konjunktionen.",
+   "emoji": "🔤"
+  },
+  {
+   "title": "Satzglieder finden",
+   "text": "Mit der Umstellprobe findest du Satzglieder. Frage: Wer oder was? Wen oder was? Wem?",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Subjekt, Prädikat, Objekt",
+   "text": "Subjekt: Wer oder was? Prädikat: das konjugierte Verb. Objekt: Wen oder was? Wem?",
+   "emoji": "🎯"
+  },
+  {
+   "title": "Satzarten",
+   "text": "Aussagesatz endet mit Punkt, Fragesatz mit Fragezeichen, Aufforderungssatz mit Ausrufezeichen.",
+   "emoji": "❗"
+  },
+  {
+   "title": "Attribute",
+   "text": "Attribute bestimmen Nomen genauer: das alte Haus. Das Adjektiv alte ist das Attribut.",
+   "emoji": "🏠"
+  },
+  {
+   "title": "Wortart erkennen",
+   "text": "Nomen: Artikelprobe. Verb: Tätigkeit. Adjektiv: Eigenschaft. Adverb: Umstand.",
+   "emoji": "🔎"
+  }
+ ],
+ "vocab": [
+  [
+   "Wortart",
+   "Kategorie eines Wortes, z. B. Verb"
+  ],
+  [
+   "Nomen",
+   "Wort mit Artikel, groß geschrieben"
+  ],
+  [
+   "Adjektiv",
+   "Wort für Eigenschaften"
+  ],
+  [
+   "Adverb",
+   "Wort für Umstände, z. B. schnell"
+  ],
+  [
+   "Pronomen",
+   "Wort, das ein Nomen ersetzt"
+  ],
+  [
+   "Präposition",
+   "Verhältniswort, z. B. unter"
+  ],
+  [
+   "Konjunktion",
+   "Bindewort, z. B. und"
+  ],
+  [
+   "Satzglied",
+   "Gruppe von Wörtern als Einheit"
+  ],
+  [
+   "Subjekt",
+   "Satzglied: Wer oder was?"
+  ],
+  [
+   "Prädikat",
+   "Satzglied: konjugiertes Verb"
+  ],
+  [
+   "Objekt",
+   "Satzglied: Wen oder was? Wem?"
+  ],
+  [
+   "Attribut",
+   "bestimmt ein Nomen genauer"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'schnell' im Satz 'Der Hase läuft schnell'?",
+   "options": [
+    "Adverb",
+    "Verb",
+    "Nomen"
+   ],
+   "answer": "Adverb",
+   "hint": "Es beschreibt, wie gelaufen wird.",
+   "explain": "Ein Adverb gibt Umstände an, z. B. wie oder wo."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'Haus'?",
+   "options": [
+    "Nomen",
+    "Verb",
+    "Adjektiv"
+   ],
+   "answer": "Nomen",
+   "hint": "Artikelprobe: das Haus.",
+   "explain": "Nomen erkennt man am Artikel und der Großschreibung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'laufen'?",
+   "options": [
+    "Verb",
+    "Nomen",
+    "Präposition"
+   ],
+   "answer": "Verb",
+   "hint": "Tätigkeit.",
+   "explain": "Verben drücken eine Tätigkeit oder einen Vorgang aus."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'schön' in 'ein schönes Bild'?",
+   "options": [
+    "Adjektiv",
+    "Artikel",
+    "Pronomen"
+   ],
+   "answer": "Adjektiv",
+   "hint": "Eigenschaft des Bildes.",
+   "explain": "Adjektive beschreiben Eigenschaften und lassen sich steigern."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist ein Pronomen?",
+   "options": [
+    "sie",
+    "Haus",
+    "laufen"
+   ],
+   "answer": "sie",
+   "hint": "Es steht für ein Nomen.",
+   "explain": "Pronomen ersetzen Nomen, z. B. sie für Anna."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist eine Präposition?",
+   "options": [
+    "unter",
+    "schnell",
+    "Hund"
+   ],
+   "answer": "unter",
+   "hint": "Ortsangabe.",
+   "explain": "Präpositionen stehen vor Nomen: unter dem Tisch."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist eine Konjunktion?",
+   "options": [
+    "und",
+    "Haus",
+    "laufen"
+   ],
+   "answer": "und",
+   "hint": "Verbindung.",
+   "explain": "Konjunktionen verbinden Wörter oder Sätze, z. B. und, weil."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Satzglied?",
+   "options": [
+    "eine Gruppe von Wörtern, die zusammen eine Einheit bilden",
+    "ein einzelnes Wort",
+    "ein Satzzeichen"
+   ],
+   "answer": "eine Gruppe von Wörtern, die zusammen eine Einheit bilden",
+   "hint": "Umstellprobe.",
+   "explain": "Satzglieder kann man im Satz verschieben."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Satzglied ist 'Der Hase' in 'Der Hase läuft schnell'?",
+   "options": [
+    "Subjekt",
+    "Prädikat",
+    "Objekt"
+   ],
+   "answer": "Subjekt",
+   "hint": "Wer läuft?",
+   "explain": "Das Subjekt steht im Nominativ und fragt man mit wer oder was."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Satzglied ist 'läuft' in 'Der Hase läuft schnell'?",
+   "options": [
+    "Prädikat",
+    "Subjekt",
+    "Attribut"
+   ],
+   "answer": "Prädikat",
+   "hint": "Finites Verb.",
+   "explain": "Das Prädikat ist das konjugierte Verb."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Objekt im Satz?",
+   "options": [
+    "Ergänzung, z. B. einen Ball in 'Er wirft einen Ball'",
+    "Das Verb",
+    "Der Artikel"
+   ],
+   "answer": "Ergänzung, z. B. einen Ball in 'Er wirft einen Ball'",
+   "hint": "Wen oder was?",
+   "explain": "Das Objekt ergänzt das Verb und fragt man mit wen oder was."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage findet das Subjekt?",
+   "options": [
+    "Wer oder was?",
+    "Wo?",
+    "Wann?"
+   ],
+   "answer": "Wer oder was?",
+   "hint": "Frage nach dem Handelnden.",
+   "explain": "Das Subjekt findest du mit wer oder was."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage findet das Akkusativobjekt?",
+   "options": [
+    "Wen oder was?",
+    "Wem?",
+    "Wo?"
+   ],
+   "answer": "Wen oder was?",
+   "hint": "Akkusativ.",
+   "explain": "Das Akkusativobjekt beantwortet wen oder was."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage findet das Dativobjekt?",
+   "options": [
+    "Wem?",
+    "Wen?",
+    "Wann?"
+   ],
+   "answer": "Wem?",
+   "hint": "Dativ.",
+   "explain": "Das Dativobjekt beantwortet wem."
+  },
+  {
+   "type": "choice",
+   "q": "In 'Sie hilft dem Kind' ist 'dem Kind' …",
+   "options": [
+    "Dativobjekt",
+    "Subjekt",
+    "Prädikat"
+   ],
+   "answer": "Dativobjekt",
+   "hint": "Wem hilft sie?",
+   "explain": "Dem Kind ist das Dativobjekt, weil es auf die Frage wem antwortet."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Satzart ist 'Kommst du mit?'",
+   "options": [
+    "Fragesatz",
+    "Aussagesatz",
+    "Ausrufesatz"
+   ],
+   "answer": "Fragesatz",
+   "hint": "Mit Fragezeichen.",
+   "explain": "Ein Fragesatz endet mit einem Fragezeichen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Satzart ist 'Geh sofort nach Hause!'?",
+   "options": [
+    "Aufforderungssatz",
+    "Fragesatz",
+    "Aussagesatz"
+   ],
+   "answer": "Aufforderungssatz",
+   "hint": "Ein Befehl.",
+   "explain": "Ein Aufforderungssatz endet mit Ausrufezeichen und hat den Imperativ."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Satzart ist 'Das Wetter ist schön.'?",
+   "options": [
+    "Aussagesatz",
+    "Fragesatz",
+    "Ausrufesatz"
+   ],
+   "answer": "Aussagesatz",
+   "hint": "Information.",
+   "explain": "Ein Aussagesatz endet mit einem Punkt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'Schönheit' (Wortart als Nomen)?",
+   "options": [
+    "Nomen",
+    "Adjektiv",
+    "Verb"
+   ],
+   "answer": "Nomen",
+   "hint": "Artikelprobe: die Schönheit.",
+   "explain": "Mit Artikel erkennt man das Nomen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'lachend' in 'Das lachende Kind'?",
+   "options": [
+    "Partizip, als Adjektiv gebraucht",
+    "Verb",
+    "Nomen"
+   ],
+   "answer": "Partizip, als Adjektiv gebraucht",
+   "hint": "Es beschreibt das Kind.",
+   "explain": "Partizipien können wie Adjektive verwendet werden."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Grundform von 'ging'?",
+   "options": [
+    "gehen",
+    "ging",
+    "geht"
+   ],
+   "answer": "gehen",
+   "hint": "Infinitiv.",
+   "explain": "Die Grundform von ging ist gehen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Attribut?",
+   "options": [
+    "Ein Satzglied, das ein Nomen genauer bestimmt",
+    "Das Prädikat",
+    "Eine Präposition"
+   ],
+   "answer": "Ein Satzglied, das ein Nomen genauer bestimmt",
+   "hint": "Welche Art?",
+   "explain": "Attribute bestimmen Nomen genauer, z. B. das schöne Haus."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist das Attribut in 'das alte Haus'?",
+   "options": [
+    "alte",
+    "das",
+    "Haus"
+   ],
+   "answer": "alte",
+   "hint": "Es bestimmt das Haus genauer.",
+   "explain": "Das Adjektiv alte ist das Attribut."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'und' in 'Anna und Ben'?",
+   "options": [
+    "Konjunktion",
+    "Präposition",
+    "Adverb"
+   ],
+   "answer": "Konjunktion",
+   "hint": "Verbindend.",
+   "explain": "und verbindet Namen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'bald' in 'Wir fahren bald'?",
+   "options": [
+    "Adverb",
+    "Adjektiv",
+    "Nomen"
+   ],
+   "answer": "Adverb",
+   "hint": "Zeitangabe.",
+   "explain": "Adverbien geben Zeit, Ort oder Art an."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Satzglieder hat 'Der Hund bellt laut'?",
+   "options": [
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": "3",
+   "hint": "Der Hund / bellt / laut.",
+   "explain": "Der Hund, bellt und laut sind die drei Satzglieder."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'ich' in 'Ich spiele Fußball'?",
+   "options": [
+    "Pronomen",
+    "Nomen",
+    "Verb"
+   ],
+   "answer": "Pronomen",
+   "hint": "Steht für eine Person.",
+   "explain": "Ich ist ein Personalpronomen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man die Form 'er geht' im Satz?",
+   "options": [
+    "finites Verb (konjugiert)",
+    "Infinitiv",
+    "Partizip"
+   ],
+   "answer": "finites Verb (konjugiert)",
+   "hint": "Mit Person und Zeit.",
+   "explain": "Finite Verben sind an Person und Zeit gebunden."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Hilfsverb?",
+   "options": [
+    "haben, sein oder werden als Hilfe bei der Zeitform",
+    "ein Verb ohne Bedeutung",
+    "ein Nomen"
+   ],
+   "answer": "haben, sein oder werden als Hilfe bei der Zeitform",
+   "hint": "Perfekt: er hat gespielt.",
+   "explain": "Hilfsverben bilden zusammen mit dem Partizip die Zeitform."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Wortart von 'Die' in 'Die Katze'?",
+   "options": [
+    "Artikel",
+    "Pronomen",
+    "Konjunktion"
+   ],
+   "answer": "Artikel",
+   "hint": "Steht vor dem Nomen.",
+   "explain": "Der Artikel steht vor dem Nomen und zeigt das Geschlecht."
+  }
+ ]
+}

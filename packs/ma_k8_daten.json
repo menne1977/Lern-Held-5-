@@ -1,0 +1,395 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 8: Daten",
+ "key": "Daten sammeln: Umfrage, Strichliste, Häufigkeitstabelle.\nDiagramme: Säulen, Balken, Kreis, Figuren – immer Überschrift und beschriftete Achsen.\nMinimum = kleinster Wert, Maximum = größter Wert.\nSpannweite = Maximum − Minimum.\nIm Buch: Kapitel 8 (Buchseiten ca. 181–199)",
+ "slides": [
+  {
+   "title": "Daten sammeln",
+   "text": "Daten bekommst du z. B. bei Umfragen. Du fragst viele Kinder, zum Beispiel nach dem Lieblingstier. Die Antworten schreibst du auf.",
+   "emoji": "📋"
+  },
+  {
+   "title": "Strichliste",
+   "text": "Eine Strichliste hilft beim Auszählen. Für jede Antwort machst du einen Strich. Fünf Striche werden als Bündel gezeichnet. So zählst du schnell mit.",
+   "emoji": "✏️"
+  },
+  {
+   "title": "Häufigkeitstabelle",
+   "text": "In der Häufigkeitstabelle schreibst du die Anzahl der Striche als Zahl auf. Das ist die Häufigkeit. Alle Häufigkeiten zusammen ergeben die Summe aller Antworten.",
+   "emoji": "📊"
+  },
+  {
+   "title": "Diagramme lesen",
+   "text": "Es gibt Säulendiagramme, Balkendiagramme, Kreisdiagramme und Figurendiagramme. Lies zuerst die Überschrift. Schau dann auf die Achsen. Dann liest du die Werte ab.",
+   "emoji": "👀"
+  },
+  {
+   "title": "Diagramme zeichnen",
+   "text": "Zeichne die Achsen. Teile die Hochachse in gleiche Abstände ein. Beschrifte beide Achsen und schreibe eine Überschrift. Trage dann die Werte als Säulen ein.",
+   "emoji": "📈"
+  },
+  {
+   "title": "Figurendiagramm",
+   "text": "Hier steht ein Zeichen für mehrere Dinge, z. B. ein Bild für 5 Babys. Du rechnest: Anzahl der Bilder mal Wert. Halbe Bilder zählen die Hälfte.",
+   "emoji": "🧸"
+  },
+  {
+   "title": "Minimum und Maximum",
+   "text": "Das Minimum ist der kleinste Wert, das Maximum der größte. Ordne die Daten der Größe nach, dann siehst du beide sofort.",
+   "emoji": "⬆️"
+  },
+  {
+   "title": "Spannweite",
+   "text": "Spannweite = Maximum − Minimum. Beispiel: 1; 2; 3; 3; 4; 7. Die Spannweite ist 7 − 1 = 6. Sie zeigt, wie weit die Daten auseinanderliegen.",
+   "emoji": "↔️"
+  }
+ ],
+ "vocab": [
+  [
+   "Daten",
+   "gesammelte Informationen"
+  ],
+  [
+   "Umfrage",
+   "viele Menschen befragen"
+  ],
+  [
+   "Strichliste",
+   "Zählliste mit Strichen"
+  ],
+  [
+   "Häufigkeit",
+   "wie oft etwas vorkommt"
+  ],
+  [
+   "Häufigkeitstabelle",
+   "Tabelle mit Zahlen der Striche"
+  ],
+  [
+   "Säulendiagramm",
+   "senkrechte Säulen"
+  ],
+  [
+   "Balkendiagramm",
+   "waagerechte Balken"
+  ],
+  [
+   "Kreisdiagramm",
+   "Kreis in Stücken"
+  ],
+  [
+   "Figurendiagramm",
+   "Bilder stehen für Zahlen"
+  ],
+  [
+   "Minimum",
+   "kleinster Wert"
+  ],
+  [
+   "Maximum",
+   "größter Wert"
+  ],
+  [
+   "Spannweite",
+   "Maximum minus Minimum"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "num",
+   "q": "Lieblingsmärchen: Rapunzel 8 Striche, Froschkönig 7 Striche, Frau Holle 1 Strich, Sterntaler 2 Striche. Wie viele Kinder wurden befragt?",
+   "answer": "18",
+   "hint": "Alle Häufigkeiten addieren.",
+   "explain": "8 + 7 + 1 + 2 = 18 Kinder."
+  },
+  {
+   "type": "num",
+   "q": "In der Umfrage haben 8 von 18 Kindern Rapunzel gewählt, 7 Froschkönig. Wie viele haben ein anderes Märchen gewählt?",
+   "answer": "3",
+   "hint": "Gesamtzahl minus die beiden.",
+   "explain": "18 − 8 − 7 = 3 Kinder."
+  },
+  {
+   "type": "num",
+   "q": "Haustiere: Katze 6, Hund 9, Hamster 3. Wie viele Tiere sind es insgesamt (Summe der Häufigkeiten)?",
+   "answer": "18",
+   "hint": "Addiere.",
+   "explain": "6 + 9 + 3 = 18."
+  },
+  {
+   "type": "num",
+   "q": "Haustiere: Katze 6, Hund 9, Hamster 3. Wie viele Hunde mehr als Katzen?",
+   "answer": "3",
+   "hint": "Subtrahiere.",
+   "explain": "9 − 6 = 3."
+  },
+  {
+   "type": "num",
+   "q": "Eine Strichliste zeigt 5 Striche als Bündel und noch 3 einzelne Striche. Wie ist die Häufigkeit?",
+   "answer": "8",
+   "hint": "Ein Bündel hat 5.",
+   "explain": "5 + 3 = 8."
+  },
+  {
+   "type": "num",
+   "q": "Eine Strichliste hat 3 Bündel (je 5) und 2 einzelne Striche. Wie ist die Häufigkeit?",
+   "answer": "17",
+   "hint": "3 · 5 + 2.",
+   "explain": "15 + 2 = 17."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 24, 60, 36, 40, 22, 48, 38, 50, 22, 5, 19. Wie lautet das Minimum?",
+   "answer": "5",
+   "hint": "Der kleinste Wert.",
+   "explain": "Der kleinste Wert ist 5."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 24, 60, 36, 40, 22, 48, 38, 50, 22, 5, 19. Wie lautet das Maximum?",
+   "answer": "60",
+   "hint": "Der größte Wert.",
+   "explain": "Der größte Wert ist 60."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 24, 60, 36, 40, 22, 48, 38, 50, 22, 5, 19. Wie groß ist die Spannweite?",
+   "answer": "55",
+   "hint": "Maximum minus Minimum.",
+   "explain": "60 − 5 = 55."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 28, 50, 27, 58, 31, 27, 29, 28. Wie lautet das Minimum?",
+   "answer": "27",
+   "hint": "Der kleinste Wert.",
+   "explain": "Der kleinste Wert ist 27."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 28, 50, 27, 58, 31, 27, 29, 28. Wie lautet das Maximum?",
+   "answer": "58",
+   "hint": "Der größte Wert.",
+   "explain": "Der größte Wert ist 58."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 28, 50, 27, 58, 31, 27, 29, 28. Wie groß ist die Spannweite?",
+   "answer": "31",
+   "hint": "Maximum minus Minimum.",
+   "explain": "58 − 27 = 31."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 3, 9, 1, 7, 12, 4, 6. Wie lautet das Minimum?",
+   "answer": "1",
+   "hint": "Der kleinste Wert.",
+   "explain": "Der kleinste Wert ist 1."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 3, 9, 1, 7, 12, 4, 6. Wie lautet das Maximum?",
+   "answer": "12",
+   "hint": "Der größte Wert.",
+   "explain": "Der größte Wert ist 12."
+  },
+  {
+   "type": "num",
+   "q": "Daten: 3, 9, 1, 7, 12, 4, 6. Wie groß ist die Spannweite?",
+   "answer": "11",
+   "hint": "Maximum minus Minimum.",
+   "explain": "12 − 1 = 11."
+  },
+  {
+   "type": "num",
+   "q": "Geordnete Datenreihe 1; 2; 3; 3; 4; 7. Wie groß ist die Spannweite?",
+   "answer": "6",
+   "hint": "7 − 1.",
+   "explain": "Maximum 7, Minimum 1. 7 − 1 = 6."
+  },
+  {
+   "type": "num",
+   "q": "Tierdiagramm: Hai 25 Jahre, Elefant 70 Jahre, Hund 14 Jahre. Welches Tier wird 5 Jahre älter als der Hai? Gib sein Alter an.",
+   "answer": "30",
+   "hint": "Hai plus 5.",
+   "explain": "25 + 5 = 30 Jahre."
+  },
+  {
+   "type": "num",
+   "q": "Gewicht von Paketen in g: 2850, 2750, 2588, 2980. Welches ist das Maximum?",
+   "answer": "2980",
+   "hint": "Der größte Wert.",
+   "explain": "2980 g ist das größte."
+  },
+  {
+   "type": "num",
+   "q": "Gewicht von Paketen in g: 2850, 2750, 2588, 2980. Welches ist das Minimum?",
+   "answer": "2588",
+   "hint": "Der kleinste Wert.",
+   "explain": "2588 g ist das kleinste."
+  },
+  {
+   "type": "num",
+   "q": "Ein Säulendiagramm zeigt: Äpfel 12, Birnen 8, Bananen 15. Wie viele Früchte sind es zusammen?",
+   "answer": "35",
+   "hint": "Addiere.",
+   "explain": "12 + 8 + 15 = 35."
+  },
+  {
+   "type": "num",
+   "q": "Eine Figur im Figurendiagramm steht für 5 Babys. Es sind 4 Figuren. Wie viele Babys sind das?",
+   "answer": "20",
+   "hint": "Figuren mal Wert.",
+   "explain": "4 · 5 = 20 Babys."
+  },
+  {
+   "type": "num",
+   "q": "Ein Zeichen steht für 10 Tiere. Es sind 6 Zeichen. Wie viele Tiere sind das?",
+   "answer": "60",
+   "hint": "Zeichen mal Wert.",
+   "explain": "6 · 10 = 60."
+  },
+  {
+   "type": "num",
+   "q": "Die Hochachse eines Säulendiagramms geht bis 20. Wie viele Teile (je 5) braucht die Achse?",
+   "answer": "4",
+   "hint": "20 : 5.",
+   "explain": "20 : 5 = 4 Abschnitte."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Diagramme gibt es?",
+   "options": [
+    "Nur Tabellen",
+    "Säulen-, Balken-, Kreis- und Figurendiagramm",
+    "Nur Säulendiagramm"
+   ],
+   "answer": "Säulen-, Balken-, Kreis- und Figurendiagramm",
+   "hint": "Es gibt mehrere Arten.",
+   "explain": "Man kann Daten auf verschiedene Weise darstellen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Tabelle, in der du die Anzahl der Striche zählst?",
+   "options": [
+    "Häufigkeitstabelle",
+    "Mal-Tabelle",
+    "Plustabelle"
+   ],
+   "answer": "Häufigkeitstabelle",
+   "hint": "Wie oft kommt etwas vor?",
+   "explain": "Die Häufigkeitstabelle zeigt, wie oft etwas vorkommt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Häufigkeit?",
+   "options": [
+    "Der größte Wert",
+    "Wie oft ein Wert vorkommt",
+    "Der Mittelwert"
+   ],
+   "answer": "Wie oft ein Wert vorkommt",
+   "hint": "Zähle Striche.",
+   "explain": "Häufigkeit = Anzahl der Striche."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür dient eine Strichliste?",
+   "options": [
+    "Zum Messen von Winkeln",
+    "Zum Malen",
+    "Zum Auszählen von Daten"
+   ],
+   "answer": "Zum Auszählen von Daten",
+   "hint": "Striche machen.",
+   "explain": "Mit einer Strichliste zählst du Antworten aus einer Umfrage."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Spannweite?",
+   "options": [
+    "Die Summe aller Werte",
+    "Maximum minus Minimum",
+    "Minimum plus Maximum"
+   ],
+   "answer": "Maximum minus Minimum",
+   "hint": "Größter minus kleinster Wert.",
+   "explain": "Spannweite = Maximum − Minimum."
+  },
+  {
+   "type": "choice",
+   "q": "Was muss bei einem Diagramm immer dabei sein?",
+   "options": [
+    "Überschrift und beschriftete Achsen",
+    "Ein Foto",
+    "Eine Rechnung"
+   ],
+   "answer": "Überschrift und beschriftete Achsen",
+   "hint": "Man muss es lesen können.",
+   "explain": "Ein Diagramm braucht Überschrift und beschriftete Achsen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Teilung der Hochachse ist richtig?",
+   "options": [
+    "Mal groß, mal klein",
+    "In gleichen Abständen",
+    "Gar nicht teilen"
+   ],
+   "answer": "In gleichen Abständen",
+   "hint": "Wie bei einem Lineal.",
+   "explain": "Die Achsen werden in gleichmäßigen Schritten eingeteilt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie groß wählst du die Hochachse eines Säulendiagramms?",
+   "options": [
+    "Egal",
+    "Genau bis zum kleinsten Wert",
+    "Bis mindestens zum größten Wert"
+   ],
+   "answer": "Bis mindestens zum größten Wert",
+   "hint": "Die höchste Säule muss draufpassen.",
+   "explain": "Die Achse muss bis zum Maximum reichen."
+  },
+  {
+   "type": "choice",
+   "q": "Kann man das Alter einer Mücke (6 Wochen) in ein Diagramm in Jahren einzeichnen?",
+   "options": [
+    "Ja, aber die Säule wäre extrem niedrig",
+    "Nein, nie",
+    "Nur mit Farbe"
+   ],
+   "answer": "Ja, aber die Säule wäre extrem niedrig",
+   "hint": "6 Wochen sind sehr wenig Jahre.",
+   "explain": "Es geht, nur ist die Säule fast nicht zu sehen."
+  },
+  {
+   "type": "choice",
+   "q": "Ist es sinnvoll, alle Daten einer Umfrage zu Körpergrößen einfach zu addieren?",
+   "options": [
+    "Ja, immer",
+    "Nein, die Summe sagt nichts Sinnvolles aus",
+    "Nur bei Tieren"
+   ],
+   "answer": "Nein, die Summe sagt nichts Sinnvolles aus",
+   "hint": "Was würdest du mit der Summe anfangen?",
+   "explain": "Die Summe von Körpergrößen hat keine Bedeutung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zahl nennt man Maximum?",
+   "options": [
+    "Den größten Wert",
+    "Den kleinsten Wert",
+    "Den häufigsten Wert"
+   ],
+   "answer": "Den größten Wert",
+   "hint": "Maximum = maximal.",
+   "explain": "Das Maximum ist der größte Wert einer Datenreihe."
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 4: Ab ins Beet! (Beschreiben)",
+ "key": "Beschreibungen sind genau und sachlich. Mit Fachwörtern, Wortzusammensetzungen und Wegbeschreibungen übst du das.\nIm Buch: S. 94–125",
+ "slides": [
+  {
+   "title": "Beschreiben heißt genau sein",
+   "text": "Eine Beschreibung nennt Farbe, Form, Größe und Anzahl. Sie ist sachlich und nutzt Fachwörter.",
+   "emoji": "🌿"
+  },
+  {
+   "title": "Aufbau einer Blütenpflanze",
+   "text": "Die Wurzel wächst im Boden. Über der Erde wächst der Spross mit Sprossachse. Blätter und Knospen sitzen daran, aus der Knospe wird die Blüte.",
+   "emoji": "🌼"
+  },
+  {
+   "title": "Wortzusammensetzung",
+   "text": "Zwei Wörter ergeben ein neues Wort: Garten + Haus = Gartenhaus. Das letzte Wort ist das Grundwort.",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Wegbeschreibung",
+   "text": "Nenne Richtung und Orientierungspunkte: Gehe geradeaus, dann links an der Bank vorbei.",
+   "emoji": "🧭"
+  },
+  {
+   "title": "Sachtexte erschließen",
+   "text": "Erst orientieren, dann unbekannte Wörter klären, Schlüsselstellen markieren und Wichtiges aufschreiben.",
+   "emoji": "📚"
+  },
+  {
+   "title": "Recherchieren",
+   "text": "Recherche heißt gezielt Informationen suchen, z. B. in Büchern oder im Internet. Notiere Quellen.",
+   "emoji": "🔍"
+  }
+ ],
+ "vocab": [
+  [
+   "Wurzel",
+   "Pflanzenteil im Boden"
+  ],
+  [
+   "Sprossachse",
+   "Stängel, an dem Blätter und Blüten sitzen"
+  ],
+  [
+   "Knospe",
+   "Anfang einer Blüte"
+  ],
+  [
+   "Blüte",
+   "bunter Teil der Pflanze"
+  ],
+  [
+   "Wortzusammensetzung",
+   "zwei Wörter ergeben ein neues"
+  ],
+  [
+   "Grundwort",
+   "letzter Teil eines zusammengesetzten Wortes"
+  ],
+  [
+   "Wegbeschreibung",
+   "Erklärung, wie man zu einem Ort kommt"
+  ],
+  [
+   "Fachwörterliste",
+   "Liste mit Fachwörtern und Erklärung"
+  ],
+  [
+   "recherchieren",
+   "gezielt Informationen suchen"
+  ],
+  [
+   "igelfreundlich",
+   "so gestaltet, dass Igel Platz finden"
+  ],
+  [
+   "Sachtext",
+   "Text, der informiert"
+  ],
+  [
+   "Anbau",
+   "Pflanzen und Pflegen von Pflanzen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welcher Teil der Pflanze wächst im Boden?",
+   "options": [
+    "Wurzel",
+    "Blüte",
+    "Blatt"
+   ],
+   "answer": "Wurzel",
+   "hint": "Unter der Erde.",
+   "explain": "Die Wurzel verankert die Pflanze und nimmt Wasser auf."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Teil der Pflanze entwickelt sich aus der Knospe?",
+   "options": [
+    "die Blüte",
+    "die Wurzel",
+    "der Boden"
+   ],
+   "answer": "die Blüte",
+   "hint": "Knospe ist der Anfang.",
+   "explain": "Aus der Knospe wächst die Blüte."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist eine genaue Wegbeschreibung?",
+   "options": [
+    "Gehe die Straße entlang, dann links an der Bank vorbei.",
+    "Da lang.",
+    "Irgendwo hin."
+   ],
+   "answer": "Gehe die Straße entlang, dann links an der Bank vorbei.",
+   "hint": "Richtung und Orientierungspunkt.",
+   "explain": "Eine genaue Wegbeschreibung nennt Richtung und Orientierungspunkte."
+  },
+  {
+   "type": "text",
+   "q": "Bilde aus 'Garten' und 'Haus' ein Wort.",
+   "answer": "Gartenhaus",
+   "alt": [
+    "Gartenhaus"
+   ],
+   "hint": "Zwei Wörter zusammen.",
+   "explain": "Wortzusammensetzung: Garten + Haus = Gartenhaus."
+  },
+  {
+   "type": "text",
+   "q": "Bilde aus 'Blume' und 'Topf' ein Wort.",
+   "answer": "Blumentopf",
+   "alt": [
+    "Blumentopf"
+   ],
+   "hint": "Zwei Wörter zusammen.",
+   "explain": "Blume + Topf = Blumentopf."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist eine Zusammensetzung?",
+   "options": [
+    "Sonnenblume",
+    "Blume",
+    "blühen"
+   ],
+   "answer": "Sonnenblume",
+   "hint": "Zwei Wörter stecken darin.",
+   "explain": "Sonnenblume besteht aus Sonne und Blume."
+  },
+  {
+   "type": "choice",
+   "q": "Im Wort Gartenhaus ist das Grundwort …",
+   "options": [
+    "Haus",
+    "Garten",
+    "Gar"
+   ],
+   "answer": "Haus",
+   "hint": "Das Grundwort steht hinten.",
+   "explain": "Das Grundwort steht hinten und bestimmt die Art: Ein Gartenhaus ist ein Haus."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort schreibt man mit Doppelkonsonant?",
+   "options": [
+    "kommen",
+    "komen",
+    "komm"
+   ],
+   "answer": "kommen",
+   "hint": "Hör genau hin: kommen.",
+   "explain": "Nach kurzem Vokal folgt oft ein doppelter Konsonant: kommen."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist richtig geschrieben?",
+   "options": [
+    "Sommer",
+    "Somer",
+    "Sommar"
+   ],
+   "answer": "Sommer",
+   "hint": "Der Vokal ist kurz.",
+   "explain": "Sommer hat einen doppelten m, weil der Vokal kurz ist."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz beschreibt sachlich?",
+   "options": [
+    "Die Blüte ist gelb und hat fünf Blütenblätter.",
+    "Die Blüte ist super schön!",
+    "Blumen sind doof."
+   ],
+   "answer": "Die Blüte ist gelb und hat fünf Blütenblätter.",
+   "hint": "Genaue Fakten, keine Gefühle.",
+   "explain": "Beschreiben heißt genau und sachlich sein: Farbe, Form, Anzahl."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'recherchieren'?",
+   "options": [
+    "gezielt Informationen suchen",
+    "etwas malen",
+    "Bücher kaufen"
+   ],
+   "answer": "gezielt Informationen suchen",
+   "hint": "Informationen finden.",
+   "explain": "Recherchieren heißt, gezielt Informationen zu einem Thema suchen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher erste Schritt beim Erschließen eines Sachtextes?",
+   "options": [
+    "sich orientieren (Überschrift, Bilder)",
+    "Fragen beantworten",
+    "Eine Zusammenfassung schreiben"
+   ],
+   "answer": "sich orientieren (Überschrift, Bilder)",
+   "hint": "Was steht oben?",
+   "explain": "Zuerst schaust du dir Überschrift und Bilder an."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht in einer Fachwörterliste?",
+   "options": [
+    "Fachwort und Erklärung",
+    "Gedichte",
+    "Einkaufsliste"
+   ],
+   "answer": "Fachwort und Erklärung",
+   "hint": "Wort und Bedeutung.",
+   "explain": "In einer Fachwörterliste stehen Fachwörter und ihre Erklärung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage hilft bei einer Pflanzenbeschreibung?",
+   "options": [
+    "Welche Farbe und Form hat das Blatt?",
+    "Wer hat die Pflanze gekauft?",
+    "Wann kommt der Bus?"
+   ],
+   "answer": "Welche Farbe und Form hat das Blatt?",
+   "hint": "Beschreibe das Aussehen.",
+   "explain": "Bei einer Beschreibung fragst du nach dem Aussehen."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort gehört zu den Fachbegriffen der Pflanzen?",
+   "options": [
+    "Sprossachse",
+    "Schulhof",
+    "Klassenarbeit"
+   ],
+   "answer": "Sprossachse",
+   "hint": "Der Teil, an dem Blätter wachsen.",
+   "explain": "Die Sprossachse ist der Stängel, an dem Blätter und Blüten wachsen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'igelfreundlich'?",
+   "options": [
+    "Der Garten bietet Igeln Platz, z. B. mit einem Laubhaufen",
+    "Igel sind Haustiere",
+    "Igel mögen Wasser"
+   ],
+   "answer": "Der Garten bietet Igeln Platz, z. B. mit einem Laubhaufen",
+   "hint": "Was brauchen Igel?",
+   "explain": "Igelfreundlich bedeutet, dass der Garten Igeln Verstecke und Futter bietet."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform nutzt du beim Beschreiben meist?",
+   "options": [
+    "Präsens",
+    "Präteritum",
+    "Futur I"
+   ],
+   "answer": "Präsens",
+   "hint": "Es ist so, wie es ist.",
+   "explain": "Beschreibungen stehen meist im Präsens."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Sachtext?",
+   "options": [
+    "Ein Text, der informiert",
+    "Ein Gedicht",
+    "Ein Witz"
+   ],
+   "answer": "Ein Text, der informiert",
+   "hint": "Ein Lexikon ist ein Beispiel.",
+   "explain": "Sachtexte informieren über Fakten."
+  },
+  {
+   "type": "text",
+   "q": "Wie heißt der Teil einer Pflanze, aus dem im Frühling Blätter wachsen? (Zusammengesetzt aus 'Spross' und 'Achse')",
+   "answer": "Sprossachse",
+   "alt": [
+    "Spross-Achse"
+   ],
+   "hint": "Der Teil, an dem die Blätter sitzen.",
+   "explain": "Die Sprossachse trägt die Blätter."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort hat einen doppelten Konsonanten und passt in eine Gartenbeschreibung?",
+   "options": [
+    "Blattt",
+    "Blatt",
+    "Blaat"
+   ],
+   "answer": "Blatt",
+   "hint": "Achte auf den Vokal.",
+   "explain": "Blatt hat ein doppeltes t, weil der Vokal a kurz ist: Blatt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Aussage über eine Wegbeschreibung stimmt?",
+   "options": [
+    "Man nennt Richtungen und Orientierungspunkte.",
+    "Man zeichnet nur Bilder.",
+    "Man erzählt die Lieblingsfarbe."
+   ],
+   "answer": "Man nennt Richtungen und Orientierungspunkte.",
+   "hint": "Wo lang?",
+   "explain": "Eine Wegbeschreibung nennt Richtungen und Orientierungspunkte."
+  },
+  {
+   "type": "choice",
+   "q": "Was schreibst du in eine Fachwörterliste zuerst?",
+   "options": [
+    "das Fachwort mit Artikel",
+    "die Lieblingsfarbe",
+    "die Seitenzahl"
+   ],
+   "answer": "das Fachwort mit Artikel",
+   "hint": "Wort mit der.die.das",
+   "explain": "Das Fachwort schreibt man mit Artikel auf."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird als Nomen großgeschrieben?",
+   "options": [
+    "der Garten",
+    "gartenig",
+    "garten nicht"
+   ],
+   "answer": "der Garten",
+   "hint": "Artikelprobe",
+   "explain": "Nomen schreibt man groß, du erkennst sie am Artikel."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz enthält eine Information aus einem Sachtext?",
+   "options": [
+    "Der Hokkaido-Kürbis wird im Sommer geerntet.",
+    "Das ist voll lecker!!!",
+    "Mir ist langweilig."
+   ],
+   "answer": "Der Hokkaido-Kürbis wird im Sommer geerntet.",
+   "hint": "Eine Fakt-Aussage.",
+   "explain": "Sachaussagen sind überprüfbar und klar."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Anbau?",
+   "options": [
+    "das Pflanzen und Pflegen von Pflanzen",
+    "ein Gebäude",
+    "eine Krankheit"
+   ],
+   "answer": "das Pflanzen und Pflegen von Pflanzen",
+   "hint": "Garten-Begriff.",
+   "explain": "Anbau meint das Pflanzen und Pflegen."
+  }
+ ]
+}

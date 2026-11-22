@@ -1,0 +1,375 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 4: Multiplikation und Division",
+ "key": "Produkt = Faktor · Faktor, Quotient = Dividend : Divisor.\nKlammern zuerst, dann Punkt vor Strich.\nVertauschungsgesetz und Verbindungsgesetz gelten bei der Multiplikation.\nVorteilhaft: 2·5=10, 4·25=100, 8·125=1000.\nSchriftlich malnehmen mit Überschlag, schriftlich teilen mit Umkehraufgabe.\nIm Buch: Kapitel 4 (Buchseiten ca. 77–103)",
+ "slides": [
+  {
+   "title": "Malrechnen",
+   "text": "Bei der Multiplikation heißt das Ergebnis Produkt: Faktor · Faktor = Produkt. Beim Teilen heißt das Ergebnis Quotient: Dividend : Divisor = Quotient.",
+   "emoji": "✖️"
+  },
+  {
+   "title": "Kopfrechnen",
+   "text": "Zerlege eine Zahl, damit du leichter rechnest. 15 · 29 = 15 · 30 − 15 = 450 − 15 = 435. Beim Teilen zerlegst du in Zahlen, die sich gut teilen lassen.",
+   "emoji": "🧠"
+  },
+  {
+   "title": "Vorrangregeln",
+   "text": "Klammern zuerst. Dann Punkt vor Strich: Mal und Geteilt kommen vor Plus und Minus. Sonst von links nach rechts. Beispiel: 6 + 10 : 2 = 6 + 5 = 11.",
+   "emoji": "🧮"
+  },
+  {
+   "title": "Vertauschungsgesetz",
+   "text": "Bei der Multiplikation darf man die Faktoren vertauschen: 5 · 9 = 9 · 5. Bei der Division geht das nicht.",
+   "emoji": "🔄"
+  },
+  {
+   "title": "Verbindungsgesetz",
+   "text": "Bei der Multiplikation dürfen überall Klammern gesetzt werden: (4 · 25) · 7 = 4 · (25 · 7). So entstehen oft runde Zahlen, die leicht zu rechnen sind.",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Vorteilhaft rechnen",
+   "text": "Suche Paare, die zusammen eine runde Zahl ergeben: 2 · 5 = 10, 4 · 25 = 100, 8 · 125 = 1000. Tausche die Faktoren so, dass du sie zuerst rechnest.",
+   "emoji": "💡"
+  },
+  {
+   "title": "Schriftlich multiplizieren",
+   "text": "Beginne bei der höchsten Stelle. Multipliziere schrittweise. Addiere die Teilergebnisse. Mit einem Überschlag prüfst du, ob das Ergebnis stimmen kann.",
+   "emoji": "📚"
+  },
+  {
+   "title": "Schriftlich dividieren",
+   "text": "Dividiere, multipliziere, subtrahiere, hole die nächste Ziffer herunter. Wiederhole das. Prüfe mit der Umkehraufgabe durch Malnehmen.",
+   "emoji": "➗"
+  }
+ ],
+ "vocab": [
+  [
+   "Faktor",
+   "Zahl, die man multipliziert"
+  ],
+  [
+   "Produkt",
+   "Ergebnis einer Multiplikation"
+  ],
+  [
+   "Dividend",
+   "Zahl, die geteilt wird"
+  ],
+  [
+   "Divisor",
+   "Zahl, durch die geteilt wird"
+  ],
+  [
+   "Quotient",
+   "Ergebnis einer Division"
+  ],
+  [
+   "Punkt vor Strich",
+   "Mal/Geteilt vor Plus/Minus"
+  ],
+  [
+   "Klammerregel",
+   "Klammer zuerst"
+  ],
+  [
+   "Kommutativgesetz",
+   "Vertauschungsgesetz"
+  ],
+  [
+   "Assoziativgesetz",
+   "Verbindungsgesetz"
+  ],
+  [
+   "Umkehraufgabe",
+   "Probe der Division durch Multiplikation"
+  ],
+  [
+   "Überschlag",
+   "Grobe Probe mit gerundeten Zahlen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 236 · 4",
+   "answer": "944",
+   "hint": "Zerlege eine Zahl in Zehner/Hunderter und Einer.",
+   "explain": "Zerlege 236 = 200 + 30 + 6. Rechne jeden Teil mal 4. Zusammen 944."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 15 · 29",
+   "answer": "435",
+   "hint": "Zerlege eine Zahl in Zehner/Hunderter und Einer.",
+   "explain": "Zerlege: 29 = 20 + 9. 15·20 = 300, 15·9 = 135. Zusammen 435."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 7 · 48",
+   "answer": "336",
+   "hint": "Zerlege eine Zahl in Zehner/Hunderter und Einer.",
+   "explain": "Zerlege: 48 = 40 + 8. 7·40 = 280, 7·8 = 56. Zusammen 336."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 12 · 35",
+   "answer": "420",
+   "hint": "Zerlege eine Zahl in Zehner/Hunderter und Einer.",
+   "explain": "Zerlege: 35 = 30 + 5. 12·30 = 360, 12·5 = 60. Zusammen 420."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 98 : 7",
+   "answer": "14",
+   "hint": "Zerlege die Zahl in Zahlen, die du gut teilen kannst.",
+   "explain": "98 : 7 = 14. Probe: 14 · 7 = 98."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 144 : 12",
+   "answer": "12",
+   "hint": "Zerlege die Zahl in Zahlen, die du gut teilen kannst.",
+   "explain": "144 : 12 = 12. Probe: 12 · 12 = 144."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 91 : 13",
+   "answer": "7",
+   "hint": "Zerlege die Zahl in Zahlen, die du gut teilen kannst.",
+   "explain": "91 : 13 = 7. Probe: 7 · 13 = 91."
+  },
+  {
+   "type": "num",
+   "q": "Rechne halbschriftlich: 156 : 6",
+   "answer": "26",
+   "hint": "Zerlege die Zahl in Zahlen, die du gut teilen kannst.",
+   "explain": "156 : 6 = 26. Probe: 26 · 6 = 156."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 7 + 9 · 4",
+   "answer": "43",
+   "hint": "Punkt vor Strich.",
+   "explain": "9 · 4 = 36. Dann 7 + 36 = 43."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 78 − 64 : 8",
+   "answer": "70",
+   "hint": "Punkt vor Strich.",
+   "explain": "64 : 8 = 8. Dann 78 − 8 = 70."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: (2 · 16) : 4",
+   "answer": "8",
+   "hint": "Klammer zuerst.",
+   "explain": "2 · 16 = 32. 32 : 4 = 8."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 6 + 12 : (6 − 3)",
+   "answer": "10",
+   "hint": "Klammer zuerst, dann Punkt vor Strich.",
+   "explain": "6 − 3 = 3. 12 : 3 = 4. 6 + 4 = 10."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 47 + 72 : 8",
+   "answer": "56",
+   "hint": "Punkt vor Strich.",
+   "explain": "72 : 8 = 9. 47 + 9 = 56."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 130 − 6 · 5 + 48",
+   "answer": "148",
+   "hint": "Punkt vor Strich, dann von links nach rechts.",
+   "explain": "6 · 5 = 30. 130 − 30 = 100. 100 + 48 = 148."
+  },
+  {
+   "type": "num",
+   "q": "Rechne vorteilhaft: 5 · 17 · 2",
+   "answer": "170",
+   "hint": "Tausche so, dass 5 · 2 = 10 entsteht.",
+   "explain": "5 · 2 = 10. 10 · 17 = 170."
+  },
+  {
+   "type": "num",
+   "q": "Rechne vorteilhaft: 4 · 15 · 25",
+   "answer": "1500",
+   "hint": "Welche zwei Zahlen ergeben 100?",
+   "explain": "4 · 25 = 100. 100 · 15 = 1500."
+  },
+  {
+   "type": "num",
+   "q": "Rechne vorteilhaft: 8 · 13 · 125",
+   "answer": "13000",
+   "hint": "8 · 125 = 1000.",
+   "explain": "8 · 125 = 1000. 1000 · 13 = 13000."
+  },
+  {
+   "type": "num",
+   "q": "Rechne vorteilhaft: 50 · 20 · 7",
+   "answer": "7000",
+   "hint": "50 · 20 = 1000.",
+   "explain": "50 · 20 = 1000. 1000 · 7 = 7000."
+  },
+  {
+   "type": "num",
+   "q": "Multipliziere schriftlich: 293 · 31",
+   "answer": "9083",
+   "hint": "Beginne bei der höchsten Stelle, addiere die Teilergebnisse.",
+   "explain": "293·30 = 8790, 293·1 = 293. Summe: 9083. Überschlag: 300·30 ≈ 9000."
+  },
+  {
+   "type": "num",
+   "q": "Multipliziere schriftlich: 504 · 67",
+   "answer": "33768",
+   "hint": "Beginne bei der höchsten Stelle, addiere die Teilergebnisse.",
+   "explain": "504·60 = 30240, 504·7 = 3528. Summe: 33768. Überschlag: 500·70 ≈ 35000."
+  },
+  {
+   "type": "num",
+   "q": "Multipliziere schriftlich: 48 · 23",
+   "answer": "1104",
+   "hint": "Beginne bei der höchsten Stelle, addiere die Teilergebnisse.",
+   "explain": "48·20 = 960, 48·3 = 144. Summe: 1104. Überschlag: 50·20 ≈ 1000."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 4911 : 3",
+   "answer": "1637",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "4911 : 3 = 1637. Probe mit Umkehraufgabe: 1637 · 3 = 4911."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 6280 : 5",
+   "answer": "1256",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "6280 : 5 = 1256. Probe mit Umkehraufgabe: 1256 · 5 = 6280."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 5744 : 8",
+   "answer": "718",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "5744 : 8 = 718. Probe mit Umkehraufgabe: 718 · 8 = 5744."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 8646 : 11",
+   "answer": "786",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "8646 : 11 = 786. Probe mit Umkehraufgabe: 786 · 11 = 8646."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 3195 : 9",
+   "answer": "355",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "3195 : 9 = 355. Probe mit Umkehraufgabe: 355 · 9 = 3195."
+  },
+  {
+   "type": "num",
+   "q": "Dividiere schriftlich: 2968 : 14",
+   "answer": "212",
+   "hint": "Dividiere, multipliziere, subtrahiere, nächste Ziffer herunterholen.",
+   "explain": "2968 : 14 = 212. Probe mit Umkehraufgabe: 212 · 14 = 2968."
+  },
+  {
+   "type": "num",
+   "q": "Eine Tanz-AG verkauft alle Karten. Es gibt 23 Reihen mit je 48 Plätzen. Wie viele Zuschauer waren da?",
+   "answer": "1104",
+   "hint": "23 · 48.",
+   "explain": "23 · 48 = 920 + 184 = 1104."
+  },
+  {
+   "type": "num",
+   "q": "Die Tanz-AG hat 4416 € eingenommen, bei 1104 Zuschauern. Wie viel (in €) kostet eine Karte?",
+   "answer": "4",
+   "hint": "Teile die Einnahmen durch die Zuschauer.",
+   "explain": "4416 : 1104 = 4. Probe: 4 · 1104 = 4416."
+  },
+  {
+   "type": "num",
+   "q": "Eintritt: Erwachsene 6 €, Kinder 3 €. Es kommen 287 Erwachsene und 316 Kinder. Wie viel Euro werden insgesamt eingenommen?",
+   "answer": "2670",
+   "hint": "Erst beide Gruppen einzeln.",
+   "explain": "287 · 6 = 1722. 316 · 3 = 948. 1722 + 948 = 2670 €."
+  },
+  {
+   "type": "num",
+   "q": "Die Hälfte der Einnahmen (2670 €) wird gespendet. Wie viel Euro sind das?",
+   "answer": "1335",
+   "hint": "Halbieren.",
+   "explain": "2670 : 2 = 1335 €."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt das Ergebnis einer Multiplikation?",
+   "options": [
+    "Produkt",
+    "Quotient",
+    "Summe"
+   ],
+   "answer": "Produkt",
+   "hint": "Faktor · Faktor = ?",
+   "explain": "Faktor · Faktor = Produkt. Das Ergebnis einer Division heißt Quotient."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt das Ergebnis einer Division?",
+   "options": [
+    "Quotient",
+    "Produkt",
+    "Differenz"
+   ],
+   "answer": "Quotient",
+   "hint": "Dividend : Divisor = ?",
+   "explain": "Dividend : Divisor = Quotient."
+  },
+  {
+   "type": "choice",
+   "q": "Was gilt bei der Multiplikation?",
+   "options": [
+    "Man darf die Faktoren vertauschen",
+    "Man darf nie Klammern setzen",
+    "Das Ergebnis ändert sich beim Vertauschen"
+   ],
+   "answer": "Man darf die Faktoren vertauschen",
+   "hint": "Vertauschungsgesetz.",
+   "explain": "5 · 9 = 9 · 5. Das gilt für die Multiplikation, nicht für die Division."
+  },
+  {
+   "type": "choice",
+   "q": "Was rechnest du zuerst: 6 + 4 · 3?",
+   "options": [
+    "6 + 4",
+    "Egal",
+    "4 · 3"
+   ],
+   "answer": "4 · 3",
+   "hint": "Punkt vor Strich.",
+   "explain": "Mal und Geteilt gehen vor Plus und Minus."
+  },
+  {
+   "type": "choice",
+   "q": "Wie prüfst du eine Division?",
+   "options": [
+    "Mit einer Addition",
+    "Gar nicht",
+    "Mit der Umkehraufgabe (Multiplikation)"
+   ],
+   "answer": "Mit der Umkehraufgabe (Multiplikation)",
+   "hint": "Rückwärts rechnen.",
+   "explain": "392 : 7 = 56. Probe: 56 · 7 = 392."
+  }
+ ]
+}

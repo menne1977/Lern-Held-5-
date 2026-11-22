@@ -1,0 +1,432 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 3: Grundbegriffe der Geometrie",
+ "key": "Strecke (2 Enden), Strahl (1 Anfang), Gerade (unendlich).\nParallel = überall gleicher Abstand, senkrecht = rechter Winkel (90°).\nAbstand = kürzeste (senkrechte) Entfernung.\nKoordinatensystem: x-Achse waagerecht, y-Achse senkrecht, P(x|y): erst rechts, dann oben.\nAchsensymmetrie: Faltlinie. Punktsymmetrie: 180° Drehung.\nIm Buch: Kapitel 3 (Buchseiten ca. 53–76)",
+ "slides": [
+  {
+   "title": "Punkt, Strecke, Strahl, Gerade",
+   "text": "Eine Strecke hat einen Anfangs- und einen Endpunkt. Ein Strahl hat nur einen Anfangspunkt. Eine Gerade hat weder Anfang noch Ende. Man benennt sie mit Buchstaben, z. B. Strecke AB.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Parallel",
+   "text": "Zwei Geraden sind parallel, wenn sie überall den gleichen Abstand haben. Sie treffen sich nie, wie Bahnschienen. Mit dem Geodreieck zeichnest du Parallelen.",
+   "emoji": "🚆"
+  },
+  {
+   "title": "Senkrecht",
+   "text": "Zwei Geraden sind senkrecht zueinander, wenn sie einen rechten Winkel bilden. Der rechte Winkel hat 90° und wird mit einem kleinen Quadrat markiert.",
+   "emoji": "📐"
+  },
+  {
+   "title": "Abstand",
+   "text": "Der Abstand eines Punktes von einer Geraden ist die kürzeste Entfernung. Die kürzeste Linie steht senkrecht auf der Geraden. Parallele Geraden haben überall denselben Abstand.",
+   "emoji": "↕️"
+  },
+  {
+   "title": "Das Koordinatensystem",
+   "text": "Es hat zwei Achsen: die x-Achse (waagerecht) und die y-Achse (senkrecht). Sie treffen sich im Nullpunkt (0|0). Ein Punkt wird mit zwei Zahlen angegeben, den Koordinaten.",
+   "emoji": "🗺️"
+  },
+  {
+   "title": "Punkte eintragen",
+   "text": "P(7|2) heißt: Gehe 7 nach rechts und dann 2 nach oben. Merke dir: erst nach rechts, dann nach oben. Erst die x-Zahl, dann die y-Zahl.",
+   "emoji": "📍"
+  },
+  {
+   "title": "Achsensymmetrie",
+   "text": "Eine Figur ist achsensymmetrisch, wenn man sie falten kann und beide Hälften genau aufeinanderliegen. Die Faltlinie ist die Symmetrieachse. Ein Quadrat hat vier davon.",
+   "emoji": "🦋"
+  },
+  {
+   "title": "Punktsymmetrie",
+   "text": "Eine Figur ist punktsymmetrisch, wenn sie nach einer halben Drehung (180°) um einen Punkt wieder genauso aussieht. Der Punkt heißt Symmetriezentrum.",
+   "emoji": "🔄"
+  },
+  {
+   "title": "Verschieben und Drehen",
+   "text": "Beim Verschieben bewegst du eine Figur ohne sie zu drehen. Beim Drehen gibt es einen Drehpunkt und einen Drehwinkel. Form und Größe bleiben immer gleich.",
+   "emoji": "➡️"
+  }
+ ],
+ "vocab": [
+  [
+   "Strecke",
+   "hat Anfangs- und Endpunkt"
+  ],
+  [
+   "Strahl",
+   "hat nur einen Anfangspunkt"
+  ],
+  [
+   "Gerade",
+   "hat keinen Anfang und kein Ende"
+  ],
+  [
+   "parallel",
+   "überall gleicher Abstand"
+  ],
+  [
+   "senkrecht",
+   "bildet einen rechten Winkel"
+  ],
+  [
+   "Abstand",
+   "kürzeste Entfernung"
+  ],
+  [
+   "Koordinatensystem",
+   "System mit x-Achse und y-Achse"
+  ],
+  [
+   "Koordinaten",
+   "Zahlenpaar für die Lage eines Punktes"
+  ],
+  [
+   "Nullpunkt",
+   "Punkt (0|0)"
+  ],
+  [
+   "Symmetrieachse",
+   "Faltlinie bei Achsensymmetrie"
+  ],
+  [
+   "achsensymmetrisch",
+   "faltbar, Hälften passen genau"
+  ],
+  [
+   "punktsymmetrisch",
+   "nach 180° Drehung gleich"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was hat eine Strecke?",
+   "options": [
+    "Anfangspunkt und Endpunkt",
+    "Weder Anfang noch Ende",
+    "Nur einen Anfangspunkt"
+   ],
+   "answer": "Anfangspunkt und Endpunkt",
+   "hint": "Man kann sie messen.",
+   "explain": "Eine Strecke hat zwei Endpunkte und eine feste Länge."
+  },
+  {
+   "type": "choice",
+   "q": "Was hat ein Strahl?",
+   "options": [
+    "Einen Anfangspunkt, aber keinen Endpunkt",
+    "Zwei Endpunkte",
+    "Weder Anfang noch Ende"
+   ],
+   "answer": "Einen Anfangspunkt, aber keinen Endpunkt",
+   "hint": "Wie ein Lichtstrahl.",
+   "explain": "Ein Strahl beginnt an einem Punkt und geht unendlich weit."
+  },
+  {
+   "type": "choice",
+   "q": "Was hat eine Gerade?",
+   "options": [
+    "Einen Endpunkt",
+    "Keinen Anfangspunkt und keinen Endpunkt",
+    "Zwei Endpunkte"
+   ],
+   "answer": "Keinen Anfangspunkt und keinen Endpunkt",
+   "hint": "Sie geht in beide Richtungen weiter.",
+   "explain": "Eine Gerade ist in beide Richtungen unendlich lang."
+  },
+  {
+   "type": "choice",
+   "q": "Wann sind zwei Geraden parallel?",
+   "options": [
+    "Wenn sie sich schneiden",
+    "Wenn sie überall den gleichen Abstand haben",
+    "Wenn sie einen rechten Winkel bilden"
+   ],
+   "answer": "Wenn sie überall den gleichen Abstand haben",
+   "hint": "Denk an Bahnschienen.",
+   "explain": "Parallele Geraden treffen sich nie."
+  },
+  {
+   "type": "choice",
+   "q": "Wann sind zwei Geraden senkrecht zueinander?",
+   "options": [
+    "Wenn sie einen rechten Winkel bilden",
+    "Wenn sie parallel sind",
+    "Wenn sie gleich lang sind"
+   ],
+   "answer": "Wenn sie einen rechten Winkel bilden",
+   "hint": "Ein rechter Winkel hat 90°.",
+   "explain": "Senkrecht heißt: sie bilden einen rechten Winkel (90°)."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Werkzeug hilft dir, parallele Linien zu zeichnen?",
+   "options": [
+    "Zirkel allein",
+    "Radiergummi",
+    "Geodreieck"
+   ],
+   "answer": "Geodreieck",
+   "hint": "Es hat Linien zum Anlegen.",
+   "explain": "Mit den Parallellinien des Geodreiecks zeichnest du parallele Geraden."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Abstand eines Punktes von einer Geraden?",
+   "options": [
+    "Die kürzeste Entfernung zur Geraden",
+    "Der Weg zum Anfangspunkt",
+    "Die längste Entfernung zur Geraden"
+   ],
+   "answer": "Die kürzeste Entfernung zur Geraden",
+   "hint": "Die kürzeste Linie steht senkrecht.",
+   "explain": "Der Abstand wird senkrecht zur Geraden gemessen."
+  },
+  {
+   "type": "num",
+   "q": "Zwei parallele Geraden a und b haben 2 cm Abstand. Gerade c hat von a den Abstand 4 cm, auf derselben Seite wie b. Welchen Abstand (in cm) hat c zu b?",
+   "answer": "2",
+   "hint": "Zeichne eine Skizze.",
+   "explain": "c liegt 4 cm von a, b liegt 2 cm von a. 4 − 2 = 2 cm."
+  },
+  {
+   "type": "num",
+   "q": "Du zeichnest 10 parallele Geraden mit je 2 cm Abstand. Welchen Abstand (in cm) haben die äußeren Geraden?",
+   "answer": "18",
+   "hint": "Wie viele Zwischenräume gibt es?",
+   "explain": "10 Geraden haben 9 Zwischenräume. 9 · 2 cm = 18 cm."
+  },
+  {
+   "type": "num",
+   "q": "Du zeichnest 4 parallele Geraden mit je 3 cm Abstand. Welchen Abstand (in cm) haben die äußeren Geraden?",
+   "answer": "9",
+   "hint": "Zwischenräume zählen.",
+   "explain": "4 Geraden haben 3 Zwischenräume. 3 · 3 = 9 cm."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Achsen hat ein Koordinatensystem?",
+   "options": [
+    "3",
+    "1",
+    "2"
+   ],
+   "answer": "2",
+   "hint": "Es gibt eine waagerechte und eine senkrechte Achse.",
+   "explain": "Die x-Achse ist waagerecht, die y-Achse senkrecht."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Achse ist waagerecht?",
+   "options": [
+    "y-Achse",
+    "Beide",
+    "x-Achse"
+   ],
+   "answer": "x-Achse",
+   "hint": "Das x liegt flach.",
+   "explain": "Die x-Achse läuft nach rechts, die y-Achse nach oben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Schnittpunkt der beiden Achsen?",
+   "options": [
+    "Mittelpunkt",
+    "Nullpunkt",
+    "Eckpunkt"
+   ],
+   "answer": "Nullpunkt",
+   "hint": "Dort ist (0|0).",
+   "explain": "Der Nullpunkt hat die Koordinaten (0|0)."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet P(7|2)?",
+   "options": [
+    "7 nach rechts, 2 nach oben",
+    "7 nach oben, 2 nach rechts",
+    "7 nach links, 2 nach unten"
+   ],
+   "answer": "7 nach rechts, 2 nach oben",
+   "hint": "Erst x, dann y.",
+   "explain": "Die erste Zahl ist der x-Wert (rechts), die zweite der y-Wert (oben)."
+  },
+  {
+   "type": "num",
+   "q": "Punkt A(3|5): Wie viele Schritte gehst du vom Nullpunkt nach oben?",
+   "answer": "5",
+   "hint": "Die zweite Zahl ist die y-Koordinate.",
+   "explain": "Die y-Koordinate ist 5. Also 5 Schritte nach oben."
+  },
+  {
+   "type": "num",
+   "q": "Punkt B(8|1): Wie lautet die x-Koordinate?",
+   "answer": "8",
+   "hint": "Erste Zahl.",
+   "explain": "Die erste Zahl 8 ist die x-Koordinate."
+  },
+  {
+   "type": "num",
+   "q": "Punkt C(2|6) wird um 3 nach rechts und 2 nach oben verschoben. Wie lautet die neue x-Koordinate?",
+   "answer": "5",
+   "hint": "Nach rechts ändert x.",
+   "explain": "x: 2 + 3 = 5. Neuer Punkt: (5|8)."
+  },
+  {
+   "type": "num",
+   "q": "Punkt C(2|6) wird um 3 nach rechts und 2 nach oben verschoben. Wie lautet die neue y-Koordinate?",
+   "answer": "8",
+   "hint": "Nach oben ändert y.",
+   "explain": "y: 6 + 2 = 8. Neuer Punkt: (5|8)."
+  },
+  {
+   "type": "num",
+   "q": "Punkt D(9|4) wird um 4 nach links verschoben. Wie lautet die neue x-Koordinate?",
+   "answer": "5",
+   "hint": "Links heißt minus bei x.",
+   "explain": "9 − 4 = 5. Neuer Punkt: (5|4)."
+  },
+  {
+   "type": "num",
+   "q": "Punkt E(1|7) wird um 5 nach unten verschoben. Wie lautet die neue y-Koordinate?",
+   "answer": "2",
+   "hint": "Unten heißt minus bei y.",
+   "explain": "7 − 5 = 2. Neuer Punkt: (1|2)."
+  },
+  {
+   "type": "num",
+   "q": "Das Rechteck ABCD hat A(1|1), B(5|1), C(5|3) und D(1|3). Wie lang ist die Seite AB (in Kästchen)?",
+   "answer": "4",
+   "hint": "Gleiche y-Koordinate: nur x ändert sich.",
+   "explain": "5 − 1 = 4 Kästchen."
+  },
+  {
+   "type": "num",
+   "q": "Dasselbe Rechteck: Wie lang ist die Seite BC (in Kästchen)?",
+   "answer": "2",
+   "hint": "Gleiche x-Koordinate: nur y ändert sich.",
+   "explain": "3 − 1 = 2 Kästchen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Achsensymmetrie?",
+   "options": [
+    "Die Figur kann man um einen Punkt drehen",
+    "Die Figur lässt sich so falten, dass beide Hälften genau aufeinanderliegen",
+    "Die Figur hat keine Ecken"
+   ],
+   "answer": "Die Figur lässt sich so falten, dass beide Hälften genau aufeinanderliegen",
+   "hint": "Falte die Figur in Gedanken.",
+   "explain": "Die Faltlinie heißt Symmetrieachse."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Symmetrieachsen hat ein Quadrat?",
+   "answer": "4",
+   "hint": "Zwei durch die Mitten der Seiten, zwei durch die Ecken.",
+   "explain": "Ein Quadrat hat 4 Symmetrieachsen."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Symmetrieachsen hat ein Rechteck (kein Quadrat)?",
+   "answer": "2",
+   "hint": "Nur durch die Mitten der Seiten.",
+   "explain": "Ein Rechteck hat 2 Symmetrieachsen."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Symmetrieachsen hat ein gleichseitiges Dreieck?",
+   "answer": "3",
+   "hint": "Jede geht durch eine Ecke.",
+   "explain": "Es hat 3 Symmetrieachsen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Buchstabe ist achsensymmetrisch?",
+   "options": [
+    "R",
+    "F",
+    "A"
+   ],
+   "answer": "A",
+   "hint": "Falte den Buchstaben senkrecht.",
+   "explain": "Beim A passen linke und rechte Hälfte zusammen. F und R nicht."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Punkt, an dem man eine punktsymmetrische Figur um 180° dreht?",
+   "options": [
+    "Symmetriezentrum",
+    "Nullpunkt",
+    "Eckpunkt"
+   ],
+   "answer": "Symmetriezentrum",
+   "hint": "Er liegt in der Mitte.",
+   "explain": "Dreht man die Figur um 180° um das Symmetriezentrum, liegt sie auf sich selbst."
+  },
+  {
+   "type": "num",
+   "q": "Um wie viel Grad musst du eine punktsymmetrische Figur drehen, damit sie auf sich selbst liegt (kleinste Drehung)?",
+   "answer": "180",
+   "hint": "Halbe Drehung.",
+   "explain": "Eine halbe Drehung sind 180°."
+  },
+  {
+   "type": "num",
+   "q": "Eine volle Drehung hat wie viel Grad?",
+   "answer": "360",
+   "hint": "Ein Kreis.",
+   "explain": "Eine volle Drehung ist 360°."
+  },
+  {
+   "type": "num",
+   "q": "Du drehst eine Figur viermal um 90°. Wie viel Grad sind das zusammen?",
+   "answer": "360",
+   "hint": "4 · 90.",
+   "explain": "4 · 90 = 360. Die Figur steht wieder wie am Anfang."
+  },
+  {
+   "type": "choice",
+   "q": "Was ändert sich bei einer Verschiebung nicht?",
+   "options": [
+    "Die Lage der Figur",
+    "Form und Größe der Figur",
+    "Beides ändert sich"
+   ],
+   "answer": "Form und Größe der Figur",
+   "hint": "Nur der Ort ändert sich.",
+   "explain": "Verschieben ändert nur die Lage. Die Figur bleibt gleich groß."
+  },
+  {
+   "type": "choice",
+   "q": "Der Spiegelpunkt eines Punktes liegt …",
+   "options": [
+    "auf derselben Seite",
+    "genauso weit von der Achse entfernt auf der anderen Seite",
+    "auf der Achse"
+   ],
+   "answer": "genauso weit von der Achse entfernt auf der anderen Seite",
+   "hint": "Spiegelbild im Wasser.",
+   "explain": "Punkt und Bildpunkt haben denselben Abstand zur Symmetrieachse."
+  },
+  {
+   "type": "num",
+   "q": "Ein Punkt hat 3 cm Abstand von der Spiegelachse. Wie weit (in cm) ist er von seinem Bildpunkt entfernt?",
+   "answer": "6",
+   "hint": "Beide haben gleichen Abstand zur Achse.",
+   "explain": "3 cm + 3 cm = 6 cm."
+  },
+  {
+   "type": "num",
+   "q": "Die Strecke AB ist 8 cm lang. Wie lang ist die gespiegelte Strecke A'B' (in cm)?",
+   "answer": "8",
+   "hint": "Spiegeln ändert die Länge nicht.",
+   "explain": "Beim Spiegeln bleiben Längen gleich: 8 cm."
+  }
+ ]
+}

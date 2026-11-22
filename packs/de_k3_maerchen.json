@@ -1,0 +1,384 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 3: Von einem, der auszog … (Märchen)",
+ "key": "Märchen haben typische Merkmale, einen festen Aufbau und das Präteritum. Man kann sie nacherzählen und fortsetzen.\nIm Buch: S. 64–93",
+ "slides": [
+  {
+   "title": "Das Märchen",
+   "text": "Ein Märchen ist eine Erzählung mit fantastischen Ereignissen. Es hat typische Merkmale.",
+   "emoji": "🧙"
+  },
+  {
+   "title": "Märchenmerkmale",
+   "text": "Ort und Zeit sind unbestimmt. Figuren haben Gegensätze, z. B. gut und böse. Oft kommen drei oder sieben vor. Märchen stehen im Präteritum.",
+   "emoji": "📖"
+  },
+  {
+   "title": "Der Märchenweg",
+   "text": "Einleitung mit Es war einmal, dann eine schwierige Situation. Die Heldin oder der Held löst Aufgaben. Am Ende ein gutes Ende.",
+   "emoji": "🛤️"
+  },
+  {
+   "title": "Präteritum",
+   "text": "Das Präteritum erzählt Vergangenes einfach: er ging, sie sprach, sie verzauberten.",
+   "emoji": "⏳"
+  },
+  {
+   "title": "Nacherzählen",
+   "text": "Du gibst den Inhalt mit eigenen Worten wieder. Eine Erzählkarte mit Stichworten hilft dir dabei.",
+   "emoji": "🗣️"
+  },
+  {
+   "title": "Lesemethode für Sachtexte",
+   "text": "1. Sich orientieren. 2. Unbekannte Begriffe klären. 3. Schlüsselstellen markieren. 4. Sinnabschnitte bilden und Wichtiges aufschreiben.",
+   "emoji": "🔎"
+  }
+ ],
+ "vocab": [
+  [
+   "Märchen",
+   "Erzählung mit fantastischen Ereignissen"
+  ],
+  [
+   "Märchenmerkmale",
+   "typische Besonderheiten von Märchen"
+  ],
+  [
+   "Märchenweg",
+   "Aufbau: Einleitung, Aufgaben, gutes Ende"
+  ],
+  [
+   "Erzählkarte",
+   "Stichworte für die mündliche Nacherzählung"
+  ],
+  [
+   "Nacherzählung",
+   "Inhalt einer Geschichte mit eigenen Worten"
+  ],
+  [
+   "Präteritum",
+   "einfache Vergangenheit: er ging"
+  ],
+  [
+   "Perfekt",
+   "Vergangenheit mit haben oder sein"
+  ],
+  [
+   "Handlungsschritt",
+   "abgeschlossener Baustein einer Geschichte"
+  ],
+  [
+   "Mindmap",
+   "Ideen mit Hauptgedanke und Ästen"
+  ],
+  [
+   "Mini-Book",
+   "kleines Heft mit 8 Seiten"
+  ],
+  [
+   "Lesemethode",
+   "Methode, um Sachtexte zu erschließen"
+  ],
+  [
+   "Stichpunkt",
+   "kurze Notiz mit wichtigen Wörtern"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welches Wort gehört in ein typisches Märchen am Anfang?",
+   "options": [
+    "Es war einmal ...",
+    "Gestern um 8 Uhr ...",
+    "Liebe Oma,"
+   ],
+   "answer": "Es war einmal ...",
+   "hint": "Der Märchenanfang klingt so.",
+   "explain": "Märchen beginnen oft mit Es war einmal."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform ist typisch für Märchen?",
+   "options": [
+    "Präteritum",
+    "Futur I",
+    "Imperativ"
+   ],
+   "answer": "Präteritum",
+   "hint": "Erzählt wird in der Vergangenheit.",
+   "explain": "Märchen stehen meist im Präteritum: er ging, sie sprach."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Figuren gibt es oft in Märchen?",
+   "options": [
+    "Personen mit gegensätzlichen Eigenschaften, z. B. gut und böse",
+    "Nur Tiere",
+    "Nur Roboter"
+   ],
+   "answer": "Personen mit gegensätzlichen Eigenschaften, z. B. gut und böse",
+   "hint": "Wer ist gut, wer ist böse?",
+   "explain": "Märchenfiguren haben oft klare Gegensätze."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zahl kommt in Märchen oft vor?",
+   "options": [
+    "drei",
+    "achtzehn",
+    "vierundzwanzig"
+   ],
+   "answer": "drei",
+   "hint": "Drei Brüder, drei Aufgaben.",
+   "explain": "Die Drei ist eine typische Märchenzahl."
+  },
+  {
+   "type": "choice",
+   "q": "Was folgt auf die schwierige Situation im Märchenweg?",
+   "options": [
+    "eine Aufgabe oder ein Abenteuer",
+    "das Ende",
+    "der Titel"
+   ],
+   "answer": "eine Aufgabe oder ein Abenteuer",
+   "hint": "Die Heldin oder der Held muss etwas tun.",
+   "explain": "Die Hauptfigur erlebt Abenteuer und löst Aufgaben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie endet ein typisches Märchen?",
+   "options": [
+    "Gutes Ende: Und wenn sie nicht gestorben sind, dann leben sie noch heute.",
+    "Die Hauptfigur verschwindet ohne Grund.",
+    "Der Erzähler stellt eine Frage."
+   ],
+   "answer": "Gutes Ende: Und wenn sie nicht gestorben sind, dann leben sie noch heute.",
+   "hint": "Gute Figuren gewinnen.",
+   "explain": "Märchen enden meist gut."
+  },
+  {
+   "type": "text",
+   "q": "Präteritum von 'gehen' (er): er ___",
+   "answer": "ging",
+   "alt": [
+    "ging"
+   ],
+   "hint": "Ein unregelmäßiges Verb.",
+   "explain": "Das Präteritum von gehen ist ging."
+  },
+  {
+   "type": "text",
+   "q": "Präteritum von 'sprechen' (sie): sie ___",
+   "answer": "sprach",
+   "alt": [
+    "sprach"
+   ],
+   "hint": "Ein Vokal ändert sich.",
+   "explain": "Das Präteritum von sprechen ist sprach."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Form ist das Präteritum von 'laufen' (er)?",
+   "options": [
+    "lief",
+    "lauft",
+    "läuft"
+   ],
+   "answer": "lief",
+   "hint": "Denke an laufen - lief.",
+   "explain": "Das Präteritum von laufen ist lief."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Form ist das Perfekt von 'gehen' (er)?",
+   "options": [
+    "er ist gegangen",
+    "er ging",
+    "er geht"
+   ],
+   "answer": "er ist gegangen",
+   "hint": "Mit sein.",
+   "explain": "Das Perfekt von gehen bildet man mit sein: er ist gegangen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Erzählkarte?",
+   "options": [
+    "Stichworte für die mündliche Nacherzählung",
+    "Eine Landkarte",
+    "Ein Brief"
+   ],
+   "answer": "Stichworte für die mündliche Nacherzählung",
+   "hint": "Notizen für das Erzählen.",
+   "explain": "Auf der Erzählkarte stehen Stichworte für die Nacherzählung."
+  },
+  {
+   "type": "choice",
+   "q": "Was machst du im 2. Schritt der Lesemethode?",
+   "options": [
+    "unbekannte Begriffe klären",
+    "den Titel abschreiben",
+    "Hausaufgaben machen"
+   ],
+   "answer": "unbekannte Begriffe klären",
+   "hint": "Schritt 2 der Methode.",
+   "explain": "Im 2. Schritt klärst du unbekannte Wörter."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'nacherzählen'?",
+   "options": [
+    "den Inhalt einer Geschichte mit eigenen Worten wiedergeben",
+    "eine neue Geschichte erfinden",
+    "ein Gedicht vortragen"
+   ],
+   "answer": "den Inhalt einer Geschichte mit eigenen Worten wiedergeben",
+   "hint": "Was war passiert?",
+   "explain": "Bei der Nacherzählung gibst du den Inhalt wieder."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht in der Mitte einer Mind-Map?",
+   "options": [
+    "der Hauptgedanke",
+    "ein Bild der Familie",
+    "eine Zahl"
+   ],
+   "answer": "der Hauptgedanke",
+   "hint": "Äste gehen davon ab.",
+   "explain": "In der Mitte steht der Hauptgedanke, davon gehen Äste mit Unterbegriffen ab."
+  },
+  {
+   "type": "text",
+   "q": "Welcher Satz beginnt oft ein Märchen? (zwei Wörter)",
+   "answer": "Es war",
+   "alt": [
+    "es war"
+   ],
+   "hint": "Der erste Satz ist ein typischer Anfang.",
+   "explain": "Das Märchen beginnt mit Es war einmal."
+  },
+  {
+   "type": "text",
+   "q": "Wie endet ein Märchen oft? 'Und wenn sie nicht gestorben sind, dann ___'",
+   "answer": "leben sie noch heute",
+   "alt": [
+    "leben sie noch heute"
+   ],
+   "hint": "Der Schluss ist ein typisches Ende.",
+   "explain": "Solche Schlusssätze zeigen das gute Ende."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Märchen?",
+   "options": [
+    "eine Erzählung mit fantastischen Ereignissen",
+    "nur ein Sachtext",
+    "nur ein Gedicht"
+   ],
+   "answer": "eine Erzählung mit fantastischen Ereignissen",
+   "hint": "Märchen sind frei erfunden.",
+   "explain": "Ein Märchen ist eine Erzählung mit fantastischen Ereignissen und Märchenmerkmalen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Ablauf passt zum Märchenweg?",
+   "options": [
+    "Held löst Aufgaben, am Ende ein gutes Ende",
+    "Die Figur bleibt immer gleich",
+    "Es gibt keine Handlung"
+   ],
+   "answer": "Held löst Aufgaben, am Ende ein gutes Ende",
+   "hint": "Märchen haben eine Handlung.",
+   "explain": "Der Märchenweg zeigt Abenteuer, Aufgaben und ein gutes Ende."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Merkmal haben Märchen oft?",
+   "options": [
+    "Ort und Zeit sind unbestimmt",
+    "Ort und Zeit sind genau angegeben",
+    "Es gibt nie Figuren"
+   ],
+   "answer": "Ort und Zeit sind unbestimmt",
+   "hint": "Wo genau spielt es?",
+   "explain": "Märchenorte und -zeiten sind meist unbestimmt: Es war einmal in einem Wald."
+  },
+  {
+   "type": "choice",
+   "q": "Was heißt 'Märchenmerkmale'?",
+   "options": [
+    "Typische Besonderheiten von Märchen",
+    "Die Zeichen auf dem Buchumschlag",
+    "Die Seitenzahlen"
+   ],
+   "answer": "Typische Besonderheiten von Märchen",
+   "hint": "Woran erkennt man ein Märchen?",
+   "explain": "Märchenmerkmale sind die typischen Besonderheiten, an denen man Märchen erkennt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Handlungsschritt?",
+   "options": [
+    "ein abgeschlossener Baustein einer Erzählung",
+    "ein Satz mit Ausrufezeichen",
+    "eine Rechnung"
+   ],
+   "answer": "ein abgeschlossener Baustein einer Erzählung",
+   "hint": "Ein Teil der Geschichte.",
+   "explain": "Ein Handlungsschritt ist ein Baustein der Erzählung, z. B. eine Aufgabe."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man wörtliche Rede in einer Nacherzählung?",
+   "options": [
+    "„Es ist kalt“, sagte sie.",
+    "Es ist kalt, sagte sie.",
+    "'Es ist kalt' sagte sie"
+   ],
+   "answer": "„Es ist kalt“, sagte sie.",
+   "hint": "Anführungszeichen unten und oben.",
+   "explain": "Wörtliche Rede steht in Anführungszeichen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Zeitform, mit der man Märchen erzählt?",
+   "options": [
+    "Präteritum",
+    "Futur I",
+    "Präsens"
+   ],
+   "answer": "Präteritum",
+   "hint": "Vergangenheit einfach erzählt.",
+   "explain": "Märchen erzählt man im Präteritum."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Aufgabe einer Erzählkarte?",
+   "options": [
+    "Stichpunkte für die mündliche Nacherzählung",
+    "Ein Brief an die Oma",
+    "Eine Übung für Rechnen"
+   ],
+   "answer": "Stichpunkte für die mündliche Nacherzählung",
+   "hint": "Notizen zum Erzählen.",
+   "explain": "Die Erzählkarte hilft beim freien Erzählen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Figur ist im Märchen typisch?",
+   "options": [
+    "ein Held oder eine Heldin mit einer Aufgabe",
+    "ein Mensch aus der Zukunft",
+    "ein Sachbuch-Autor"
+   ],
+   "answer": "ein Held oder eine Heldin mit einer Aufgabe",
+   "hint": "Wer löst die Aufgabe?",
+   "explain": "Die Heldin oder der Held erlebt Abenteuer und löst Aufgaben."
+  }
+ ]
+}

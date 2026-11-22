@@ -1,0 +1,58 @@
+name: APK bauen
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/apk.yml', 'index.html', 'sw.js', 'manifest.webmanifest', 'packs/**', 'pdfjs/**']
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      - name: OCR-Dateien holen, falls noch nicht im Repo
+        run: |
+          set -e
+          if [ ! -f ocr/tesseract.min.js ]; then
+            mkdir -p ocr/core ocr/lang tmp && cd tmp
+            npm pack tesseract.js@5 tesseract.js-core@5
+            mkdir tj core && tar xzf tesseract.js-5*.tgz -C tj && tar xzf tesseract.js-core-5*.tgz -C core
+            cp tj/package/dist/tesseract.min.js tj/package/dist/worker.min.js ../ocr/ && cp core/package/*lstm* ../ocr/core/
+            cd .. && for l in deu eng; do curl -fL -o ocr/lang/$l.traineddata https://github.com/tesseract-ocr/tessdata_fast/raw/main/$l.traineddata; done
+            rm -rf tmp
+          fi
+      - name: Web-App für Android vorbereiten
+        run: |
+          mkdir -p www
+          cp index.html sw.js manifest.webmanifest icon-192.png icon-512.png www/
+          cp -r ocr www/ || true
+          cp -r packs www/ || true
+          cp -r pdfjs www/ || true
+          ls android-res >/dev/null
+          npm init -y >/dev/null
+          npm i @capacitor/core@6 @capacitor/cli@6 @capacitor/android@6 @capacitor/camera@6 @capacitor/filesystem@6 @capacitor/share@6 @capacitor-community/text-to-speech@5
+          cat > capacitor.config.json <<'JSON'
+          {"appId":"de.menne.schulheld5","appName":"Schul-Held","webDir":"www"}
+          JSON
+          npx cap add android
+          sed -i 's#</manifest>#<uses-permission android:name="android.permission.CAMERA" />\n<uses-feature android:name="android.hardware.camera" android:required="false" />\n</manifest>#' android/app/src/main/AndroidManifest.xml
+          R=android/app/src/main/res
+          rm -rf $R/mipmap-anydpi-v26 $R/drawable-v24
+          cp -r android-res/* $R/
+          ls -la $R/mipmap-xxxhdpi
+          npx cap sync android
+      - name: APK bauen
+        run: cd android && chmod +x gradlew && ./gradlew assembleDebug --no-daemon
+      - name: APK bereitstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk Schul-Held-5.apk
+          gh release delete latest -y --cleanup-tag || true
+          gh release create latest Schul-Held-5.apk --title "Schul-Held 5 (APK)" --notes "Debug-APK zum Installieren auf Android."
+      - uses: actions/upload-artifact@v4
+        with: { name: Schul-Held-5-apk, path: Schul-Held-5.apk }

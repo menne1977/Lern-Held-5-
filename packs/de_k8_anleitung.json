@@ -1,0 +1,400 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 8: Outdoor-Wochenende (Anleitung überarbeiten)",
+ "key": "Eine Anleitung braucht eine klare Reihenfolge und den Imperativ. Stichwörter und das Wörterbuch helfen beim Überarbeiten.\nIm Buch: S. 212–235",
+ "slides": [
+  {
+   "title": "Anleitung überarbeiten",
+   "text": "Eine gute Anleitung hat Material, Reihenfolge und klare Schritte. Der Imperativ sagt, was zu tun ist.",
+   "emoji": "🛠️"
+  },
+  {
+   "title": "Reihenfolge",
+   "text": "Jeder Schritt baut auf dem vorherigen auf. Ohne richtige Reihenfolge stimmt das Ergebnis nicht.",
+   "emoji": "🔢"
+  },
+  {
+   "title": "Stichwörter",
+   "text": "Notiere das Wichtigste kurz: Stichwörter ohne ganze Sätze helfen beim Überarbeiten.",
+   "emoji": "📝"
+  },
+  {
+   "title": "Wörterbuch",
+   "text": "Suche die Grundform des Wortes. Oben stehen die Kopfwörter, die dir die Seite zeigen.",
+   "emoji": "📖"
+  },
+  {
+   "title": "Den Leser ansprechen",
+   "text": "Du sprichst den Leser mit du oder Sie an, je nach Situation.",
+   "emoji": "🙋"
+  },
+  {
+   "title": "Korrekturzeichen",
+   "text": "Streichen, ersetzen oder einfügen: Mit Korrekturzeichen verbesserst du den Text übersichtlich.",
+   "emoji": "✏️"
+  }
+ ],
+ "vocab": [
+  [
+   "Anleitung",
+   "Text, der Schritt für Schritt erklärt"
+  ],
+  [
+   "Reihenfolge",
+   "Abfolge der Schritte"
+  ],
+  [
+   "Stichwort",
+   "kurzes Wort mit dem Wichtigen"
+  ],
+  [
+   "Imperativ",
+   "Befehlsform: Stell das Zelt auf!"
+  ],
+  [
+   "Fachbegriff",
+   "genauer Begriff aus einem Fachgebiet"
+  ],
+  [
+   "Wörterbuch",
+   "Buch mit Schreibweise und Bedeutung"
+  ],
+  [
+   "Kopfwort",
+   "Wort oben auf der Wörterbuchseite"
+  ],
+  [
+   "Grundform",
+   "Infinitiv des Verbs, z. B. gehen"
+  ],
+  [
+   "Korrekturzeichen",
+   "Zeichen für Änderungen im Text"
+  ],
+  [
+   "Kompetenzcheck",
+   "Übung, die zeigt, was du kannst"
+  ],
+  [
+   "Wegbeschreibung",
+   "Erklärung, wie man an einen Ort kommt"
+  ],
+  [
+   "überarbeiten",
+   "einen Text verbessern"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist ein Stichwort in Notizen?",
+   "options": [
+    "ein kurzes Wort oder eine Wortgruppe, die den Inhalt festhält",
+    "ein ganzer Satz",
+    "eine Zeichnung"
+   ],
+   "answer": "ein kurzes Wort oder eine Wortgruppe, die den Inhalt festhält",
+   "hint": "Kurz und wichtig.",
+   "explain": "Stichwörter sind knapp und halten den Inhalt fest."
+  },
+  {
+   "type": "text",
+   "q": "Befehlsform für eine Person (du) von 'stellen': ___ das Zelt auf!",
+   "answer": "Stell",
+   "alt": [
+    "stell"
+   ],
+   "hint": "Befehl an eine Person.",
+   "explain": "Der Imperativ von stellen für du heißt Stell."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist die Reihenfolge bei einer Anleitung wichtig?",
+   "options": [
+    "Damit man Schritt für Schritt richtig vorgeht",
+    "Damit es länger dauert",
+    "Weil es schöner aussieht"
+   ],
+   "answer": "Damit man Schritt für Schritt richtig vorgeht",
+   "hint": "Erst das eine, dann das andere.",
+   "explain": "Eine Anleitung führt Schritt für Schritt zum Ziel."
+  },
+  {
+   "type": "choice",
+   "q": "Was schlägst du im Wörterbuch zuerst nach?",
+   "options": [
+    "die Grundform des Wortes",
+    "die Silbenzahl",
+    "die Seitenzahl"
+   ],
+   "answer": "die Grundform des Wortes",
+   "hint": "Wie heißt das Wort ohne Endung?",
+   "explain": "Im Wörterbuch sucht man die Grundform."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Angabe steht oben auf der Wörterbuchseite?",
+   "options": [
+    "Kopfwörter",
+    "Impressum",
+    "Fußnote"
+   ],
+   "answer": "Kopfwörter",
+   "hint": "Links und rechts oben.",
+   "explain": "Die Kopfwörter zeigen die ersten und letzten Stichwörter der Seite."
+  },
+  {
+   "type": "text",
+   "q": "Grundform von 'ging'?",
+   "answer": "gehen",
+   "alt": [
+    "gehen"
+   ],
+   "hint": "Ein unregelmäßiges Verb.",
+   "explain": "Die Grundform ist gehen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'den Leser angemessen ansprechen'?",
+   "options": [
+    "den Leser mit du oder Sie ansprechen, passend zur Situation",
+    "den Leser beleidigen",
+    "nie den Leser ansprechen"
+   ],
+   "answer": "den Leser mit du oder Sie ansprechen, passend zur Situation",
+   "hint": "Passt zur Situation?",
+   "explain": "Du oder Sie hängt davon ab, wen du anschreibst."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Korrekturzeichen 'streichen' bedeutet …",
+   "options": [
+    "etwas wegnehmen",
+    "etwas hinzufügen",
+    "etwas ersetzen"
+   ],
+   "answer": "etwas wegnehmen",
+   "hint": "Durchstreichen.",
+   "explain": "Das Zeichen zeigt: Dieses Wort muss weg."
+  },
+  {
+   "type": "choice",
+   "q": "Was enthält eine Anleitung meist?",
+   "options": [
+    "Material und Schritte",
+    "nur Bilder",
+    "nur Fragen"
+   ],
+   "answer": "Material und Schritte",
+   "hint": "Was brauche ich, was mache ich?",
+   "explain": "Eine Anleitung nennt das Material und dann die Schritte."
+  },
+  {
+   "type": "choice",
+   "q": "Wie steht ein Befehl in einer Anleitung meist?",
+   "options": [
+    "in der Befehlsform (Imperativ)",
+    "in der Vergangenheit",
+    "als Frage"
+   ],
+   "answer": "in der Befehlsform (Imperativ)",
+   "hint": "Stell das Zelt auf!",
+   "explain": "Anleitungen nutzen den Imperativ: Stell, nimm, schneide."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht ein Fachbegriff in einer Anleitung?",
+   "options": [
+    "Er benennt genau, was gemeint ist.",
+    "Er verwirrt den Leser.",
+    "Er ersetzt die Bilder."
+   ],
+   "answer": "Er benennt genau, was gemeint ist.",
+   "hint": "Genau und klar.",
+   "explain": "Fachbegriffe sorgen für genaue Angaben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Reihenfolge in einer Anleitung?",
+   "options": [
+    "Die Abfolge der Schritte",
+    "Eine Liste von Namen",
+    "Die Farbe der Bilder"
+   ],
+   "answer": "Die Abfolge der Schritte",
+   "hint": "Erst, dann, zuletzt.",
+   "explain": "Die Reihenfolge zeigt, was zuerst und was danach kommt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Grundform eines Verbs?",
+   "options": [
+    "die Infinitivform, z. B. gehen",
+    "die Vergangenheit, z. B. ging",
+    "die Befehlsform"
+   ],
+   "answer": "die Infinitivform, z. B. gehen",
+   "hint": "Die Form im Wörterbuch.",
+   "explain": "Die Grundform (Infinitiv) steht im Wörterbuch, z. B. gehen."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dient das Wörterbuch?",
+   "options": [
+    "Zum Nachschlagen von Schreibweise und Bedeutung",
+    "Zum Rechnen",
+    "Zum Malen"
+   ],
+   "answer": "Zum Nachschlagen von Schreibweise und Bedeutung",
+   "hint": "Was ist das Wort?",
+   "explain": "Im Wörterbuch findest du Schreibweise und Bedeutung."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Überarbeiten einer Anleitung?",
+   "options": [
+    "Fehler finden und den Text verbessern",
+    "Den Text wegwerfen",
+    "Den Text nicht lesen"
+   ],
+   "answer": "Fehler finden und den Text verbessern",
+   "hint": "Besser machen.",
+   "explain": "Beim Überarbeiten verbesserst du den Text Schritt für Schritt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Umgang mit Fotos in einer Anleitung?",
+   "options": [
+    "Fotos zeigen einzelne Schritte und helfen beim Verstehen",
+    "Fotos sind unnötig",
+    "Fotos ersetzen den Text"
+   ],
+   "answer": "Fotos zeigen einzelne Schritte und helfen beim Verstehen",
+   "hint": "Bilder helfen.",
+   "explain": "Fotos unterstützen die Schritte im Text."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage hilft beim Überprüfen einer Anleitung?",
+   "options": [
+    "Kann man den Schritten ohne Vorwissen folgen?",
+    "Wie viele Wörter hat das Buch?",
+    "Welche Note hat der Text?"
+   ],
+   "answer": "Kann man den Schritten ohne Vorwissen folgen?",
+   "hint": "Verständlichkeit.",
+   "explain": "Eine gute Anleitung ist für jeden verständlich."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wurfspiel-Schritt in einer Anleitung?",
+   "options": [
+    "Eine klare Handlung, z. B. Stell die Dosen auf.",
+    "Eine Frage an die Eltern",
+    "Ein Gedicht"
+   ],
+   "answer": "Eine klare Handlung, z. B. Stell die Dosen auf.",
+   "hint": "Befehl und Handlung.",
+   "explain": "Jeder Schritt beschreibt eine klare Handlung."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht in der Überschrift einer Anleitung?",
+   "options": [
+    "Das Ziel, z. B. Ein Wurfzelt aufbauen",
+    "Die Hausaufgaben",
+    "Der Name des Lehrers"
+   ],
+   "answer": "Das Ziel, z. B. Ein Wurfzelt aufbauen",
+   "hint": "Was soll gemacht werden?",
+   "explain": "Die Überschrift nennt, was man am Ende hat."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man Stichwörter?",
+   "options": [
+    "kurz, ohne ganze Sätze",
+    "als lange Sätze",
+    "mit Bildern nur"
+   ],
+   "answer": "kurz, ohne ganze Sätze",
+   "hint": "Nur das Wichtige.",
+   "explain": "Stichwörter sind kurz und enthalten das Wichtigste."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart beschreibt Eigenschaften in einer Anleitung?",
+   "options": [
+    "Adjektiv",
+    "Artikel",
+    "Konjunktion"
+   ],
+   "answer": "Adjektiv",
+   "hint": "Wie ist es?",
+   "explain": "Adjektive beschreiben Eigenschaften, z. B. stabil."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Wegbeschreibung?",
+   "options": [
+    "Die Anleitung, wie man an einen Ort kommt",
+    "Eine Liste von Pflanzen",
+    "Ein Brief an den Lehrer"
+   ],
+   "answer": "Die Anleitung, wie man an einen Ort kommt",
+   "hint": "Richtungen.",
+   "explain": "Eine Wegbeschreibung nennt Richtungen und Orientierungspunkte."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Form eines Verbs steht im Imperativ für ihr?",
+   "options": [
+    "Stellt das Zelt auf!",
+    "Stell das Zelt auf!",
+    "Ich stelle das Zelt auf."
+   ],
+   "answer": "Stellt das Zelt auf!",
+   "hint": "Mehrere Personen.",
+   "explain": "Für ihr heißt der Imperativ stellt."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Schritt kommt zuerst bei einer Anleitung?",
+   "options": [
+    "das Material bereitlegen",
+    "die Auflösung ansehen",
+    "die Seitenzahl lesen"
+   ],
+   "answer": "das Material bereitlegen",
+   "hint": "Vorbereitung.",
+   "explain": "Zuerst legt man das Material bereit, dann folgen die Schritte."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Kompetenzcheck?",
+   "options": [
+    "Eine Übung, die zeigt, was du schon kannst",
+    "Eine Prüfung der Eltern",
+    "Ein Rezept"
+   ],
+   "answer": "Eine Übung, die zeigt, was du schon kannst",
+   "hint": "Wissen testen.",
+   "explain": "Der Kompetenzcheck zeigt dir, wo du stehst."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Teil eines Wörterbuchs, der Wörter nach dem ABC ordnet?",
+   "options": [
+    "das Alphabet",
+    "der Index",
+    "die Kopfzeile"
+   ],
+   "answer": "das Alphabet",
+   "hint": "Wörter sortiert.",
+   "explain": "Im Wörterbuch sind die Wörter alphabetisch geordnet."
+  }
+ ]
+}

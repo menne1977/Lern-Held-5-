@@ -1,0 +1,377 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 6: Zu Lande, zu Wasser und in der Luft (Informationen ermitteln)",
+ "key": "Informationen aus Flyern, Einladungen und Sachtexten ermitteln, vergleichen und bewerten. Die Lesemethode hilft dabei.\nIm Buch: S. 152–177",
+ "slides": [
+  {
+   "title": "Informieren",
+   "text": "Ein Informationstext beantwortet die W-Fragen. Er nutzt Bilder, Tabellen oder Piktogramme.",
+   "emoji": "📋"
+  },
+  {
+   "title": "Die Lesemethode",
+   "text": "1. Sich orientieren. 2. Unbekannte Begriffe klären. 3. Schlüsselstellen markieren. 4. Sinnabschnitte bilden und Wichtiges notieren.",
+   "emoji": "🔎"
+  },
+  {
+   "title": "Einladung",
+   "text": "In einer Einladung stehen Wann, Wo, Wer und Warum. Der Ton ist freundlich.",
+   "emoji": "✉️"
+  },
+  {
+   "title": "Appell und Aufforderung",
+   "text": "Mit dem Imperativ fordert man auf: Nimm eine Regenjacke mit! Das nennt man appellieren.",
+   "emoji": "📣"
+  },
+  {
+   "title": "Vergleichen",
+   "text": "Ordne Informationen nach festen Kriterien, z. B. Preis oder Zeit. So findest du das Beste.",
+   "emoji": "⚖️"
+  },
+  {
+   "title": "Piktogramme",
+   "text": "Ein Piktogramm zeigt eine Information mit einem Symbol. Alle sollen es verstehen.",
+   "emoji": "🚻"
+  }
+ ],
+ "vocab": [
+  [
+   "Flyer",
+   "kurzer Informationstext mit Bildern"
+  ],
+  [
+   "Einladung",
+   "freundliche Nachricht mit Wann, Wo, Wer, Warum"
+  ],
+  [
+   "appellieren",
+   "jemanden auffordern"
+  ],
+  [
+   "Imperativ",
+   "Befehlsform des Verbs"
+  ],
+  [
+   "Piktogramm",
+   "Symbol, das informiert"
+  ],
+  [
+   "Artikelprobe",
+   "Artikel davor setzen, um Nomen zu erkennen"
+  ],
+  [
+   "diskontinuierlicher Text",
+   "Text mit Tabellen, Diagrammen oder Symbolen"
+  ],
+  [
+   "Lerntempoduett",
+   "erst allein, dann mit Partnerin vergleichen"
+  ],
+  [
+   "Museumsgang",
+   "Ergebnisse ausstellen und anschauen"
+  ],
+  [
+   "Sinnabschnitt",
+   "inhaltlich abgeschlossener Textteil"
+  ],
+  [
+   "informieren",
+   "Fakten mitteilen"
+  ],
+  [
+   "Schreibplan",
+   "Plan für die Schritte beim Schreiben"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welche Angaben gehören in eine Einladung?",
+   "options": [
+    "Wann, wo, wer, warum",
+    "Nur das Essen",
+    "Nur der Preis"
+   ],
+   "answer": "Wann, wo, wer, warum",
+   "hint": "W-Fragen beantworten.",
+   "explain": "Eine Einladung nennt die wichtigen Angaben zu Wann, Wo, Wer und Warum."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Flyer?",
+   "options": [
+    "ein verkürzter Informationstext mit Bildern",
+    "ein Roman",
+    "eine Tabelle"
+   ],
+   "answer": "ein verkürzter Informationstext mit Bildern",
+   "hint": "Kurz und mit Bildern.",
+   "explain": "Ein Flyer informiert knapp und mit Bildern."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'appellieren'?",
+   "options": [
+    "jemanden auffordern, etwas zu tun oder zu lassen",
+    "jemanden loben",
+    "etwas vergessen"
+   ],
+   "answer": "jemanden auffordern, etwas zu tun oder zu lassen",
+   "hint": "Eine Aufforderung.",
+   "explain": "Appellieren heißt auffordern, z. B. Nimm eine Regenjacke mit!"
+  },
+  {
+   "type": "text",
+   "q": "Befehlsform von 'nehmen' für eine Person (du): ___ eine Jacke mit!",
+   "answer": "Nimm",
+   "alt": [
+    "nimm"
+   ],
+   "hint": "Befehl an eine Person.",
+   "explain": "Die Befehlsform heißt Imperativ: nimm."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt ein Piktogramm?",
+   "options": [
+    "Informationen durch Symbole",
+    "eine lange Geschichte",
+    "eine Zahl"
+   ],
+   "answer": "Informationen durch Symbole",
+   "hint": "Ein Bild, das wirkt.",
+   "explain": "Piktogramme nutzen Symbole, die alle verstehen."
+  },
+  {
+   "type": "choice",
+   "q": "Artikelprobe: Welches Wort wird großgeschrieben?",
+   "options": [
+    "das Spiel",
+    "spielen",
+    "schnell"
+   ],
+   "answer": "das Spiel",
+   "hint": "Mit Artikel davor.",
+   "explain": "Nur Nomen haben einen Artikel davor: das Spiel. Deshalb schreibt man sie groß."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht man beim Informationen vergleichen?",
+   "options": [
+    "Informationen nach Vorgaben nebeneinander prüfen",
+    "Nur eine Quelle lesen",
+    "Die Antwort raten"
+   ],
+   "answer": "Informationen nach Vorgaben nebeneinander prüfen",
+   "hint": "Vergleichen heißt: Was ist gleich, was anders?",
+   "explain": "Man vergleicht Informationen nach festgelegten Kriterien."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz zeigt eine Absicht zur Aufforderung?",
+   "options": [
+    "Komm bitte pünktlich!",
+    "Es regnet.",
+    "Der Park ist groß."
+   ],
+   "answer": "Komm bitte pünktlich!",
+   "hint": "Was soll der Leser tun?",
+   "explain": "Der Imperativ zeigt eine Aufforderung."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht man im 3. Schritt der Lesemethode?",
+   "options": [
+    "Schlüsselstellen markieren",
+    "Den Text vorlesen",
+    "Eine Zeichnung malen"
+   ],
+   "answer": "Schlüsselstellen markieren",
+   "hint": "Wichtige Stellen.",
+   "explain": "Im 3. Schritt markierst du Schlüsselstellen im Text."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibst du 'Minigolf' als Nomen?",
+   "options": [
+    "Minigolf",
+    "minigolf"
+   ],
+   "answer": "Minigolf",
+   "hint": "Artikelprobe: das Minigolf.",
+   "explain": "Nomen schreibt man groß."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein diskontinuierlicher Text?",
+   "options": [
+    "Ein Text mit Tabellen, Diagrammen und Symbolen",
+    "Ein langer Roman",
+    "Ein Gedicht"
+   ],
+   "answer": "Ein Text mit Tabellen, Diagrammen und Symbolen",
+   "hint": "Nicht nur Fließtext.",
+   "explain": "Diskontinuierliche Texte haben Tabellen, Diagramme oder Symbole."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht man beim Lerntempoduett?",
+   "options": [
+    "Erst allein arbeiten, dann mit einer Partnerin austauschen",
+    "Nur gemeinsam arbeiten",
+    "Nur Fragen stellen"
+   ],
+   "answer": "Erst allein arbeiten, dann mit einer Partnerin austauschen",
+   "hint": "Erst Einzel, dann Partner.",
+   "explain": "Im Lerntempoduett arbeitest du zuerst allein und vergleichst dann."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Museumsgang?",
+   "options": [
+    "Ergebnisse werden ausgestellt, angeschaut und kommentiert",
+    "Ein Besuch im Museum",
+    "Ein Spiel mit Karten"
+   ],
+   "answer": "Ergebnisse werden ausgestellt, angeschaut und kommentiert",
+   "hint": "Ausstellung der Arbeiten.",
+   "explain": "Beim Museumsgang werden Arbeitsergebnisse angeschaut und bewertet."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Einladung im Schreibsinn?",
+   "options": [
+    "eine Nachricht, die Gäste freundlich einlädt",
+    "eine Rechnung",
+    "eine Liste der Lehrer"
+   ],
+   "answer": "eine Nachricht, die Gäste freundlich einlädt",
+   "hint": "Wer soll kommen?",
+   "explain": "Eine Einladung ist freundlich und nennt die Angaben."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist ein Nomen?",
+   "options": [
+    "der Schlüssel",
+    "schnell",
+    "laufen"
+   ],
+   "answer": "der Schlüssel",
+   "hint": "Artikel davor.",
+   "explain": "Mit dem Artikel der erkennst du das Nomen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform nutzt du in einem Informationstext meist?",
+   "options": [
+    "Präsens",
+    "Präteritum",
+    "Futur II"
+   ],
+   "answer": "Präsens",
+   "hint": "Gegenwart.",
+   "explain": "Sachtexte stehen meist im Präsens."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'informieren'?",
+   "options": [
+    "Sachverhalte mitteilen und die W-Fragen beantworten",
+    "jemanden überzeugen",
+    "Witze erzählen"
+   ],
+   "answer": "Sachverhalte mitteilen und die W-Fragen beantworten",
+   "hint": "Fakten mitteilen.",
+   "explain": "Informieren heißt, Fakten zu nennen und die W-Fragen zu beantworten."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage hilft beim Vergleichen zweier Angebote?",
+   "options": [
+    "Welcher Kletterpark ist der günstigste?",
+    "Wie alt ist der Lehrer?",
+    "Welche Farbe mag die Klasse?"
+   ],
+   "answer": "Welcher Kletterpark ist der günstigste?",
+   "hint": "Vergleichsfrage.",
+   "explain": "Beim Vergleichen fragst du nach Kriterien wie günstig oder schnell."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Einladung zum Geburtstag wichtig zu nennen?",
+   "options": [
+    "Datum, Uhrzeit und Ort",
+    "Nur die Hausaufgaben",
+    "Die Noten"
+   ],
+   "answer": "Datum, Uhrzeit und Ort",
+   "hint": "W-Fragen.",
+   "explain": "Datum, Uhrzeit und Ort gehören in jede Einladung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Schreibplan?",
+   "options": [
+    "ein Plan für die Schritte beim Schreiben",
+    "eine Landkarte",
+    "ein Stundenplan"
+   ],
+   "answer": "ein Plan für die Schritte beim Schreiben",
+   "hint": "Schritte planen.",
+   "explain": "Ein Schreibplan hilft beim Planen der Arbeitsschritte."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist ein Adjektiv?",
+   "options": [
+    "lustig",
+    "Hund",
+    "laufen"
+   ],
+   "answer": "lustig",
+   "hint": "Eigenschaft.",
+   "explain": "Adjektive beschreiben Eigenschaften, z. B. lustig."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist ein Imperativ?",
+   "options": [
+    "Komm sofort her!",
+    "Ich komme sofort.",
+    "Er kam gestern."
+   ],
+   "answer": "Komm sofort her!",
+   "hint": "Befehl.",
+   "explain": "Imperativ ist die Befehlsform."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'Sinnabschnitt'?",
+   "options": [
+    "ein inhaltlich abgeschlossener Teil des Textes",
+    "ein Satz mit Komma",
+    "eine Seitenzahl"
+   ],
+   "answer": "ein inhaltlich abgeschlossener Teil des Textes",
+   "hint": "Teil mit einem Thema.",
+   "explain": "Ein Sinnabschnitt ist ein Teil mit einem abgeschlossenen Inhalt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Sinnabschnitte gibt es in einem Text?",
+   "options": [
+    "mehrere, je nach Inhalt",
+    "genau 1",
+    "genau 10"
+   ],
+   "answer": "mehrere, je nach Inhalt",
+   "hint": "Hängt vom Text ab.",
+   "explain": "Die Anzahl hängt vom Inhalt ab."
+  }
+ ]
+}

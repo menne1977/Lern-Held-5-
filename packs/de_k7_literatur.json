@@ -1,0 +1,412 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 7: Gespenster-Lesenacht (literarische Texte)",
+ "key": "Literarische Texte untersuchst du mit Fragen zu Figuren und Handlung. Gedichte trägst du gestaltend vor und nimmst zu Aussagen Stellung.\nIm Buch: S. 178–211",
+ "slides": [
+  {
+   "title": "Literarische Texte",
+   "text": "Gedichte, Klappentexte und Erzählungen untersuchst du mit Fragen zu Figuren, Handlung und Sprache.",
+   "emoji": "📚"
+  },
+  {
+   "title": "Gedichte gestaltend vortragen",
+   "text": "Strophen und Reime helfen dir: Betone wichtige Wörter, mache Pausen und passe die Lautstärke an.",
+   "emoji": "🎭"
+  },
+  {
+   "title": "Der Klappentext",
+   "text": "Der Klappentext steht auf der Buchrückseite. Er stellt das Buch vor und verrät das Ende nicht.",
+   "emoji": "📘"
+  },
+  {
+   "title": "Sinnabschnitte",
+   "text": "Ein Sinnabschnitt ist ein inhaltlich abgeschlossener Teil. Markiere die Schlüsselstellen in jedem Abschnitt.",
+   "emoji": "🔖"
+  },
+  {
+   "title": "Stellung nehmen",
+   "text": "Sag deine Meinung und begründe sie. Belege sie mit einer Textstelle.",
+   "emoji": "💭"
+  },
+  {
+   "title": "Silben zählen",
+   "text": "Teile das Wort in Silben: Ge-spenst hat zwei, Nacht-ge-spenst drei Silben.",
+   "emoji": "🔢"
+  }
+ ],
+ "vocab": [
+  [
+   "Klappentext",
+   "Text auf der Buchrückseite"
+  ],
+  [
+   "Reim",
+   "Wörter, die am Versende ähnlich klingen"
+  ],
+  [
+   "Strophe",
+   "Abschnitt aus mehreren Versen"
+  ],
+  [
+   "Vers",
+   "Zeile in einem Gedicht"
+  ],
+  [
+   "gestaltend vortragen",
+   "mit Betonung und Pausen vorlesen"
+  ],
+  [
+   "Inhaltsangabe",
+   "kurze Zusammenfassung der Handlung"
+  ],
+  [
+   "Sinnabschnitt",
+   "inhaltlich abgeschlossener Textteil"
+  ],
+  [
+   "Figurenmerkmal",
+   "Eigenschaft einer Figur"
+  ],
+  [
+   "Stellung nehmen",
+   "eine Meinung mit Begründung sagen"
+  ],
+  [
+   "Textauswahl",
+   "passende Textstelle als Beleg"
+  ],
+  [
+   "Lesespur",
+   "Hinweise im Text finden"
+  ],
+  [
+   "Silbe",
+   "Teil eines Wortes mit einem Vokal"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was steht auf einem Klappentext?",
+   "options": [
+    "Eine kurze Vorstellung des Buchs",
+    "Die Lösung des Rätsels",
+    "Eine Liste mit Seitenzahlen"
+   ],
+   "answer": "Eine kurze Vorstellung des Buchs",
+   "hint": "Die Rückseite des Buchs.",
+   "explain": "Der Klappentext macht neugierig auf das Buch, ohne alles zu verraten."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Reim?",
+   "options": [
+    "Wörter, die am Versende gleich oder ähnlich klingen",
+    "Ein Bild",
+    "Eine Zahl"
+   ],
+   "answer": "Wörter, die am Versende gleich oder ähnlich klingen",
+   "hint": "Klingt gleich am Ende.",
+   "explain": "Ein Reim sind Wörter mit gleichem Klang am Versende."
+  },
+  {
+   "type": "choice",
+   "q": "Eine Strophe ist …",
+   "options": [
+    "eine Gruppe von Versen",
+    "ein einzelner Satz",
+    "ein Wort"
+   ],
+   "answer": "eine Gruppe von Versen",
+   "hint": "Abschnitt im Gedicht.",
+   "explain": "Strophen sind Abschnitte aus mehreren Versen."
+  },
+  {
+   "type": "choice",
+   "q": "Was gehört zum gestaltenden Vortragen?",
+   "options": [
+    "Betonung, Lautstärke und Pausen passend einsetzen",
+    "Den Text schnell herunterlesen",
+    "Den Text auswendig, aber ohne Stimme"
+   ],
+   "answer": "Betonung, Lautstärke und Pausen passend einsetzen",
+   "hint": "Wie klingt es?",
+   "explain": "Beim gestaltenden Vortragen hilft die Stimme, den Inhalt zu zeigen."
+  },
+  {
+   "type": "text",
+   "q": "Wie heißt die Gruppe von Versen in einem Gedicht? (ein Wort)",
+   "answer": "Strophe",
+   "alt": [
+    "Strophen"
+   ],
+   "hint": "Ein Abschnitt im Gedicht.",
+   "explain": "Gruppe von Versen heißt Strophe."
+  },
+  {
+   "type": "choice",
+   "q": "In welcher Zeitform schreibst du eine Inhaltszusammenfassung?",
+   "options": [
+    "Präsens",
+    "Präteritum",
+    "Futur"
+   ],
+   "answer": "Präsens",
+   "hint": "Immer die Gegenwart.",
+   "explain": "Inhalte fasst man im Präsens zusammen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Sinnabschnitt?",
+   "options": [
+    "ein inhaltlich abgeschlossener Textteil",
+    "ein einzelner Satz",
+    "ein Kapitel-Titel"
+   ],
+   "answer": "ein inhaltlich abgeschlossener Textteil",
+   "hint": "Ein Thema in einem Abschnitt.",
+   "explain": "Ein Sinnabschnitt behandelt einen Inhalt vollständig."
+  },
+  {
+   "type": "choice",
+   "q": "Wie beginnst du eine Stellungnahme?",
+   "options": [
+    "Ich finde, dass ..., weil ...",
+    "Hallo!",
+    "Das war's."
+   ],
+   "answer": "Ich finde, dass ..., weil ...",
+   "hint": "Meinung und Begründung.",
+   "explain": "Eine Stellungnahme nennt deine Meinung und begründet sie."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Figurenmerkmal?",
+   "options": [
+    "Eine Eigenschaft einer Figur, die im Text steht",
+    "Die Seitenzahl",
+    "Der Verlag"
+   ],
+   "answer": "Eine Eigenschaft einer Figur, die im Text steht",
+   "hint": "Was ist die Figur?",
+   "explain": "Figurenmerkmale sind Eigenschaften, die man im Text findet."
+  },
+  {
+   "type": "text",
+   "q": "Wie heißt der Text auf der Buchrückseite? (ein Wort)",
+   "answer": "Klappentext",
+   "alt": [
+    "Klappen-Text"
+   ],
+   "hint": "Zu Hause auf dem Buch.",
+   "explain": "Der Klappentext steht auf der Buchrückseite."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Silben hat 'Gespenst'?",
+   "options": [
+    "2",
+    "1",
+    "3"
+   ],
+   "answer": "2",
+   "hint": "Ge-spenst",
+   "explain": "Gespenst hat zwei Silben: Ge-spenst."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Silben hat 'Nachtgespenst'?",
+   "options": [
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": "3",
+   "hint": "Nacht-ge-spenst",
+   "explain": "Nachtgespenst hat drei Silben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Silben hat 'Gespensterjagd'?",
+   "options": [
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": "4",
+   "hint": "Ge-spens-ter-jagd",
+   "explain": "Gespensterjagd hat vier Silben."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt eine Textuntersuchung?",
+   "options": [
+    "Wie Figuren und Handlung gestaltet sind",
+    "Die Rechtschreibung",
+    "Die Länge"
+   ],
+   "answer": "Wie Figuren und Handlung gestaltet sind",
+   "hint": "Was wird untersucht?",
+   "explain": "Bei der Untersuchung schaust du auf Figuren und Handlung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Inhaltsangabe?",
+   "options": [
+    "Eine kurze Zusammenfassung der wichtigsten Handlung",
+    "Ein ausführliches Tagebuch",
+    "Eine Einkaufsliste"
+   ],
+   "answer": "Eine kurze Zusammenfassung der wichtigsten Handlung",
+   "hint": "Die Hauptsachen.",
+   "explain": "Eine Inhaltsangabe fasst die Handlung kurz zusammen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist eine Stellungnahme?",
+   "options": [
+    "Ich finde die Geschichte spannend, weil sie überraschende Wendungen hat.",
+    "Die Geschichte hat 20 Kapitel.",
+    "Der Autor heißt Anna."
+   ],
+   "answer": "Ich finde die Geschichte spannend, weil sie überraschende Wendungen hat.",
+   "hint": "Meinung mit Begründung.",
+   "explain": "Eine Stellungnahme enthält eine Meinung und eine Begründung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Lesespur?",
+   "options": [
+    "Eine Anleitung, wie du in einem Text Hinweise findest",
+    "Der Weg zur Schule",
+    "Eine Bahnlinie"
+   ],
+   "answer": "Eine Anleitung, wie du in einem Text Hinweise findest",
+   "hint": "Spuren im Text.",
+   "explain": "Lesespuren führen dich über Schlüsselwörter durch den Text."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet 'Ich-Erzähler'?",
+   "options": [
+    "Die Geschichte wird aus der Sicht einer Figur erzählt",
+    "Der Erzähler spricht über sich selbst im Dritten",
+    "Ein Buch mit Ich in der Mitte"
+   ],
+   "answer": "Die Geschichte wird aus der Sicht einer Figur erzählt",
+   "hint": "Ich erzählt.",
+   "explain": "Der Ich-Erzähler erzählt aus seiner eigenen Sicht."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Klappentext nicht?",
+   "options": [
+    "Die Lösung des Rätsels",
+    "Eine Vorstellung",
+    "Eine Werbung"
+   ],
+   "answer": "Die Lösung des Rätsels",
+   "hint": "Was verrät er nicht?",
+   "explain": "Der Klappentext verrät das Ende nicht."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Figur wird in Gespenster-Geschichten oft beschrieben?",
+   "options": [
+    "ein Gespenst mit besonderen Eigenschaften",
+    "ein Auto",
+    "ein Lehrer ohne Namen"
+   ],
+   "answer": "ein Gespenst mit besonderen Eigenschaften",
+   "hint": "Wie ist das Gespenst?",
+   "explain": "Figuren werden über ihre Eigenschaften beschrieben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie beschreibst du die Handlung in der Vergangenheit, wenn du die Geschichte nacherzählst?",
+   "options": [
+    "Im Präteritum",
+    "Im Imperativ",
+    "Im Konjunktiv nur"
+   ],
+   "answer": "Im Präteritum",
+   "hint": "Vergangenheit.",
+   "explain": "Nacherzählungen stehen im Präteritum."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Zusammenfassung im Präsens?",
+   "options": [
+    "Die Handlung in der Gegenwart erzählt: Er geht zur Schule.",
+    "Er ging zur Schule.",
+    "Er wird zur Schule gehen."
+   ],
+   "answer": "Die Handlung in der Gegenwart erzählt: Er geht zur Schule.",
+   "hint": "Präsens: geht.",
+   "explain": "Präsens: Er geht zur Schule, nicht ging."
+  },
+  {
+   "type": "choice",
+   "q": "Warum schreibt man Gedichte oft mit Reimen?",
+   "options": [
+    "Der Klang macht das Gedicht eingängig.",
+    "Weil es Vorschrift ist.",
+    "Damit es länger wird."
+   ],
+   "answer": "Der Klang macht das Gedicht eingängig.",
+   "hint": "Klang und Rhythmus.",
+   "explain": "Reime und Rhythmus machen Gedichte leicht zu hören und zu behalten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Textauswahl?",
+   "options": [
+    "Eine Stelle, die zu einer Aussage passt",
+    "Ein Preis",
+    "Eine Liste mit Namen"
+   ],
+   "answer": "Eine Stelle, die zu einer Aussage passt",
+   "hint": "Welche Stelle belegt es?",
+   "explain": "Mit einer Textauswahl belegst du deine Aussage mit passenden Stellen."
+  },
+  {
+   "type": "choice",
+   "q": "Was muss man bei einer Aussage im Text tun?",
+   "options": [
+    "Stellung nehmen und begründen",
+    "Den Text auswendig lernen",
+    "Den Titel abschreiben"
+   ],
+   "answer": "Stellung nehmen und begründen",
+   "hint": "Meinung und Grund.",
+   "explain": "Du äußerst deine Meinung und belegst sie mit dem Text."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Merkmal zeigt eine Figur?",
+   "options": [
+    "Sie ist mutig oder ängstlich.",
+    "Sie hat eine Seitenzahl.",
+    "Sie hat einen Titel."
+   ],
+   "answer": "Sie ist mutig oder ängstlich.",
+   "hint": "Eigenschaften.",
+   "explain": "Figurenmerkmale sind Eigenschaften wie mutig oder ängstlich."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Strophe im Gedicht?",
+   "options": [
+    "Ein Abschnitt aus mehreren Versen",
+    "Ein Wort",
+    "Ein Bild"
+   ],
+   "answer": "Ein Abschnitt aus mehreren Versen",
+   "hint": "Abschnitt.",
+   "explain": "Eine Strophe ist ein Abschnitt aus mehreren Versen."
+  }
+ ]
+}

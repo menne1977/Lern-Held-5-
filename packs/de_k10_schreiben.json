@@ -1,0 +1,368 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 10: Richtig schreiben",
+ "key": "Die Rechtschreibung folgt Regeln: Vokallänge, Ableitung, Wortendungen und Groß- und Kleinschreibung.\nIm Buch: S. 247–277",
+ "slides": [
+  {
+   "title": "Richtig schreiben",
+   "text": "Achte auf den Vokal: lang oder kurz? Das hilft dir bei ss, ß, ck, tz und Dehnungs-h.",
+   "emoji": "✏️"
+  },
+  {
+   "title": "Lang oder kurz",
+   "text": "Nach kurzem Vokal steht oft ein Doppelkonsonant: Stadt, Fluss. Nach langem Vokal steht oft ein ß oder h: Straße, Fahrt.",
+   "emoji": "🔍"
+  },
+  {
+   "title": "Ableitung",
+   "text": "Ein Wort hilft beim Schreiben eines anderen: Bäcker von backen, Bälle von Ball.",
+   "emoji": "🌳"
+  },
+  {
+   "title": "Dass und das",
+   "text": "Das ist Artikel oder Relativpronomen. Dass ist eine Konjunktion. Ein Test: Kann man durch dieses ersetzen?",
+   "emoji": "🧠"
+  },
+  {
+   "title": "Wortendungen",
+   "text": "Viele Adjektive enden auf -ig oder -lich, z. B. lustig, freundlich.",
+   "emoji": "🏷️"
+  },
+  {
+   "title": "Groß und klein",
+   "text": "Nomen schreibt man groß, z. B. Freude. Verben schreibt man klein, z. B. laufen.",
+   "emoji": "🔤"
+  }
+ ],
+ "vocab": [
+  [
+   "Dehnungs-h",
+   "h nach langem Vokal, z. B. Fahrt"
+  ],
+  [
+   "Ableitung",
+   "ein Wort hilft bei der Schreibung"
+  ],
+  [
+   "Plural",
+   "Mehrzahl, z. B. Kinder"
+  ],
+  [
+   "Doppelkonsonant",
+   "zwei gleiche Konsonanten, z. B. Fluss"
+  ],
+  [
+   "Wortendung",
+   "Teil am Ende, z. B. -ig"
+  ],
+  [
+   "Konjunktion",
+   "Bindewort, z. B. dass"
+  ],
+  [
+   "Relativpronomen",
+   "Bezugswort, z. B. das im Satz"
+  ],
+  [
+   "Umlaut",
+   "ä, ö, ü"
+  ],
+  [
+   "Zusammensetzung",
+   "zwei Wörter ergeben ein neues"
+  ],
+  [
+   "Vokal",
+   "a, e, i, o, u"
+  ],
+  [
+   "Diphthong",
+   "Doppellaut, z. B. eu, ei"
+  ],
+  [
+   "Schreibweise",
+   "richtige Form eines Wortes"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ä geschrieben?",
+   "options": [
+    "Mädchen",
+    "Madchen",
+    "Mädschen"
+   ],
+   "answer": "Mädchen",
+   "hint": "Ableitung von Magd.",
+   "explain": "Mädchen schreibt man mit ä."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit eu geschrieben?",
+   "options": [
+    "Leute",
+    "Laute",
+    "Lauthe"
+   ],
+   "answer": "Leute",
+   "hint": "Ein Klang: oi.",
+   "explain": "Leute schreibt man mit eu."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort hat das Dehnungs-h?",
+   "options": [
+    "Fahrt",
+    "Fart",
+    "Fahrd"
+   ],
+   "answer": "Fahrt",
+   "hint": "Wenn der Vokal lang ist.",
+   "explain": "Fahrt hat ein h, weil der Vokal a lang ist."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort hat das Dehnungs-h richtig?",
+   "options": [
+    "Kuh",
+    "Kuhe",
+    "Kuhhe"
+   ],
+   "answer": "Kuh",
+   "hint": "Ein einziges Wort mit langem u.",
+   "explain": "Kuh hat ein h, weil der Vokal lang ist."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man 'Stadt'?",
+   "options": [
+    "Stadt",
+    "Stat",
+    "Staadt"
+   ],
+   "answer": "Stadt",
+   "hint": "Der Vokal ist kurz.",
+   "explain": "Stadt schreibt man mit dt."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ss geschrieben?",
+   "options": [
+    "Fluss",
+    "Fluß",
+    "Fluss"
+   ],
+   "answer": "Fluss",
+   "hint": "Nach kurzem Vokal.",
+   "explain": "Nach kurzem Vokal schreibt man ss: Fluss."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ß geschrieben?",
+   "options": [
+    "Straße",
+    "Strasse",
+    "Strase"
+   ],
+   "answer": "Straße",
+   "hint": "Nach langem Vokal.",
+   "explain": "Nach langem Vokal schreibt man ß: Straße."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit das geschrieben?",
+   "options": [
+    "Das Haus ist groß.",
+    "Dass Haus ist groß.",
+    "Das Haus ist gross."
+   ],
+   "answer": "Das Haus ist groß.",
+   "hint": "Artikel oder Relativpronomen.",
+   "explain": "Das ist ein Artikel, dass ist eine Konjunktion."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist richtig?",
+   "options": [
+    "Ich weiß, dass er kommt.",
+    "Ich weiß, das er kommt.",
+    "Ich weiß, daß er kommt."
+   ],
+   "answer": "Ich weiß, dass er kommt.",
+   "hint": "Konjunktion dass.",
+   "explain": "Mit der Konjunktion dass schreibt man ss."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort schreibt man mit -ig?",
+   "options": [
+    "lustig",
+    "lustich",
+    "lusting"
+   ],
+   "answer": "lustig",
+   "hint": "Wortendung.",
+   "explain": "Das Adjektiv endet auf -ig."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort endet auf -lich?",
+   "options": [
+    "freundlich",
+    "freundig",
+    "freundisch"
+   ],
+   "answer": "freundlich",
+   "hint": "Wortendung.",
+   "explain": "Freundlich endet auf -lich."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit v geschrieben?",
+   "options": [
+    "Vogel",
+    "Fogel",
+    "Vokel"
+   ],
+   "answer": "Vogel",
+   "hint": "Ein f-Klang, der v schreibt.",
+   "explain": "Vogel wird mit v geschrieben."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ck geschrieben?",
+   "options": [
+    "Decke",
+    "Dekke",
+    "Deke"
+   ],
+   "answer": "Decke",
+   "hint": "Nach kurzem Vokal.",
+   "explain": "Decke schreibt man mit ck, weil der Vokal kurz ist."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort schreibt man mit tz?",
+   "options": [
+    "Katze",
+    "Kacke",
+    "Kaze"
+   ],
+   "answer": "Katze",
+   "hint": "Nach kurzem Vokal.",
+   "explain": "Katze schreibt man mit tz."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man den Plural von 'Kind'?",
+   "options": [
+    "Kinder",
+    "Kinde",
+    "Kindes"
+   ],
+   "answer": "Kinder",
+   "hint": "Plural.",
+   "explain": "Der Plural von Kind ist Kinder."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man 'Wäscheleine'?",
+   "options": [
+    "Wäscheleine",
+    "Weascheleine",
+    "Wäsheleine"
+   ],
+   "answer": "Wäscheleine",
+   "hint": "Zusammengesetzt aus Wäsche und Leine.",
+   "explain": "Wäscheleine besteht aus Wäsche und Leine, deshalb schreibt man das sch."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ie geschrieben?",
+   "options": [
+    "Liebe",
+    "Libe",
+    "Lieb"
+   ],
+   "answer": "Liebe",
+   "hint": "Langer i-Laut.",
+   "explain": "Liebe schreibt man mit ie."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist richtig geschrieben?",
+   "options": [
+    "Sonnenschein",
+    "Sonnenschain",
+    "Sonnenschen"
+   ],
+   "answer": "Sonnenschein",
+   "hint": "Endung -schein.",
+   "explain": "Sonnenschein schreibt man mit ein."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort schreibt man groß?",
+   "options": [
+    "Freude",
+    "freude",
+    "Freut"
+   ],
+   "answer": "Freude",
+   "hint": "Nomen werden groß geschrieben.",
+   "explain": "Freude ist ein Nomen und wird groß geschrieben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man 'Gerüst'?",
+   "options": [
+    "Gerüst",
+    "Gerüsst",
+    "Geruest"
+   ],
+   "answer": "Gerüst",
+   "hint": "Vokal und Konsonant.",
+   "explain": "Gerüst schreibt man mit ü und st."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wortart ist 'Mädchen' im Satz 'Das Mädchen lacht'?",
+   "options": [
+    "Nomen",
+    "Verb",
+    "Adjektiv"
+   ],
+   "answer": "Nomen",
+   "hint": "Artikel davor.",
+   "explain": "Mädchen ist ein Nomen mit Artikel das."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit ä geschrieben?",
+   "options": [
+    "Bäcker",
+    "Becker",
+    "Backer"
+   ],
+   "answer": "Bäcker",
+   "hint": "Ableitung von backen.",
+   "explain": "Bäcker schreibt man mit ä."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort wird mit eu geschrieben?",
+   "options": [
+    "Freund",
+    "Froind",
+    "Frond"
+   ],
+   "answer": "Freund",
+   "hint": "Ein Klang oi.",
+   "explain": "Freund schreibt man mit eu."
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 2: Addition und Subtraktion",
+ "key": "Kopfrechnen: in Schritten, mehr addieren/subtrahieren.\nVertauschungsgesetz gilt nur bei der Addition.\nKlammern zuerst, Verbindungsgesetz: Klammern vorteilhaft setzen.\nSchriftlich addieren/subtrahieren: stellengerecht, rechts beginnen, Übertrag.\nProbe: Überschlag und Umkehraufgabe.\nIm Buch: Kapitel 2 (Buchseiten ca. 27–51)",
+ "slides": [
+  {
+   "title": "Kopfrechnen mit Strategien",
+   "text": "Beim Kopfrechnen zerlegst du Zahlen in kleine Schritte. Zum Beispiel: 24 + 19. Erst + 10 = 34, dann + 9 = 43. Das nennt man in Schritten addieren.",
+   "emoji": "🧠"
+  },
+  {
+   "title": "Mehr addieren, mehr subtrahieren",
+   "text": "Bei 127 + 99 rechnest du erst + 100 = 227. Du hast 1 zu viel addiert. Also − 1 = 226. Bei 62 − 29 ziehst du erst 30 ab: 32. Dann gibst du 1 zurück: 33.",
+   "emoji": "➕"
+  },
+  {
+   "title": "Halbschriftlich rechnen",
+   "text": "Beim halbschriftlichen Rechnen schreibst du die Zwischenschritte auf. Du zerlegst in Hunderter, Zehner und Einer. Das ist eine gute Brücke zum schriftlichen Rechnen.",
+   "emoji": "📝"
+  },
+  {
+   "title": "Vertauschungsgesetz",
+   "text": "Bei der Addition darf man die Zahlen vertauschen. 5 + 9 = 9 + 5. Das Ergebnis bleibt gleich. Bei der Subtraktion geht das nicht: 7 − 3 ist nicht 3 − 7.",
+   "emoji": "🔄"
+  },
+  {
+   "title": "Klammern und Verbindungsgesetz",
+   "text": "Was in Klammern steht, rechnest du zuerst. Bei der Addition dürfen überall Klammern gesetzt werden. Setze sie so, dass runde Zahlen entstehen: 55 + (89 + 11) = 55 + 100 = 155.",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Schriftlich addieren",
+   "text": "Schreibe die Zahlen stellengerecht untereinander. Beginne rechts bei den Einern. Addiere Spalte für Spalte. Bei mehr als 9 schreibst du den Übertrag in die nächste Spalte.",
+   "emoji": "📚"
+  },
+  {
+   "title": "Schriftlich subtrahieren",
+   "text": "Schreibe die Zahlen stellengerecht untereinander. Beginne rechts. Ergänze schrittweise von unten nach oben. Achte auf den Übertrag.",
+   "emoji": "📉"
+  },
+  {
+   "title": "Überschlag und Probe",
+   "text": "Mit einem Überschlag prüfst du, ob dein Ergebnis ungefähr stimmt. Dazu rundest du die Zahlen und rechnest im Kopf. Bei der Subtraktion hilft die Umkehraufgabe.",
+   "emoji": "✅"
+  }
+ ],
+ "vocab": [
+  [
+   "Summand",
+   "Zahl, die man addiert"
+  ],
+  [
+   "Summe",
+   "Ergebnis einer Addition"
+  ],
+  [
+   "Minuend",
+   "Zahl, von der man abzieht"
+  ],
+  [
+   "Subtrahend",
+   "Zahl, die man abzieht"
+  ],
+  [
+   "Differenz",
+   "Ergebnis einer Subtraktion"
+  ],
+  [
+   "Vertauschungsgesetz",
+   "Bei der Addition darf man vertauschen"
+  ],
+  [
+   "Verbindungsgesetz",
+   "Bei der Addition dürfen überall Klammern gesetzt werden"
+  ],
+  [
+   "Überschlag",
+   "Grobe Probe mit gerundeten Zahlen"
+  ],
+  [
+   "Umkehraufgabe",
+   "Probe: Subtraktion mit Addition prüfen"
+  ],
+  [
+   "halbschriftlich",
+   "Mit aufgeschriebenen Zwischenschritten"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 38 + 17",
+   "answer": "55",
+   "hint": "Erst die Zehner addieren, dann die Einer.",
+   "explain": "38 + 10 = 48, dann + 7 = 55."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 147 + 34",
+   "answer": "181",
+   "hint": "Erst die Zehner addieren, dann die Einer.",
+   "explain": "147 + 30 = 177, dann + 4 = 181."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 63 + 29",
+   "answer": "92",
+   "hint": "Erst die Zehner addieren, dann die Einer.",
+   "explain": "63 + 20 = 83, dann + 9 = 92."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 236 + 48",
+   "answer": "284",
+   "hint": "Erst die Zehner addieren, dann die Einer.",
+   "explain": "236 + 40 = 276, dann + 8 = 284."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 94 − 28",
+   "answer": "66",
+   "hint": "Erst die Zehner abziehen, dann die Einer.",
+   "explain": "94 − 20 = 74, dann − 8 = 66."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 172 − 53",
+   "answer": "119",
+   "hint": "Erst die Zehner abziehen, dann die Einer.",
+   "explain": "172 − 50 = 122, dann − 3 = 119."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 527 − 38",
+   "answer": "489",
+   "hint": "Erst die Zehner abziehen, dann die Einer.",
+   "explain": "527 − 30 = 497, dann − 8 = 489."
+  },
+  {
+   "type": "num",
+   "q": "Rechne im Kopf in Schritten: 406 − 27",
+   "answer": "379",
+   "hint": "Erst die Zehner abziehen, dann die Einer.",
+   "explain": "406 − 20 = 386, dann − 7 = 379."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr addieren“: 43 + 9",
+   "answer": "52",
+   "hint": "Addiere eine runde Zahl und gleiche aus.",
+   "explain": "43 + 10 = 53, dann − 1 = 52."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr addieren“: 127 + 99",
+   "answer": "226",
+   "hint": "Addiere eine runde Zahl und gleiche aus.",
+   "explain": "127 + 100 = 227, dann − 1 = 226."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr addieren“: 356 + 98",
+   "answer": "454",
+   "hint": "Addiere eine runde Zahl und gleiche aus.",
+   "explain": "356 + 100 = 456, dann − 2 = 454."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr subtrahieren“: 62 − 29",
+   "answer": "33",
+   "hint": "Ziehe eine runde Zahl ab und gleiche aus.",
+   "explain": "62 − 30 = 32, dann + 1 = 33."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr subtrahieren“: 84 − 38",
+   "answer": "46",
+   "hint": "Ziehe eine runde Zahl ab und gleiche aus.",
+   "explain": "84 − 40 = 44, dann + 2 = 46."
+  },
+  {
+   "type": "num",
+   "q": "Rechne mit „mehr subtrahieren“: 253 − 198",
+   "answer": "55",
+   "hint": "Ziehe eine runde Zahl ab und gleiche aus.",
+   "explain": "253 − 200 = 53, dann + 2 = 55."
+  },
+  {
+   "type": "num",
+   "q": "Tausche vorteilhaft und rechne: 23 + 18 + 7",
+   "answer": "48",
+   "hint": "Welche zwei Zahlen ergeben zusammen eine runde Zahl?",
+   "explain": "23 + 7 = 30 (runde Zahl). Dann + 18 = 48."
+  },
+  {
+   "type": "num",
+   "q": "Tausche vorteilhaft und rechne: 592 + 37 + 118",
+   "answer": "747",
+   "hint": "Welche zwei Zahlen ergeben zusammen eine runde Zahl?",
+   "explain": "592 + 118 = 710 (runde Zahl). Dann + 37 = 747."
+  },
+  {
+   "type": "num",
+   "q": "Tausche vorteilhaft und rechne: 545 + 172 + 455",
+   "answer": "1172",
+   "hint": "Welche zwei Zahlen ergeben zusammen eine runde Zahl?",
+   "explain": "545 + 455 = 1000 (runde Zahl). Dann + 172 = 1172."
+  },
+  {
+   "type": "num",
+   "q": "Tausche vorteilhaft und rechne: 328 + 54 + 12",
+   "answer": "394",
+   "hint": "Welche zwei Zahlen ergeben zusammen eine runde Zahl?",
+   "explain": "328 + 12 = 340 (runde Zahl). Dann + 54 = 394."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 56 − (42 + 8)",
+   "answer": "6",
+   "hint": "Was in Klammern steht, rechnest du zuerst.",
+   "explain": "Klammer: 42 + 8 = 50. Dann 56 − 50 = 6."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 95 − (35 + 25)",
+   "answer": "35",
+   "hint": "Was in Klammern steht, rechnest du zuerst.",
+   "explain": "Klammer: 35 + 25 = 60. Dann 95 − 60 = 35."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: (632 − 489) + 709",
+   "answer": "852",
+   "hint": "Klammer zuerst.",
+   "explain": "632 − 489 = 143. 143 + 709 = 852."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 442 − (951 − 728)",
+   "answer": "219",
+   "hint": "Klammer zuerst.",
+   "explain": "951 − 728 = 223. 442 − 223 = 219."
+  },
+  {
+   "type": "num",
+   "q": "Addiere schriftlich: 84 + 397",
+   "answer": "481",
+   "hint": "Stellengerecht untereinander, rechts beginnen, Übertrag beachten.",
+   "explain": "Rechne von rechts nach links mit Übertrag. Ergebnis: 481. Probe mit Überschlag."
+  },
+  {
+   "type": "num",
+   "q": "Addiere schriftlich: 648 + 2 532",
+   "answer": "3180",
+   "hint": "Stellengerecht untereinander, rechts beginnen, Übertrag beachten.",
+   "explain": "Rechne von rechts nach links mit Übertrag. Ergebnis: 3 180. Probe mit Überschlag."
+  },
+  {
+   "type": "num",
+   "q": "Addiere schriftlich: 5 234 + 8 176",
+   "answer": "13410",
+   "hint": "Stellengerecht untereinander, rechts beginnen, Übertrag beachten.",
+   "explain": "Rechne von rechts nach links mit Übertrag. Ergebnis: 13 410. Probe mit Überschlag."
+  },
+  {
+   "type": "num",
+   "q": "Addiere schriftlich: 4 390 + 5 712",
+   "answer": "10102",
+   "hint": "Stellengerecht untereinander, rechts beginnen, Übertrag beachten.",
+   "explain": "Rechne von rechts nach links mit Übertrag. Ergebnis: 10 102. Probe mit Überschlag."
+  },
+  {
+   "type": "num",
+   "q": "Subtrahiere schriftlich: 536 − 219",
+   "answer": "317",
+   "hint": "Stellengerecht untereinander. Mit Umkehraufgabe prüfen.",
+   "explain": "Ergebnis 317. Probe: 317 + 219 = 536."
+  },
+  {
+   "type": "num",
+   "q": "Subtrahiere schriftlich: 4 937 − 830",
+   "answer": "4107",
+   "hint": "Stellengerecht untereinander. Mit Umkehraufgabe prüfen.",
+   "explain": "Ergebnis 4 107. Probe: 4 107 + 830 = 4 937."
+  },
+  {
+   "type": "num",
+   "q": "Subtrahiere schriftlich: 7 534 − 1 245",
+   "answer": "6289",
+   "hint": "Stellengerecht untereinander. Mit Umkehraufgabe prüfen.",
+   "explain": "Ergebnis 6 289. Probe: 6 289 + 1 245 = 7 534."
+  },
+  {
+   "type": "num",
+   "q": "Subtrahiere schriftlich: 6 000 − 4 239",
+   "answer": "1761",
+   "hint": "Stellengerecht untereinander. Mit Umkehraufgabe prüfen.",
+   "explain": "Ergebnis 1 761. Probe: 1 761 + 4 239 = 6 000."
+  },
+  {
+   "type": "num",
+   "q": "In der Arena sind 6069 Plätze. Beim 1. Spiel kommen 6021 Zuschauer. Wie viele Plätze sind noch frei?",
+   "answer": "48",
+   "hint": "Subtraktion.",
+   "explain": "6069 − 6021 = 48 freie Plätze."
+  },
+  {
+   "type": "num",
+   "q": "Ein Tunnel ist 2372 m lang. Ein Team hat schon 1189 m gebaut. Wie viele Meter fehlen noch?",
+   "answer": "1183",
+   "hint": "Subtraktion.",
+   "explain": "2372 − 1189 = 1183 m."
+  },
+  {
+   "type": "num",
+   "q": "Überschlage: 286 + 52. Runde beide Zahlen auf Zehner und rechne.",
+   "answer": "340",
+   "hint": "Runde 286 auf 290 und 52 auf 50.",
+   "explain": "290 + 50 = 340. Das echte Ergebnis ist 338. Der Überschlag passt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt das Ergebnis einer Addition?",
+   "options": [
+    "Differenz",
+    "Produkt",
+    "Summe"
+   ],
+   "answer": "Summe",
+   "hint": "Summand + Summand = ?",
+   "explain": "Summand + Summand = Summe. Bei der Subtraktion heißt das Ergebnis Differenz."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Aussage stimmt?",
+   "options": [
+    "Bei der Addition darf man die Zahlen vertauschen",
+    "Bei der Subtraktion darf man die Zahlen vertauschen",
+    "Beim Vertauschen ändert sich immer das Ergebnis"
+   ],
+   "answer": "Bei der Addition darf man die Zahlen vertauschen",
+   "hint": "Probiere es mit 7 − 3 und 3 − 7.",
+   "explain": "Vertauschungsgesetz gilt für die Addition: 5 + 9 = 9 + 5. Für die Subtraktion gilt es nicht."
+  },
+  {
+   "type": "choice",
+   "q": "Wie prüfst du eine Subtraktion?",
+   "options": [
+    "Gar nicht",
+    "Mit der Zahl 0",
+    "Mit der Umkehraufgabe (Addition)"
+   ],
+   "answer": "Mit der Umkehraufgabe (Addition)",
+   "hint": "Rückwärts rechnen.",
+   "explain": "497 − 79 = 418. Probe: 418 + 79 = 497. Das stimmt."
+  }
+ ]
+}

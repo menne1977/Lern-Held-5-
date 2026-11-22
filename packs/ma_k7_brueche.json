@@ -1,0 +1,429 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 7: Brüche",
+ "key": "Bruch = Anteil vom Ganzen: Zähler/Nenner.\nNenner: in wie viele gleich große Teile geteilt. Zähler: wie viele Teile genommen.\nAnteil einer Größe: durch Nenner teilen, mal Zähler.\n1/2, 1/3, 1/4, 1/10. 1/2 ist größer als 1/4.\nIm Buch: Kapitel 7 (Buchseiten ca. 163–179)",
+ "slides": [
+  {
+   "title": "Teile vom Ganzen",
+   "text": "Ein Ganzes kann in gleich große Teile geteilt werden. Ein Bruch sagt, wie viele Teile man nimmt. Beispiel: Eine Pizza in 4 Stücke geteilt, 1 Stück ist 1/4 der Pizza.",
+   "emoji": "🍕"
+  },
+  {
+   "title": "Zähler, Nenner, Bruchstrich",
+   "text": "Bei 3/4 steht oben der Zähler und unten der Nenner. Dazwischen ist der Bruchstrich. Der Nenner zeigt, in wie viele gleich große Teile geteilt wird. Der Zähler zeigt, wie viele Teile man nimmt.",
+   "emoji": "🔢"
+  },
+  {
+   "title": "Gleich große Teile",
+   "text": "Ein Bruch geht nur, wenn alle Teile gleich groß sind. Sind sie ungleich groß, ist die Zeichnung kein Bruch. Prüfe das immer zuerst.",
+   "emoji": "⚖️"
+  },
+  {
+   "title": "Brüche lesen und schreiben",
+   "text": "1/2 ist ein Halb. 1/3 ein Drittel. 1/4 ein Viertel. 3/4 sind drei Viertel. 1/10 ist ein Zehntel. Du schreibst sie mit Zahlen oder in Worten.",
+   "emoji": "📖"
+  },
+  {
+   "title": "Brüche am Zahlenstrahl",
+   "text": "Teile die Strecke von 0 bis 1 in gleiche Stücke. Bei 4 Stücken liegt 2/4 genau in der Mitte. 4/4 sind ein Ganzes.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Anteile von Größen",
+   "text": "Wie viel sind 3/4 von 20 €? Teile durch den Nenner: 20 : 4 = 5. Nimm das mal den Zähler: 5 · 3 = 15. Es sind 15 €.",
+   "emoji": "💶"
+  },
+  {
+   "title": "Brüche und Größen",
+   "text": "Eine Stunde hat 60 Minuten, also ist 1/4 Stunde 15 Minuten. Ein Kilogramm hat 1000 g, also ist 1/2 kg gleich 500 g. Rechne erst die Größe in kleine Einheit um.",
+   "emoji": "⏱️"
+  },
+  {
+   "title": "Brüche vergleichen",
+   "text": "Bei gleichem Zähler ist der Bruch größer, dessen Nenner kleiner ist. 1/2 ist größer als 1/4. Denk an Pizza: Weniger Stücke bedeuten größere Stücke.",
+   "emoji": "⚖️"
+  }
+ ],
+ "vocab": [
+  [
+   "Bruch",
+   "Anteil vom Ganzen"
+  ],
+  [
+   "Zähler",
+   "wie viele Teile man nimmt"
+  ],
+  [
+   "Nenner",
+   "in wie viele Teile das Ganze geteilt ist"
+  ],
+  [
+   "Bruchstrich",
+   "trennt Zähler und Nenner"
+  ],
+  [
+   "Hälfte",
+   "1/2"
+  ],
+  [
+   "Drittel",
+   "1/3"
+  ],
+  [
+   "Viertel",
+   "1/4"
+  ],
+  [
+   "Anteil",
+   "Teil vom Ganzen"
+  ],
+  [
+   "Ganzes",
+   "alle Teile zusammen"
+  ],
+  [
+   "gleich große Teile",
+   "wichtig bei Brüchen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Ein Kuchen ist in 8 gleich große Stücke geteilt. 3 Stücke sind gegessen. Welcher Bruch ist gegessen?",
+   "options": [
+    "8/3",
+    "3/8",
+    "5/8"
+   ],
+   "answer": "3/8",
+   "hint": "Zähler: wie viele Teile. Nenner: in wie viele Teile geteilt.",
+   "explain": "3 von 8 Teilen: 3/8."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Kuchen ist in 4 gleich große Stücke geteilt. 1 Stück sind gegessen. Welcher Bruch ist gegessen?",
+   "options": [
+    "4/1",
+    "1/4",
+    "3/4"
+   ],
+   "answer": "1/4",
+   "hint": "Zähler: wie viele Teile. Nenner: in wie viele Teile geteilt.",
+   "explain": "1 von 4 Teilen: 1/4."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Kuchen ist in 6 gleich große Stücke geteilt. 5 Stücke sind gegessen. Welcher Bruch ist gegessen?",
+   "options": [
+    "6/5",
+    "1/6",
+    "5/6"
+   ],
+   "answer": "5/6",
+   "hint": "Zähler: wie viele Teile. Nenner: in wie viele Teile geteilt.",
+   "explain": "5 von 6 Teilen: 5/6."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Kuchen ist in 3 gleich große Stücke geteilt. 2 Stücke sind gegessen. Welcher Bruch ist gegessen?",
+   "options": [
+    "3/2",
+    "2/3",
+    "1/3"
+   ],
+   "answer": "2/3",
+   "hint": "Zähler: wie viele Teile. Nenner: in wie viele Teile geteilt.",
+   "explain": "2 von 3 Teilen: 2/3."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Kuchen ist in 8 gleich große Stücke geteilt. 3 Stücke sind gegessen. Welcher Bruch ist noch übrig?",
+   "options": [
+    "3/8",
+    "8/5",
+    "5/8"
+   ],
+   "answer": "5/8",
+   "hint": "Ganzes minus gegessen.",
+   "explain": "8 − 3 = 5 Stücke bleiben: 5/8."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zahl steht beim Bruch 3/4 unter dem Bruchstrich?",
+   "options": [
+    "4",
+    "3",
+    "7"
+   ],
+   "answer": "4",
+   "hint": "Unten steht der Nenner.",
+   "explain": "Der Nenner ist 4."
+  },
+  {
+   "type": "choice",
+   "q": "Was gibt der Nenner an?",
+   "options": [
+    "Wie groß der Bruchstrich ist",
+    "Wie viele Teile man nimmt",
+    "In wie viele gleich große Teile das Ganze geteilt wird"
+   ],
+   "answer": "In wie viele gleich große Teile das Ganze geteilt wird",
+   "hint": "Der Nenner nennt die Teile.",
+   "explain": "Nenner = Anzahl der gleich großen Teile des Ganzen."
+  },
+  {
+   "type": "choice",
+   "q": "Was gibt der Zähler an?",
+   "options": [
+    "Die Größe des Ganzen",
+    "In wie viele Teile geteilt wird",
+    "Wie viele Teile man nimmt"
+   ],
+   "answer": "Wie viele Teile man nimmt",
+   "hint": "Der Zähler zählt.",
+   "explain": "Zähler = Anzahl der betrachteten Teile."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Bruch bedeutet „die Hälfte“?",
+   "options": [
+    "2/1",
+    "1/2",
+    "1/4"
+   ],
+   "answer": "1/2",
+   "hint": "Ganzes in 2 Teile, 1 Teil.",
+   "explain": "Die Hälfte ist 1/2."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Bruch bedeutet „ein Viertel“?",
+   "options": [
+    "4/1",
+    "1/2",
+    "1/4"
+   ],
+   "answer": "1/4",
+   "hint": "Ganzes in 4 Teile.",
+   "explain": "Ein Viertel ist 1/4."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Bruch ist größer?",
+   "options": [
+    "1/4",
+    "1/8",
+    "1/2"
+   ],
+   "answer": "1/2",
+   "hint": "Je mehr Teile, desto kleiner die Teile.",
+   "explain": "Beim Zähler 1 ist der Bruch mit dem kleinsten Nenner am größten: 1/2."
+  },
+  {
+   "type": "choice",
+   "q": "Thea malt 3 von 8 gleich großen Teilen an und sagt: „Das ist die Hälfte.“ Stimmt das?",
+   "options": [
+    "Ja",
+    "Nein, die Hälfte wären 4 von 8",
+    "Nur bei 6 Teilen"
+   ],
+   "answer": "Nein, die Hälfte wären 4 von 8",
+   "hint": "Halbe von 8 ist?",
+   "explain": "8 : 2 = 4. Also wäre 4/8 die Hälfte, nicht 3/8."
+  },
+  {
+   "type": "choice",
+   "q": "Kim sagt: „Ich habe ein Viertel gemalt“, aber die 4 Teile sind unterschiedlich groß. Stimmt das?",
+   "options": [
+    "Ja",
+    "Nur wenn sie rot sind",
+    "Nein, die Teile müssen gleich groß sein"
+   ],
+   "answer": "Nein, die Teile müssen gleich groß sein",
+   "hint": "Was bedeutet Nenner?",
+   "explain": "Ein Bruch braucht gleich große Teile."
+  },
+  {
+   "type": "choice",
+   "q": "6 Kinder teilen sich 2 Pizzen gerecht. Wie viel Pizza bekommt jedes Kind?",
+   "options": [
+    "2/3",
+    "1/6",
+    "1/3"
+   ],
+   "answer": "1/3",
+   "hint": "2 Pizzen, 6 Kinder: zerschneide jede in 3 Teile.",
+   "explain": "Jede Pizza wird in 3 Teile geteilt: 6 Teile für 6 Kinder, jedes bekommt 1/3."
+  },
+  {
+   "type": "choice",
+   "q": "Eine Pizza wird unter 3 Kindern aufgeteilt. Wie viel bekommt jedes?",
+   "options": [
+    "3/1",
+    "1/3",
+    "1/2"
+   ],
+   "answer": "1/3",
+   "hint": "Gleich große Teile.",
+   "explain": "1 durch 3 Teile: 1/3."
+  },
+  {
+   "type": "choice",
+   "q": "Zahlenstrahl von 0 bis 1, geteilt in 4 gleiche Stücke. Wo liegt 2/4?",
+   "options": [
+    "Bei 0",
+    "Bei 1",
+    "In der Mitte, bei 1/2"
+   ],
+   "answer": "In der Mitte, bei 1/2",
+   "hint": "2 von 4 Stücken.",
+   "explain": "2/4 = 1/2, genau in der Mitte."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Bruch ist gleich 1 (ein Ganzes)?",
+   "options": [
+    "4/1",
+    "4/4",
+    "1/4"
+   ],
+   "answer": "4/4",
+   "hint": "Alle Teile genommen.",
+   "explain": "4 von 4 Teilen ist das ganze."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Zeichen steht beim Bruch zwischen Zähler und Nenner?",
+   "options": [
+    "Klammer",
+    "Bruchstrich",
+    "Pluszeichen"
+   ],
+   "answer": "Bruchstrich",
+   "hint": "Er sieht aus wie ein Strich.",
+   "explain": "Der Bruchstrich trennt Zähler und Nenner und bedeutet geteilt."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 1/2 von 24.",
+   "answer": "12",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "24 : 2 = 12. Dann · 1 = 12."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 1/4 von 20.",
+   "answer": "5",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "20 : 4 = 5. Dann · 1 = 5."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 3/4 von 20.",
+   "answer": "15",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "20 : 4 = 5. Dann · 3 = 15."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 1/5 von 35.",
+   "answer": "7",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "35 : 5 = 7. Dann · 1 = 7."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 2/5 von 30.",
+   "answer": "12",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "30 : 5 = 6. Dann · 2 = 12."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 1/10 von 70.",
+   "answer": "7",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "70 : 10 = 7. Dann · 1 = 7."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 3/10 von 50.",
+   "answer": "15",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "50 : 10 = 5. Dann · 3 = 15."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 2/3 von 45.",
+   "answer": "30",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "45 : 3 = 15. Dann · 2 = 30."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 1/3 von 27.",
+   "answer": "9",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "27 : 3 = 9. Dann · 1 = 9."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 5/6 von 18.",
+   "answer": "15",
+   "hint": "Erst durch den Nenner teilen, dann mal Zähler.",
+   "explain": "18 : 6 = 3. Dann · 5 = 15."
+  },
+  {
+   "type": "num",
+   "q": "Berechne 3/4 von 20 €. Wie viele Euro?",
+   "answer": "15",
+   "hint": "20 : 4, dann mal 3.",
+   "explain": "20 : 4 = 5. 5 · 3 = 15 €."
+  },
+  {
+   "type": "num",
+   "q": "Ein Kilogramm sind 1000 g. Wie viel Gramm sind 1/4 kg?",
+   "answer": "250",
+   "hint": "1000 durch 4.",
+   "explain": "1000 : 4 = 250 g."
+  },
+  {
+   "type": "num",
+   "q": "Eine Stunde hat 60 Minuten. Wie viele Minuten sind 1/3 Stunde?",
+   "answer": "20",
+   "hint": "60 durch 3.",
+   "explain": "60 : 3 = 20 min."
+  },
+  {
+   "type": "num",
+   "q": "Eine Stunde hat 60 Minuten. Wie viele Minuten sind 3/4 Stunde?",
+   "answer": "45",
+   "hint": "60 : 4, dann mal 3.",
+   "explain": "60 : 4 = 15. 15 · 3 = 45 min."
+  },
+  {
+   "type": "num",
+   "q": "Ein Meter hat 100 cm. Wie viele cm sind 3/5 m?",
+   "answer": "60",
+   "hint": "100 : 5, dann mal 3.",
+   "explain": "100 : 5 = 20. 20 · 3 = 60 cm."
+  },
+  {
+   "type": "num",
+   "q": "Eine Klasse hat 24 Kinder. 3/8 davon fahren mit dem Bus. Wie viele Kinder fahren mit dem Bus?",
+   "answer": "9",
+   "hint": "24 : 8, dann mal 3.",
+   "explain": "24 : 8 = 3. 3 · 3 = 9 Kinder."
+  },
+  {
+   "type": "num",
+   "q": "Von 36 Kindern sind 1/4 krank. Wie viele sind nicht krank?",
+   "answer": "27",
+   "hint": "Erst die kranken, dann abziehen.",
+   "explain": "36 : 4 = 9 krank. 36 − 9 = 27 nicht krank."
+  }
+ ]
+}

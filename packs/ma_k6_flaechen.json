@@ -1,0 +1,410 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 6: Flächen",
+ "key": "Rechteck: u = 2a + 2b, A = a·b. Quadrat: u = 4a, A = a·a.\nRechtwinkliges Dreieck: A = a·b : 2.\nVierecke: Parallelogramm, Raute, Trapez, Drachen.\nFlächeneinheiten: 1 cm² = 100 mm², 1 dm² = 100 cm², 1 m² = 100 dm², 1 ha = 10000 m², 1 km² = 100 ha.\nIm Buch: Kapitel 6 (Buchseiten ca. 133–161)",
+ "slides": [
+  {
+   "title": "Rechteck und Quadrat",
+   "text": "Das Rechteck hat vier rechte Winkel. Gegenüberliegende Seiten sind parallel und gleich lang. Das Quadrat ist ein besonderes Rechteck mit vier gleich langen Seiten.",
+   "emoji": "⬛"
+  },
+  {
+   "title": "Besondere Vierecke",
+   "text": "Parallelogramm: zwei Paare paralleler Seiten. Raute: vier gleich lange Seiten. Trapez: ein Paar paralleler Seiten. Drachen: zwei Paare gleich langer Seiten nebeneinander.",
+   "emoji": "🔷"
+  },
+  {
+   "title": "Umfang",
+   "text": "Der Umfang ist die Länge rundherum, wie ein Zaun. Beim Rechteck: u = a + b + a + b = 2·a + 2·b. Beim Quadrat: u = 4 · a.",
+   "emoji": "🧵"
+  },
+  {
+   "title": "Flächeninhalt vergleichen",
+   "text": "Zähle Kästchen, um Flächen zu vergleichen. Gleich viele Kästchen heißt gleicher Flächeninhalt. Der Umfang kann dabei verschieden sein.",
+   "emoji": "🔲"
+  },
+  {
+   "title": "Flächeneinheiten",
+   "text": "Ein Quadratzentimeter (1 cm²) ist ein Quadrat mit 1 cm Länge und 1 cm Breite. Es gibt mm², cm², dm², m², a, ha, km². Die Umrechnungszahl ist meistens 100.",
+   "emoji": "📐"
+  },
+  {
+   "title": "Umrechnen",
+   "text": "1 cm² = 100 mm². 1 dm² = 100 cm². 1 m² = 100 dm². 1 a = 100 m². 1 ha = 100 a = 10000 m². 1 km² = 100 ha. Größere Einheit: geteilt. Kleinere Einheit: mal.",
+   "emoji": "🔁"
+  },
+  {
+   "title": "Fläche vom Rechteck und Quadrat",
+   "text": "Rechteck: A = a · b. Beispiel: a = 7 cm, b = 3 cm ergibt A = 21 cm². Quadrat: A = a · a. Beispiel: a = 5 cm ergibt A = 25 cm².",
+   "emoji": "🟦"
+  },
+  {
+   "title": "Rechtwinkliges Dreieck",
+   "text": "Ein rechtwinkliges Dreieck ist ein halbes Rechteck. Rechne A = a · b : 2. Beispiel: a = 4 cm, b = 6 cm ergibt A = 4 · 6 : 2 = 12 cm².",
+   "emoji": "🔺"
+  }
+ ],
+ "vocab": [
+  [
+   "Umfang",
+   "Länge der Linie rundherum"
+  ],
+  [
+   "Flächeninhalt",
+   "wie groß eine Fläche ist"
+  ],
+  [
+   "Rechteck",
+   "vier rechte Winkel"
+  ],
+  [
+   "Quadrat",
+   "Rechteck mit vier gleich langen Seiten"
+  ],
+  [
+   "Parallelogramm",
+   "zwei Paare paralleler Seiten"
+  ],
+  [
+   "Raute",
+   "vier gleich lange Seiten"
+  ],
+  [
+   "Trapez",
+   "ein Paar paralleler Seiten"
+  ],
+  [
+   "Drachen",
+   "zwei Paare gleich langer Nachbarseiten"
+  ],
+  [
+   "Quadratzentimeter",
+   "cm², Fläche 1 cm mal 1 cm"
+  ],
+  [
+   "Hektar",
+   "ha, 10000 m²"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 7 cm und b = 3 cm: Wie groß ist der Umfang (in cm)?",
+   "answer": "20",
+   "hint": "u = 2 · a + 2 · b",
+   "explain": "u = 2·7 + 2·3 = 20 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 7 cm und b = 3 cm: Wie groß ist der Flächeninhalt (in cm²)?",
+   "answer": "21",
+   "hint": "A = a · b",
+   "explain": "A = 7 · 3 = 21 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 8 cm und b = 4 cm: Wie groß ist der Umfang (in cm)?",
+   "answer": "24",
+   "hint": "u = 2 · a + 2 · b",
+   "explain": "u = 2·8 + 2·4 = 24 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 8 cm und b = 4 cm: Wie groß ist der Flächeninhalt (in cm²)?",
+   "answer": "32",
+   "hint": "A = a · b",
+   "explain": "A = 8 · 4 = 32 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 12 cm und b = 5 cm: Wie groß ist der Umfang (in cm)?",
+   "answer": "34",
+   "hint": "u = 2 · a + 2 · b",
+   "explain": "u = 2·12 + 2·5 = 34 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 12 cm und b = 5 cm: Wie groß ist der Flächeninhalt (in cm²)?",
+   "answer": "60",
+   "hint": "A = a · b",
+   "explain": "A = 12 · 5 = 60 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 9 cm und b = 6 cm: Wie groß ist der Umfang (in cm)?",
+   "answer": "30",
+   "hint": "u = 2 · a + 2 · b",
+   "explain": "u = 2·9 + 2·6 = 30 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechteck mit a = 9 cm und b = 6 cm: Wie groß ist der Flächeninhalt (in cm²)?",
+   "answer": "54",
+   "hint": "A = a · b",
+   "explain": "A = 9 · 6 = 54 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 3 cm: Umfang in cm?",
+   "answer": "12",
+   "hint": "u = 4 · a",
+   "explain": "4 · 3 = 12 cm."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 3 cm: Flächeninhalt in cm²?",
+   "answer": "9",
+   "hint": "A = a · a",
+   "explain": "3 · 3 = 9 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 5 cm: Umfang in cm?",
+   "answer": "20",
+   "hint": "u = 4 · a",
+   "explain": "4 · 5 = 20 cm."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 5 cm: Flächeninhalt in cm²?",
+   "answer": "25",
+   "hint": "A = a · a",
+   "explain": "5 · 5 = 25 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 10 cm: Umfang in cm?",
+   "answer": "40",
+   "hint": "u = 4 · a",
+   "explain": "4 · 10 = 40 cm."
+  },
+  {
+   "type": "num",
+   "q": "Quadrat mit a = 10 cm: Flächeninhalt in cm²?",
+   "answer": "100",
+   "hint": "A = a · a",
+   "explain": "10 · 10 = 100 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Ein Quadrat hat den Umfang 36 cm. Wie groß ist der Flächeninhalt (in cm²)?",
+   "answer": "81",
+   "hint": "Erst die Seite: Umfang : 4.",
+   "explain": "a = 36 : 4 = 9 cm. A = 9 · 9 = 81 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Ein Quadrat hat den Flächeninhalt 64 cm². Wie groß ist der Umfang (in cm)?",
+   "answer": "32",
+   "hint": "Welche Zahl mal sich selbst ergibt 64?",
+   "explain": "a = 8 cm, weil 8 · 8 = 64. u = 4 · 8 = 32 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechtwinkliges Dreieck mit a = 4 cm und b = 6 cm (die Seiten am rechten Winkel): Flächeninhalt in cm²?",
+   "answer": "12",
+   "hint": "Halbes Rechteck.",
+   "explain": "4 · 6 = 24. 24 : 2 = 12 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechtwinkliges Dreieck mit a = 10 cm und b = 5 cm: Flächeninhalt in cm²?",
+   "answer": "25",
+   "hint": "Halbes Rechteck.",
+   "explain": "10 · 5 = 50. 50 : 2 = 25 cm²."
+  },
+  {
+   "type": "num",
+   "q": "Eine Wiese ist 20 m lang und 12 m breit. Wie viel Meter Zaun braucht man rundherum?",
+   "answer": "64",
+   "hint": "Umfang.",
+   "explain": "2 · 20 + 2 · 12 = 40 + 24 = 64 m."
+  },
+  {
+   "type": "num",
+   "q": "Dieselbe Wiese (20 m lang, 12 m breit): Wie groß ist sie (in m²)?",
+   "answer": "240",
+   "hint": "Fläche = Länge · Breite.",
+   "explain": "20 · 12 = 240 m²."
+  },
+  {
+   "type": "num",
+   "q": "Jeder Hase braucht 2 m² Platz. Wie viele Hasen passen auf eine Wiese mit 240 m²?",
+   "answer": "120",
+   "hint": "Teile die Fläche.",
+   "explain": "240 : 2 = 120 Hasen."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 10 cm² in mm²",
+   "answer": "1000",
+   "hint": "1 cm² = 100 mm².",
+   "explain": "10 · 100 = 1000 mm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 4800 cm² in dm²",
+   "answer": "48",
+   "hint": "100 cm² = 1 dm².",
+   "explain": "4800 : 100 = 48 dm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 36 m² in dm²",
+   "answer": "3600",
+   "hint": "1 m² = 100 dm².",
+   "explain": "36 · 100 = 3600 dm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 70000 m² in ha",
+   "answer": "7",
+   "hint": "1 ha = 10000 m².",
+   "explain": "70000 : 10000 = 7 ha."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 150 ha in m²",
+   "answer": "1500000",
+   "hint": "1 ha = 10000 m².",
+   "explain": "150 · 10000 = 1500000 m²."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 20000 cm² in dm²",
+   "answer": "200",
+   "hint": "100 cm² = 1 dm².",
+   "explain": "20000 : 100 = 200 dm²."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 km² in ha",
+   "answer": "300",
+   "hint": "1 km² = 100 ha.",
+   "explain": "3 · 100 = 300 ha."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Eigenschaft hat jedes Rechteck?",
+   "options": [
+    "Vier rechte Winkel",
+    "Vier gleich lange Seiten",
+    "Keine parallelen Seiten"
+   ],
+   "answer": "Vier rechte Winkel",
+   "hint": "Denk an ein Fenster.",
+   "explain": "Das Rechteck hat überall rechte Winkel."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Quadrat?",
+   "options": [
+    "Ein Trapez",
+    "Ein besonderes Rechteck mit vier gleich langen Seiten",
+    "Ein Dreieck"
+   ],
+   "answer": "Ein besonderes Rechteck mit vier gleich langen Seiten",
+   "hint": "Alle Seiten gleich.",
+   "explain": "Das Quadrat ist ein Rechteck mit vier gleich langen Seiten."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Viereck hat vier gleich lange Seiten, aber keine rechten Winkel?",
+   "options": [
+    "Rechteck",
+    "Drachen",
+    "Raute"
+   ],
+   "answer": "Raute",
+   "hint": "Wie ein gekipptes Quadrat.",
+   "explain": "Die Raute hat vier gleich lange Seiten, aber nicht unbedingt rechte Winkel."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Viereck hat zwei Paare gleich langer Seiten, die nebeneinander liegen?",
+   "options": [
+    "Drachen",
+    "Parallelogramm",
+    "Rechteck"
+   ],
+   "answer": "Drachen",
+   "hint": "Wie ein Papierdrachen.",
+   "explain": "Beim Drachen liegen gleich lange Seiten nebeneinander."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Viereck hat genau ein Paar paralleler Seiten?",
+   "options": [
+    "Raute",
+    "Trapez",
+    "Parallelogramm"
+   ],
+   "answer": "Trapez",
+   "hint": "Nur zwei Seiten sind parallel.",
+   "explain": "Beim Trapez ist nur ein Seitenpaar parallel."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Viereck hat zwei Paare paralleler Seiten und meist keine rechten Winkel?",
+   "options": [
+    "Parallelogramm",
+    "Trapez",
+    "Drachen"
+   ],
+   "answer": "Parallelogramm",
+   "hint": "Gegenüberliegende Seiten parallel.",
+   "explain": "Das Parallelogramm hat zwei Paare paralleler Seiten."
+  },
+  {
+   "type": "choice",
+   "q": "Wenn zwei Figuren aus gleich vielen Kästchen bestehen, …",
+   "options": [
+    "haben sie den gleichen Flächeninhalt",
+    "haben sie den gleichen Umfang",
+    "sind sie gleich geformt"
+   ],
+   "answer": "haben sie den gleichen Flächeninhalt",
+   "hint": "Zähle die Kästchen.",
+   "explain": "Gleich viele Kästchen heißt gleicher Flächeninhalt. Der Umfang kann verschieden sein."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Einheit gehört zum Flächeninhalt?",
+   "options": [
+    "kg",
+    "cm",
+    "cm²"
+   ],
+   "answer": "cm²",
+   "hint": "Quadrate.",
+   "explain": "Flächen messen wir in Quadrateinheiten, z. B. cm²."
+  },
+  {
+   "type": "choice",
+   "q": "Was beschreibt der Umfang?",
+   "options": [
+    "Die Länge der Linie rundherum",
+    "Die Größe der Fläche",
+    "Die Höhe"
+   ],
+   "answer": "Die Länge der Linie rundherum",
+   "hint": "Wie ein Zaun.",
+   "explain": "Der Umfang ist die Summe aller Seitenlängen."
+  },
+  {
+   "type": "choice",
+   "q": "Formel für den Flächeninhalt eines Rechtecks?",
+   "options": [
+    "u = a + b",
+    "A = a + b",
+    "A = a · b"
+   ],
+   "answer": "A = a · b",
+   "hint": "Länge mal Breite.",
+   "explain": "A = Länge · Breite."
+  }
+ ]
+}

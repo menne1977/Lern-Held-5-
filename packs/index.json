@@ -1,0 +1,234 @@
+[
+ {
+  "file": "en_unit1.json",
+  "title": "Blue Line 1 – Unit 1: I'm from Greenwich (S. 189–195)",
+  "subject": "Englisch",
+  "words": 144,
+  "tasks": 52,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit2_teil1.json",
+  "title": "Blue Line 1 – Unit 2 Vokabeln Teil 1 (S. 196–197)",
+  "subject": "Englisch",
+  "words": 51,
+  "tasks": 31,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit2_teil2.json",
+  "title": "Blue Line 1 – Unit 2 Vokabeln Teil 2 (S. 198–199)",
+  "subject": "Englisch",
+  "words": 61,
+  "tasks": 43,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit2_teil3.json",
+  "title": "Blue Line 1 – Unit 2 Vokabeln Teil 3 (S. 200–203)",
+  "subject": "Englisch",
+  "words": 76,
+  "tasks": 42,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit3.json",
+  "title": "Blue Line 1 – Unit 3: My free time (S. 204–211)",
+  "subject": "Englisch",
+  "words": 197,
+  "tasks": 59,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit4.json",
+  "title": "Blue Line 1 – Unit 4: Let's celebrate! (S. 212–219)",
+  "subject": "Englisch",
+  "words": 185,
+  "tasks": 67,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit5.json",
+  "title": "Blue Line 1 – Unit 5: Where I live (S. 220–226)",
+  "subject": "Englisch",
+  "words": 149,
+  "tasks": 57,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "en_unit6.json",
+  "title": "Blue Line 1 – Unit 6: A trip to the country (S. 227–233)",
+  "subject": "Englisch",
+  "words": 145,
+  "tasks": 65,
+  "book": "Blue Line 1"
+ },
+ {
+  "file": "de_grundlagen.json",
+  "title": "Deutsch Klasse 5 – Grundlagen (Wortarten, Rechtschreibung, Zeiten)",
+  "subject": "Deutsch",
+  "words": 0,
+  "tasks": 40,
+  "book": "Deutschbuch 5"
+ },
+ {
+  "file": "ma_grundlagen.json",
+  "title": "Mathe Klasse 5 – Grundlagen (Rechnen, Größen, Geometrie)",
+  "subject": "Mathe",
+  "words": 0,
+  "tasks": 49,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k1_zahlen.json",
+  "title": "Kapitel 1: Natürliche Zahlen",
+  "subject": "Mathe",
+  "words": 12,
+  "tasks": 40,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k2_addsub.json",
+  "title": "Kapitel 2: Addition und Subtraktion",
+  "subject": "Mathe",
+  "words": 10,
+  "tasks": 36,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k3_geometrie.json",
+  "title": "Kapitel 3: Grundbegriffe der Geometrie",
+  "subject": "Mathe",
+  "words": 12,
+  "tasks": 35,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k4_muldiv.json",
+  "title": "Kapitel 4: Multiplikation und Division",
+  "subject": "Mathe",
+  "words": 11,
+  "tasks": 36,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k5_groessen.json",
+  "title": "Kapitel 5: Größen im Alltag",
+  "subject": "Mathe",
+  "words": 10,
+  "tasks": 38,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k6_flaechen.json",
+  "title": "Kapitel 6: Flächen",
+  "subject": "Mathe",
+  "words": 10,
+  "tasks": 38,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k7_brueche.json",
+  "title": "Kapitel 7: Brüche",
+  "subject": "Mathe",
+  "words": 10,
+  "tasks": 35,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "ma_k8_daten.json",
+  "title": "Kapitel 8: Daten",
+  "subject": "Mathe",
+  "words": 12,
+  "tasks": 34,
+  "book": "Parallelo 5 NRW"
+ },
+ {
+  "file": "de_k10_schreiben.json",
+  "title": "Klartext 5 – Kapitel 10: Richtig schreiben",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 23,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k11_zeichensetzung.json",
+  "title": "Klartext 5 – Kapitel 11: Zeichensetzung und Wörterbuch",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 22,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k1_argumentieren.json",
+  "title": "Klartext 5 – Kapitel 1: Gemeinsam Schule gestalten (Argumentieren)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 30,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k2_berichten.json",
+  "title": "Klartext 5 – Kapitel 2: Auf Spurensuche (Berichten)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 26,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k3_maerchen.json",
+  "title": "Klartext 5 – Kapitel 3: Von einem, der auszog … (Märchen)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 25,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k4_beschreiben.json",
+  "title": "Klartext 5 – Kapitel 4: Ab ins Beet! (Beschreiben)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 25,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k5_erzaehlen.json",
+  "title": "Klartext 5 – Kapitel 5: Zauberschule Hokuspokus (Erzählen)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 23,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k6_informationen.json",
+  "title": "Klartext 5 – Kapitel 6: Zu Lande, zu Wasser und in der Luft (Informationen ermitteln)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 24,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k7_literatur.json",
+  "title": "Klartext 5 – Kapitel 7: Gespenster-Lesenacht (literarische Texte)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 27,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k8_anleitung.json",
+  "title": "Klartext 5 – Kapitel 8: Outdoor-Wochenende (Anleitung überarbeiten)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 26,
+  "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_k9_sprache.json",
+  "title": "Klartext 5 – Kapitel 9: Sprache untersuchen (Wortarten und Satzglieder)",
+  "subject": "Deutsch",
+  "words": 12,
+  "tasks": 30,
+  "book": "Klartext 5 (NRW)"
+ }
+]

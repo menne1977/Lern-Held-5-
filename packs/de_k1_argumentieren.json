@@ -1,0 +1,450 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 1: Gemeinsam Schule gestalten (Argumentieren)",
+ "key": "Argumentieren, Gesprächsregeln, Satzverknüpfungswörter, Briefe und E-Mails.\nIm Buch: S. 8–37",
+ "slides": [
+  {
+   "title": "Argument = Behauptung + Begründung",
+   "text": "Ein gutes Argument sagt, was du meinst, und warum. Oft gehört ein Beispiel dazu. So kannst du andere überzeugen.",
+   "emoji": "💡"
+  },
+  {
+   "title": "Gespräche fair führen",
+   "text": "Gesprächsförderer lassen andere ausreden und fragen nach. Gesprächsblocker unterbrechen oder beleidigen. Gesprächsregeln machen die Diskussion fair.",
+   "emoji": "🗣️"
+  },
+  {
+   "title": "Haupt- und Nebensatz",
+   "text": "Der Hauptsatz steht allein. Der Nebensatz beginnt mit weil, denn, dass oder wenn. Das Verb steht im Nebensatz am Ende. Ein Komma trennt beide.",
+   "emoji": "✏️"
+  },
+  {
+   "title": "Satzverknüpfungswörter",
+   "text": "weil und denn nennen einen Grund. falls und wenn nennen eine Bedingung. deshalb nennt eine Folge. nachdem zeigt die Reihenfolge.",
+   "emoji": "🔗"
+  },
+  {
+   "title": "Persönlicher Brief",
+   "text": "Ein persönlicher Brief hat Briefkopf mit Ort und Datum, eine Anrede, den Brieftext und den Briefschluss mit Gruß und Unterschrift.",
+   "emoji": "💌"
+  },
+  {
+   "title": "Brief und E-Mail",
+   "text": "Auf dem Umschlag steht die Empfängeradresse rechts unten. Die Briefmarke klebt rechts oben. Eine E-Mail geht elektronisch, braucht aber eine Adresse.",
+   "emoji": "✉️"
+  },
+  {
+   "title": "Diskussion",
+   "text": "Bei einer Diskussion tragen alle Argumente vor. Eine Leitung sorgt dafür, dass die Gesprächsregeln eingehalten werden.",
+   "emoji": "🎤"
+  }
+ ],
+ "vocab": [
+  [
+   "Argument",
+   "Grund, mit dem man eine Meinung stützt"
+  ],
+  [
+   "Behauptung",
+   "Die Aussage, die man vertritt"
+  ],
+  [
+   "Begründung",
+   "Warum man so denkt"
+  ],
+  [
+   "Gesprächsförderer",
+   "Satz, der ein Gespräch unterstützt"
+  ],
+  [
+   "Gesprächsblocker",
+   "Verhalten, das ein Gespräch stört"
+  ],
+  [
+   "Gesprächsregeln",
+   "Regeln für ein faires Gespräch"
+  ],
+  [
+   "Diskussion",
+   "Gespräch über ein Thema mit vielen Meinungen"
+  ],
+  [
+   "Satzverknüpfungswort",
+   "Wort, das zwei Sätze verbindet, z. B. weil"
+  ],
+  [
+   "Anrede",
+   "Der Gruß am Anfang eines Briefes"
+  ],
+  [
+   "Briefschluss",
+   "Gruß und Unterschrift am Ende"
+  ],
+  [
+   "Briefumschlag",
+   "Hülle, auf der Adresse und Marke stehen"
+  ],
+  [
+   "E-Mail",
+   "elektronische Post"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was gehört zu einem guten Argument?",
+   "options": [
+    "Behauptung und Begründung",
+    "Nur eine Meinung",
+    "Nur ein Beispiel"
+   ],
+   "answer": "Behauptung und Begründung",
+   "hint": "Denk an: Ich meine ..., weil ...",
+   "explain": "Ein Argument besteht aus einer Behauptung und einer Begründung. Oft kommt noch ein Beispiel dazu."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist ein Gesprächsblocker?",
+   "options": [
+    "Lass mich bitte ausreden.",
+    "Halt doch den Mund, du hast keine Ahnung!",
+    "Was meinst du dazu?"
+   ],
+   "answer": "Halt doch den Mund, du hast keine Ahnung!",
+   "hint": "Ein Gesprächsblocker stört das Gespräch.",
+   "explain": "Der Satz unterbricht und verletzt. Gesprächsförderer helfen dagegen, zum Beispiel: Was meinst du dazu?"
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort leitet einen Grund ein?",
+   "options": [
+    "weil",
+    "nachdem",
+    "falls"
+   ],
+   "answer": "weil",
+   "hint": "Grund: Warum?",
+   "explain": "weil nennt einen Grund. nachdem zeigt die Reihenfolge, falls eine Bedingung."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort zeigt eine zeitliche Abfolge?",
+   "options": [
+    "denn",
+    "nachdem",
+    "falls"
+   ],
+   "answer": "nachdem",
+   "hint": "Was war zuerst?",
+   "explain": "nachdem zeigt, dass etwas vorher passiert ist."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort leitet eine Bedingung ein?",
+   "options": [
+    "falls",
+    "damit",
+    "während"
+   ],
+   "answer": "falls",
+   "hint": "Wenn ... dann ...",
+   "explain": "falls leitet eine Bedingung ein: Falls es regnet, bleiben wir drinnen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Schreibweise ist richtig?",
+   "options": [
+    "Ich gehe nicht, weil es regnet.",
+    "Ich gehe nicht weil, es regnet.",
+    "Ich gehe nicht weil es regnet."
+   ],
+   "answer": "Ich gehe nicht, weil es regnet.",
+   "hint": "Vor dem Nebensatz steht ein Komma.",
+   "explain": "Nebensätze werden mit Komma vom Hauptsatz getrennt."
+  },
+  {
+   "type": "text",
+   "q": "Ergänze das passende Satzverknüpfungswort: Wir bleiben drinnen, ___ es regnet.",
+   "answer": "weil",
+   "alt": [
+    "denn"
+   ],
+   "hint": "Grund: warum?",
+   "explain": "weil leitet einen Nebensatz ein (Verb am Ende). denn verbindet zwei Hauptsätze, das Verb steht dann nicht am Ende. Beides nennt einen Grund."
+  },
+  {
+   "type": "text",
+   "q": "Ergänze: Wir gehen Eis essen, ___ wir die Arbeit fertig haben.",
+   "answer": "nachdem",
+   "alt": [
+    "sobald"
+   ],
+   "hint": "Was passiert zuerst?",
+   "explain": "nachdem zeigt eine zeitliche Abfolge: Erst die Arbeit, dann das Eis."
+  },
+  {
+   "type": "text",
+   "q": "Ergänze: Du bekommst den Preis, ___ du gewinnst.",
+   "answer": "falls",
+   "alt": [
+    "wenn"
+   ],
+   "hint": "Bedingung",
+   "explain": "falls oder wenn zeigen eine Bedingung an."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht am Anfang eines Briefes?",
+   "options": [
+    "Die Anrede",
+    "Der Briefschluss",
+    "Die Unterschrift"
+   ],
+   "answer": "Die Anrede",
+   "hint": "Liebe Oma, ...",
+   "explain": "Die Anrede steht am Briefanfang, der Briefschluss ganz unten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Gesprächsförderer?",
+   "options": [
+    "Ein Satz, der das Gespräch unterstützt, z. B. Was denkst du dazu?",
+    "Ein Satz, der andere unterbricht",
+    "Ein Satz, der nur Witze macht"
+   ],
+   "answer": "Ein Satz, der das Gespräch unterstützt, z. B. Was denkst du dazu?",
+   "hint": "Er hilft allen, zu Wort zu kommen.",
+   "explain": "Gesprächsförderer halten das Gespräch am Laufen und lassen andere ausreden."
+  },
+  {
+   "type": "choice",
+   "q": "Eine Diskussionsleitung sorgt dafür, dass …",
+   "options": [
+    "alle fair miteinander sprechen",
+    "ein Thema wechselt",
+    "niemand etwas sagt"
+   ],
+   "answer": "alle fair miteinander sprechen",
+   "hint": "Wer achtet auf die Regeln?",
+   "explain": "Die Leitung achtet darauf, dass die Regeln eingehalten werden."
+  },
+  {
+   "type": "choice",
+   "q": "Wie sollen Gesprächsregeln formuliert sein?",
+   "options": [
+    "In der Ich-Form und kurz",
+    "In der Befehlsform mit vielen Sätzen",
+    "In der Vergangenheit"
+   ],
+   "answer": "In der Ich-Form und kurz",
+   "hint": "Ich passe auf, dass ...",
+   "explain": "Gesprächsregeln sollten kurz und in der Ich-Form formuliert sein."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist ein Satzgefüge?",
+   "options": [
+    "Ich lerne, weil ich eine Prüfung habe.",
+    "Ich lerne.",
+    "Lernen macht Spaß und ich schreibe."
+   ],
+   "answer": "Ich lerne, weil ich eine Prüfung habe.",
+   "hint": "Ein Satzgefüge hat einen Hauptsatz und einen Nebensatz.",
+   "explain": "Im Satzgefüge steht das Verb des Nebensatzes am Ende."
+  },
+  {
+   "type": "choice",
+   "q": "Wo steht das Verb im Nebensatz meistens?",
+   "options": [
+    "am Satzende",
+    "direkt am Anfang",
+    "gar nicht"
+   ],
+   "answer": "am Satzende",
+   "hint": "weil ich müde bin",
+   "explain": "Im Nebensatz steht das Verb am Ende, z. B. weil ich müde bin."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein persönlicher Brief?",
+   "options": [
+    "Ein Brief an Freunde oder Verwandte, in der Du-Form",
+    "Ein Brief an eine Behörde",
+    "Eine Werbung"
+   ],
+   "answer": "Ein Brief an Freunde oder Verwandte, in der Du-Form",
+   "hint": "Wem schreibst du?",
+   "explain": "Der persönliche Brief erzählt Gedanken und Gefühle und nutzt die Du-Form."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Anrede passt zu einer Lehrerin in einer E-Mail?",
+   "options": [
+    "Sehr geehrte Frau Engbrink,",
+    "Hallo Kumpel!",
+    "Hey"
+   ],
+   "answer": "Sehr geehrte Frau Engbrink,",
+   "hint": "Wie sprichst du jemanden an, den du siezt?",
+   "explain": "In formellen Briefen und E-Mails nutzt man die höfliche Anrede mit Nachnamen."
+  },
+  {
+   "type": "choice",
+   "q": "Wo klebt die Briefmarke auf dem Umschlag?",
+   "options": [
+    "rechts oben",
+    "links unten",
+    "in der Mitte"
+   ],
+   "answer": "rechts oben",
+   "hint": "Denk an die Post.",
+   "explain": "Die Briefmarke klebt rechts oben, die Empfängeradresse steht rechts unten."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht rechts unten auf dem Briefumschlag?",
+   "options": [
+    "Die Adresse der Empfängerin oder des Empfängers",
+    "Die Briefmarke",
+    "Das Datum"
+   ],
+   "answer": "Die Adresse der Empfängerin oder des Empfängers",
+   "hint": "Wohin soll der Brief?",
+   "explain": "Rechts unten steht die Empfängeradresse, links oben die Absenderadresse."
+  },
+  {
+   "type": "text",
+   "q": "Wie heißt die elektronische Post?",
+   "answer": "E-Mail",
+   "alt": [
+    "Email",
+    "E Mail"
+   ],
+   "hint": "Ein Wort aus Englisch und Deutsch",
+   "explain": "Eine E-Mail verschickt man mit dem Computer oder Handy."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Gesprächsblocker?",
+   "options": [
+    "Ein Verhalten, das ein Gespräch stört oder verhindert",
+    "Ein Verhalten, das hilft",
+    "Eine Pause"
+   ],
+   "answer": "Ein Verhalten, das ein Gespräch stört oder verhindert",
+   "hint": "Was verhindert eine Lösung?",
+   "explain": "Gesprächsblocker stören das Gespräch und verhindern eine Lösung."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Komma wird bei einem Nebensatz …",
+   "options": [
+    "immer gesetzt",
+    "nur am Ende des Textes gesetzt",
+    "nie gesetzt"
+   ],
+   "answer": "immer gesetzt",
+   "hint": "Haupt- und Nebensatz werden getrennt.",
+   "explain": "Haupt- und Nebensatz werden immer durch ein Komma getrennt."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort kann eine Begründung in einer Diskussion einleiten?",
+   "options": [
+    "denn",
+    "obwohl",
+    "während"
+   ],
+   "answer": "denn",
+   "hint": "Begründung: warum?",
+   "explain": "denn nennt einen Grund. obwohl zeigt einen Gegensatz, während zeigt die Gleichzeitigkeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Argumentieren?",
+   "options": [
+    "Eine Meinung mit Gründen vertreten",
+    "Laut schreien",
+    "Eine Frage stellen"
+   ],
+   "answer": "Eine Meinung mit Gründen vertreten",
+   "hint": "Gute Gründe helfen dabei.",
+   "explain": "Argumentieren heißt, eine Meinung mit Gründen zu begründen und zu verteidigen."
+  },
+  {
+   "type": "choice",
+   "q": "Was schreibst du zuerst, wenn du ein Argument planst?",
+   "options": [
+    "die Behauptung",
+    "die Schlussformel",
+    "den Titel des Buchs"
+   ],
+   "answer": "die Behauptung",
+   "hint": "Was meinst du?",
+   "explain": "Zuerst formulierst du deine Behauptung, dann die Begründung."
+  },
+  {
+   "type": "choice",
+   "q": "Was kommt am Briefende?",
+   "options": [
+    "Der Briefschluss mit Gruß und Unterschrift",
+    "Die Anrede",
+    "Das Inhaltsverzeichnis"
+   ],
+   "answer": "Der Briefschluss mit Gruß und Unterschrift",
+   "hint": "Wie verabschiedest du dich?",
+   "explain": "Der Briefschluss enthält den Gruß und die Unterschrift."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Aussage über eine Leseecke passt zu einem guten Argument?",
+   "options": [
+    "Eine Leseecke hilft, damit Kinder in den Pausen ruhig lesen können.",
+    "Die Leseecke ist blau.",
+    "Ich finde Bücher doof."
+   ],
+   "answer": "Eine Leseecke hilft, damit Kinder in den Pausen ruhig lesen können.",
+   "hint": "Behauptung plus Begründung.",
+   "explain": "Das Argument enthält eine Behauptung und einen nachvollziehbaren Grund."
+  },
+  {
+   "type": "choice",
+   "q": "Wer leitet eine Diskussion?",
+   "options": [
+    "Die Diskussionsleiterin oder der Diskussionsleiter",
+    "Der Lehrer immer",
+    "Niemand"
+   ],
+   "answer": "Die Diskussionsleiterin oder der Diskussionsleiter",
+   "hint": "Wer sorgt für Fairness?",
+   "explain": "Die Diskussionsleitung sorgt für faire Gespräche."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Satzverknüpfung?",
+   "options": [
+    "Zwei Sätze mit einem Wort verbinden",
+    "Sätze löschen",
+    "Sätze malen"
+   ],
+   "answer": "Zwei Sätze mit einem Wort verbinden",
+   "hint": "Welche Wörter verbinden?",
+   "explain": "Ein Satzverknüpfungswort verbindet zwei Sätze, z. B. weil, denn, deshalb."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort drückt eine Folge aus?",
+   "options": [
+    "deshalb",
+    "falls",
+    "während"
+   ],
+   "answer": "deshalb",
+   "hint": "Was ist die Folge?",
+   "explain": "deshalb nennt eine Folge: Es regnet, deshalb bleiben wir drinnen."
+  }
+ ]
+}

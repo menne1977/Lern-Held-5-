@@ -1,0 +1,356 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 11: Zeichensetzung und Wörterbuch",
+ "key": "Satzzeichen wie Komma und Anführungszeichen ordnen den Text. Das Wörterbuch hilft beim Nachschlagen von Schreibweise und Bedeutung.\nIm Buch: S. 267–305",
+ "slides": [
+  {
+   "title": "Zeichensetzung",
+   "text": "Kommas trennen Nebensätze: Ich glaube, dass er kommt. Bei Aufzählungen steht ein Komma, vor und nicht.",
+   "emoji": "✒️"
+  },
+  {
+   "title": "Wörtliche Rede",
+   "text": "„Komm her!“, rief sie. Das Satzzeichen steht im Zitat, das Komma danach außerhalb.",
+   "emoji": "💬"
+  },
+  {
+   "title": "Satzzeichen",
+   "text": "Frage: ?. Ausruf: !. Aussage: . Der Doppelpunkt kündigt etwas an. Der Strichpunkt verbindet enge Hauptsätze.",
+   "emoji": "❓"
+  },
+  {
+   "title": "Wörterbuch nutzen",
+   "text": "Suche die Grundform. Die Kopfwörter oben zeigen dir den Bereich der Seite. Ein Eintrag hat Schreibweise, Wortart und Bedeutung.",
+   "emoji": "📖"
+  },
+  {
+   "title": "Abkürzungen",
+   "text": "z. B. = zum Beispiel, d. h. = das heißt, u. a. = und andere.",
+   "emoji": "🔡"
+  },
+  {
+   "title": "Apostroph",
+   "text": "Der Apostroph zeigt eine Auslassung, z. B. ich hab’s.",
+   "emoji": "✨"
+  }
+ ],
+ "vocab": [
+  [
+   "Komma",
+   "trennt Nebensätze und Aufzählungen"
+  ],
+  [
+   "Strichpunkt",
+   "verbindet enge Hauptsätze"
+  ],
+  [
+   "Doppelpunkt",
+   "kündigt eine Erklärung an"
+  ],
+  [
+   "Apostroph",
+   "zeigt eine Auslassung"
+  ],
+  [
+   "Stichwort",
+   "Wort, zu dem im Wörterbuch Angaben stehen"
+  ],
+  [
+   "Kopfwort",
+   "Wort oben auf der Wörterbuchseite"
+  ],
+  [
+   "Eintrag",
+   "Angaben zu einem Wort im Wörterbuch"
+  ],
+  [
+   "Abkürzung",
+   "verkürzte Schreibweise, z. B. z. B."
+  ],
+  [
+   "Auslassung",
+   "weggelassener Buchstabe"
+  ],
+  [
+   "Nebensatz",
+   "Satz, der von einem Bindewort eingeleitet wird"
+  ],
+  [
+   "Zeichensetzung",
+   "Regeln für Satzzeichen"
+  ],
+  [
+   "Wörterbuch",
+   "Buch mit Schreibweise und Bedeutung"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wann setzt man ein Komma vor 'dass'?",
+   "options": [
+    "Ich glaube, dass er kommt.",
+    "Ich glaube dass, er kommt.",
+    "Ich glaube, das er kommt."
+   ],
+   "answer": "Ich glaube, dass er kommt.",
+   "hint": "Nebensatz.",
+   "explain": "Vor einem Nebensatz mit dass steht ein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Wo steht das Komma in 'Er sagt er kommt später'?",
+   "options": [
+    "Er sagt, er kommt später.",
+    "Er sagt er, kommt später.",
+    "Er, sagt er kommt später."
+   ],
+   "answer": "Er sagt, er kommt später.",
+   "hint": "Nebensatz abtrennen.",
+   "explain": "Vor dem Nebensatz steht ein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Wie setzt man Komma bei Aufzählungen?",
+   "options": [
+    "Äpfel, Birnen und Bananen",
+    "Äpfel Birnen und, Bananen",
+    "Äpfel, Birnen, und Bananen"
+   ],
+   "answer": "Äpfel, Birnen und Bananen",
+   "hint": "Aufzählung mit und.",
+   "explain": "Bei Aufzählungen setzt man Kommas, aber vor und kein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz hat richtig gesetzte Anführungszeichen?",
+   "options": [
+    "„Komm her!“, rief sie.",
+    "\"Komm her!\", rief sie.",
+    "„Komm her!\" rief sie."
+   ],
+   "answer": "„Komm her!“, rief sie.",
+   "hint": "Deutsche Anführungszeichen.",
+   "explain": "Unten beginnen, oben enden, Komma nach dem Schlusszeichen."
+  },
+  {
+   "type": "choice",
+   "q": "Wo steht das Fragezeichen in wörtlicher Rede?",
+   "options": [
+    "„Kommst du mit?“, fragte er.",
+    "„Kommst du mit, fragte er?“",
+    "„Kommst du mit“? fragte er."
+   ],
+   "answer": "„Kommst du mit?“, fragte er.",
+   "hint": "Im Zitat.",
+   "explain": "Das Fragezeichen gehört in die Anführungszeichen."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht man im Wörterbuch bei einem unbekannten Wort zuerst?",
+   "options": [
+    "Grundform suchen",
+    "Seite raten",
+    "Wort streichen"
+   ],
+   "answer": "Grundform suchen",
+   "hint": "Verb: gehen statt ging.",
+   "explain": "Man sucht die Grundform im Wörterbuch."
+  },
+  {
+   "type": "choice",
+   "q": "Wie findet man ein Wort im Wörterbuch schnell?",
+   "options": [
+    "Mit den Kopfwörtern oben auf der Seite",
+    "Nach der Farbe",
+    "Nach der Länge"
+   ],
+   "answer": "Mit den Kopfwörtern oben auf der Seite",
+   "hint": "Oben links und rechts.",
+   "explain": "Die Kopfwörter zeigen den Bereich der Seite."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Stichwort im Wörterbuch?",
+   "options": [
+    "das Wort, das fett oder hervorgehoben steht",
+    "ein Kommentar",
+    "eine Seitenzahl"
+   ],
+   "answer": "das Wort, das fett oder hervorgehoben steht",
+   "hint": "Wort am Eintrag.",
+   "explain": "Das Stichwort ist das Wort, zu dem die Angaben stehen."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht im Wörterbuch bei einem Eintrag?",
+   "options": [
+    "Schreibweise, Wortart und Bedeutung",
+    "Nur die Seitenzahl",
+    "Nur Bilder"
+   ],
+   "answer": "Schreibweise, Wortart und Bedeutung",
+   "hint": "Mehr als nur das Wort.",
+   "explain": "Ein Eintrag enthält Schreibweise, Wortart und Bedeutung."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Satzzeichen steht am Satzende bei einer Frage?",
+   "options": [
+    "?",
+    "!",
+    "."
+   ],
+   "answer": "?",
+   "hint": "Frage.",
+   "explain": "Fragesätze enden mit Fragezeichen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie setzt man Komma vor einem Infinitiv mit zu?",
+   "options": [
+    "Er versucht, das Rad zu reparieren.",
+    "Er versucht das Rad, zu reparieren.",
+    "Er versucht das Rad zu, reparieren."
+   ],
+   "answer": "Er versucht, das Rad zu reparieren.",
+   "hint": "Erweiterter Infinitiv.",
+   "explain": "Bei einem erweiterten Infinitiv mit zu setzt man oft ein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Wo steht das Komma in 'Ich weiß, wer das ist'?",
+   "options": [
+    "vor wer",
+    "nach weiß",
+    "vor das"
+   ],
+   "answer": "vor wer",
+   "hint": "Nebensatz.",
+   "explain": "Vor dem Nebensatz steht ein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Zeichen steht bei einer Auslassung?",
+   "options": [
+    "Apostroph ’",
+    "Doppelpunkt :",
+    "Strich -"
+   ],
+   "answer": "Apostroph ’",
+   "hint": "Beim Weglassen eines e.",
+   "explain": "Der Apostroph zeigt eine Auslassung, z. B. ich’s."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht der Doppelpunkt bei einer Ankündigung?",
+   "options": [
+    "kündigt etwas an",
+    "beendet den Satz",
+    "ersetzt ein Wort"
+   ],
+   "answer": "kündigt etwas an",
+   "hint": "Erklärung folgt.",
+   "explain": "Der Doppelpunkt kündigt eine Erklärung oder Aufzählung an."
+  },
+  {
+   "type": "choice",
+   "q": "Wann steht ein Strichpunkt?",
+   "options": [
+    "zwischen zwei Hauptsätzen mit engem Zusammenhang",
+    "am Satzende",
+    "vor einem Nomen"
+   ],
+   "answer": "zwischen zwei Hauptsätzen mit engem Zusammenhang",
+   "hint": "Enger Zusammenhang.",
+   "explain": "Der Strichpunkt verbindet Hauptsätze, die eng zusammengehören."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht bei einem Abkürzungseintrag im Wörterbuch?",
+   "options": [
+    "Die Erklärung der Abkürzung",
+    "Eine Telefonnummer",
+    "Ein Bild"
+   ],
+   "answer": "Die Erklärung der Abkürzung",
+   "hint": "Zum Beispiel z. B.",
+   "explain": "Abkürzungen sind im Wörterbuch erklärt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Abkürzung bedeutet 'zum Beispiel'?",
+   "options": [
+    "z. B.",
+    "u. a.",
+    "d. h."
+   ],
+   "answer": "z. B.",
+   "hint": "Beispiel.",
+   "explain": "z. B. steht für zum Beispiel."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Abkürzung bedeutet 'das heißt'?",
+   "options": [
+    "d. h.",
+    "z. B.",
+    "u. a."
+   ],
+   "answer": "d. h.",
+   "hint": "Erklärung.",
+   "explain": "d. h. steht für das heißt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Abkürzung bedeutet 'und andere'?",
+   "options": [
+    "u. a.",
+    "d. h.",
+    "z. B."
+   ],
+   "answer": "u. a.",
+   "hint": "Aufzählung.",
+   "explain": "u. a. steht für und andere."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man den Imperativ von 'schreiben' für du?",
+   "options": [
+    "Schreib!",
+    "Schreibe!",
+    "Schreibst!"
+   ],
+   "answer": "Schreib!",
+   "hint": "Befehlsform.",
+   "explain": "Der Imperativ ist schreib."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man den Satz richtig: 'ich weiß nicht ob er kommt'?",
+   "options": [
+    "Ich weiß nicht, ob er kommt.",
+    "Ich weiß nicht ob, er kommt.",
+    "ich weiß, nicht ob er kommt"
+   ],
+   "answer": "Ich weiß nicht, ob er kommt.",
+   "hint": "Großschreibung und Komma.",
+   "explain": "Der Satz beginnt groß, und vor ob steht ein Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wörterbuch-Eintrag?",
+   "options": [
+    "ein Wort mit Schreibweise, Wortart und Bedeutung",
+    "eine Geschichte",
+    "eine Liste mit Zahlen"
+   ],
+   "answer": "ein Wort mit Schreibweise, Wortart und Bedeutung",
+   "hint": "Was steht drin?",
+   "explain": "Ein Eintrag beschreibt das Wort genau."
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 5: Größen im Alltag",
+ "key": "Geld: 1 € = 100 ct. Länge: 1 km = 1000 m, 1 m = 10 dm = 100 cm, 1 cm = 10 mm.\nGewicht: 1 t = 1000 kg, 1 kg = 1000 g. Zeit: 1 d = 24 h, 1 h = 60 min, 1 min = 60 s.\nUmrechnen: kleinere Einheit mal, größere Einheit geteilt.\nMaßstab 1 : 100 = Verkleinerung, 2 : 1 = Vergrößerung.\nBeim Rechnen: gleiche Einheiten.\nIm Buch: Kapitel 5 (Buchseiten ca. 105–131)",
+ "slides": [
+  {
+   "title": "Was ist eine Größe?",
+   "text": "Eine Größe besteht aus Zahl und Einheit, z. B. 3 m oder 5 €. Es gibt Geld, Länge, Gewicht und Zeit. Zu einer Größe gehört immer eine Einheit.",
+   "emoji": "📦"
+  },
+  {
+   "title": "Geld",
+   "text": "1 € = 100 ct. 1 € 30 ct kann man als 1,30 € schreiben oder als 130 ct. Beim Rechnen musst du beide Beträge in dieselbe Einheit bringen.",
+   "emoji": "💶"
+  },
+  {
+   "title": "Länge",
+   "text": "Einheiten: km, m, dm, cm, mm. 1 km = 1000 m, 1 m = 10 dm = 100 cm, 1 cm = 10 mm. Kleinere Einheit: mal rechnen. Größere Einheit: geteilt rechnen.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Maßstab",
+   "text": "Maßstab 1 : 100 heißt: 1 cm im Bild sind 100 cm in Wirklichkeit (Verkleinerung). Maßstab 2 : 1 heißt: 2 cm im Bild sind 1 cm in Wirklichkeit (Vergrößerung).",
+   "emoji": "🗺️"
+  },
+  {
+   "title": "Gewicht",
+   "text": "Einheiten: t, kg, g. 1 t = 1000 kg und 1 kg = 1000 g. Schreibe 3 kg 3 g als 3003 g.",
+   "emoji": "⚖️"
+  },
+  {
+   "title": "Zeit",
+   "text": "1 Jahr = 365 Tage, 1 Tag = 24 h, 1 h = 60 min, 1 min = 60 s. Zeit rechnet man nicht mit 10 oder 100, sondern mit 60 und 24.",
+   "emoji": "⏰"
+  },
+  {
+   "title": "Umrechnen",
+   "text": "Von groß nach klein: mit der Umrechnungszahl multiplizieren. Von klein nach groß: durch die Umrechnungszahl dividieren. Beispiel: 2 km = 2 · 1000 m = 2000 m.",
+   "emoji": "🔁"
+  },
+  {
+   "title": "Mit Größen rechnen",
+   "text": "Bringe alle Größen in dieselbe Einheit. Dann rechne mit den Zahlen und schreibe die Einheit dazu. Antworte im Satz.",
+   "emoji": "🧮"
+  }
+ ],
+ "vocab": [
+  [
+   "Größe",
+   "Zahl mit Einheit"
+  ],
+  [
+   "Einheit",
+   "z. B. m, kg, €, h"
+  ],
+  [
+   "Umrechnungszahl",
+   "Zahl, mit der man umrechnet"
+  ],
+  [
+   "Maßstab",
+   "Verhältnis von Bild zur Wirklichkeit"
+  ],
+  [
+   "Verkleinerung",
+   "Maßstab 1 : 100"
+  ],
+  [
+   "Vergrößerung",
+   "Maßstab 2 : 1"
+  ],
+  [
+   "Zeitspanne",
+   "wie lange etwas dauert"
+  ],
+  [
+   "Tonne",
+   "t, 1000 kg"
+  ],
+  [
+   "Kilogramm",
+   "kg, 1000 g"
+  ],
+  [
+   "Kilometer",
+   "km, 1000 m"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "num",
+   "q": "Rechne um: 3 € 20 ct in Cent",
+   "answer": "320",
+   "hint": "1 € = 100 ct.",
+   "explain": "3 · 100 + 20 = 320 ct."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 450 ct in Euro (nur ganze Euro, Rest ignorieren)",
+   "answer": "4",
+   "hint": "100 ct = 1 €.",
+   "explain": "450 ct = 4 € 50 ct. Ganze Euro: 4."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 2 € + 50 ct in Cent",
+   "answer": "250",
+   "hint": "Beides in Cent.",
+   "explain": "200 ct + 50 ct = 250 ct."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 127 € 5 ct in Cent",
+   "answer": "12705",
+   "hint": "€ mal 100.",
+   "explain": "127 · 100 + 5 = 12705 ct."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 m in cm",
+   "answer": "300",
+   "hint": "1 m = 100 cm.",
+   "explain": "3 · 100 = 300 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 1,50 m in cm",
+   "answer": "150",
+   "hint": "1 m = 100 cm.",
+   "explain": "1,50 m = 1 m 50 cm = 150 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 km in m",
+   "answer": "3000",
+   "hint": "1 km = 1000 m.",
+   "explain": "3 · 1000 = 3000 m."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 245 m in mm",
+   "answer": "245000",
+   "hint": "1 m = 1000 mm.",
+   "explain": "245 · 1000 = 245000 mm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 7 dm in cm",
+   "answer": "70",
+   "hint": "1 dm = 10 cm.",
+   "explain": "7 · 10 = 70 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3,7 m in dm",
+   "answer": "37",
+   "hint": "1 m = 10 dm.",
+   "explain": "3 m 7 dm = 37 dm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 40 mm in cm",
+   "answer": "4",
+   "hint": "10 mm = 1 cm.",
+   "explain": "40 : 10 = 4 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 8 kg in g",
+   "answer": "8000",
+   "hint": "1 kg = 1000 g.",
+   "explain": "8 · 1000 = 8000 g."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 t in kg",
+   "answer": "3000",
+   "hint": "1 t = 1000 kg.",
+   "explain": "3 · 1000 = 3000 kg."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 2500 g in kg (ganze kg)",
+   "answer": "2",
+   "hint": "1000 g = 1 kg.",
+   "explain": "2500 g = 2 kg 500 g. Ganze kg: 2."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 t 3 kg in kg",
+   "answer": "3003",
+   "hint": "1 t = 1000 kg.",
+   "explain": "3000 kg + 3 kg = 3003 kg."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 2 h in min",
+   "answer": "120",
+   "hint": "1 h = 60 min.",
+   "explain": "2 · 60 = 120 min."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 min in s",
+   "answer": "180",
+   "hint": "1 min = 60 s.",
+   "explain": "3 · 60 = 180 s."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 200 min in h (ganze Stunden)",
+   "answer": "3",
+   "hint": "60 min = 1 h.",
+   "explain": "200 : 60 = 3 Rest 20. Das sind 3 h 20 min. Ganze Stunden: 3."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 121 min in ganze h",
+   "answer": "2",
+   "hint": "60 min = 1 h.",
+   "explain": "121 min = 2 h 1 min. Ganze Stunden: 2."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 2 Tage in Stunden",
+   "answer": "48",
+   "hint": "1 Tag = 24 h.",
+   "explain": "2 · 24 = 48 h."
+  },
+  {
+   "type": "num",
+   "q": "Rechne um: 3 Wochen in Tage",
+   "answer": "21",
+   "hint": "1 Woche = 7 Tage.",
+   "explain": "3 · 7 = 21 Tage."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 8,20 m − 30 cm in cm",
+   "answer": "790",
+   "hint": "Erst alles in cm.",
+   "explain": "8,20 m = 820 cm. 820 − 30 = 790 cm."
+  },
+  {
+   "type": "num",
+   "q": "Rechne: 98 km + 1500 m in m",
+   "answer": "99500",
+   "hint": "Erst alles in m.",
+   "explain": "98 km = 98000 m. 98000 + 1500 = 99500 m."
+  },
+  {
+   "type": "num",
+   "q": "Ali hat 10 €. Er kauft für 6 € 40 ct ein. Wie viel Cent Wechselgeld bekommt er?",
+   "answer": "360",
+   "hint": "Rechne in Cent.",
+   "explain": "1000 ct − 640 ct = 360 ct."
+  },
+  {
+   "type": "num",
+   "q": "Karte 1: 3 € 50 ct, Karte 2: 4 € 25 ct. Wie viel Cent kosten beide zusammen?",
+   "answer": "775",
+   "hint": "Rechne in Cent.",
+   "explain": "350 + 425 = 775 ct."
+  },
+  {
+   "type": "num",
+   "q": "Ein Schwimmbadbesuch beginnt um 14.15 Uhr und endet um 16.45 Uhr. Wie viele Minuten waren das?",
+   "answer": "150",
+   "hint": "Erst Stunden, dann Minuten.",
+   "explain": "Von 14.15 bis 16.15 sind 2 h = 120 min. Dazu 30 min. Zusammen 150 min."
+  },
+  {
+   "type": "num",
+   "q": "Marlon geht um 15.45 Uhr zum Bus. Er kam um 13.30 Uhr. Wie viele Minuten war er da?",
+   "answer": "135",
+   "hint": "Von 13.30 bis 15.30 = 2 h.",
+   "explain": "2 h = 120 min, dazu 15 min = 135 min."
+  },
+  {
+   "type": "num",
+   "q": "Maßstab 1 : 100. Im Bild ist eine Strecke 4 cm lang. Wie lang ist sie in Wirklichkeit (in cm)?",
+   "answer": "400",
+   "hint": "Mal 100.",
+   "explain": "4 · 100 = 400 cm = 4 m."
+  },
+  {
+   "type": "num",
+   "q": "Maßstab 1 : 1000. Im Plan sind es 5 cm. Wie viele Meter sind das in Wirklichkeit?",
+   "answer": "50",
+   "hint": "Erst in cm, dann in m.",
+   "explain": "5 · 1000 = 5000 cm = 50 m."
+  },
+  {
+   "type": "num",
+   "q": "Maßstab 2 : 1. Eine Ameise ist im Bild 6 cm lang. Wie lang ist sie in Wirklichkeit (in mm)?",
+   "answer": "30",
+   "hint": "Das Bild ist vergrößert.",
+   "explain": "6 cm : 2 = 3 cm = 30 mm."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Einheit passt? Eine Zeitschrift wiegt 300 …",
+   "options": [
+    "t",
+    "g",
+    "kg"
+   ],
+   "answer": "g",
+   "hint": "Wie schwer ist eine Zeitschrift?",
+   "explain": "Eine Zeitschrift wiegt etwa 300 Gramm."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Einheit passt? Ein Bus ist 14 … lang.",
+   "options": [
+    "cm",
+    "km",
+    "m"
+   ],
+   "answer": "m",
+   "hint": "Wie lang ist ein Bus?",
+   "explain": "Ein Bus ist etwa 14 Meter lang."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Einheit passt? Die Milch kostet 60 …",
+   "options": [
+    "ct",
+    "m",
+    "kg"
+   ],
+   "answer": "ct",
+   "hint": "Geld.",
+   "explain": "Milch kostet 60 Cent."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Größe ist 2 Stunden?",
+   "options": [
+    "Länge",
+    "Gewicht",
+    "Zeitspanne"
+   ],
+   "answer": "Zeitspanne",
+   "hint": "Wie lange etwas dauert.",
+   "explain": "Stunden messen eine Zeitspanne."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gewicht ist am leichtesten?",
+   "options": [
+    "2000 g",
+    "3 kg",
+    "1 t"
+   ],
+   "answer": "2000 g",
+   "hint": "Rechne alles in g.",
+   "explain": "2000 g = 2 kg. 3 kg = 3000 g. 1 t = 1000000 g. Am leichtesten: 2000 g."
+  },
+  {
+   "type": "choice",
+   "q": "Was musst du beim Rechnen mit Größen immer beachten?",
+   "options": [
+    "Die Einheiten müssen gleich sein",
+    "Man darf nur Geld addieren",
+    "Die Einheiten sind egal"
+   ],
+   "answer": "Die Einheiten müssen gleich sein",
+   "hint": "Rechne vorher um.",
+   "explain": "Erst umrechnen, dann rechnen."
+  },
+  {
+   "type": "choice",
+   "q": "Wenn die Einheit kleiner wird (z. B. m → cm), …",
+   "options": [
+    "rechnet man nicht",
+    "multipliziert man",
+    "dividiert man"
+   ],
+   "answer": "multipliziert man",
+   "hint": "Mehr kleine Stücke.",
+   "explain": "Kleinere Einheit heißt größere Zahl: mal Umrechnungszahl."
+  },
+  {
+   "type": "choice",
+   "q": "Wenn die Einheit größer wird (z. B. g → kg), …",
+   "options": [
+    "rechnet man nicht",
+    "multipliziert man",
+    "dividiert man"
+   ],
+   "answer": "dividiert man",
+   "hint": "Weniger große Stücke.",
+   "explain": "Größere Einheit heißt kleinere Zahl: durch Umrechnungszahl."
+  }
+ ]
+}

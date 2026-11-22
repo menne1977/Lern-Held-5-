@@ -1,0 +1,441 @@
+{
+ "subject": "Mathe",
+ "book": "Parallelo 5 NRW",
+ "klasse": 5,
+ "title": "Kapitel 1: Natürliche Zahlen",
+ "key": "Natürliche Zahlen: 0; 1; 2; 3; … Auf dem Zahlenstrahl steht links kleiner, rechts größer.\nVorgänger = Zahl direkt davor, Nachfolger = Zahl direkt danach.\nStellenwerte: E, Z, H, T, ZT, HT, M. Fehlende Stellen füllt man mit 0.\nGroße Zahlen schreibt man in Dreier-Blöcken: 4 811 251.\nRunden: Rundungsstelle suchen, Ziffer rechts anschauen.\n0–4 abrunden, 5–9 aufrunden, rechts davon Nullen.\nSchätzen mit Raster: Felder zählen, in einem Feld zählen, malnehmen.\nFermi-Aufgaben: in kleine Fragen zerlegen und schätzen.",
+ "slides": [
+  {
+   "title": "Natürliche Zahlen",
+   "text": "Die Zahlen 0, 1, 2, 3, … heißen natürliche Zahlen. Sie sitzen auf dem Zahlenstrahl in einer Reihe. Links stehen die kleinen Zahlen, rechts die großen.",
+   "emoji": "🔢"
+  },
+  {
+   "title": "Vergleichen mit < und >",
+   "text": "Das Zeichen ist wie ein Krokodil-Maul. Es will immer die größere Zahl fressen. Also: 4 < 9 und 9 > 4. Du vergleichst Ziffer für Ziffer von links.",
+   "emoji": "🐊"
+  },
+  {
+   "title": "Vorgänger und Nachfolger",
+   "text": "Der Vorgänger ist die Zahl direkt vor einer Zahl. Der Nachfolger ist die Zahl direkt danach. Von 4 ist 3 der Vorgänger und 5 der Nachfolger.",
+   "emoji": "↔️"
+  },
+  {
+   "title": "Ordnen",
+   "text": "Aufsteigend heißt: von klein nach groß, z. B. 2 < 4 < 9. Absteigend heißt: von groß nach klein, z. B. 9 > 4 > 2. Beginne beim Ordnen immer mit der kleinsten oder größten Zahl.",
+   "emoji": "📶"
+  },
+  {
+   "title": "Die Stellenwerttafel",
+   "text": "Jede Ziffer hat einen Platz: E = Einer, Z = Zehner, H = Hunderter, T = Tausender, ZT = Zehntausender, HT = Hunderttausender, M = Million. Jede Stelle ist zehnmal so viel wert wie die rechts davon.",
+   "emoji": "🏛️"
+  },
+  {
+   "title": "Zahlen schreiben",
+   "text": "Du kannst eine Zahl zerlegen: 4 M + 8 HT + 1 ZT + 1 T + 2 H + 5 Z + 1 E. Mit Ziffern schreibt man sie in Dreier-Blöcken: 4 811 251. Eine 0 hält eine leere Stelle frei.",
+   "emoji": "✏️"
+  },
+  {
+   "title": "Runden",
+   "text": "Große Zahlen werden oft gerundet, damit man sie sich besser merken kann. Erst die Rundungsstelle suchen. Dann die Ziffer rechts daneben anschauen. Bei 0, 1, 2, 3, 4 rundest du ab. Bei 5, 6, 7, 8, 9 rundest du auf. Rechts von der Rundungsstelle stehen danach Nullen.",
+   "emoji": "🎯"
+  },
+  {
+   "title": "Beispiel Runden",
+   "text": "Runde 56 482 auf Hunderter. Rechts der Hunderter-Stelle steht 8, also aufrunden: 56 500. Auf Zehner gerundet ergibt es 56 480. Das Zeichen ≈ bedeutet „ungefähr“.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Schätzen mit dem Raster",
+   "text": "Wie viele Blumen sind auf dem Bild? Teile das Bild in gleich große Felder. Zähle die Blumen in einem Feld. Rechne dann Felder mal Blumen pro Feld. Bei 15 Feldern mit je 6 Blumen sind es ungefähr 90.",
+   "emoji": "🌸"
+  },
+  {
+   "title": "Fermi-Aufgaben",
+   "text": "Manche Fragen kann man nicht sofort beantworten, z. B. wie viele Schulbücher alle 5. Klassen haben. Stelle kleine Fragen: Wie viele Kinder in einer Klasse? Wie viele Klassen? Wie viele Bücher pro Kind? Schätze und rechne.",
+   "emoji": "🧠"
+  }
+ ],
+ "vocab": [
+  [
+   "natürliche Zahlen",
+   "0; 1; 2; 3; …"
+  ],
+  [
+   "Vorgänger",
+   "Zahl direkt vor einer Zahl"
+  ],
+  [
+   "Nachfolger",
+   "Zahl direkt nach einer Zahl"
+  ],
+  [
+   "aufsteigend",
+   "von klein nach groß"
+  ],
+  [
+   "absteigend",
+   "von groß nach klein"
+  ],
+  [
+   "Stellenwerttafel",
+   "Tabelle mit E, Z, H, T, ZT, HT, M"
+  ],
+  [
+   "Rundungsstelle",
+   "Stelle, auf die man rundet"
+  ],
+  [
+   "aufrunden",
+   "Zahl wird größer"
+  ],
+  [
+   "abrunden",
+   "Zahl wird kleiner"
+  ],
+  [
+   "schätzen",
+   "ungefähr bestimmen"
+  ],
+  [
+   "Rastermethode",
+   "Bild in Felder teilen und hochrechnen"
+  ],
+  [
+   "Fermi-Aufgabe",
+   "Aufgabe, die man in kleine Fragen zerlegt"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welches Zeichen passt? 349 ? 358",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answer": "<",
+   "hint": "Vergleiche zuerst die Hunderter, dann die Zehner.",
+   "explain": "Die Hunderter sind gleich (3). Bei den Zehnern ist 4 kleiner als 5. Also 349 < 358."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zahl ist die größte?",
+   "options": [
+    "1230",
+    "1203",
+    "1023"
+   ],
+   "answer": "1230",
+   "hint": "Vergleiche Ziffer für Ziffer von links.",
+   "explain": "Alle haben 1 Tausender. Beim Hunderter ist 2 größer als 0. 1230 und 1203 haben beide 2 Hunderter, dann entscheiden die Zehner: 3 > 0. Also 1230."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zahl liegt auf dem Zahlenstrahl weiter rechts?",
+   "options": [
+    "74",
+    "47",
+    "Beide gleich weit"
+   ],
+   "answer": "74",
+   "hint": "Rechts stehen die größeren Zahlen.",
+   "explain": "Auf dem Zahlenstrahl wachsen die Zahlen nach rechts. 74 ist größer als 47, also liegt 74 weiter rechts."
+  },
+  {
+   "type": "num",
+   "q": "Wie heißt der Vorgänger von 1000?",
+   "answer": "999",
+   "hint": "Vorgänger = die Zahl direkt davor.",
+   "explain": "1000 − 1 = 999."
+  },
+  {
+   "type": "num",
+   "q": "Wie heißt der Nachfolger von 4999?",
+   "answer": "5000",
+   "hint": "Nachfolger = die Zahl direkt danach.",
+   "explain": "4999 + 1 = 5000."
+  },
+  {
+   "type": "num",
+   "q": "Du ordnest 865, 647, 727 und 569 von klein nach groß. Welche Zahl steht an zweiter Stelle?",
+   "answer": "647",
+   "hint": "Beginne mit der kleinsten Zahl.",
+   "explain": "Geordnet: 569 < 647 < 727 < 865. An zweiter Stelle steht 647."
+  },
+  {
+   "type": "num",
+   "q": "Welche ist die größte Zahl? 2497, 2496 oder 2503?",
+   "answer": "2503",
+   "hint": "Vergleiche zuerst die Hunderter.",
+   "explain": "2503 hat 5 Hunderter, die anderen nur 4. Also ist 2503 am größten."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Zahlen liegen zwischen 13 und 51? (13 und 51 zählen nicht mit)",
+   "answer": "37",
+   "hint": "Rechne 51 − 13 und denke an die Randzahlen.",
+   "explain": "51 − 13 = 38. Weil 13 und 51 selbst nicht mitzählen, ziehst du 1 ab: 37."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Zahlen liegen zwischen 20 und 30? (20 und 30 zählen nicht mit)",
+   "answer": "9",
+   "hint": "Zähle: 21, 22, …",
+   "explain": "Es sind 21 bis 29. Das sind 9 Zahlen."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Zeichen passt? 2 T + 3 H + 4 E ? 2340",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answer": "<",
+   "hint": "Schreibe die Zahl links erst mit Ziffern.",
+   "explain": "2 T + 3 H + 4 E = 2000 + 300 + 4 = 2304. Es gibt keine Zehner. 2304 < 2340."
+  },
+  {
+   "type": "num",
+   "q": "Schreibe als Zahl: 3 HT + 4 ZT + 5 T + 2 H + 7 Z + 1 E",
+   "answer": "345271",
+   "hint": "Trage jede Stelle in die Stellenwerttafel ein.",
+   "explain": "3 HT = 300000, 4 ZT = 40000, 5 T = 5000, 2 H = 200, 7 Z = 70, 1 E = 1. Zusammen: 345271."
+  },
+  {
+   "type": "num",
+   "q": "Schreibe als Zahl: 2 M + 3 HT + 7 T + 8 H + 9 Z + 4 E",
+   "answer": "2307894",
+   "hint": "Fehlende Stellen sind Nullen. Hier fehlen die Zehntausender.",
+   "explain": "2 M, 3 HT, 0 ZT, 7 T, 8 H, 9 Z, 4 E ergibt 2307894."
+  },
+  {
+   "type": "num",
+   "q": "Schreibe als Zahl: 8 Z + 6 H + 4 M + 3 HT",
+   "answer": "4300680",
+   "hint": "Sortiere erst von groß nach klein: M, HT, ZT, T, H, Z, E.",
+   "explain": "4 M, 3 HT, 0 ZT, 0 T, 6 H, 8 Z, 0 E. Das ist 4300680."
+  },
+  {
+   "type": "num",
+   "q": "Welche Ziffer steht in 506187 an der Hunderter-Stelle?",
+   "answer": "1",
+   "hint": "Von rechts: E, Z, H …",
+   "explain": "506187: 7 E, 8 Z, 1 H, 6 T, 0 ZT, 5 HT. Bei den Hundertern steht die 1."
+  },
+  {
+   "type": "num",
+   "q": "Welche Ziffer steht in 54007603 an der Tausender-Stelle?",
+   "answer": "7",
+   "hint": "Von rechts: E, Z, H, T.",
+   "explain": "54007603: 3 E, 0 Z, 6 H, 7 T. Bei den Tausendern steht die 7."
+  },
+  {
+   "type": "num",
+   "q": "Welche Ziffer steht in 384403 (km bis zum Mond) an der Tausender-Stelle?",
+   "answer": "4",
+   "hint": "Von rechts: E, Z, H, T.",
+   "explain": "384403: 3 E, 0 Z, 4 H, 4 T, 8 ZT, 3 HT. Die Tausender-Ziffer ist 4."
+  },
+  {
+   "type": "num",
+   "q": "Wie viele Nullen hat die Zahl eine Million?",
+   "answer": "6",
+   "hint": "Eine Million = 1 M.",
+   "explain": "1 M = 1000000. Das sind 6 Nullen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schreibt man 2034 in Worten?",
+   "options": [
+    "zweitausendvierunddreißig",
+    "zweihundertvierunddreißig",
+    "zweitausenddreihundertvier"
+   ],
+   "answer": "zweitausendvierunddreißig",
+   "hint": "Wie viele Tausender, Hunderter, Zehner und Einer?",
+   "explain": "2 Tausender, 0 Hunderter, 3 Zehner, 4 Einer: zweitausend-vier-und-dreißig."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet die Null in der Zahl 7004?",
+   "options": [
+    "Es gibt keine Hunderter und keine Zehner",
+    "Die Zahl ist ganz klein",
+    "Die Zahl ist gleich 0"
+   ],
+   "answer": "Es gibt keine Hunderter und keine Zehner",
+   "hint": "Schau in die Stellenwerttafel.",
+   "explain": "7004 = 7 T + 0 H + 0 Z + 4 E. Die Nullen halten die Stellen frei."
+  },
+  {
+   "type": "num",
+   "q": "Runde 53341 auf Hunderter.",
+   "answer": "53300",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Hunderter-Stelle ist die 3. Rechts davon steht 4, also abrunden. Ergebnis: 53300."
+  },
+  {
+   "type": "num",
+   "q": "Runde 73753 auf Tausender.",
+   "answer": "74000",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Tausender-Stelle ist die 3. Rechts davon steht 7, also aufrunden: 3 + 1 = 4. Ergebnis: 74000."
+  },
+  {
+   "type": "num",
+   "q": "Runde 56482 auf Zehner.",
+   "answer": "56480",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Zehner-Stelle ist die 8. Rechts davon steht 2, also abrunden. Ergebnis: 56480."
+  },
+  {
+   "type": "num",
+   "q": "Runde 56482 auf Zehntausender.",
+   "answer": "60000",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Zehntausender-Stelle ist die 5. Rechts davon steht 6, also aufrunden: 5 + 1 = 6. Ergebnis: 60000."
+  },
+  {
+   "type": "num",
+   "q": "Runde 245 auf Zehner.",
+   "answer": "250",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Zehner-Stelle ist die 4. Rechts steht 5, also aufrunden. Ergebnis: 250."
+  },
+  {
+   "type": "num",
+   "q": "Runde 8613 auf Hunderter.",
+   "answer": "8600",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Hunderter-Stelle ist die 6. Rechts steht 1, also abrunden. Ergebnis: 8600."
+  },
+  {
+   "type": "num",
+   "q": "Runde 871045 auf Tausender.",
+   "answer": "871000",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Tausender-Stelle ist die 1. Rechts steht 0, also abrunden. Ergebnis: 871000."
+  },
+  {
+   "type": "num",
+   "q": "Runde 798 auf Zehner. Vorsicht!",
+   "answer": "800",
+   "hint": "Beim Aufrunden von 9 gibt es einen Übertrag.",
+   "explain": "Zehner-Stelle ist die 9. Rechts steht 8, also aufrunden. 9 + 1 = 10, der Übertrag macht aus 7 Hundertern 8. Ergebnis: 800."
+  },
+  {
+   "type": "num",
+   "q": "Runde 9999 auf Hunderter. Vorsicht!",
+   "answer": "10000",
+   "hint": "Mehrere Neunen: Übertrag!",
+   "explain": "Hunderter-Stelle ist die 9, rechts steht 9, also aufrunden. Alle Neunen springen weiter. Ergebnis: 10000."
+  },
+  {
+   "type": "num",
+   "q": "Runde 100095 auf Zehner.",
+   "answer": "100100",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Zehner-Stelle ist die 9. Rechts steht 5, also aufrunden. 9 + 1 = 10, Übertrag. Ergebnis: 100100."
+  },
+  {
+   "type": "num",
+   "q": "Runde 49577 auf Tausender.",
+   "answer": "50000",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Tausender-Stelle ist die 9. Rechts steht 5, also aufrunden. Übertrag macht aus 49 Tausendern 50. Ergebnis: 50000."
+  },
+  {
+   "type": "num",
+   "q": "Runde 8460321 auf Millionen.",
+   "answer": "8000000",
+   "hint": "Schau auf die Ziffer rechts von der Rundungsstelle: 0–4 abrunden, 5–9 aufrunden.",
+   "explain": "Millionen-Stelle ist die 8. Rechts steht 4, also abrunden. Ergebnis: 8000000."
+  },
+  {
+   "type": "choice",
+   "q": "Auf welche Stelle wurde gerundet? 8799 ≈ 9000",
+   "options": [
+    "Zehner",
+    "Hunderter",
+    "Tausender"
+   ],
+   "answer": "Tausender",
+   "hint": "Wo stehen die Nullen?",
+   "explain": "Alle Stellen rechts von der 9 sind Nullen: 9000. Es wurde auf Tausender gerundet."
+  },
+  {
+   "type": "choice",
+   "q": "Musst du auf- oder abrunden? 2089 auf Tausender",
+   "options": [
+    "abrunden",
+    "aufrunden"
+   ],
+   "answer": "abrunden",
+   "hint": "Welche Ziffer steht rechts von der Tausender-Stelle?",
+   "explain": "Tausender-Stelle ist die 2. Rechts steht 0, also abrunden: 2000."
+  },
+  {
+   "type": "num",
+   "q": "Eine Zahl wird auf Hunderter gerundet, das Ergebnis ist 3100. Was ist die kleinste mögliche Zahl?",
+   "answer": "3050",
+   "hint": "Ab welcher Zahl rundet man noch auf 3100 auf?",
+   "explain": "3050 hat rechts der Hunderter-Stelle 5 und rundet auf 3100 auf. 3049 rundet auf 3000 ab."
+  },
+  {
+   "type": "num",
+   "q": "Eine Zahl wird auf Hunderter gerundet, das Ergebnis ist 3100. Was ist die größte mögliche Zahl?",
+   "answer": "3149",
+   "hint": "Bis zu welcher Zahl rundet man noch ab?",
+   "explain": "3149 rundet ab auf 3100. 3150 würde auf 3200 aufrunden."
+  },
+  {
+   "type": "num",
+   "q": "Ein Bild ist in 12 gleich große Felder geteilt. In einem Feld sind 7 Blumen. Wie viele Blumen sind es ungefähr?",
+   "answer": "84",
+   "hint": "Rastermethode: Felder mal Anzahl in einem Feld.",
+   "explain": "12 · 7 = 84. Es sind ungefähr 84 Blumen."
+  },
+  {
+   "type": "num",
+   "q": "Ein Bild hat 15 Felder, in einem Feld sind 6 Blumen. Wie viele sind es ungefähr?",
+   "answer": "90",
+   "hint": "Rechne Felder mal Anzahl pro Feld.",
+   "explain": "15 · 6 = 90. Es sind ungefähr 90 Blumen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schätzt du mit der Rastermethode die Anzahl vieler Dinge?",
+   "options": [
+    "Bild in gleich große Felder teilen, in einem Feld zählen, mal Anzahl der Felder rechnen",
+    "Alle Dinge einzeln zählen",
+    "Die Zahl raten und aufschreiben"
+   ],
+   "answer": "Bild in gleich große Felder teilen, in einem Feld zählen, mal Anzahl der Felder rechnen",
+   "hint": "Denk an die drei Schritte.",
+   "explain": "Erst Felder, dann ein Feld zählen, dann malnehmen."
+  },
+  {
+   "type": "choice",
+   "q": "Frage: „Wie viele Schulbücher haben alle 5. Klassen zusammen?“ Welche Teilfrage hilft dir?",
+   "options": [
+    "Wie viele Kinder sind in meiner Klasse?",
+    "Wie alt ist die Schulleiterin?",
+    "Wie groß ist das Schulgebäude?"
+   ],
+   "answer": "Wie viele Kinder sind in meiner Klasse?",
+   "hint": "Welche Angaben brauchst du für die Rechnung?",
+   "explain": "Bei Fermi-Aufgaben stellst du kleine Fragen, die du schätzen kannst, z. B. Kinder pro Klasse."
+  },
+  {
+   "type": "num",
+   "q": "Fermi-Aufgabe: 4 fünfte Klassen mit je 25 Kindern. Jedes Kind hat 8 Schulbücher. Wie viele Bücher sind das zusammen?",
+   "answer": "800",
+   "hint": "Erst Kinder zusammen, dann Bücher.",
+   "explain": "4 · 25 = 100 Kinder. 100 · 8 = 800 Bücher."
+  }
+ ]
+}

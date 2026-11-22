@@ -1,0 +1,364 @@
+{
+ "subject": "Deutsch",
+ "book": "Klartext 5 (NRW)",
+ "klasse": 5,
+ "title": "Klartext 5 – Kapitel 5: Zauberschule Hokuspokus (Erzählen)",
+ "key": "Erzählungen haben Einleitung, Höhepunkt und Schluss. Wörtliche Rede, Erweiterungs- und Ersatzprobe machen sie anschaulich.\nIm Buch: S. 126–151",
+ "slides": [
+  {
+   "title": "Erzählung",
+   "text": "Eine Erzählung hat Einleitung, Hauptteil und Schluss. Die Einleitung stellt Ort, Zeit und Figuren vor.",
+   "emoji": "📖"
+  },
+  {
+   "title": "Höhepunkt",
+   "text": "Im Hauptteil kommt der Höhepunkt, die spannendste Stelle. Danach löst sich die Spannung im Schluss.",
+   "emoji": "⚡"
+  },
+  {
+   "title": "Wörtliche Rede",
+   "text": "Was jemand sagt, steht in Anführungszeichen: „Hallo!“, sagte Elli. Das Komma steht danach außerhalb.",
+   "emoji": "💬"
+  },
+  {
+   "title": "Erweiterungsprobe und Ersatzprobe",
+   "text": "Erweitern heißt: Angaben hinzufügen. Ersetzen heißt: ein genaueres Wort nehmen. So wird der Text anschaulicher.",
+   "emoji": "🔧"
+  },
+  {
+   "title": "Anschaulich erzählen",
+   "text": "Genaue Verben und Adjektive machen die Geschichte lebendig. Statt gehen: schlendern.",
+   "emoji": "🎨"
+  },
+  {
+   "title": "Planen mit der Mindmap",
+   "text": "Schreibe die Hauptfigur in die Mitte. Notiere Ort, Zeit und Ereignisse auf den Ästen.",
+   "emoji": "🗺️"
+  }
+ ],
+ "vocab": [
+  [
+   "Erzählung",
+   "Text mit Handlung, Figuren und Ort"
+  ],
+  [
+   "Handlung",
+   "alles, was in der Geschichte passiert"
+  ],
+  [
+   "Höhepunkt",
+   "spannendste Stelle im Hauptteil"
+  ],
+  [
+   "wörtliche Rede",
+   "Text, den jemand sagt, in Anführungszeichen"
+  ],
+  [
+   "Erweiterungsprobe",
+   "Angaben hinzufügen, um einen Satz zu erweitern"
+  ],
+  [
+   "Ersatzprobe",
+   "Wort durch ein genaueres ersetzen"
+  ],
+  [
+   "Zauberspruch",
+   "Reim oder Spruch, der in der Geschichte wirkt"
+  ],
+  [
+   "Mindmap",
+   "Ideen mit Hauptgedanke und Ästen"
+  ],
+  [
+   "anschaulich",
+   "so, dass man sich alles vorstellen kann"
+  ],
+  [
+   "Handlungsfigur",
+   "Person, die in der Geschichte handelt"
+  ],
+  [
+   "Einleitung",
+   "Anfang der Erzählung"
+  ],
+  [
+   "Schluss",
+   "Ende der Erzählung"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was gehört zur Einleitung einer Erzählung?",
+   "options": [
+    "Ort, Zeit und Hauptfigur",
+    "Nur der Schluss",
+    "Nur wörtliche Rede"
+   ],
+   "answer": "Ort, Zeit und Hauptfigur",
+   "hint": "Wo, wann, wer?",
+   "explain": "In der Einleitung stellst du Ort, Zeit und Figuren vor."
+  },
+  {
+   "type": "choice",
+   "q": "Wo steht der Höhepunkt einer Erzählung?",
+   "options": [
+    "im Hauptteil",
+    "in der Einleitung",
+    "nach dem Titel"
+   ],
+   "answer": "im Hauptteil",
+   "hint": "Die spannendste Stelle.",
+   "explain": "Der Höhepunkt ist die spannendste Stelle im Hauptteil."
+  },
+  {
+   "type": "text",
+   "q": "Wie nennt man die Stelle mit der größten Spannung? (ein Wort)",
+   "answer": "Höhepunkt",
+   "alt": [
+    "Spannungshöhepunkt"
+   ],
+   "hint": "Die Stelle im Hauptteil.",
+   "explain": "Der Höhepunkt ist die spannendste Stelle."
+  },
+  {
+   "type": "choice",
+   "q": "Wie setzt du wörtliche Rede richtig?",
+   "options": [
+    "„Hallo!“, sagte Elli.",
+    "Hallo, sagte Elli.",
+    "'Hallo' sagte Elli."
+   ],
+   "answer": "„Hallo!“, sagte Elli.",
+   "hint": "Anführungszeichen unten und oben.",
+   "explain": "Wörtliche Rede steht in „...“ und wird mit einem Komma vom Begleitsatz getrennt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Erweiterung macht 'Elli lief' anschaulicher?",
+   "options": [
+    "Elli rannte schnell durch den Flur",
+    "Elli lief",
+    "Elli"
+   ],
+   "answer": "Elli rannte schnell durch den Flur",
+   "hint": "Mehr Details.",
+   "explain": "Die Erweiterungsprobe: Du fügst Angaben hinzu, z. B. schnell und durch den Flur."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ersetzt 'gehen' anschaulicher?",
+   "options": [
+    "schlendern",
+    "machen",
+    "sein"
+   ],
+   "answer": "schlendern",
+   "hint": "Wie geht man langsam?",
+   "explain": "Die Ersatzprobe: Du ersetzt ein Wort durch ein genaueres, z. B. schlendern statt gehen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Satz ist die richtige Schreibweise?",
+   "options": [
+    "„Wie komme ich hier raus?“, fragte Elli.",
+    "„Wie komme ich hier raus, fragte Elli?“",
+    "Wie komme ich hier raus?, fragte Elli."
+   ],
+   "answer": "„Wie komme ich hier raus?“, fragte Elli.",
+   "hint": "Das Fragezeichen gehört in die Rede.",
+   "explain": "Das Fragezeichen steht innerhalb der Anführungszeichen, dann folgt das Komma."
+  },
+  {
+   "type": "choice",
+   "q": "Wobei hilft eine Mindmap?",
+   "options": [
+    "beim Planen der Erzählung",
+    "beim Rechnen",
+    "beim Malen"
+   ],
+   "answer": "beim Planen der Erzählung",
+   "hint": "Ideen sammeln.",
+   "explain": "Die Mindmap ordnet Ideen für die Erzählung."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet anschaulich schreiben?",
+   "options": [
+    "genaue Verben und Adjektive verwenden",
+    "so kurz wie möglich schreiben",
+    "nur Fragen stellen"
+   ],
+   "answer": "genaue Verben und Adjektive verwenden",
+   "hint": "Wie wirkt der Text?",
+   "explain": "Anschaulich schreiben heißt, genaue Wörter zu nutzen, damit man sich alles vorstellen kann."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Zeitform nutzt du beim Erzählen meist?",
+   "options": [
+    "Präteritum",
+    "Imperativ",
+    "Futur I"
+   ],
+   "answer": "Präteritum",
+   "hint": "Vergangenheit.",
+   "explain": "Erzählt wird meist im Präteritum."
+  },
+  {
+   "type": "text",
+   "q": "Präteritum von 'sehen' (sie): sie ___",
+   "answer": "sah",
+   "alt": [
+    "sah"
+   ],
+   "hint": "Unregelmäßiges Verb.",
+   "explain": "Das Präteritum von sehen ist sah."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt der Schluss einer Erzählung?",
+   "options": [
+    "wie die Geschichte ausgeht",
+    "den Titel",
+    "die Einleitung"
+   ],
+   "answer": "wie die Geschichte ausgeht",
+   "hint": "Das Ende.",
+   "explain": "Der Schluss zeigt, wie es endet."
+  },
+  {
+   "type": "choice",
+   "q": "Eine Erzählung hat meist …",
+   "options": [
+    "Einleitung, Hauptteil, Schluss",
+    "nur Einleitung",
+    "nur Hauptteil"
+   ],
+   "answer": "Einleitung, Hauptteil, Schluss",
+   "hint": "Drei Teile.",
+   "explain": "Eine Erzählung hat einen Anfang, eine Mitte und ein Ende."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Fragen helfen beim Planen?",
+   "options": [
+    "Wer handelt? Wo spielt es? Was passiert?",
+    "Wie viele Blätter hat der Baum?",
+    "Welches Wetter ist heute?"
+   ],
+   "answer": "Wer handelt? Wo spielt es? Was passiert?",
+   "hint": "Figur, Ort, Handlung.",
+   "explain": "Planung: Figur, Ort und Handlung festlegen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Umstellprobe?",
+   "options": [
+    "Satzteile verschieben, um Satzglieder zu finden",
+    "Wörter zählen",
+    "Zahlen rechnen"
+   ],
+   "answer": "Satzteile verschieben, um Satzglieder zu finden",
+   "hint": "Verschieben.",
+   "explain": "Bei der Umstellprobe bewegst du Satzteile, um Satzglieder zu erkennen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Zauberspruch-Funktion in der Geschichte?",
+   "options": [
+    "Er löst eine Handlung aus.",
+    "Er ist eine Rechnung.",
+    "Er ist eine Adresse."
+   ],
+   "answer": "Er löst eine Handlung aus.",
+   "hint": "Was passiert danach?",
+   "explain": "Der Zauberspruch wirkt in der Erzählung und treibt die Handlung voran."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Frage gehört in die Einleitung?",
+   "options": [
+    "Wo und wann spielt die Geschichte?",
+    "Was passierte am Ende?",
+    "Welche Note bekommst du?"
+   ],
+   "answer": "Wo und wann spielt die Geschichte?",
+   "hint": "Anfang.",
+   "explain": "In der Einleitung klärst du Ort und Zeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Handlungsfigur?",
+   "options": [
+    "Eine Person, die in der Geschichte handelt",
+    "Ein Gegenstand",
+    "Ein Satzzeichen"
+   ],
+   "answer": "Eine Person, die in der Geschichte handelt",
+   "hint": "Wer macht etwas?",
+   "explain": "Handlungsfiguren erleben die Geschichte."
+  },
+  {
+   "type": "choice",
+   "q": "Wie beginnt man eine Geschichte oft?",
+   "options": [
+    "Mit einer spannenden Situation",
+    "Mit dem Schluss",
+    "Mit einer Liste"
+   ],
+   "answer": "Mit einer spannenden Situation",
+   "hint": "Neugier wecken.",
+   "explain": "Eine spannende Einleitung macht neugierig."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Wort ist eine genauere Verbform für 'sagen'?",
+   "options": [
+    "flüstern",
+    "machen",
+    "sein"
+   ],
+   "answer": "flüstern",
+   "hint": "Wie spricht man leise?",
+   "explain": "flüstern beschreibt genauer, wie etwas gesagt wird."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Erzählen 'Erdachtes'?",
+   "options": [
+    "eine frei erfundene Geschichte",
+    "einen Bericht über ein echtes Ereignis",
+    "eine Sachinformation"
+   ],
+   "answer": "eine frei erfundene Geschichte",
+   "hint": "Erfunden.",
+   "explain": "Erdachtes erzählen heißt: eine Geschichte erfinden."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Zauberschulgeschichte?",
+   "options": [
+    "eine erfundene Erzählung aus einer Zauberschule",
+    "ein Sachtext über Schulen",
+    "ein Rezept"
+   ],
+   "answer": "eine erfundene Erzählung aus einer Zauberschule",
+   "hint": "Erdacht.",
+   "explain": "Eine Zauberschulgeschichte ist eine erfundene Erzählung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Überarbeitung macht eine Erzählung lebendiger?",
+   "options": [
+    "genauere Verben und Adjektive einsetzen",
+    "alle Wörter streichen",
+    "den Text nicht lesen"
+   ],
+   "answer": "genauere Verben und Adjektive einsetzen",
+   "hint": "Wie wirkt der Text?",
+   "explain": "Genaue Wörter machen die Erzählung lebendiger."
+  }
+ ]
+}
