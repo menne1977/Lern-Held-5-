@@ -1,0 +1,339 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Kennzeichen des Lebendigen und Zellen",
+ "key": "Lebewesen zeigen Kennzeichen wie Stoffwechsel und Reizbarkeit. Sie bestehen aus Zellen.\nIm Buch: S. 10–17",
+ "slides": [
+  {
+   "title": "Kennzeichen des Lebendigen",
+   "text": "Stoffwechsel, Reizbarkeit, Bewegung, Wachstum, Fortpflanzung. Fehlt eines, ist es kein Lebewesen.",
+   "emoji": "🧬"
+  },
+  {
+   "title": "Pflanzen sind Lebewesen",
+   "text": "Pflanzen zeigen alle Kennzeichen: Sie wachsen, reagieren auf Licht und haben Stoffwechsel.",
+   "emoji": "🌿"
+  },
+  {
+   "title": "Zellen",
+   "text": "Zellen sind die kleinsten Einheiten des Lebens. Einzeller bestehen aus einer Zelle, Vielzeller aus Millionen.",
+   "emoji": "🔬"
+  },
+  {
+   "title": "Basiskonzepte",
+   "text": "Struktur und Funktion, Entwicklung, System: Diese Muster helfen beim Verstehen.",
+   "emoji": "🧩"
+  },
+  {
+   "title": "Plakate gestalten",
+   "text": "Erst Auftrag, dann Informationen suchen, Quellen prüfen, dann übersichtlich gestalten.",
+   "emoji": "🖼️"
+  }
+ ],
+ "vocab": [
+  [
+   "Stoffwechsel",
+   "Aufnahme, Umbau und Abgabe von Stoffen"
+  ],
+  [
+   "Reizbarkeit",
+   "Reize aufnehmen und darauf reagieren"
+  ],
+  [
+   "Fortpflanzung",
+   "Nachkommen erzeugen"
+  ],
+  [
+   "Wachstum",
+   "Größer werden"
+  ],
+  [
+   "Entwicklung",
+   "Veränderung über die Zeit"
+  ],
+  [
+   "Zelle",
+   "kleinste Einheit des Lebens"
+  ],
+  [
+   "Einzeller",
+   "Lebewesen aus einer Zelle"
+  ],
+  [
+   "Vielzeller",
+   "Lebewesen aus vielen Zellen"
+  ],
+  [
+   "Basiskonzept",
+   "übergeordnetes Erklärungsmuster"
+  ],
+  [
+   "Struktur",
+   "Baumerkmal mit Aufgabe"
+  ],
+  [
+   "Funktion",
+   "Aufgabe eines Bauteils"
+  ],
+  [
+   "Impressum",
+   "Angaben zu Verfasser auf Webseiten"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welches Merkmal gehört NICHT zu den Kennzeichen des Lebendigen?",
+   "options": [
+    "Gewicht eines Steins",
+    "Stoffwechsel",
+    "Reizbarkeit"
+   ],
+   "answer": "Gewicht eines Steins",
+   "hint": "Ein Stein erfüllt keines der Kennzeichen.",
+   "explain": "Stoffwechsel, Reizbarkeit, Bewegung, Fortpflanzung und Wachstum sind Kennzeichen des Lebendigen. Ein Stein zeigt keines davon."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Stoffwechsel?",
+   "options": [
+    "Aufnahme, Umwandlung und Abgabe von Stoffen",
+    "Nur das Atmen",
+    "Das Wachsen der Haare"
+   ],
+   "answer": "Aufnahme, Umwandlung und Abgabe von Stoffen",
+   "hint": "Denke an Nahrung und Energie.",
+   "explain": "Lebewesen nehmen Stoffe auf, bauen sie um und geben andere Stoffe ab."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Kennzeichen zeigt eine Venusfliegenfalle, wenn sie ein Insekt fängt?",
+   "options": [
+    "Stoffwechsel",
+    "Nur Wachstum",
+    "Keines"
+   ],
+   "answer": "Stoffwechsel",
+   "hint": "Sie nimmt Stoffe aus dem Insekt auf.",
+   "explain": "Die Pflanze gewinnt Nährstoffe aus Insekten. Das ist Stoffwechsel."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Kennzeichen zeigen Pflanzen, wenn sich Gänseblümchen am Morgen öffnen?",
+   "options": [
+    "Reizbarkeit",
+    "Fortpflanzung",
+    "Ernährung durch Tiere"
+   ],
+   "answer": "Reizbarkeit",
+   "hint": "Die Blüten reagieren auf Licht.",
+   "explain": "Pflanzen reagieren auf Reize wie Sonnenlicht. Das ist Reizbarkeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Zelle?",
+   "options": [
+    "die kleinste Einheit des Lebens",
+    "ein Organ",
+    "ein Gewebe aus Blut"
+   ],
+   "answer": "die kleinste Einheit des Lebens",
+   "hint": "Mikroskop-Begriff.",
+   "explain": "Zellen sind die kleinsten Bausteine, aus denen Lebewesen bestehen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Einzeller?",
+   "options": [
+    "Ein Lebewesen, das nur aus einer Zelle besteht",
+    "Ein Tier mit einem Bein",
+    "Ein Organ im Körper"
+   ],
+   "answer": "Ein Lebewesen, das nur aus einer Zelle besteht",
+   "hint": "Beispiel: Amöbe.",
+   "explain": "Einzeller wie die Amöbe bestehen aus einer einzigen Zelle."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Lebewesen ist ein Vielzeller?",
+   "options": [
+    "Mensch",
+    "Amöbe",
+    "Pantoffeltierchen"
+   ],
+   "answer": "Mensch",
+   "hint": "Viele Zellen.",
+   "explain": "Menschen bestehen aus Millionen von Zellen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie fängt eine Amöbe ihre Nahrung?",
+   "options": [
+    "Sie umfließt das Nahrungsteilchen.",
+    "Sie saugt es mit Wurzeln auf.",
+    "Sie wartet im Licht."
+   ],
+   "answer": "Sie umfließt das Nahrungsteilchen.",
+   "hint": "Scheinfüßchen.",
+   "explain": "Die Amöbe bewegt sich auf Nahrung zu, umfließt sie und nimmt sie ins Zellinnere auf."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Basiskonzept?",
+   "options": [
+    "Ein übergeordnetes Erklärungsmuster in der Biologie",
+    "Ein Mikroskop-Teil",
+    "Ein Tiername"
+   ],
+   "answer": "Ein übergeordnetes Erklärungsmuster in der Biologie",
+   "hint": "Es taucht in vielen Themen auf.",
+   "explain": "Basiskonzepte helfen, Zusammenhänge in den Naturwissenschaften zu verstehen."
+  },
+  {
+   "type": "choice",
+   "q": "Was beschreibt das Basiskonzept Struktur und Funktion?",
+   "options": [
+    "Jede Struktur erfüllt eine bestimmte Aufgabe.",
+    "Alle Tiere sind gleich.",
+    "Pflanzen haben keine Organe."
+   ],
+   "answer": "Jede Struktur erfüllt eine bestimmte Aufgabe.",
+   "hint": "Bau und Aufgabe passen zusammen.",
+   "explain": "Der Bau eines Lebewesens oder Organs hat eine biologische Bedeutung."
+  },
+  {
+   "type": "choice",
+   "q": "Warum haben Katzen lange Eckzähne?",
+   "options": [
+    "Sie halten Beutetiere fest.",
+    "Sie kauen Gras.",
+    "Sie zum Schmuck."
+   ],
+   "answer": "Sie halten Beutetiere fest.",
+   "hint": "Fleischfresser.",
+   "explain": "Lange Eckzähne sind eine Struktur, die beim Festhalten der Beute hilft."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Systembeispiel beim Menschen?",
+   "options": [
+    "Verdauungssystem mit Magen, Leber und Dünndarm",
+    "Ein Auto",
+    "Ein Haus"
+   ],
+   "answer": "Verdauungssystem mit Magen, Leber und Dünndarm",
+   "hint": "Organe arbeiten zusammen.",
+   "explain": "Organe eines Organsystems bilden gemeinsam ein System."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Entwicklung als Basiskonzept?",
+   "options": [
+    "Nachkommen verändern sich im Laufe der Zeit.",
+    "Lebewesen bleiben gleich.",
+    "Es gibt keine Nachkommen."
+   ],
+   "answer": "Nachkommen verändern sich im Laufe der Zeit.",
+   "hint": "Denke an Katzenjunge.",
+   "explain": "Lebewesen entwickeln sich aus Eizellen und verändern sich."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Fachgebiet untersucht den Aufbau von Lebewesen?",
+   "options": [
+    "Biologie",
+    "Mathematik",
+    "Geschichte"
+   ],
+   "answer": "Biologie",
+   "hint": "Naturwissenschaft.",
+   "explain": "Die Biologie untersucht Aufbau, Vorgänge und Entwicklung von Lebewesen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist eine Plakat-Gliederung wichtig?",
+   "options": [
+    "Sie ordnet die Informationen übersichtlich.",
+    "Sie verziert das Plakat.",
+    "Sie ist nur Pflicht für Lehrer."
+   ],
+   "answer": "Sie ordnet die Informationen übersichtlich.",
+   "hint": "Lesbarkeit.",
+   "explain": "Eine Gliederung hilft, Informationen verständlich zu präsentieren."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Suchmaschine für Kinder?",
+   "options": [
+    "Eine Suche mit besonders verständlichen Seiten",
+    "Eine Software für Fotos",
+    "Ein Schulbuch"
+   ],
+   "answer": "Eine Suche mit besonders verständlichen Seiten",
+   "hint": "Beispiel: Blinde Kuh.",
+   "explain": "Solche Suchmaschinen führen zu kindgerecht geschriebenen Seiten."
+  },
+  {
+   "type": "choice",
+   "q": "Woran erkennst du eine seriöse Internetseite?",
+   "options": [
+    "Im Impressum stehen Verfasser und Verantwortliche.",
+    "Sie hat viele Werbebilder.",
+    "Sie ist bunt."
+   ],
+   "answer": "Im Impressum stehen Verfasser und Verantwortliche.",
+   "hint": "Ein Blick ins Impressum.",
+   "explain": "Das Impressum zeigt, wer die Seite erstellt hat."
+  },
+  {
+   "type": "choice",
+   "q": "Wie grenzt du eine Internetsuche ein?",
+   "options": [
+    "Du ergänzt Begriffe, z. B. Meerschweinchen + Haltung",
+    "Du suchst nur mit einem Wort",
+    "Du gibst die Seitenzahl ein"
+   ],
+   "answer": "Du ergänzt Begriffe, z. B. Meerschweinchen + Haltung",
+   "hint": "Mehr Suchbegriffe.",
+   "explain": "Zusätzliche Suchbegriffe engen die Trefferliste ein."
+  },
+  {
+   "type": "choice",
+   "q": "Was muss ein gutes Plakat haben?",
+   "options": [
+    "Passendes Verhältnis von Bild und Text",
+    "Nur viel Text",
+    "Nur Bilder ohne Titel"
+   ],
+   "answer": "Passendes Verhältnis von Bild und Text",
+   "hint": "Nicht überladen.",
+   "explain": "Ein gutes Plakat ist übersichtlich, mit kurzen Texten und passenden Bildern."
+  },
+  {
+   "type": "choice",
+   "q": "Warum muss man Bildquellen angeben?",
+   "options": [
+    "Um die Herkunft der Bilder nachzuweisen",
+    "Damit das Plakat größer wird",
+    "Das ist nicht nötig"
+   ],
+   "answer": "Um die Herkunft der Bilder nachzuweisen",
+   "hint": "Quellen.",
+   "explain": "Quellenangaben zeigen, woher Informationen und Bilder stammen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Kennzeichen zeigt eine Eiche?",
+   "options": [
+    "Wachstum, Fortpflanzung, Stoffwechsel",
+    "Nur Farbe",
+    "Nur Gewicht"
+   ],
+   "answer": "Wachstum, Fortpflanzung, Stoffwechsel",
+   "hint": "Vergleiche mit den Kennzeichen.",
+   "explain": "Eine Eiche wächst, bildet Blüten und Samen und nimmt Stoffe auf."
+  }
+ ]
+}

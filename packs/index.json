@@ -230,5 +230,69 @@
   "words": 12,
   "tasks": 30,
   "book": "Klartext 5 (NRW)"
+ },
+ {
+  "file": "de_b1_kennzeichen.json",
+  "title": "Biologie 5 – Kennzeichen des Lebendigen und Zellen",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 21,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b2_hund.json",
+  "title": "Biologie 5 – Haustiere und Hund",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 23,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b3_wolf_katze.json",
+  "title": "Biologie 5 – Wolf und Katze",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 23,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b4_rind_schwein_huhn.json",
+  "title": "Biologie 5 – Rind, Schwein und Huhn",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 23,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b5_saeuger_wildtiere.json",
+  "title": "Biologie 5 – Säugetiere in der Umgebung",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 24,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b6_voegel.json",
+  "title": "Biologie 5 – Vögel",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 25,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b7_fische_amphibien.json",
+  "title": "Biologie 5 – Fische und Amphibien",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 25,
+  "book": "Blickpunkt Biologie 1"
+ },
+ {
+  "file": "de_b8_reptilien_insekten_wuermer.json",
+  "title": "Biologie 5 – Reptilien, Insekten, Würmer und Wirbellose",
+  "subject": "Biologie",
+  "words": 12,
+  "tasks": 31,
+  "book": "Blickpunkt Biologie 1"
  }
 ]

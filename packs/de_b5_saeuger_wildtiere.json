@@ -1,0 +1,375 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Säugetiere in der Umgebung",
+ "key": "Eichhörnchen, Maulwurf und Fledermaus sind Säugetiere mit besonderen Anpassungen an ihre Lebensräume.\nIm Buch: S. 53–65",
+ "slides": [
+  {
+   "title": "Wildtiere und Haustiere",
+   "text": "Wildtiere sind unverändert. Haustiere stammen von Wildtieren ab.",
+   "emoji": "🌳"
+  },
+  {
+   "title": "Eichhörnchen",
+   "text": "Nesthocker im Kobel. Es sammelt Nüsse und Samen. Der Schwanz hilft beim Springen.",
+   "emoji": "🐿️"
+  },
+  {
+   "title": "Maulwurf",
+   "text": "Lebt unter der Erde, lockert den Boden, frisst Insekten und Regenwürmer.",
+   "emoji": "🦔"
+  },
+  {
+   "title": "Fledermaus",
+   "text": "Echoortung mit Ultraschall. Winterschlaf spart Energie. Strenger Schutz.",
+   "emoji": "🦇"
+  },
+  {
+   "title": "Steckbrief erstellen",
+   "text": "Gliederung, Informationen sammeln, Bilder und Quellen angeben.",
+   "emoji": "📝"
+  }
+ ],
+ "vocab": [
+  [
+   "Kobel",
+   "Nest des Eichhörnchens"
+  ],
+  [
+   "Nesthocker",
+   "Jungtiere bleiben im Nest"
+  ],
+  [
+   "Wohnkessel",
+   "Mittelpunkt im Maulwurf-Gangsystem"
+  ],
+  [
+   "Insektenfressergebiss",
+   "Gebiss für Insekten"
+  ],
+  [
+   "Echoortung",
+   "Orientierung mit Schall-Echos"
+  ],
+  [
+   "Ultraschall",
+   "hoher Schall, den Menschen nicht hören"
+  ],
+  [
+   "Winterquartier",
+   "Ort für den Winterschlaf"
+  ],
+  [
+   "Winterschlaf",
+   "Ruhezeit mit gesenkter Körpertemperatur"
+  ],
+  [
+   "Nützling",
+   "Tier, das dem Menschen nützt"
+  ],
+  [
+   "Steckbrief",
+   "Kurzbeschreibung einer Art"
+  ],
+  [
+   "Walzenform",
+   "zylindrische Körperform"
+  ],
+  [
+   "Gangsystem",
+   "Netz aus Gängen unter der Erde"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welche Tiere leben auf einem Bauernhof als Haustiere?",
+   "options": [
+    "Rinder, Schweine, Hühner, Katzen",
+    "Nur Fische",
+    "Nur Löwen"
+   ],
+   "answer": "Rinder, Schweine, Hühner, Katzen",
+   "hint": "Haustiere auf dem Hof.",
+   "explain": "Auf dem Bauernhof leben Nutztiere und Heimtiere wie Katzen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum gehört das Wildschwein zu den Wildtieren?",
+   "options": [
+    "Es ist nicht vom Menschen gezüchtet.",
+    "Es lebt im Stall.",
+    "Es gibt Milch."
+   ],
+   "answer": "Es ist nicht vom Menschen gezüchtet.",
+   "hint": "Züchtung.",
+   "explain": "Wildtiere sind nicht durch Züchtung verändert."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Eichhörnchen-Kobel?",
+   "options": [
+    "Ein Nest aus Zweigen im Baum",
+    "Ein Stall",
+    "Ein Fell"
+   ],
+   "answer": "Ein Nest aus Zweigen im Baum",
+   "hint": "Nest oben im Baum.",
+   "explain": "Das Eichhörnchen baut seinen Kobel aus Zweigen und polstert ihn mit Laub und Moos."
+  },
+  {
+   "type": "choice",
+   "q": "Was frisst das Eichhörnchen im Herbst?",
+   "options": [
+    "Nüsse und Samen",
+    "Fleisch",
+    "Milch"
+   ],
+   "answer": "Nüsse und Samen",
+   "hint": "Vorrat.",
+   "explain": "Im Sommer und Herbst sammelt das Eichhörnchen Nüsse und Samen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist das Eichhörnchen ein Wirbeltier?",
+   "options": [
+    "Es hat eine Wirbelsäule.",
+    "Es hat einen Panzer.",
+    "Es hat Flügel."
+   ],
+   "answer": "Es hat eine Wirbelsäule.",
+   "hint": "Wirbelsäule.",
+   "explain": "Vom Kopf bis zum Schwanz verläuft eine Wirbelsäule aus beweglichen Wirbeln."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dient der Schwanz beim Eichhörnchen?",
+   "options": [
+    "Zum Gleichgewicht beim Springen",
+    "Zum Schwimmen",
+    "Zum Graben"
+   ],
+   "answer": "Zum Gleichgewicht beim Springen",
+   "hint": "Balance.",
+   "explain": "Der buschige Schwanz hilft beim Halten des Gleichgewichts."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Nesthocker?",
+   "options": [
+    "Die Jungen bleiben zuerst im Nest und werden gefüttert.",
+    "Die Jungen verlassen sofort das Nest.",
+    "Die Jungen leben im Wasser."
+   ],
+   "answer": "Die Jungen bleiben zuerst im Nest und werden gefüttert.",
+   "hint": "Eichhörnchen-Jungtiere.",
+   "explain": "Nesthocker sind noch hilflos und bleiben im Nest."
+  },
+  {
+   "type": "choice",
+   "q": "Wo lebt der Maulwurf meistens?",
+   "options": [
+    "Unter der Erde in Gängen",
+    "Auf Bäumen",
+    "Im Wasser"
+   ],
+   "answer": "Unter der Erde in Gängen",
+   "hint": "Gangsystem.",
+   "explain": "Der Maulwurf verbringt fast sein ganzes Leben unter der Erde."
+  },
+  {
+   "type": "choice",
+   "q": "Woran erkennt man den Maulwurf im Garten?",
+   "options": [
+    "An den Maulwurfshügeln",
+    "An einem Nest",
+    "An Federn"
+   ],
+   "answer": "An den Maulwurfshügeln",
+   "hint": "Erdhügel.",
+   "explain": "Die Hügel zeigen, dass der Maulwurf Gänge gräbt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Wohnkessel des Maulwurfs?",
+   "options": [
+    "Der Mittelpunkt des Gangsystems, ausgepolstert mit Gras und Laub",
+    "Ein Wasserbecken",
+    "Eine Höhle im Baum"
+   ],
+   "answer": "Der Mittelpunkt des Gangsystems, ausgepolstert mit Gras und Laub",
+   "hint": "Schlafort.",
+   "explain": "Im Wohnkessel ruht und schläft der Maulwurf."
+  },
+  {
+   "type": "choice",
+   "q": "Wie hilft der Maulwurf dem Garten?",
+   "options": [
+    "Er lockert den Boden und frisst Schädlinge.",
+    "Er zerstört alle Pflanzen.",
+    "Er trinkt Wasser."
+   ],
+   "answer": "Er lockert den Boden und frisst Schädlinge.",
+   "hint": "Nützling.",
+   "explain": "Durch seine Gänge wird der Boden gelockert, Schädlinge werden gefressen."
+  },
+  {
+   "type": "choice",
+   "q": "Was frisst der Maulwurf?",
+   "options": [
+    "Insekten, Spinnen und Regenwürmer",
+    "Nur Gras",
+    "Nur Samen"
+   ],
+   "answer": "Insekten, Spinnen und Regenwürmer",
+   "hint": "Insektenfresser.",
+   "explain": "Der Maulwurf ist ein Insektenfresser."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Körperform hat der Maulwurf?",
+   "options": [
+    "Walzenförmig mit kurzen Hinterbeinen",
+    "Lang und dünn wie eine Schlange",
+    "Flach wie ein Blatt"
+   ],
+   "answer": "Walzenförmig mit kurzen Hinterbeinen",
+   "hint": "Grabbau.",
+   "explain": "Er schiebt sich mit kurzen Hinterbeinen durch die Gänge."
+  },
+  {
+   "type": "choice",
+   "q": "Warum sind Maulwurfshaare besonders?",
+   "options": [
+    "Sie legen sich in beide Richtungen an den Körper an.",
+    "Sie sind rot.",
+    "Sie sind lang."
+   ],
+   "answer": "Sie legen sich in beide Richtungen an den Körper an.",
+   "hint": "Gänge.",
+   "explain": "Die Haare liegen bei Vorwärts- und Rückwärtskriechen an."
+  },
+  {
+   "type": "choice",
+   "q": "Wie orientiert sich die Fledermaus in der Dunkelheit?",
+   "options": [
+    "Mit Echoortung",
+    "Mit Sonnenlicht",
+    "Mit Nachtsicht wie eine Eule"
+   ],
+   "answer": "Mit Echoortung",
+   "hint": "Ultraschall.",
+   "explain": "Fledermäuse stoßen Ultraschallschreie aus und hören das Echo."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Schallart nutzt die Fledermaus?",
+   "options": [
+    "Ultraschall",
+    "Nur Musik",
+    "Infraschall nur für Menschen"
+   ],
+   "answer": "Ultraschall",
+   "hint": "Hohe Frequenz.",
+   "explain": "Menschen können die Ultraschall-Schreie nicht hören."
+  },
+  {
+   "type": "choice",
+   "q": "Warum können Fledermäuse Entfernungen erkennen?",
+   "options": [
+    "Das Echo kommt bei weit entfernten Objekten später an.",
+    "Sie sehen Farben.",
+    "Sie zählen die Schritte."
+   ],
+   "answer": "Das Echo kommt bei weit entfernten Objekten später an.",
+   "hint": "Zeit des Echos.",
+   "explain": "Die Laufzeit des Echos verrät die Entfernung."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Insekten kann eine zehn Gramm schwere Fledermaus in einer Nacht fangen?",
+   "options": [
+    "Bis zu 1500",
+    "Zehn",
+    "Null"
+   ],
+   "answer": "Bis zu 1500",
+   "hint": "Gewicht im Vergleich.",
+   "explain": "Sie fängt in einer Nacht bis zu 1500 Insekten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Winterquartier der Fledermaus?",
+   "options": [
+    "Ein geschützter Ort, an dem sie Winterschlaf hält",
+    "Ein Nest im Sommer",
+    "Ein Stall"
+   ],
+   "answer": "Ein geschützter Ort, an dem sie Winterschlaf hält",
+   "hint": "Winterschlaf.",
+   "explain": "Im Winter überwintern Fledermäuse in Höhlen oder Kellern."
+  },
+  {
+   "type": "choice",
+   "q": "Warum senkt die Fledermaus ihre Körpertemperatur im Winterschlaf?",
+   "options": [
+    "Um Energie zu sparen.",
+    "Damit sie fliegen kann.",
+    "Damit sie Wasser findet."
+   ],
+   "answer": "Um Energie zu sparen.",
+   "hint": "Energiebedarf.",
+   "explain": "Eine niedrige Körpertemperatur senkt den Energiebedarf im Winterschlaf."
+  },
+  {
+   "type": "choice",
+   "q": "Warum stehen Fledermäuse unter strengem Schutz?",
+   "options": [
+    "Sie sind gefährdet und brauchen geschützte Quartiere.",
+    "Sie sind giftig.",
+    "Sie sind in Massen da."
+   ],
+   "answer": "Sie sind gefährdet und brauchen geschützte Quartiere.",
+   "hint": "Schutz.",
+   "explain": "Viele Fledermausarten sind bedroht und benötigen Schutz ihrer Quartiere."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ultraschall-Ruf?",
+   "options": [
+    "Ein hoher Ton, den Menschen nicht hören können",
+    "Ein tiefer Donner",
+    "Ein Lichtsignal"
+   ],
+   "answer": "Ein hoher Ton, den Menschen nicht hören können",
+   "hint": "Hoher Ton.",
+   "explain": "Ultraschall liegt oberhalb des menschlichen Hörbereichs."
+  },
+  {
+   "type": "choice",
+   "q": "Was gehört zu einem Steckbrief?",
+   "options": [
+    "Merkmale, Lebensraum und Ernährung einer Art",
+    "Nur ein Foto",
+    "Nur der Name der Lehrerin"
+   ],
+   "answer": "Merkmale, Lebensraum und Ernährung einer Art",
+   "hint": "Biologen beschreiben Arten.",
+   "explain": "Steckbriefe beschreiben wichtige Eigenschaften einer Tier- oder Pflanzenart."
+  },
+  {
+   "type": "choice",
+   "q": "Wie geht man beim Erstellen eines Steckbriefs vor?",
+   "options": [
+    "Erst die Gliederung planen, dann Informationen suchen",
+    "Erst das Foto kleben, dann nachdenken",
+    "Gar nicht"
+   ],
+   "answer": "Erst die Gliederung planen, dann Informationen suchen",
+   "hint": "Schritt 1.",
+   "explain": "Zuerst überlegst du, welche Oberbegriffe wichtig sind."
+  }
+ ]
+}

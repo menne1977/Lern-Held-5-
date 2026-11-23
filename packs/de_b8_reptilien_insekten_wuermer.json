@@ -1,0 +1,464 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Reptilien, Insekten, Würmer und Wirbellose",
+ "key": "Reptilien sind wechselwarm, Insekten haben ein Außenskelett, Regenwürmer lockern den Boden.\nIm Buch: S. 92–108",
+ "slides": [
+  {
+   "title": "Reptilien",
+   "text": "Wechselwarm, trockene Hornschuppen, Lungenatmung, Eier in trockenem Versteck.",
+   "emoji": "🦎"
+  },
+  {
+   "title": "Schlangen und Schildkröten",
+   "text": "Schlangen haben keine Beine und bewegen sich schlängelnd. Schildkröten haben einen Panzer.",
+   "emoji": "🐍"
+  },
+  {
+   "title": "Insekten",
+   "text": "Drei Beinpaare, Außenskelett aus Chitin, wichtig als Bestäuber.",
+   "emoji": "🐝"
+  },
+  {
+   "title": "Honigbiene",
+   "text": "Facettenaugen, Saugrüssel, Honigmagen. Der Honig entsteht aus Nektar.",
+   "emoji": "🍯"
+  },
+  {
+   "title": "Regenwurm",
+   "text": "Atmet über die Haut, bewegt sich mit Muskeln, ist ein Zwitter und lockert den Boden.",
+   "emoji": "🪱"
+  },
+  {
+   "title": "Wirbellose",
+   "text": "95 Prozent der Tierarten haben keine Wirbelsäule. Weichtiere, Gliederfüßer und mehr.",
+   "emoji": "🐌"
+  }
+ ],
+ "vocab": [
+  [
+   "wechselwarm",
+   "Körpertemperatur passt sich der Umgebung an"
+  ],
+  [
+   "Hornschuppe",
+   "Schuppe aus Horn bei Reptilien"
+  ],
+  [
+   "Reptil",
+   "Kriechtier mit Hornschuppen"
+  ],
+  [
+   "Panzer",
+   "Schutzhülle, z. B. bei Schildkröten"
+  ],
+  [
+   "Chitin",
+   "Stoff des Außenskeletts bei Insekten"
+  ],
+  [
+   "Außenskelett",
+   "Schutz außen am Körper"
+  ],
+  [
+   "Bestäuber",
+   "überträgt Pollen auf Blüten"
+  ],
+  [
+   "Nektar",
+   "zuckerhaltige Blütenflüssigkeit"
+  ],
+  [
+   "Varroamilbe",
+   "Parasit der Honigbiene"
+  ],
+  [
+   "Zwitter",
+   "Tier mit männlichen und weiblichen Geschlechtszellen"
+  ],
+  [
+   "Wirbellose",
+   "Tiere ohne Wirbelsäule"
+  ],
+  [
+   "Weichtier",
+   "Tier mit weichem Körper, z. B. Schnecke"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist ein wechselwarmes Tier?",
+   "options": [
+    "Ein Tier, dessen Körpertemperatur sich nach der Umgebung richtet",
+    "Ein Tier mit immer 37 Grad",
+    "Ein Tier, das im Eis lebt"
+   ],
+   "answer": "Ein Tier, dessen Körpertemperatur sich nach der Umgebung richtet",
+   "hint": "Umgebung.",
+   "explain": "Reptilien passen ihre Körpertemperatur der Umgebung an, z. B. durch Sonnenbaden."
+  },
+  {
+   "type": "choice",
+   "q": "Warum sonnen sich Zauneidechsen?",
+   "options": [
+    "Um ihre Körpertemperatur zu erhöhen",
+    "Um Wasser zu sammeln",
+    "Um Schuppen zu bilden"
+   ],
+   "answer": "Um ihre Körpertemperatur zu erhöhen",
+   "hint": "Wärme.",
+   "explain": "Durch Sonnen erwärmen sie sich, weil sie wechselwarm sind."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Körperbedeckung haben Reptilien?",
+   "options": [
+    "Trockene Hornschuppen",
+    "Federn",
+    "Nackte Haut"
+   ],
+   "answer": "Trockene Hornschuppen",
+   "hint": "Schutz vor Austrocknung.",
+   "explain": "Hornschuppen schützen vor Verletzungen und Austrocknung."
+  },
+  {
+   "type": "choice",
+   "q": "Warum häuten sich Reptilien?",
+   "options": [
+    "Die Haut wächst nicht mit dem Körper mit.",
+    "Sie wechseln die Farbe.",
+    "Sie verlieren Federn."
+   ],
+   "answer": "Die Haut wächst nicht mit dem Körper mit.",
+   "hint": "Häutung.",
+   "explain": "Die Hornschuppen wachsen nicht mit, daher reißt die alte Haut ein."
+  },
+  {
+   "type": "choice",
+   "q": "Wie legen Reptilien ihre Eier?",
+   "options": [
+    "In einem trockenen Versteck mit ledriger Schale",
+    "In Wasser ohne Schale",
+    "Im Nest mit Federn"
+   ],
+   "answer": "In einem trockenen Versteck mit ledriger Schale",
+   "hint": "Trocken.",
+   "explain": "Die ledrige Schale schützt vor Austrocknung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist bei Reptilieneiern anders als bei Vogeleiern?",
+   "options": [
+    "Sie werden nicht bebrütet.",
+    "Sie sind immer rund.",
+    "Sie werden im Wasser gelegt."
+   ],
+   "answer": "Sie werden nicht bebrütet.",
+   "hint": "Vergleich.",
+   "explain": "Reptilieneier werden nicht bebrütet, sondern liegen im Versteck."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Reptil in der Herkunft des Wortes?",
+   "options": [
+    "kriechend",
+    "fliegend",
+    "schwimmend"
+   ],
+   "answer": "kriechend",
+   "hint": "Lateinisch.",
+   "explain": "Reptil kommt aus dem Lateinischen und heißt kriechend."
+  },
+  {
+   "type": "choice",
+   "q": "Wie bewegen sich Schlangen fort?",
+   "options": [
+    "Sie schlängeln sich mit Bauchschuppen und Muskeln.",
+    "Sie hüpfen.",
+    "Sie fliegen."
+   ],
+   "answer": "Sie schlängeln sich mit Bauchschuppen und Muskeln.",
+   "hint": "Bauchschuppen.",
+   "explain": "Die großen Bauchschuppen und Muskeln schieben den Körper vorwärts."
+  },
+  {
+   "type": "choice",
+   "q": "Welche heimische Giftschlange ist bekannt?",
+   "options": [
+    "Kreuzotter",
+    "Ringelnatter",
+    "Blindschleiche"
+   ],
+   "answer": "Kreuzotter",
+   "hint": "Heimische Schlange.",
+   "explain": "Die Kreuzotter ist eine bekannte heimische Schlange, ihr Gift ist für Menschen kaum gefährlich."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Arten von Schlangen gibt es weltweit ungefähr?",
+   "options": [
+    "Über 3600",
+    "Zehn",
+    "Hundert"
+   ],
+   "answer": "Über 3600",
+   "hint": "Vielfalt.",
+   "explain": "Weltweit gibt es über 3600 Schlangenarten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist für Schildkröten typisch?",
+   "options": [
+    "Ein Panzer",
+    "Federn",
+    "Flossen"
+   ],
+   "answer": "Ein Panzer",
+   "hint": "Schildkröte.",
+   "explain": "Der Panzer schützt den Körper der Schildkröte."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dient der Schlafplatz bei Eidechsen im Vergleich zu Schlangen?",
+   "options": [
+    "Es ist ein Unterschied in der Fortbewegung und Gliedmaßen.",
+    "Es gibt keinen Unterschied.",
+    "Schlangen schlafen nie."
+   ],
+   "answer": "Es ist ein Unterschied in der Fortbewegung und Gliedmaßen.",
+   "hint": "Vergleich.",
+   "explain": "Eidechsen haben kurze Beine, Schlangen keine Gliedmaßen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Insekt?",
+   "options": [
+    "Ein Tier mit drei Beinpaaren und Außenskelett",
+    "Ein Tier mit Wirbelsäule",
+    "Ein Tier mit Federn"
+   ],
+   "answer": "Ein Tier mit drei Beinpaaren und Außenskelett",
+   "hint": "Außenskelett.",
+   "explain": "Insekten haben drei Beinpaare und ein Außenskelett aus Chitin."
+  },
+  {
+   "type": "choice",
+   "q": "Woraus besteht das Außenskelett der Insekten?",
+   "options": [
+    "Aus Chitin",
+    "Aus Knochen",
+    "Aus Hornschuppen"
+   ],
+   "answer": "Aus Chitin",
+   "hint": "Panzer.",
+   "explain": "Das Außenskelett besteht aus Chitin."
+  },
+  {
+   "type": "choice",
+   "q": "Wie wichtig sind Honigbienen für Pflanzen?",
+   "options": [
+    "Sie bestäuben viele Nutzpflanzen.",
+    "Sie fressen Pflanzen.",
+    "Sie sind unwichtig."
+   ],
+   "answer": "Sie bestäuben viele Nutzpflanzen.",
+   "hint": "Bestäubung.",
+   "explain": "Honigbienen bestäuben viele Pflanzen und sind dadurch wichtig für Ernten."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Körperteile hat die Honigbiene am Kopf?",
+   "options": [
+    "Facettenaugen, Fühler und Saugrüssel",
+    "Nur Fühler",
+    "Zwei Schnäbel"
+   ],
+   "answer": "Facettenaugen, Fühler und Saugrüssel",
+   "hint": "Kopf.",
+   "explain": "Am Kopf sitzen Facettenaugen, Fühler und ein Saugrüssel."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Flügel hat die Honigbiene?",
+   "options": [
+    "Vier",
+    "Zwei",
+    "Sechs"
+   ],
+   "answer": "Vier",
+   "hint": "Zwei Flügelpaare.",
+   "explain": "Die Honigbiene hat vier Flügel an der Brust."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Beine hat die Honigbiene?",
+   "options": [
+    "Sechs",
+    "Vier",
+    "Acht"
+   ],
+   "answer": "Sechs",
+   "hint": "Drei Beinpaare.",
+   "explain": "Die Brust trägt sechs gegliederte Beine."
+  },
+  {
+   "type": "choice",
+   "q": "Wo speichert die Honigbiene den Nektar?",
+   "options": [
+    "Im Honigmagen",
+    "Im Saugrüssel",
+    "In den Flügeln"
+   ],
+   "answer": "Im Honigmagen",
+   "hint": "Magen.",
+   "explain": "Den Nektar speichert sie im Honigmagen."
+  },
+  {
+   "type": "choice",
+   "q": "Woraus stellen Bienen Honig vor allem her?",
+   "options": [
+    "Aus Nektar",
+    "Aus Holz",
+    "Aus Fleisch"
+   ],
+   "answer": "Aus Nektar",
+   "hint": "Blütensaft.",
+   "explain": "Bienen stellen Honig vor allem aus Nektar her."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Varroamilbe?",
+   "options": [
+    "Ein Parasit der Honigbiene",
+    "Eine Biene",
+    "Eine Blume"
+   ],
+   "answer": "Ein Parasit der Honigbiene",
+   "hint": "Gefahr.",
+   "explain": "Die Varroamilbe lebt als Parasit im Bienenstock und gefährdet die Biene."
+  },
+  {
+   "type": "choice",
+   "q": "Warum leben Regenwürmer unter der Erde?",
+   "options": [
+    "Dort ist es dunkel und feucht.",
+    "Dort ist es heiß.",
+    "Sie mögen Sonne."
+   ],
+   "answer": "Dort ist es dunkel und feucht.",
+   "hint": "Haut atmen.",
+   "explain": "Ohne Feuchtigkeit kann der Regenwurm nicht über die Haut atmen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie atmet der Regenwurm?",
+   "options": [
+    "Über die Haut",
+    "Mit Lungen",
+    "Mit Kiemen"
+   ],
+   "answer": "Über die Haut",
+   "hint": "Feuchte Haut.",
+   "explain": "Der Regenwurm atmet über seine feuchte, durchblutete Haut."
+  },
+  {
+   "type": "choice",
+   "q": "Wie bewegt sich der Regenwurm vorwärts?",
+   "options": [
+    "Durch Ringmuskeln und Längsmuskeln im Wechsel",
+    "Mit Beinen",
+    "Mit Flügeln"
+   ],
+   "answer": "Durch Ringmuskeln und Längsmuskeln im Wechsel",
+   "hint": "Muskeln arbeiten zusammen.",
+   "explain": "Ring- und Längsmuskeln ziehen sich abwechselnd zusammen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Zwitter?",
+   "options": [
+    "Ein Tier mit männlichen und weiblichen Geschlechtszellen",
+    "Ein Tier mit zwei Köpfen",
+    "Ein Tier ohne Geschlecht"
+   ],
+   "answer": "Ein Tier mit männlichen und weiblichen Geschlechtszellen",
+   "hint": "Regenwurm.",
+   "explain": "Jeder Regenwurm bildet Spermien und Eizellen."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht der Regenwurm für den Boden?",
+   "options": [
+    "Er lockert den Boden und verbessert ihn.",
+    "Er verdichtet den Boden.",
+    "Er macht den Boden salzig."
+   ],
+   "answer": "Er lockert den Boden und verbessert ihn.",
+   "hint": "Bodenfruchtbarkeit.",
+   "explain": "Regenwürmer durchziehen den Boden mit Gängen und erhöhen die Ernte."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Gruppe hat keine Wirbelsäule und ist die größte Gruppe der Tiere?",
+   "options": [
+    "Die Wirbellosen",
+    "Die Wirbeltiere",
+    "Die Säugetiere"
+   ],
+   "answer": "Die Wirbellosen",
+   "hint": "95 Prozent.",
+   "explain": "Rund 95 Prozent der Tierarten sind Wirbellose."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stamm umfasst Schnecken und Muscheln?",
+   "options": [
+    "Weichtiere",
+    "Gliederfüßer",
+    "Wirbeltiere"
+   ],
+   "answer": "Weichtiere",
+   "hint": "Weicher Körper.",
+   "explain": "Schnecken, Muscheln und Tintenfische zählen zu den Weichtieren."
+  },
+  {
+   "type": "choice",
+   "q": "Was schützt den weichen Körper von Schnecken?",
+   "options": [
+    "Eine Kalkschale",
+    "Federn",
+    "Hornschuppen"
+   ],
+   "answer": "Eine Kalkschale",
+   "hint": "Gehäuse.",
+   "explain": "Muscheln und Gehäuseschnecken haben eine Kalkschale."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Tierarten sind Wirbeltiere?",
+   "options": [
+    "Etwa 5 Prozent",
+    "Etwa 50 Prozent",
+    "Etwa 95 Prozent"
+   ],
+   "answer": "Etwa 5 Prozent",
+   "hint": "Wirbeltiere sind wenige.",
+   "explain": "Wirbeltiere machen nur etwa 5 Prozent aller Tierarten aus."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Gliedmaßen zeigen Anpassung an Grabbau beim Maulwurf?",
+   "options": [
+    "Breite, kräftige Vordergliedmaßen",
+    "Lange Flügel",
+    "Schwimmflossen"
+   ],
+   "answer": "Breite, kräftige Vordergliedmaßen",
+   "hint": "Graben.",
+   "explain": "Die Vordergliedmaßen sind für das Graben gebaut."
+  }
+ ]
+}

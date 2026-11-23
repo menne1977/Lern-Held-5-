@@ -1,0 +1,387 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Vögel",
+ "key": "Vögel haben Federn, Hohlknochen und Flügel, mit denen sie fliegen. Sie entwickeln sich aus befruchteten Eiern.\nIm Buch: S. 66–76",
+ "slides": [
+  {
+   "title": "Körperbau der Vögel",
+   "text": "Stromlinienform, hohle Knochen, Federkleid, zahnloser Schnabel.",
+   "emoji": "🐦"
+  },
+  {
+   "title": "Federn",
+   "text": "Daunen wärmen, Deckfedern schützen, Schwungfedern tragen, Steuerfedern lenken.",
+   "emoji": "🪶"
+  },
+  {
+   "title": "Flügel und Auftrieb",
+   "text": "Schwungfedern bilden Fläche. Gewölbte Flügel erzeugen Auftrieb.",
+   "emoji": "✈️"
+  },
+  {
+   "title": "Gleitflug",
+   "text": "Große Vögel nutzen Aufwinde und sparen Energie.",
+   "emoji": "🌬️"
+  },
+  {
+   "title": "Entwicklung der Vögel",
+   "text": "Innere Befruchtung, Eier mit Dotter und Eiklar, Brutpflege. Hühnerküken sind Nestflüchter.",
+   "emoji": "🥚"
+  }
+ ],
+ "vocab": [
+  [
+   "Stromlinienform",
+   "schlanke Körperform mit wenig Widerstand"
+  ],
+  [
+   "Daunenfeder",
+   "isolierende Flaumfeder"
+  ],
+  [
+   "Schwungfeder",
+   "lange Feder bildet Tragfläche"
+  ],
+  [
+   "Steuerfeder",
+   "Feder am Schwanz zum Lenken"
+  ],
+  [
+   "Auftrieb",
+   "Kraft, die einen Körper nach oben trägt"
+  ],
+  [
+   "Aufwind",
+   "aufsteigende Luft"
+  ],
+  [
+   "Gleitflug",
+   "Fliegen ohne Flügelschlag"
+  ],
+  [
+   "Kloake",
+   "gemeinsame Mündung"
+  ],
+  [
+   "Nestflüchter",
+   "Jungtier, das früh das Nest verlässt"
+  ],
+  [
+   "Brutpflege",
+   "Fürsorge der Eltern"
+  ],
+  [
+   "Eiklar",
+   "Eiweiß im Ei"
+  ],
+  [
+   "Dotter",
+   "Nährstoffreicher Teil des Eis"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Warum ist die Stromlinienform bei Vögeln vorteilhaft?",
+   "options": [
+    "Sie bietet der Luft wenig Widerstand.",
+    "Sie ist schön.",
+    "Sie hält warm."
+   ],
+   "answer": "Sie bietet der Luft wenig Widerstand.",
+   "hint": "Luftwiderstand.",
+   "explain": "Eine stromlinienförmige Gestalt erleichtert das Fliegen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum sind Vogelknochen leicht?",
+   "options": [
+    "Sie sind hohl und mit Luft gefüllt.",
+    "Sie sind aus Gummi.",
+    "Sie sind aus Wasser."
+   ],
+   "answer": "Sie sind hohl und mit Luft gefüllt.",
+   "hint": "Leichtbau.",
+   "explain": "Vogelknochen sind dünnwandig und hohl, damit der Vogel leicht bleibt."
+  },
+  {
+   "type": "choice",
+   "q": "Was verbindet die Rippen beim Vogel?",
+   "options": [
+    "Das Brustbein, an dem die Flugmuskeln ansetzen",
+    "Die Schwanzfedern",
+    "Der Schnabel"
+   ],
+   "answer": "Das Brustbein, an dem die Flugmuskeln ansetzen",
+   "hint": "Flugmuskeln.",
+   "explain": "Die Rippen sind mit dem großen Brustbein verbunden, daran setzen die Flugmuskeln an."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Feder dient der Wärme?",
+   "options": [
+    "Daunenfeder",
+    "Schwungfeder",
+    "Steuerfeder"
+   ],
+   "answer": "Daunenfeder",
+   "hint": "Unten am Körper.",
+   "explain": "Daunenfedern schließen Luft ein und isolieren."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Federn bilden die Tragfläche des Flügels?",
+   "options": [
+    "Schwungfedern",
+    "Daunenfedern",
+    "Deckfedern am Bauch"
+   ],
+   "answer": "Schwungfedern",
+   "hint": "Lange Federn am Flügel.",
+   "explain": "Die langen Schwungfedern bilden die Flügelfläche."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dienen die Steuerfedern am Schwanz?",
+   "options": [
+    "Zum Steuern des Flugs und Bremsen bei der Landung",
+    "Zum Wärmen",
+    "Zum Schwimmen"
+   ],
+   "answer": "Zum Steuern des Flugs und Bremsen bei der Landung",
+   "hint": "Schwanz.",
+   "explain": "Der Vogel steuert den Flug und bremst mit den Schwanzfedern."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Teil des Vogels ist zahnlos?",
+   "options": [
+    "Schnabel",
+    "Flügel",
+    "Schwanz"
+   ],
+   "answer": "Schnabel",
+   "hint": "Hornüberzug.",
+   "explain": "Der Schnabel ist zahnlos und mit Horn überzogen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum hat ein Vogel keine Harnblase?",
+   "options": [
+    "Er scheidet Urin und Kot schnell aus, um leicht zu bleiben.",
+    "Er braucht keinen Urin.",
+    "Er hat einen Magen aus Luft."
+   ],
+   "answer": "Er scheidet Urin und Kot schnell aus, um leicht zu bleiben.",
+   "hint": "Gewicht sparen.",
+   "explain": "Ohne Harnblase bleibt der Vogel leichter."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Lunge mit Luftsäcken beim Vogel?",
+   "options": [
+    "Ein Atmungssystem, das die Luft durch den Körper leitet",
+    "Ein Schwimmorgan",
+    "Ein Verdauungsorgan"
+   ],
+   "answer": "Ein Atmungssystem, das die Luft durch den Körper leitet",
+   "hint": "Atmung beim Fliegen.",
+   "explain": "Die Luftsäcke unterstützen die Atmung, auch beim Flug."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist beim Abwärtsschlag der Flügel wichtig?",
+   "options": [
+    "Die Schwungfedern bilden eine geschlossene Fläche.",
+    "Die Flügel sind ganz geöffnet.",
+    "Die Flügel sind eingezogen."
+   ],
+   "answer": "Die Schwungfedern bilden eine geschlossene Fläche.",
+   "hint": "Vorwärts und hoch.",
+   "explain": "Eine geschlossene Fläche hält den Vogel in der Luft und erzeugt Schub."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert beim Aufwärtsschlag?",
+   "options": [
+    "Die Luft strömt zwischen den Federn hindurch.",
+    "Der Vogel stürzt.",
+    "Der Vogel bleibt stehen."
+   ],
+   "answer": "Die Luft strömt zwischen den Federn hindurch.",
+   "hint": "Geöffnete Fläche.",
+   "explain": "Durch die geöffnete Fläche verringert sich der Widerstand."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nutzen Vögel mit großen Flügeln den Flug?",
+   "options": [
+    "Sie nutzen aufsteigende Luft, Aufwinde.",
+    "Sie fliegen gegen den Wind.",
+    "Sie fliegen nur bei Nacht."
+   ],
+   "answer": "Sie nutzen aufsteigende Luft, Aufwinde.",
+   "hint": "Aufwinde.",
+   "explain": "Weißstörche und Mäusebussarde gleiten auf Aufwinden ohne viele Flügelschläge."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist die Wölbung des Flügels wichtig?",
+   "options": [
+    "Die Luft oben ist schneller, dadurch entsteht Auftrieb.",
+    "Sie ist nur Dekoration.",
+    "Sie macht den Flügel schwer."
+   ],
+   "answer": "Die Luft oben ist schneller, dadurch entsteht Auftrieb.",
+   "hint": "Auftrieb.",
+   "explain": "Die Luft strömt oben schneller und drückt den Flügel nach oben."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Flugform ist am energiesparendsten?",
+   "options": [
+    "Gleitflug auf Aufwinden",
+    "Schnelles Flügelschlagen ohne Pause",
+    "Fallen"
+   ],
+   "answer": "Gleitflug auf Aufwinden",
+   "hint": "Ohne Flügelschlag.",
+   "explain": "Im Gleitflug braucht der Vogel wenig Energie."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Kloake?",
+   "options": [
+    "Die gemeinsame Öffnung für Ausscheidung und Fortpflanzung",
+    "Ein Flügel",
+    "Ein Ei"
+   ],
+   "answer": "Die gemeinsame Öffnung für Ausscheidung und Fortpflanzung",
+   "hint": "Gemeinsame Mündung.",
+   "explain": "Die Kloake ist die gemeinsame Mündung von Enddarm und Geschlechtsgängen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum können Küken nur aus befruchteten Eiern schlüpfen?",
+   "options": [
+    "Nur befruchtete Eizellen entwickeln sich zu einem Küken.",
+    "Weil Eier immer schlüpfen.",
+    "Weil Hühner keine Eier legen."
+   ],
+   "answer": "Nur befruchtete Eizellen entwickeln sich zu einem Küken.",
+   "hint": "Befruchtung.",
+   "explain": "Ohne Befruchtung entwickelt sich kein Küken."
+  },
+  {
+   "type": "choice",
+   "q": "Wo findet die Befruchtung bei Hühnern statt?",
+   "options": [
+    "Im Körper der Henne, im Eileiter",
+    "Außerhalb im Nest",
+    "Im Ei nach dem Legen"
+   ],
+   "answer": "Im Körper der Henne, im Eileiter",
+   "hint": "Innere Befruchtung.",
+   "explain": "Die Spermienzelle trifft im Eileiter auf die Eizelle."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet innere Befruchtung?",
+   "options": [
+    "Die Befruchtung findet im Körper des Weibchens statt.",
+    "Die Befruchtung findet im Wasser statt.",
+    "Die Befruchtung findet außerhalb des Körpers statt."
+   ],
+   "answer": "Die Befruchtung findet im Körper des Weibchens statt.",
+   "hint": "Im Körper.",
+   "explain": "Bei innerer Befruchtung vereinigen sich die Zellen im weiblichen Körper."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Nestflüchter?",
+   "options": [
+    "Ein Jungtier, das kurz nach dem Schlüpfen das Nest verlässt.",
+    "Ein Vogel, der nie das Nest verlässt.",
+    "Ein Tier im Wasser."
+   ],
+   "answer": "Ein Jungtier, das kurz nach dem Schlüpfen das Nest verlässt.",
+   "hint": "Hühnerküken.",
+   "explain": "Hühnerküken verlassen das Nest und picken selbst nach Futter."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt die Henne ihren Küken?",
+   "options": [
+    "Futter und Feinde",
+    "Nur Wasser",
+    "Ihre Eier"
+   ],
+   "answer": "Futter und Feinde",
+   "hint": "Brutpflege.",
+   "explain": "Die Henne führt ihre Küken aus, zeigt Futter und warnt vor Feinden."
+  },
+  {
+   "type": "choice",
+   "q": "Warum brütet die Henne ihre Eier aus?",
+   "options": [
+    "Damit die Wärme die Entwicklung im Ei ermöglicht.",
+    "Damit das Ei leichter wird.",
+    "Damit das Ei zerfällt."
+   ],
+   "answer": "Damit die Wärme die Entwicklung im Ei ermöglicht.",
+   "hint": "Wärme.",
+   "explain": "Durch Wärme entwickelt sich der Embryo im Ei weiter."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff schützt das Ei als Nährstoff?",
+   "options": [
+    "Eiklar und Dotter",
+    "Sand",
+    "Wasser allein"
+   ],
+   "answer": "Eiklar und Dotter",
+   "hint": "Nährstoffe.",
+   "explain": "Dotter und Eiklar liefern Nährstoffe für den Embryo."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Federtyp mit isolierender Wirkung?",
+   "options": [
+    "Daunenfeder",
+    "Steuerfeder",
+    "Schwungfeder"
+   ],
+   "answer": "Daunenfeder",
+   "hint": "Wärme.",
+   "explain": "Die Daunenfeder bildet eine isolierende Schicht."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Vorteil der Schwungfeder-Fahne?",
+   "options": [
+    "Sie hakt sich zusammen und bildet eine geschlossene Fläche.",
+    "Sie leuchtet.",
+    "Sie ist elastisch wie Gummi."
+   ],
+   "answer": "Sie hakt sich zusammen und bildet eine geschlossene Fläche.",
+   "hint": "Klettverschluss.",
+   "explain": "Die Fahnenstrahlen haken ineinander, dadurch entsteht eine geschlossene Fläche."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt das Wort für eine Gruppe von Tieren mit Federn und Eiern?",
+   "options": [
+    "Vögel",
+    "Fische",
+    "Amphibien"
+   ],
+   "answer": "Vögel",
+   "hint": "Federkleid.",
+   "explain": "Vögel haben Federn und legen Eier."
+  }
+ ]
+}

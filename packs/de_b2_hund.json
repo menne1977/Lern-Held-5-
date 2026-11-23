@@ -1,0 +1,368 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Haustiere und Hund",
+ "key": "Haustiere stammen von Wildtieren ab. Der Hund ist ein Fleischfresser, Zehengänger und stammt vom Wolf ab.\nIm Buch: S. 19–29",
+ "slides": [
+  {
+   "title": "Haustiere",
+   "text": "Haustiere stammen von Wildtieren ab. Heimtiere begleiten uns, Nutztiere liefern Produkte.",
+   "emoji": "🐾"
+  },
+  {
+   "title": "Ein Hund braucht Verantwortung",
+   "text": "Auslauf, Erziehung, Kosten und Pflege über 10 bis 12 Jahre.",
+   "emoji": "🐕"
+  },
+  {
+   "title": "Körperbau des Hundes",
+   "text": "Wirbeltier, Zehengänger mit Ballen, Fleischfressergebiss mit Reißzähnen.",
+   "emoji": "🦴"
+  },
+  {
+   "title": "Geruchssinn",
+   "text": "Die gefaltete Riechschleimhaut vergrößert die Fläche. Mehr Sinneszellen, besserer Geruch.",
+   "emoji": "👃"
+  },
+  {
+   "title": "Vom Wolf zum Hund",
+   "text": "Der Wolf ist die Stammform. Durch Züchtung entstanden über 420 Rassen.",
+   "emoji": "🐺"
+  },
+  {
+   "title": "Variabilität und Zucht",
+   "text": "Unterschiede in Merkmalen sind die Grundlage für Züchtung.",
+   "emoji": "🧬"
+  }
+ ],
+ "vocab": [
+  [
+   "Heimtier",
+   "Haustier, das den Menschen begleitet"
+  ],
+  [
+   "Nutztier",
+   "Haustier, das Produkte liefert"
+  ],
+  [
+   "Wildtier",
+   "nicht durch Züchtung verändert"
+  ],
+  [
+   "Zehengänger",
+   "läuft nur auf den Zehen"
+  ],
+  [
+   "Fleischfressergebiss",
+   "Gebiss für Fleisch"
+  ],
+  [
+   "Reißzahn",
+   "stärkster Backenzahn"
+  ],
+  [
+   "Riechschleimhaut",
+   "Schleimhaut mit Riechsinneszellen"
+  ],
+  [
+   "Oberflächenvergrößerung",
+   "Fläche durch Falten vergrößern"
+  ],
+  [
+   "Stammform",
+   "Ursprung einer Tierart"
+  ],
+  [
+   "Variabilität",
+   "Unterschiede in Merkmalen"
+  ],
+  [
+   "Zuchtziel",
+   "Ziel der Züchtung"
+  ],
+  [
+   "Rudel",
+   "Gruppe mit Rangordnung"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Warum hält der Mensch Heimtiere?",
+   "options": [
+    "Sie begleiten Menschen und machen die Freizeit abwechslungsreich.",
+    "Sie geben Milch.",
+    "Sie ziehen Pflüge."
+   ],
+   "answer": "Sie begleiten Menschen und machen die Freizeit abwechslungsreich.",
+   "hint": "Denke an Hund oder Meerschweinchen.",
+   "explain": "Heimtiere begleiten den Menschen und trösten ihn."
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Nutztiere?",
+   "options": [
+    "Haustiere, die Fleisch, Milch, Eier oder Wolle liefern",
+    "Wildtiere im Wald",
+    "Tiere im Zoo"
+   ],
+   "answer": "Haustiere, die Fleisch, Milch, Eier oder Wolle liefern",
+   "hint": "Der Mensch nutzt sie.",
+   "explain": "Nutztiere liefern Produkte wie Milch oder Eier."
+  },
+  {
+   "type": "choice",
+   "q": "Woher stammen alle Haustiere ab?",
+   "options": [
+    "Von Wildtieren",
+    "Von Robotern",
+    "Von Fischen aus dem Meer"
+   ],
+   "answer": "Von Wildtieren",
+   "hint": "Züchtung.",
+   "explain": "Alle Haustiere stammen von Wildtieren ab, die der Mensch gezüchtet hat."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wildtier?",
+   "options": [
+    "Ein Tier, das nicht durch Züchtung verändert wurde",
+    "Ein Haustier im Stall",
+    "Ein Tier aus dem Zoo"
+   ],
+   "answer": "Ein Tier, das nicht durch Züchtung verändert wurde",
+   "hint": "Fuchs oder Reh.",
+   "explain": "Wildtiere wie Füchse oder Rehe wurden nicht durch Züchtung verändert."
+  },
+  {
+   "type": "choice",
+   "q": "Was muss man vor der Anschaffung eines Hundes bedenken?",
+   "options": [
+    "Kosten, Zeit und lange Verantwortung",
+    "Nur die Farbe",
+    "Nichts"
+   ],
+   "answer": "Kosten, Zeit und lange Verantwortung",
+   "hint": "Ein Hund lebt viele Jahre.",
+   "explain": "Ein Hund braucht Pflege, Auslauf, Futter und oft viele Jahre Verantwortung."
+  },
+  {
+   "type": "choice",
+   "q": "Wie alt werden Hunde ungefähr?",
+   "options": [
+    "10 bis 12 Jahre",
+    "2 Jahre",
+    "50 Jahre"
+   ],
+   "answer": "10 bis 12 Jahre",
+   "hint": "Lebenszeit eines Hundes.",
+   "explain": "Hunde werden meist 10 bis 12 Jahre alt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Beinstellung hat der Hund beim Laufen?",
+   "options": [
+    "Er läuft auf den Zehen (Zehengänger).",
+    "Er läuft auf der ganzen Sohle.",
+    "Er läuft auf den Händen."
+   ],
+   "answer": "Er läuft auf den Zehen (Zehengänger).",
+   "hint": "Der Hund tritt nur mit den Zehen auf.",
+   "explain": "Beim Laufen tritt der Hund nur mit den Zehenknochen auf, nicht mit der ganzen Sohle."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist der Hund ein Wirbeltier?",
+   "options": [
+    "Er hat eine Wirbelsäule.",
+    "Er hat keine Knochen.",
+    "Er hat einen Panzer."
+   ],
+   "answer": "Er hat eine Wirbelsäule.",
+   "hint": "Die Wirbelsäule verläuft vom Kopf bis in den Schwanz.",
+   "explain": "Wirbeltiere besitzen eine Wirbelsäule mit beweglich verbundenen Wirbeln."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gebiss hat der Hund?",
+   "options": [
+    "Fleischfressergebiss",
+    "Pflanzenfressergebiss",
+    "Insektenfressergebiss"
+   ],
+   "answer": "Fleischfressergebiss",
+   "hint": "Eckzähne und Reißzähne.",
+   "explain": "Der Hund hat Fangzähne und Reißzähne zum Zerteilen von Fleisch."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Zahn ist beim Hund der stärkste Backenzahn?",
+   "options": [
+    "Reißzahn",
+    "Schneidezahn",
+    "Fangzahn"
+   ],
+   "answer": "Reißzahn",
+   "hint": "Er arbeitet wie eine Schere.",
+   "explain": "Die Reißzähne arbeiten wie eine Schere gegen den Oberkiefer."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Jungtiere kann eine Hündin zur Welt bringen?",
+   "options": [
+    "Bis zu zehn",
+    "Genau eins",
+    "Bis zu 100"
+   ],
+   "answer": "Bis zu zehn",
+   "hint": "Mehrere Welpen.",
+   "explain": "Im Körper der Hündin können sich bis zu zehn Welpen entwickeln."
+  },
+  {
+   "type": "choice",
+   "q": "In welcher Umgebung entwickeln sich die Welpen?",
+   "options": [
+    "In einer Fruchtblase",
+    "In einem Ei aus Kalk",
+    "Im Wasser"
+   ],
+   "answer": "In einer Fruchtblase",
+   "hint": "Schutz vor Erschütterungen.",
+   "explain": "Die Welpen entwickeln sich in einer mit Fruchtwasser gefüllten Fruchtblase."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist Muttermilch für Welpen wichtig?",
+   "options": [
+    "Sie ist nährstoffreich und überlebenswichtig.",
+    "Sie ist nur Wasser.",
+    "Sie macht die Welpen groß wie Erwachsene."
+   ],
+   "answer": "Sie ist nährstoffreich und überlebenswichtig.",
+   "hint": "Nährstoffe.",
+   "explain": "Muttermilch liefert den nötigen Nährstoff für die ersten Lebenswochen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Sinn ist beim Hund besonders gut entwickelt?",
+   "options": [
+    "Geruchssinn",
+    "Geschmackssinn",
+    "Sehsinn in der Dunkelheit"
+   ],
+   "answer": "Geruchssinn",
+   "hint": "Spürhunde.",
+   "explain": "Hunde haben einen sehr guten Geruchssinn, den Menschen nutzen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum riecht ein Hund besser als ein Mensch?",
+   "options": [
+    "Seine Riechschleimhaut ist durch Falten stark vergrößert.",
+    "Seine Nase ist größer.",
+    "Er hat keine Nase."
+   ],
+   "answer": "Seine Riechschleimhaut ist durch Falten stark vergrößert.",
+   "hint": "Oberflächenvergrößerung.",
+   "explain": "Durch die Falten passen mehr Riechsinneszellen auf die Schleimhaut."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Beispiel für Oberflächenvergrößerung?",
+   "options": [
+    "Die gefaltete Riechschleimhaut des Hundes",
+    "Eine glatte Glasscheibe",
+    "Ein Steinblock"
+   ],
+   "answer": "Die gefaltete Riechschleimhaut des Hundes",
+   "hint": "Viele Falten.",
+   "explain": "Durch Falten wird die Fläche vergrößert und mehr Sinneszellen passen hinein."
+  },
+  {
+   "type": "choice",
+   "q": "Von welchem Tier stammt der Hund ab?",
+   "options": [
+    "Vom Wolf",
+    "Vom Bär",
+    "Vom Fuchs"
+   ],
+   "answer": "Vom Wolf",
+   "hint": "Stammform.",
+   "explain": "Der Wolf ist die Stammform des Haushundes."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Variabilität?",
+   "options": [
+    "Unterschiede zwischen Lebewesen einer Art",
+    "Gleichheit aller Lebewesen",
+    "Das Ende einer Art"
+   ],
+   "answer": "Unterschiede zwischen Lebewesen einer Art",
+   "hint": "Nicht alle gleich.",
+   "explain": "Lebewesen einer Art unterscheiden sich in Merkmalen wie Farbe oder Größe."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Zuchtziel?",
+   "options": [
+    "Ein Ziel, das der Mensch mit einer Zucht erreichen will",
+    "Ein Ort für Hunde",
+    "Ein Name für eine Hunderasse"
+   ],
+   "answer": "Ein Ziel, das der Mensch mit einer Zucht erreichen will",
+   "hint": "Warum züchtet man?",
+   "explain": "Beispiel: kurze Beine für die Jagd in Bauten."
+  },
+  {
+   "type": "choice",
+   "q": "Warum können sich alle Hunderassen miteinander fortpflanzen?",
+   "options": [
+    "Sie gehören zur gleichen Art.",
+    "Sie sind aus verschiedenen Tieren entstanden.",
+    "Sie sind Roboter."
+   ],
+   "answer": "Sie gehören zur gleichen Art.",
+   "hint": "Art.",
+   "explain": "Alle Hunderassen gehören zur gleichen Art und können Nachwuchs bekommen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Hunderasse wird oft als Wachhund eingesetzt?",
+   "options": [
+    "Rottweiler",
+    "Mops",
+    "Windhund"
+   ],
+   "answer": "Rottweiler",
+   "hint": "Wachsam.",
+   "explain": "Der Rottweiler ist wachsam und wird oft als Wachhund eingesetzt."
+  },
+  {
+   "type": "choice",
+   "q": "Was verhindert, dass der Hund beim Gehen einsinkt?",
+   "options": [
+    "Die abfedernden Ballen und Zehen",
+    "Die Krallen allein",
+    "Der Schwanz"
+   ],
+   "answer": "Die abfedernden Ballen und Zehen",
+   "hint": "Unterseite der Pfote.",
+   "explain": "Die Ballen an der Unterseite federn ab und verteilen die Last."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Rudeltier?",
+   "options": [
+    "Ein Tier, das in einer Gruppe mit Rangordnung lebt",
+    "Ein Einzelgänger",
+    "Ein Fisch"
+   ],
+   "answer": "Ein Tier, das in einer Gruppe mit Rangordnung lebt",
+   "hint": "Wolf.",
+   "explain": "Rudeltiere leben in Gruppen mit einer festen Rangordnung."
+  }
+ ]
+}

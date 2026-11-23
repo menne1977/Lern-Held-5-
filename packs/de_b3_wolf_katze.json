@@ -1,0 +1,368 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Wolf und Katze",
+ "key": "Wölfe jagen im Rudel. Katzen sind Schleichjäger mit Fleischfressergebiss und guten Augen.\nIm Buch: S. 30–37",
+ "slides": [
+  {
+   "title": "Rudel und Rangordnung",
+   "text": "Wölfe leben im Rudel mit einem Leitwolf. Sie jagen gemeinsam als Hetzjäger.",
+   "emoji": "🐺"
+  },
+  {
+   "title": "Körpersprache",
+   "text": "Imponieren und Unterwürfigkeit regeln die Rangordnung ohne Kampf.",
+   "emoji": "👂"
+  },
+  {
+   "title": "Katzen sind Schleichjäger",
+   "text": "Weiche Ballen, einziehbare Krallen, Fleischfressergebiss mit Reißzähnen.",
+   "emoji": "🐈"
+  },
+  {
+   "title": "Sehen im Dunkeln",
+   "text": "Große Pupillen und die Spiegelschicht helfen bei wenig Licht.",
+   "emoji": "👁️"
+  },
+  {
+   "title": "Großkatzen vergleichen",
+   "text": "Gepard: schnell, Einzelgänger. Löwe: Familienverband mit Männchen als Leittier.",
+   "emoji": "🦁"
+  },
+  {
+   "title": "Vergleichen",
+   "text": "Frage stellen, Kriterien festlegen, Informationen sammeln, Gemeinsamkeiten und Unterschiede notieren.",
+   "emoji": "⚖️"
+  }
+ ],
+ "vocab": [
+  [
+   "Rudel",
+   "Gruppe von Wölfen mit Rangordnung"
+  ],
+  [
+   "Leitwolf",
+   "stärkster Wolf im Rudel"
+  ],
+  [
+   "Imponieren",
+   "Körpersprache, die Stärke zeigt"
+  ],
+  [
+   "Unterwürfigkeit",
+   "Zeichen, dass man sich unterordnet"
+  ],
+  [
+   "Hetzjäger",
+   "jagt Beute über lange Strecken"
+  ],
+  [
+   "Schleichjäger",
+   "schleicht sich an Beute heran"
+  ],
+  [
+   "Fangzahn",
+   "Eckzahn zum Festhalten"
+  ],
+  [
+   "Reißzahn",
+   "stärkster Backenzahn"
+  ],
+  [
+   "Spiegelschicht",
+   "reflektiert Licht im Auge"
+  ],
+  [
+   "Pupille",
+   "Öffnung im Auge für Licht"
+  ],
+  [
+   "Großkatze",
+   "große Katzenart wie Löwe"
+  ],
+  [
+   "Kriterium",
+   "Merkmal für einen Vergleich"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Warum jagen Wölfe im Rudel?",
+   "options": [
+    "Sie können größere Beutetiere erschöpfen.",
+    "Sie wollen nicht teilen.",
+    "Sie schlafen im Rudel."
+   ],
+   "answer": "Sie können größere Beutetiere erschöpfen.",
+   "hint": "Mehrere Tiere hetzen ein Beutetier.",
+   "explain": "Wölfe sind Hetzjäger und jagen gemeinsam, bis das Beutetier erschöpft ist."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der stärkste Wolf im Rudel?",
+   "options": [
+    "Leitwolf",
+    "Jungwolf",
+    "Grenzwolf"
+   ],
+   "answer": "Leitwolf",
+   "hint": "Er führt das Rudel.",
+   "explain": "Der Leitwolf führt das Rudel gemeinsam mit einer Partnerin."
+  },
+  {
+   "type": "choice",
+   "q": "Wie markieren Wölfe ihr Revier?",
+   "options": [
+    "Mit Kot und Urin",
+    "Mit Farbe",
+    "Mit Zäunen"
+   ],
+   "answer": "Mit Kot und Urin",
+   "hint": "Geruch.",
+   "explain": "Der Geruch hält fremde Wölfe fern."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt ein unterwürfiger Wolf?",
+   "options": [
+    "Er legt die Ohren an und zeigt die Kehle.",
+    "Er knurrt.",
+    "Er stellt den Schwanz auf."
+   ],
+   "answer": "Er legt die Ohren an und zeigt die Kehle.",
+   "hint": "Der Ranghöhere soll nicht zubeißen.",
+   "explain": "Unterwerfung zeigt der rangniedrigere Wolf durch angelegte Ohren und gesenkten Schwanz."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Jagdverhalten zeigt die Katze?",
+   "options": [
+    "Schleichjagd",
+    "Hetzjagd",
+    "Netzfang"
+   ],
+   "answer": "Schleichjagd",
+   "hint": "Lautlos anschleichen.",
+   "explain": "Die Katze schleicht sich an, lauert und springt ab."
+  },
+  {
+   "type": "choice",
+   "q": "Warum kann die Katze ihre Krallen einziehen?",
+   "options": [
+    "Damit sie beim Schleichen nicht stören",
+    "Weil sie keine Krallen hat",
+    "Um zu schwimmen"
+   ],
+   "answer": "Damit sie beim Schleichen nicht stören",
+   "hint": "Lautlosigkeit.",
+   "explain": "Eingezogene Krallen machen den Gang lautlos."
+  },
+  {
+   "type": "choice",
+   "q": "Warum tritt die Katze fast lautlos auf?",
+   "options": [
+    "Sie läuft auf weichen Ballen an den Zehen.",
+    "Sie trägt Schuhe.",
+    "Sie fliegt."
+   ],
+   "answer": "Sie läuft auf weichen Ballen an den Zehen.",
+   "hint": "Zehengänger.",
+   "explain": "Die weichen Ballen dämpfen den Schritt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Funktion haben Katzenkrallen beim Klettern?",
+   "options": [
+    "Sie helfen beim Festhalten auf Bäumen.",
+    "Sie wärmen den Körper.",
+    "Sie sind Zähne."
+   ],
+   "answer": "Sie helfen beim Festhalten auf Bäumen.",
+   "hint": "Krallen halten.",
+   "explain": "Die Krallen geben Halt beim Klettern."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gebiss hat die Katze?",
+   "options": [
+    "Fleischfressergebiss",
+    "Allesfressergebiss",
+    "Pflanzenfressergebiss"
+   ],
+   "answer": "Fleischfressergebiss",
+   "hint": "Reißzähne.",
+   "explain": "Die Katze hat Fangzähne und Reißzähne, die Fleisch zerteilen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Funktion hat die raue Zunge der Katze?",
+   "options": [
+    "Sie schabt Fleischreste vom Knochen.",
+    "Sie hilft beim Riechen.",
+    "Sie hält die Beute fest."
+   ],
+   "answer": "Sie schabt Fleischreste vom Knochen.",
+   "hint": "Raue Oberfläche.",
+   "explain": "Die raue Zunge hilft, Fleisch vom Knochen zu lösen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum kann die Katze gut in der Dämmerung sehen?",
+   "options": [
+    "Sie hat eine Spiegelschicht im Auge und große Pupillen.",
+    "Sie hat keine Augen.",
+    "Sie hat eine Lampe im Auge."
+   ],
+   "answer": "Sie hat eine Spiegelschicht im Auge und große Pupillen.",
+   "hint": "Licht reflektieren.",
+   "explain": "Die Spiegelschicht wirft Licht zurück, die Pupillen öffnen sich bei wenig Licht."
+  },
+  {
+   "type": "choice",
+   "q": "Wie verändert sich die Pupille der Katze am hellen Tag?",
+   "options": [
+    "Sie verengt sich zu einem Schlitz.",
+    "Sie wird größer.",
+    "Sie verschwindet."
+   ],
+   "answer": "Sie verengt sich zu einem Schlitz.",
+   "hint": "Schutz vor zu viel Licht.",
+   "explain": "Am hellen Tag schützen schmale Schlitze die Lichtsinneszellen."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht die Katze, wenn sie eine Maus entdeckt?",
+   "options": [
+    "Sie drückt sich flach auf den Boden und lauert.",
+    "Sie rennt laut los.",
+    "Sie schläft."
+   ],
+   "answer": "Sie drückt sich flach auf den Boden und lauert.",
+   "hint": "Lauerstellung.",
+   "explain": "Die Katze verharrt in Lauerstellung, bis das Beutetier nah genug ist."
+  },
+  {
+   "type": "choice",
+   "q": "Wie jagt die Katze im Vergleich zum Wolf?",
+   "options": [
+    "Die Katze jagt allein, der Wolf im Rudel.",
+    "Beide jagen allein.",
+    "Beide jagen nur im Rudel."
+   ],
+   "answer": "Die Katze jagt allein, der Wolf im Rudel.",
+   "hint": "Einzelgänger.",
+   "explain": "Die Katze ist ein Einzelgänger, der Wolf ein Rudeltier."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Jungtiere bringt eine Katze ungefähr zur Welt?",
+   "options": [
+    "zwei bis vier",
+    "genau zehn",
+    "keines"
+   ],
+   "answer": "zwei bis vier",
+   "hint": "Wurf.",
+   "explain": "Nach etwa neun Wochen Trächtigkeit kommen Jungtiere zur Welt, meist zwei bis vier."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Großkatze lebt in Familienverbänden mit einem Männchen als Leittier?",
+   "options": [
+    "Löwe",
+    "Gepard",
+    "Leopard"
+   ],
+   "answer": "Löwe",
+   "hint": "Mähne.",
+   "explain": "Löwen bilden Familienverbände mit einem Männchen und mehreren Weibchen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Großkatze ist das schnellste Landsäugetier?",
+   "options": [
+    "Gepard",
+    "Löwe",
+    "Tiger"
+   ],
+   "answer": "Gepard",
+   "hint": "Lange Beine.",
+   "explain": "Der Gepard kann bis zu 100 km/h schnell laufen."
+  },
+  {
+   "type": "choice",
+   "q": "Woran erkennt man einen Geparden?",
+   "options": [
+    "An den zwei Streifen von den Augen zu den Mundwinkeln",
+    "An der langen Mähne",
+    "An den Flügeln"
+   ],
+   "answer": "An den zwei Streifen von den Augen zu den Mundwinkeln",
+   "hint": "Gesicht.",
+   "explain": "Die Streifen verlaufen vom Auge zum Mundwinkel."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Methode hilft beim Vergleichen von Lebewesen?",
+   "options": [
+    "Kriterien festlegen und Gemeinsamkeiten und Unterschiede notieren",
+    "Nur die Farbe anschauen",
+    "Nichts festlegen"
+   ],
+   "answer": "Kriterien festlegen und Gemeinsamkeiten und Unterschiede notieren",
+   "hint": "Schritte: Frage, Kriterien, Informationen, Tabelle.",
+   "explain": "Beim Vergleichen wählst du gleiche Merkmale und notierst Unterschiede."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist beim Vergleich wichtig, gleiche Merkmale zu untersuchen?",
+   "options": [
+    "Nur so sind die Ergebnisse vergleichbar.",
+    "Damit die Arbeit länger wird.",
+    "Damit das Plakat bunt ist."
+   ],
+   "answer": "Nur so sind die Ergebnisse vergleichbar.",
+   "hint": "Gleiche Kriterien.",
+   "explain": "Für einen sinnvollen Vergleich muss man dieselben Kriterien untersuchen."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht im letzten Schritt eines Vergleichs?",
+   "options": [
+    "Die Frage wird beantwortet.",
+    "Der Titel wird gemalt.",
+    "Das Heft wird geschlossen."
+   ],
+   "answer": "Die Frage wird beantwortet.",
+   "hint": "Ergebnis.",
+   "explain": "Am Ende beantwortest du die Frage aus dem Vergleich."
+  },
+  {
+   "type": "choice",
+   "q": "Warum jagt der Wolf vor allem im Rudel?",
+   "options": [
+    "Gemeinsam kann er größere Beutetiere erlegen.",
+    "Er hat Angst allein.",
+    "Er braucht Musik."
+   ],
+   "answer": "Gemeinsam kann er größere Beutetiere erlegen.",
+   "hint": "Hetzjagd.",
+   "explain": "Im Rudel gelingt die Hetzjagd auf größere Tiere besser."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Körpersprache zeigt ein ranghöherer Wolf?",
+   "options": [
+    "Er hebt den Kopf und stellt den Schwanz auf.",
+    "Er legt die Ohren an.",
+    "Er rollt sich auf den Rücken."
+   ],
+   "answer": "Er hebt den Kopf und stellt den Schwanz auf.",
+   "hint": "Imponieren.",
+   "explain": "Der ranghöhere Wolf imponiert durch aufgerichteten Kopf und Schwanz."
+  }
+ ]
+}

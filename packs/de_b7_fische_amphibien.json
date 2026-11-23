@@ -1,0 +1,387 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Fische und Amphibien",
+ "key": "Fische atmen mit Kiemen und schweben mit der Schwimmblase. Amphibien leben im Wasser und an Land.\nIm Buch: S. 77–94",
+ "slides": [
+  {
+   "title": "Fische und Wasser",
+   "text": "Fische sind Wirbeltiere mit Flossen, Kiemen und Schwimmblase. Ihre Körperform ist stromlinienförmig.",
+   "emoji": "🐟"
+  },
+  {
+   "title": "Fortpflanzung der Forelle",
+   "text": "Äußere Befruchtung, Laich im Bach, Larven im Kies, Jungforelle nach einem Jahr.",
+   "emoji": "🎣"
+  },
+  {
+   "title": "Amphibien",
+   "text": "Doppelleben: Lungen- und Hautatmung. Feuchte Haut ist wichtig.",
+   "emoji": "🐸"
+  },
+  {
+   "title": "Entwicklung der Amphibien",
+   "text": "Kaulquappe, Metamorphose: Beine entstehen, Kiemen werden innen, Lungen bilden sich aus.",
+   "emoji": "🌱"
+  },
+  {
+   "title": "Krötenwanderung",
+   "text": "Frühjahrswanderung zum Laichgewässer, Sommerquartier, Winterstarre. Schutz nötig.",
+   "emoji": "🚧"
+  }
+ ],
+ "vocab": [
+  [
+   "Kieme",
+   "Atmungsorgan der Fische"
+  ],
+  [
+   "Schwimmblase",
+   "Gasgefüllter Sack zum Schweben"
+  ],
+  [
+   "Laich",
+   "Eier von Fischen oder Amphibien"
+  ],
+  [
+   "Larve",
+   "Jungtier vor der Verwandlung"
+  ],
+  [
+   "Dottersack",
+   "Nährstoffvorrat der Larve"
+  ],
+  [
+   "Amphibie",
+   "Tier, das im Wasser und an Land lebt"
+  ],
+  [
+   "Kaulquappe",
+   "Larve der Frösche und Kröten"
+  ],
+  [
+   "Metamorphose",
+   "Verwandlung der Larve"
+  ],
+  [
+   "Hautatmung",
+   "Atmung durch die Haut"
+  ],
+  [
+   "wechselwarm",
+   "Körpertemperatur passt sich an"
+  ],
+  [
+   "Kältestarre",
+   "Ruhezustand bei Kälte"
+  ],
+  [
+   "Laichgewässer",
+   "Gewässer zum Ablaichen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welche Körperform hat die Bachforelle?",
+   "options": [
+    "Stromlinienförmig",
+    "Kugelförmig",
+    "Flach wie ein Blatt"
+   ],
+   "answer": "Stromlinienförmig",
+   "hint": "Sie strömt durchs Wasser.",
+   "explain": "Die Körperform lässt Wasser leichter vorbeiströmen."
+  },
+  {
+   "type": "choice",
+   "q": "Womit atmet ein Fisch unter Wasser?",
+   "options": [
+    "Mit Kiemen",
+    "Mit Lungen",
+    "Mit der Haut allein"
+   ],
+   "answer": "Mit Kiemen",
+   "hint": "Gelöster Sauerstoff.",
+   "explain": "Fische nehmen den im Wasser gelösten Sauerstoff über die Kiemen auf."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dient die Schwimmblase?",
+   "options": [
+    "Zum Schweben in verschiedenen Wassertiefen",
+    "Zum Atmen an Land",
+    "Zum Fressen"
+   ],
+   "answer": "Zum Schweben in verschiedenen Wassertiefen",
+   "hint": "Gas.",
+   "explain": "Die Schwimmblase wird mit Gas gefüllt oder entleert, um die Tiefe zu regulieren."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Laich?",
+   "options": [
+    "Die unbefruchteten Eier der Forelle",
+    "Ein Fischnetz",
+    "Ein Kiemenblättchen"
+   ],
+   "answer": "Die unbefruchteten Eier der Forelle",
+   "hint": "Eier im Bach.",
+   "explain": "Das Weibchen legt bis zu 1500 unbefruchtete Eier ab."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist äußere Befruchtung?",
+   "options": [
+    "Die Befruchtung findet außerhalb des Körpers statt.",
+    "Die Befruchtung findet im Körper statt.",
+    "Keine Befruchtung."
+   ],
+   "answer": "Die Befruchtung findet außerhalb des Körpers statt.",
+   "hint": "Im Wasser.",
+   "explain": "Bei der Forelle gibt das Männchen Spermien über den Laich ab."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Larve?",
+   "options": [
+    "Ein Jungtier, das sich noch verändern muss",
+    "Ein erwachsenes Tier",
+    "Ein Ei"
+   ],
+   "answer": "Ein Jungtier, das sich noch verändern muss",
+   "hint": "Jungtier.",
+   "explain": "Larven sehen oft ganz anders aus als das erwachsene Tier."
+  },
+  {
+   "type": "choice",
+   "q": "Warum schwimmt die Forellenlarve zwischen Kieselsteinen?",
+   "options": [
+    "Um nicht von Fressfeinden entdeckt zu werden.",
+    "Um Kies zu essen.",
+    "Um zu schlafen."
+   ],
+   "answer": "Um nicht von Fressfeinden entdeckt zu werden.",
+   "hint": "Schutz.",
+   "explain": "Zwischen den Steinen ist sie gut versteckt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Dottersack?",
+   "options": [
+    "Ein Nährstoffvorrat der Larve",
+    "Eine Schwimmblase",
+    "Ein Kiemenblatt"
+   ],
+   "answer": "Ein Nährstoffvorrat der Larve",
+   "hint": "Nahrung am Anfang.",
+   "explain": "Die Larve ernährt sich zunächst vom Dottersack."
+  },
+  {
+   "type": "choice",
+   "q": "Warum leben Amphibien in zwei Lebensräumen?",
+   "options": [
+    "Sie leben im Wasser und an Land.",
+    "Sie leben nur im Wasser.",
+    "Sie leben nur an Land."
+   ],
+   "answer": "Sie leben im Wasser und an Land.",
+   "hint": "Doppelleben.",
+   "explain": "Das Wort Amphibie bedeutet doppeltes Leben."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet das Wort Amphibie?",
+   "options": [
+    "Beides Leben",
+    "Wasser allein",
+    "Stein"
+   ],
+   "answer": "Beides Leben",
+   "hint": "Griechisch.",
+   "explain": "Amphibie kommt aus dem Griechischen und heißt beides Leben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie fängt der Wasserfrosch Insekten?",
+   "options": [
+    "Mit seiner klebrigen Schleuderzunge",
+    "Mit Netzen",
+    "Mit Scheren"
+   ],
+   "answer": "Mit seiner klebrigen Schleuderzunge",
+   "hint": "Zunge.",
+   "explain": "Er schleudert die Zunge heraus, das Beutetier bleibt kleben."
+  },
+  {
+   "type": "choice",
+   "q": "Wie atmen Amphibien?",
+   "options": [
+    "Mit Lungen und durch die Haut",
+    "Nur mit Kiemen",
+    "Gar nicht"
+   ],
+   "answer": "Mit Lungen und durch die Haut",
+   "hint": "Doppelatmer.",
+   "explain": "Amphibien atmen über Lungen und über die feuchte Haut."
+  },
+  {
+   "type": "choice",
+   "q": "Warum muss die Haut der Amphibien feucht sein?",
+   "options": [
+    "Damit Sauerstoff durch die Haut aufgenommen werden kann.",
+    "Damit sie schöner aussieht.",
+    "Damit sie leichter ist."
+   ],
+   "answer": "Damit Sauerstoff durch die Haut aufgenommen werden kann.",
+   "hint": "Hautatmung.",
+   "explain": "Feuchte Haut lässt Sauerstoff hinein."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Amphibium hat einen Schwanz als Erwachsener?",
+   "options": [
+    "Teichmolch",
+    "Erdkröte",
+    "Wasserfrosch"
+   ],
+   "answer": "Teichmolch",
+   "hint": "Schwanzlurch.",
+   "explain": "Der Teichmolch gehört zu den Schwanzlurchen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Kaulquappe?",
+   "options": [
+    "Die Larve der Frösche und Kröten",
+    "Ein erwachsener Frosch",
+    "Ein Vogel"
+   ],
+   "answer": "Die Larve der Frösche und Kröten",
+   "hint": "Larve.",
+   "explain": "Kaulquappen entwickeln Beine und verlieren den Schwanz."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert in der Metamorphose?",
+   "options": [
+    "Die Larve verwandelt sich in das erwachsene Tier.",
+    "Das Tier wird nicht größer.",
+    "Das Tier wird ein Fisch."
+   ],
+   "answer": "Die Larve verwandelt sich in das erwachsene Tier.",
+   "hint": "Verwandlung.",
+   "explain": "Bei Amphibien verändert sich die Larve stark zum erwachsenen Tier."
+  },
+  {
+   "type": "choice",
+   "q": "Warum wandern Erdkröten im Frühling nachts?",
+   "options": [
+    "Nachts sind sie besser vor Austrocknung und Fressfeinden geschützt.",
+    "Nachts ist es heller.",
+    "Sie schlafen tagsüber nicht."
+   ],
+   "answer": "Nachts sind sie besser vor Austrocknung und Fressfeinden geschützt.",
+   "hint": "Schutz.",
+   "explain": "Nachts ist die Gefahr durch Austrocknung und Feinde geringer."
+  },
+  {
+   "type": "choice",
+   "q": "Wohin wandern Erdkröten nach dem Laichen?",
+   "options": [
+    "In feuchte Wälder als Sommerquartier",
+    "In die Wüste",
+    "Auf Bäume"
+   ],
+   "answer": "In feuchte Wälder als Sommerquartier",
+   "hint": "Sommerquartier.",
+   "explain": "Sie suchen feuchte Wälder mehrere Kilometer vom Laichgewässer entfernt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Kältestarre?",
+   "options": [
+    "Ein Zustand mit kaum Bewegung bei niedrigen Temperaturen",
+    "Ein Wintersport",
+    "Eine Krankheit"
+   ],
+   "answer": "Ein Zustand mit kaum Bewegung bei niedrigen Temperaturen",
+   "hint": "Winter.",
+   "explain": "Bei niedrigen Temperaturen bewegen sich Amphibien kaum noch."
+  },
+  {
+   "type": "choice",
+   "q": "Warum schützt man Krötenwanderungen mit Schildern?",
+   "options": [
+    "Damit Autos die Tiere nicht überfahren.",
+    "Damit die Kröten schneller wandern.",
+    "Damit die Schilder nicht fehlen."
+   ],
+   "answer": "Damit Autos die Tiere nicht überfahren.",
+   "hint": "Verkehr.",
+   "explain": "Sperren und Schilder schützen die Tiere auf der Wanderung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Bedeutung hat die Schutzmaßnahme für Amphibien?",
+   "options": [
+    "Sie helfen den Tieren, sicher zum Laichgewässer zu kommen.",
+    "Sie machen den Wald laut.",
+    "Sie verscheuchen die Tiere."
+   ],
+   "answer": "Sie helfen den Tieren, sicher zum Laichgewässer zu kommen.",
+   "hint": "Sicherheit.",
+   "explain": "Schutz hilft Amphibien, ihre Laichgewässer zu erreichen."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Amphibium hat keinen Schwanz und zählt zu den Froschlurchen?",
+   "options": [
+    "Erdkröte",
+    "Teichmolch",
+    "Feuersalamander"
+   ],
+   "answer": "Erdkröte",
+   "hint": "Froschlurch.",
+   "explain": "Die Erdkröte hat keinen Schwanz als Erwachsene und gehört zu den Froschlurchen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie bewegt sich der Teichmolch im Wasser?",
+   "options": [
+    "Er schlängelt sich mit seinem abgeplatteten Schwanz.",
+    "Er fliegt.",
+    "Er rollt sich zusammen."
+   ],
+   "answer": "Er schlängelt sich mit seinem abgeplatteten Schwanz.",
+   "hint": "Schwanz.",
+   "explain": "Der lange, flache Schwanz hilft beim Schwimmen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet wechselwarm?",
+   "options": [
+    "Die Körpertemperatur hängt von der Umgebung ab.",
+    "Der Körper ist immer gleich warm.",
+    "Das Tier wechselt die Farbe."
+   ],
+   "answer": "Die Körpertemperatur hängt von der Umgebung ab.",
+   "hint": "Umgebung.",
+   "explain": "Wechselwarme Tiere passen ihre Körpertemperatur der Umwelt an."
+  },
+  {
+   "type": "choice",
+   "q": "Wie unterscheidet man Amphibien mit einem Bestimmungsschlüssel?",
+   "options": [
+    "Durch eine Reihe von Fragen zu Merkmalen",
+    "Durch Riechen",
+    "Durch Zählen der Füße"
+   ],
+   "answer": "Durch eine Reihe von Fragen zu Merkmalen",
+   "hint": "Schritt für Schritt.",
+   "explain": "Ein Bestimmungsschlüssel führt über Merkmale zum Namen."
+  }
+ ]
+}

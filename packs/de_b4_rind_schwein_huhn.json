@@ -1,0 +1,368 @@
+{
+ "subject": "Biologie",
+ "book": "Blickpunkt Biologie 1",
+ "klasse": 5,
+ "title": "Biologie 5 – Rind, Schwein und Huhn",
+ "key": "Rinder sind Wiederkäuer, Schweine Allesfresser, Hühner liefern Eier und Fleisch. Haltungsformen beeinflussen die Tiere.\nIm Buch: S. 38–50",
+ "slides": [
+  {
+   "title": "Rind: Pflanzenfresser mit Magen",
+   "text": "Ein Rind hat vier Magenabteilungen. Es wiederkäut. Die Hornleiste hilft beim Abrupfen.",
+   "emoji": "🐄"
+  },
+  {
+   "title": "Huftiere",
+   "text": "Rinder sind Paarhufer und Zehenspitzengänger mit Huf aus Horn. Sie leben in Herden.",
+   "emoji": "🦶"
+  },
+  {
+   "title": "Haltung von Rindern",
+   "text": "Freilandhaltung ist artgerecht. Intensivtierhaltung drängt viele Tiere auf engen Raum.",
+   "emoji": "🌾"
+  },
+  {
+   "title": "Schwein und Wildschwein",
+   "text": "Wildschwein und Hausschwein sind Allesfresser mit Allesfressergebiss. Die Sau wirft bis zu 20 Ferkel.",
+   "emoji": "🐖"
+  },
+  {
+   "title": "Huhn: Haltungsformen",
+   "text": "Kleingruppen-, Boden-, Freiland- und ökologische Haltung unterscheiden sich in Platz und Auslauf.",
+   "emoji": "🐔"
+  },
+  {
+   "title": "Diagramme auswerten",
+   "text": "Längsachse: feste Größe. Liniendiagramm verbindet Werte. Säulendiagramm zeigt Vergleiche.",
+   "emoji": "📊"
+  }
+ ],
+ "vocab": [
+  [
+   "Hornleiste",
+   "harte Platte im Oberkiefer des Rindes"
+  ],
+  [
+   "Wiederkäuer",
+   "Tier, das Nahrung zurück ins Maul bringt"
+  ],
+  [
+   "Pansen",
+   "erster Magenteil"
+  ],
+  [
+   "Paarhufer",
+   "Tier mit zwei Hauptzehen"
+  ],
+  [
+   "Zehenspitzengänger",
+   "läuft auf der Zehenspitze"
+  ],
+  [
+   "Intensivtierhaltung",
+   "viele Tiere auf engem Raum"
+  ],
+  [
+   "artgerecht",
+   "den Bedürfnissen der Art entsprechend"
+  ],
+  [
+   "Herdentier",
+   "lebt in Gruppen"
+  ],
+  [
+   "Allesfresser",
+   "frisst Pflanzen und Fleisch"
+  ],
+  [
+   "Legehenne",
+   "Henne, die Eier legt"
+  ],
+  [
+   "Kleingruppenhaltung",
+   "Hühner in kleinen Käfiggruppen"
+  ],
+  [
+   "Diagramm",
+   "grafische Darstellung von Messwerten"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Welches Gebiss hat das Rind?",
+   "options": [
+    "Pflanzenfressergebiss mit Hornleiste",
+    "Fleischfressergebiss",
+    "Allesfressergebiss"
+   ],
+   "answer": "Pflanzenfressergebiss mit Hornleiste",
+   "hint": "Gras abreißen.",
+   "explain": "Die Hornleiste im Oberkiefer hält das Gras gegen die Schneidezähne im Unterkiefer."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dienen die breiten Backenzähne des Rindes?",
+   "options": [
+    "Zum Zermahlen von Pflanzen",
+    "Zum Festhalten von Fleisch",
+    "Zum Graben"
+   ],
+   "answer": "Zum Zermahlen von Pflanzen",
+   "hint": "Mahlzähne.",
+   "explain": "Die breiten Backenzähne mit Schmelzfalten zerkleinern Pflanzenteile."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Mägen hat das Rind?",
+   "options": [
+    "Vier Abteilungen im Magen",
+    "Einen",
+    "Zwei"
+   ],
+   "answer": "Vier Abteilungen im Magen",
+   "hint": "Wiederkäuer.",
+   "explain": "Das Rind hat einen Magen mit vier Abteilungen, Pansen, Netzmagen, Blättermagen und Labmagen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Pansen?",
+   "options": [
+    "Der erste Teil des Magens, in dem Nahrung eingeweicht wird",
+    "Das Maul",
+    "Ein Hufteil"
+   ],
+   "answer": "Der erste Teil des Magens, in dem Nahrung eingeweicht wird",
+   "hint": "Erster Teil.",
+   "explain": "Im Pansen wird Pflanzennahrung lange eingeweicht und von Bakterien zersetzt."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Wiederkäuen?",
+   "options": [
+    "Die Nahrung wird zurück ins Maul gebracht und nochmals gekaut.",
+    "Das Rind isst keine Pflanzen.",
+    "Das Rind trinkt Milch."
+   ],
+   "answer": "Die Nahrung wird zurück ins Maul gebracht und nochmals gekaut.",
+   "hint": "Nahrungsballen.",
+   "explain": "Grob zerkaute Nahrung kommt aus dem Netzmagen wieder ins Maul."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Teil des Rindes gehört zu den Paarhufern?",
+   "options": [
+    "Die Hufe mit zwei gleich großen Zehen",
+    "Ein einzelner Huf",
+    "Krallen"
+   ],
+   "answer": "Die Hufe mit zwei gleich großen Zehen",
+   "hint": "Paarhufer haben zwei Zehen.",
+   "explain": "Rinder haben zwei Hauptzehen und sind deshalb Paarhufer."
+  },
+  {
+   "type": "choice",
+   "q": "Warum tritt das Rind nur mit der Zehenspitze auf?",
+   "options": [
+    "Es ist ein Zehenspitzengänger mit Huf.",
+    "Es fliegt.",
+    "Es hat keine Beine."
+   ],
+   "answer": "Es ist ein Zehenspitzengänger mit Huf.",
+   "hint": "Huf aus Horn.",
+   "explain": "Der Huf schützt die Knochen, das Rind geht auf der Spitze der Zehen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Haltungsform war früher typisch für Rinder?",
+   "options": [
+    "Freilandhaltung auf Weiden",
+    "Käfighaltung",
+    "Haltung im Wasser"
+   ],
+   "answer": "Freilandhaltung auf Weiden",
+   "hint": "Frei bewegen.",
+   "explain": "Früher wurden Rinder meist auf Weiden gehalten, wo sie sich frei bewegen können."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Intensivtierhaltung?",
+   "options": [
+    "Viele Tiere auf engem Raum mit viel Kraftfutter",
+    "Tiere leben frei im Wald",
+    "Tiere leben im Zoo"
+   ],
+   "answer": "Viele Tiere auf engem Raum mit viel Kraftfutter",
+   "hint": "Enger Raum.",
+   "explain": "Bei der Intensivhaltung werden viele Tiere auf engem Raum gehalten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist artgerechte Tierhaltung?",
+   "options": [
+    "Haltung, die die Bedürfnisse der Tiere erfüllt",
+    "Haltung in engen Käfigen",
+    "Haltung ohne Futter"
+   ],
+   "answer": "Haltung, die die Bedürfnisse der Tiere erfüllt",
+   "hint": "Bedürfnisse.",
+   "explain": "Artgerecht heißt, die Bedürfnisse der Tierart zu erfüllen."
+  },
+  {
+   "type": "choice",
+   "q": "Warum sind Rinder Herdentiere?",
+   "options": [
+    "Sie leben in Gruppen mit Rangordnung.",
+    "Sie leben immer allein.",
+    "Sie fliegen in Schwärmen."
+   ],
+   "answer": "Sie leben in Gruppen mit Rangordnung.",
+   "hint": "Herde.",
+   "explain": "Das Urrind lebte in einer Herde mit Rangordnung, das gilt auch für Hausrinder."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Rinderrasse wird als Fleischrasse genutzt?",
+   "options": [
+    "Weißblauer Belgier",
+    "Schwarzbunte Milchkuh",
+    "Hausschwein"
+   ],
+   "answer": "Weißblauer Belgier",
+   "hint": "Fleischrasse.",
+   "explain": "Der Weißblaue Belgier wird als Fleischrind gezüchtet."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Art von Schwein wird als Wildschwein bezeichnet?",
+   "options": [
+    "Ein Tier, das nicht vom Menschen gezüchtet wurde",
+    "Ein Tier aus dem Stall",
+    "Ein Haustier mit Ringelschwanz"
+   ],
+   "answer": "Ein Tier, das nicht vom Menschen gezüchtet wurde",
+   "hint": "Stammform.",
+   "explain": "Wildschweine sind die Stammform der Hausschweine."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gebiss hat das Wildschwein?",
+   "options": [
+    "Allesfressergebiss",
+    "Fleischfressergebiss",
+    "Pflanzenfressergebiss"
+   ],
+   "answer": "Allesfressergebiss",
+   "hint": "Gras und Fleisch.",
+   "explain": "Das Wildschwein frisst Pflanzen, Insekten und Aas."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Ferkel wirft eine Sau im Jahr höchstens?",
+   "options": [
+    "Bis zu 20 Ferkel",
+    "Eins",
+    "Zwei"
+   ],
+   "answer": "Bis zu 20 Ferkel",
+   "hint": "Sau.",
+   "explain": "Die Sau wirft zweimal im Jahr bis zu 20 Ferkel."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Merkmal haben Schweine in der Freilandhaltung?",
+   "options": [
+    "Sie können im Boden nach Nahrung wühlen.",
+    "Sie stehen immer in Boxen.",
+    "Sie haben Kraftfutter nur im Stall."
+   ],
+   "answer": "Sie können im Boden nach Nahrung wühlen.",
+   "hint": "Auslauf.",
+   "explain": "Die Freilandhaltung erlaubt Bewegung und natürliches Verhalten."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Hühnerrassen wurden aus dem Bankivahuhn gezüchtet?",
+   "options": [
+    "Über 500",
+    "Keine",
+    "Zwei"
+   ],
+   "answer": "Über 500",
+   "hint": "Viele Rassen.",
+   "explain": "Der Mensch hat aus dem Bankivahuhn über 500 Rassen gezüchtet."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Eier kann eine leistungsfähige Legehenne im Jahr legen?",
+   "options": [
+    "Bis zu 300",
+    "Bis zu 10",
+    "Bis zu 1000"
+   ],
+   "answer": "Bis zu 300",
+   "hint": "Legeleistung.",
+   "explain": "Leistungsfähige Legehennen legen bis zu 300 Eier pro Jahr."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert mit männlichen Küken bei Legehühnern?",
+   "options": [
+    "Sie werden kurz nach dem Schlupf getötet.",
+    "Sie werden Legehennen.",
+    "Sie werden alt."
+   ],
+   "answer": "Sie werden kurz nach dem Schlupf getötet.",
+   "hint": "Kritisch betrachten.",
+   "explain": "Bei Legehühnern werden männliche Tiere kurz nach dem Schlupf getötet."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Kleingruppenhaltung bei Hühnern?",
+   "options": [
+    "Hühner in Käfigen mit wenig Platz pro Tier",
+    "Hühner im Freiland",
+    "Hühner allein"
+   ],
+   "answer": "Hühner in Käfigen mit wenig Platz pro Tier",
+   "hint": "Platz unter 0,8 m².",
+   "explain": "Bei der Kleingruppenhaltung hat jede Henne weniger als 0,8 Quadratmeter."
+  },
+  {
+   "type": "choice",
+   "q": "Wie lange braucht ein Masthuhn bis zum Schlachtgewicht?",
+   "options": [
+    "Vier bis fünf Wochen",
+    "Ein Jahr",
+    "Zehn Jahre"
+   ],
+   "answer": "Vier bis fünf Wochen",
+   "hint": "Schnelle Mast.",
+   "explain": "Masthühner erreichen ihr Schlachtgewicht innerhalb von vier bis fünf Wochen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Information liefert ein Diagramm?",
+   "options": [
+    "Messwerte in Abhängigkeit von einer festen Größe wie der Zeit",
+    "Nur Farben",
+    "Nur Bilder der Tiere"
+   ],
+   "answer": "Messwerte in Abhängigkeit von einer festen Größe wie der Zeit",
+   "hint": "Achsen.",
+   "explain": "Auf der Längsachse steht meist die feste Größe, z. B. die Zeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Liniendiagramm?",
+   "options": [
+    "Messwerte werden als Linie verbunden.",
+    "Messwerte werden als Kreis dargestellt.",
+    "Messwerte werden als Bild gezeigt."
+   ],
+   "answer": "Messwerte werden als Linie verbunden.",
+   "hint": "Linie.",
+   "explain": "Im Liniendiagramm werden die Messwertepaare als Linie verbunden."
+  }
+ ]
+}
