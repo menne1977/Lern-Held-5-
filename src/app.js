@@ -152,8 +152,15 @@ function practice(t){
 function sheet(t){
   setNav('home');if(!hasQ(t))return go('#/t/'+t.id);const src=qSource(t),qs=[];for(let i=0;i<10;i++)qs.push(src());
   app().innerHTML=`<a class="back" href="#/t/${t.id}">← ${t.title}</a><h1>📝 ${t.title}</h1><p class="lead">Rechne zuerst selbst auf einem Blatt. Dann zeigst du die Lösungen.</p>
-  <ol class="sheet">${qs.map(q=>`<li><div>${q.q}</div>${q.opts?`<p class="chs">${q.opts.map(o=>`<span>◻ ${esc(o)}</span>`).join(' ')}</p>`:''}<details class="sol"><summary>Lösung</summary><b>${ansText(q)}</b>${q.steps?`<div class="steps">${q.steps}</div>`:''}</details></li>`).join('')}</ol>
+  <ol class="sheet">${qs.map(q=>`<li><div>${q.q}</div>${q.speak?`<button class="say spk" data-t="${esc(q.speak)}">🔊 Anhören</button>`:''}${q.opts?`<div class="chs">${q.opts.map((o,k)=>`<button class="opt sh-opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<div class="shin"><input class="ans sh-in" inputmode="${q.kind==='num'?'decimal':'text'}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Deine Antwort"><button class="go sh-chk">Prüfen</button></div>`}<div class="sh-fb"></div><details class="sol"><summary>Lösung</summary><b>${ansText(q)}</b>${q.steps?`<div class="steps">${q.steps}</div>`:''}</details></li>`).join('')}</ol>
   <div class="row2"><button id="sa" class="go">Alle Lösungen zeigen</button><button id="nw">🔄 Neue Aufgaben</button><button id="pr">🖨️ Drucken</button></div>`;
+  document.querySelectorAll('.sheet > li').forEach((li,i)=>{const q=qs[i],fb=li.querySelector('.sh-fb');
+    const show=(ok)=>{fb.innerHTML=`<div class="fb ${ok?'ok':'no'}"><b>${ok?'Richtig! 🎉':'Nicht ganz.'}</b>${ok?'':` Richtig ist: <b>${ansText(q)}</b>`}</div>`};
+    li.querySelectorAll('.sh-opt').forEach(b=>b.onclick=()=>{if(li.dataset.done)return;li.dataset.done=1;const ok=checkAns(q,q.opts[+b.dataset.k])===true;
+      li.querySelectorAll('.sh-opt').forEach(x=>{x.disabled=true;if([].concat(q.a).map(String).includes(q.opts[+x.dataset.k]))x.classList.add('good')});if(!ok)b.classList.add('bad');show(ok)});
+    const inp=li.querySelector('.sh-in');if(inp){const check=()=>{if(li.dataset.done)return;const r=checkAns(q,inp.value);if(r===null)return;li.dataset.done=1;const ok=r===true;inp.disabled=true;inp.classList.add(ok?'good':'bad');li.querySelector('.sh-chk').remove();show(ok)};
+      inp.onkeydown=e=>{if(e.key==='Enter')check()};li.querySelector('.sh-chk').onclick=check}
+  });
   $('#sa').onclick=()=>document.querySelectorAll('.sol').forEach(d=>d.open=true);$('#nw').onclick=()=>sheet(t);$('#pr').onclick=()=>window.print();
 }
 /* Suche */

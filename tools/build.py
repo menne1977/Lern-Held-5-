@@ -19,7 +19,7 @@ html=f'''<!DOCTYPE html>
 <script>{js}</script></body></html>'''
 open(out+'/index.html','w',encoding='utf8').write(html)
 json.dump({"name":"Schul-Held","short_name":"Schul-Held","description":"Lern-App Klasse 5–13: alle Fächer","start_url":"./index.html","scope":"./","display":"standalone","orientation":"portrait","background_color":"#2563eb","theme_color":"#2563eb","lang":"de","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]},open(out+'/manifest.webmanifest','w'),ensure_ascii=False)
-open(out+'/sw.js','w').write('''const C='sh5-v20',A=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+open(out+'/sw.js','w').write('''const C='sh5-v21',A=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==location.origin)return;
