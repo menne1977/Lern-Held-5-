@@ -1,0 +1,327 @@
+{
+ "subject": "Politik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Politik 5 – Medien, Geld und Umwelt",
+ "key": "Medien informieren, aber nicht alles stimmt. Mit Geld muss man gut planen. Umwelt schützen geht alle an.",
+ "slides": [
+  {
+   "title": "Medien",
+   "text": "Zeitung, Radio, Fernsehen, Internet. Prüfe Quellen: Wer hat das geschrieben?",
+   "emoji": "📰"
+  },
+  {
+   "title": "Fake News",
+   "text": "Falsche Nachrichten verbreiten sich schnell. Erst prüfen, dann teilen.",
+   "emoji": "🧐"
+  },
+  {
+   "title": "Taschengeld",
+   "text": "Einnahmen und Ausgaben vergleichen. Sparen für Wünsche.",
+   "emoji": "💶"
+  },
+  {
+   "title": "Werbung",
+   "text": "Werbung will etwas verkaufen. Sie zeigt nur Vorteile.",
+   "emoji": "📢"
+  },
+  {
+   "title": "Umwelt",
+   "text": "Müll trennen, Energie sparen, Wasser schützen. Jeder kann helfen.",
+   "emoji": "♻️"
+  }
+ ],
+ "vocab": [
+  [
+   "Medien",
+   "Mittel zur Information"
+  ],
+  [
+   "Quelle",
+   "woher eine Information stammt"
+  ],
+  [
+   "Fake News",
+   "falsche Nachricht"
+  ],
+  [
+   "Werbung",
+   "will Produkte verkaufen"
+  ],
+  [
+   "Einnahmen",
+   "Geld, das man bekommt"
+  ],
+  [
+   "Ausgaben",
+   "Geld, das man ausgibt"
+  ],
+  [
+   "sparen",
+   "Geld zurücklegen"
+  ],
+  [
+   "Umweltschutz",
+   "Natur bewahren"
+  ],
+  [
+   "Müll trennen",
+   "Wertstoffe sortieren"
+  ],
+  [
+   "Recycling",
+   "Wiederverwerten"
+  ],
+  [
+   "Nachricht",
+   "aktuelle Information"
+  ],
+  [
+   "Meinung",
+   "persönliche Ansicht"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was sind Medien?",
+   "options": [
+    "Nur Bücher",
+    "Nur Möbel",
+    "Zeitung, Radio, Fernsehen, Internet"
+   ],
+   "answer": "Zeitung, Radio, Fernsehen, Internet",
+   "hint": "",
+   "explain": "Medien verbreiten Informationen."
+  },
+  {
+   "type": "choice",
+   "q": "Was solltest du bei Nachrichten im Netz prüfen?",
+   "options": [
+    "Die Quelle",
+    "Die Farbe",
+    "Die Schriftart"
+   ],
+   "answer": "Die Quelle",
+   "hint": "",
+   "explain": "Wer hat die Information veröffentlicht?"
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Fake News?",
+   "options": [
+    "Sportnachrichten",
+    "Neue Nachrichten",
+    "Falsche Nachrichten"
+   ],
+   "answer": "Falsche Nachrichten",
+   "hint": "",
+   "explain": "Sie werden absichtlich verbreitet."
+  },
+  {
+   "type": "choice",
+   "q": "Was tust du bei einer Nachricht, der du nicht traust?",
+   "options": [
+    "Ignorieren und weiterleiten",
+    "Prüfen und nicht teilen",
+    "Sofort teilen"
+   ],
+   "answer": "Prüfen und nicht teilen",
+   "hint": "",
+   "explain": "Erst prüfen, dann teilen."
+  },
+  {
+   "type": "choice",
+   "q": "Was will Werbung meistens?",
+   "options": [
+    "Nur unterhalten",
+    "Nur informieren",
+    "Etwas verkaufen"
+   ],
+   "answer": "Etwas verkaufen",
+   "hint": "",
+   "explain": "Werbung zeigt vor allem Vorteile."
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Einnahmen?",
+   "options": [
+    "Schulden",
+    "Geld, das man ausgibt",
+    "Geld, das man bekommt"
+   ],
+   "answer": "Geld, das man bekommt",
+   "hint": "",
+   "explain": "Beispiel: Taschengeld."
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Ausgaben?",
+   "options": [
+    "Das Sparbuch",
+    "Geld, das man ausgibt",
+    "Geld, das man bekommt"
+   ],
+   "answer": "Geld, das man ausgibt",
+   "hint": "",
+   "explain": "Beispiel: Eis oder Heft kaufen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet sparen?",
+   "options": [
+    "Geld zurücklegen",
+    "Alles ausgeben",
+    "Geld verlieren"
+   ],
+   "answer": "Geld zurücklegen",
+   "hint": "",
+   "explain": "Mit gespartem Geld erfüllt man größere Wünsche."
+  },
+  {
+   "type": "choice",
+   "q": "Du bekommst 10 € Taschengeld und gibst 6 € aus. Wie viel bleibt?",
+   "options": [
+    "16 €",
+    "6 €",
+    "4 €"
+   ],
+   "answer": "4 €",
+   "hint": "",
+   "explain": "10 − 6 = 4."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Haushaltsplan?",
+   "options": [
+    "Eine Übersicht über Einnahmen und Ausgaben",
+    "Ein Stundenplan",
+    "Ein Wohnungsplan"
+   ],
+   "answer": "Eine Übersicht über Einnahmen und Ausgaben",
+   "hint": "",
+   "explain": "Er hilft beim Planen mit Geld."
+  },
+  {
+   "type": "choice",
+   "q": "Was gehört in die gelbe Tonne?",
+   "options": [
+    "Verpackungen aus Kunststoff und Metall",
+    "Papier",
+    "Bioabfall"
+   ],
+   "answer": "Verpackungen aus Kunststoff und Metall",
+   "hint": "",
+   "explain": "Gelbe Tonne oder Sack für Leichtverpackungen."
+  },
+  {
+   "type": "choice",
+   "q": "Was gehört in die Papiertonne?",
+   "options": [
+    "Glasflaschen",
+    "Essensreste",
+    "Zeitungen und Kartons"
+   ],
+   "answer": "Zeitungen und Kartons",
+   "hint": "",
+   "explain": "Papier wird recycelt."
+  },
+  {
+   "type": "choice",
+   "q": "Was gehört in die Biotonne?",
+   "options": [
+    "Plastik",
+    "Obst- und Gemüsereste",
+    "Batterien"
+   ],
+   "answer": "Obst- und Gemüsereste",
+   "hint": "",
+   "explain": "Bioabfall wird zu Kompost."
+  },
+  {
+   "type": "choice",
+   "q": "Wohin gehört Altglas?",
+   "options": [
+    "In die Biotonne",
+    "In die Papiertonne",
+    "In den Glascontainer"
+   ],
+   "answer": "In den Glascontainer",
+   "hint": "",
+   "explain": "Glas wird nach Farben getrennt gesammelt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie spart man Energie?",
+   "options": [
+    "Geräte im Standby lassen",
+    "Heizung bei offenem Fenster",
+    "Licht ausmachen, wenn man den Raum verlässt"
+   ],
+   "answer": "Licht ausmachen, wenn man den Raum verlässt",
+   "hint": "",
+   "explain": "Kleine Dinge helfen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Recycling?",
+   "options": [
+    "Verbrennen",
+    "Wiederverwerten von Material",
+    "Wegwerfen"
+   ],
+   "answer": "Wiederverwerten von Material",
+   "hint": "",
+   "explain": "So spart man Rohstoffe."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Meinung?",
+   "options": [
+    "Persönliche Ansicht",
+    "Eine Tatsache",
+    "Ein Beweis"
+   ],
+   "answer": "Persönliche Ansicht",
+   "hint": "",
+   "explain": "Meinungen sind keine Tatsachen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Aussage ist eine Tatsache?",
+   "options": [
+    "Berlin ist die Hauptstadt von Deutschland",
+    "Berlin ist langweilig",
+    "Berlin ist schöner als Köln"
+   ],
+   "answer": "Berlin ist die Hauptstadt von Deutschland",
+   "hint": "",
+   "explain": "Tatsachen kann man überprüfen."
+  },
+  {
+   "type": "choice",
+   "q": "Wer entscheidet im Netz, was du teilst?",
+   "options": [
+    "Niemand",
+    "Du selbst",
+    "Die Werbung"
+   ],
+   "answer": "Du selbst",
+   "hint": "",
+   "explain": "Überlege vor dem Posten."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Jugendschutz im Internet?",
+   "options": [
+    "Ein Verbot für Eltern",
+    "Regeln, die Kinder vor schädlichen Inhalten schützen",
+    "Ein Spiel"
+   ],
+   "answer": "Regeln, die Kinder vor schädlichen Inhalten schützen",
+   "hint": "",
+   "explain": "Altersfreigaben sind ein Beispiel."
+  }
+ ]
+}

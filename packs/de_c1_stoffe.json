@@ -1,0 +1,327 @@
+{
+ "subject": "Chemie",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Chemie 5 – Stoffe und ihre Eigenschaften",
+ "key": "Stoffe haben Eigenschaften wie Farbe, Geruch und Löslichkeit. Stoffgemische kann man trennen.",
+ "slides": [
+  {
+   "title": "Stoffe",
+   "text": "Jeder Stoff hat Eigenschaften: Farbe, Geruch, Härte, Löslichkeit, Schmelz- und Siedetemperatur.",
+   "emoji": "🧪"
+  },
+  {
+   "title": "Reinstoff und Gemisch",
+   "text": "Ein Reinstoff besteht aus einer Sorte. Ein Gemisch besteht aus mehreren Stoffen.",
+   "emoji": "⚗️"
+  },
+  {
+   "title": "Trennverfahren",
+   "text": "Filtrieren, Eindampfen, Destillieren, Sieben, Magnet. Das Verfahren hängt von den Eigenschaften ab.",
+   "emoji": "🔬"
+  },
+  {
+   "title": "Laborregeln",
+   "text": "Schutzbrille tragen, nichts probieren, Haare zusammenbinden, Gefahrensymbole beachten.",
+   "emoji": "🥽"
+  },
+  {
+   "title": "Brennen",
+   "text": "Zum Brennen braucht man einen brennbaren Stoff, Sauerstoff und Zündtemperatur.",
+   "emoji": "🔥"
+  }
+ ],
+ "vocab": [
+  [
+   "Reinstoff",
+   "besteht nur aus einer Stoffsorte"
+  ],
+  [
+   "Stoffgemisch",
+   "mehrere Stoffe gemischt"
+  ],
+  [
+   "Lösung",
+   "ein Stoff ist in Wasser gelöst"
+  ],
+  [
+   "Filtrieren",
+   "Feststoff von Flüssigkeit trennen"
+  ],
+  [
+   "Eindampfen",
+   "Wasser verdampfen, Salz bleibt"
+  ],
+  [
+   "Destillieren",
+   "Flüssigkeiten nach Siedetemperatur trennen"
+  ],
+  [
+   "Sieben",
+   "grobe von feinen Teilen trennen"
+  ],
+  [
+   "Brennbar",
+   "kann verbrennen"
+  ],
+  [
+   "Löslichkeit",
+   "wie gut sich ein Stoff löst"
+  ],
+  [
+   "Brenner",
+   "Gasbrenner im Labor"
+  ],
+  [
+   "Schutzbrille",
+   "schützt die Augen"
+  ],
+  [
+   "Gefahrensymbol",
+   "warnt vor Gefahren"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wie trennt man Sand und Wasser?",
+   "options": [
+    "Filtrieren",
+    "Eindampfen",
+    "Magnet"
+   ],
+   "answer": "Filtrieren",
+   "hint": "",
+   "explain": "Der Filter hält den Sand zurück."
+  },
+  {
+   "type": "choice",
+   "q": "Wie gewinnt man Salz aus Salzwasser?",
+   "options": [
+    "Eindampfen",
+    "Sieben",
+    "Magnet"
+   ],
+   "answer": "Eindampfen",
+   "hint": "",
+   "explain": "Das Wasser verdampft, das Salz bleibt zurück."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Verfahren trennt Eisenspäne von Sand?",
+   "options": [
+    "Filtrieren",
+    "Mit einem Magneten",
+    "Eindampfen"
+   ],
+   "answer": "Mit einem Magneten",
+   "hint": "",
+   "explain": "Eisen wird vom Magneten angezogen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Reinstoff?",
+   "options": [
+    "Ein Gas",
+    "Ein Stoff aus nur einer Sorte",
+    "Ein Gemisch"
+   ],
+   "answer": "Ein Stoff aus nur einer Sorte",
+   "hint": "",
+   "explain": "Beispiel: reines Wasser oder Zucker."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Salzwasser?",
+   "options": [
+    "Ein Reinstoff",
+    "Eine Lösung",
+    "Ein Feststoff"
+   ],
+   "answer": "Eine Lösung",
+   "hint": "",
+   "explain": "Salz ist im Wasser gelöst."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Luft?",
+   "options": [
+    "Ein Reinstoff",
+    "Ein Feststoff",
+    "Ein Gasgemisch"
+   ],
+   "answer": "Ein Gasgemisch",
+   "hint": "",
+   "explain": "Luft besteht vor allem aus Stickstoff und Sauerstoff."
+  },
+  {
+   "type": "choice",
+   "q": "Was tragen wir im Chemieraum zum Schutz der Augen?",
+   "options": [
+    "Schutzbrille",
+    "Kopfhörer",
+    "Handschuhe"
+   ],
+   "answer": "Schutzbrille",
+   "hint": "",
+   "explain": "Die Schutzbrille schützt vor Spritzern."
+  },
+  {
+   "type": "choice",
+   "q": "Darf man im Labor Stoffe probieren?",
+   "options": [
+    "Ja, ein bisschen",
+    "Ja, wenn es gut riecht",
+    "Nein"
+   ],
+   "answer": "Nein",
+   "hint": "",
+   "explain": "Man probiert niemals Stoffe im Labor."
+  },
+  {
+   "type": "choice",
+   "q": "Was braucht man zum Verbrennen?",
+   "options": [
+    "Nur Wasser",
+    "Brennbarer Stoff, Sauerstoff und Zündtemperatur",
+    "Nur Kälte"
+   ],
+   "answer": "Brennbarer Stoff, Sauerstoff und Zündtemperatur",
+   "hint": "",
+   "explain": "Fehlt eine Bedingung, erlischt das Feuer."
+  },
+  {
+   "type": "choice",
+   "q": "Wie löscht man eine Kerze, ohne zu pusten?",
+   "options": [
+    "Mit Öl",
+    "Mit einem Glas darüberstülpen",
+    "Mit Papier"
+   ],
+   "answer": "Mit einem Glas darüberstülpen",
+   "hint": "",
+   "explain": "Ohne Sauerstoff erlischt die Flamme."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff löst sich gut in Wasser?",
+   "options": [
+    "Sand",
+    "Öl",
+    "Zucker"
+   ],
+   "answer": "Zucker",
+   "hint": "",
+   "explain": "Zucker ist wasserlöslich."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff löst sich nicht in Wasser?",
+   "options": [
+    "Öl",
+    "Zucker",
+    "Salz"
+   ],
+   "answer": "Öl",
+   "hint": "",
+   "explain": "Öl schwimmt oben und bleibt getrennt."
+  },
+  {
+   "type": "choice",
+   "q": "Mit welchem Gerät erhitzt man Stoffe im Labor?",
+   "options": [
+    "Föhn",
+    "Mixer",
+    "Gasbrenner"
+   ],
+   "answer": "Gasbrenner",
+   "hint": "",
+   "explain": "Der Brenner liefert Wärme im Labor."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt ein Gefahrensymbol?",
+   "options": [
+    "Den Preis",
+    "Die Farbe",
+    "Eine Gefahr durch den Stoff"
+   ],
+   "answer": "Eine Gefahr durch den Stoff",
+   "hint": "",
+   "explain": "Es warnt vor giftig, ätzend oder brennbar."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert beim Destillieren?",
+   "options": [
+    "Sand wird gewaschen",
+    "Salz wird gesiebt",
+    "Flüssigkeiten werden nach Siedetemperatur getrennt"
+   ],
+   "answer": "Flüssigkeiten werden nach Siedetemperatur getrennt",
+   "hint": "",
+   "explain": "Der Stoff mit niedrigerer Siedetemperatur verdampft zuerst."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Eigenschaft eines Stoffes?",
+   "options": [
+    "Name des Lehrers",
+    "Größe des Raums",
+    "Farbe"
+   ],
+   "answer": "Farbe",
+   "hint": "",
+   "explain": "Farbe, Geruch und Härte sind Stoffeigenschaften."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Farbe hat Kupfer?",
+   "options": [
+    "Silbern",
+    "Grün",
+    "Rötlich-braun"
+   ],
+   "answer": "Rötlich-braun",
+   "hint": "",
+   "explain": "Kupfer sieht rötlich aus."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Rost?",
+   "options": [
+    "Ein Gas",
+    "Ein Salz",
+    "Eisen, das mit Sauerstoff und Wasser reagiert"
+   ],
+   "answer": "Eisen, das mit Sauerstoff und Wasser reagiert",
+   "hint": "",
+   "explain": "Eisen rostet an feuchter Luft."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine chemische Reaktion?",
+   "options": [
+    "Ein Stoff wird zerschnitten",
+    "Ein Stoff wird erwärmt",
+    "Stoffe werden zu neuen Stoffen"
+   ],
+   "answer": "Stoffe werden zu neuen Stoffen",
+   "hint": "",
+   "explain": "Dabei entstehen neue Stoffe."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert beim Verbrennen von Holz?",
+   "options": [
+    "Es entstehen neue Stoffe wie Asche und Gase",
+    "Nur Wasser",
+    "Nichts"
+   ],
+   "answer": "Es entstehen neue Stoffe wie Asche und Gase",
+   "hint": "",
+   "explain": "Das ist eine chemische Reaktion."
+  }
+ ]
+}

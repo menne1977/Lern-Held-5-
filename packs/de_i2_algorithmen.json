@@ -1,0 +1,327 @@
+{
+ "subject": "Informatik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Informatik 5 – Algorithmen und Programmieren",
+ "key": "Ein Algorithmus ist eine genaue Schritt-für-Schritt-Anleitung. Programme bestehen aus Befehlen, Schleifen und Bedingungen.",
+ "slides": [
+  {
+   "title": "Algorithmus",
+   "text": "Eine eindeutige Folge von Schritten, die ein Problem löst. Beispiel: Zähneputzen oder Rezept.",
+   "emoji": "📋"
+  },
+  {
+   "title": "Befehle",
+   "text": "Ein Programm besteht aus Befehlen, die der Computer nacheinander ausführt.",
+   "emoji": "⌨️"
+  },
+  {
+   "title": "Schleife",
+   "text": "Wiederholt Befehle, z. B. fünfmal vorwärts.",
+   "emoji": "🔁"
+  },
+  {
+   "title": "Bedingung",
+   "text": "Wenn etwas zutrifft, dann tue etwas, sonst etwas anderes.",
+   "emoji": "❓"
+  },
+  {
+   "title": "Fehler suchen",
+   "text": "Bug heißt Fehler im Programm. Man sucht und behebt ihn: Debugging.",
+   "emoji": "🐞"
+  }
+ ],
+ "vocab": [
+  [
+   "Algorithmus",
+   "Schritt-für-Schritt-Anleitung"
+  ],
+  [
+   "Programm",
+   "Befehle für den Computer"
+  ],
+  [
+   "Befehl",
+   "einzelne Anweisung"
+  ],
+  [
+   "Schleife",
+   "Wiederholung von Befehlen"
+  ],
+  [
+   "Bedingung",
+   "wenn … dann …"
+  ],
+  [
+   "Variable",
+   "Speicherplatz mit einem Namen"
+  ],
+  [
+   "Fehler",
+   "Bug im Programm"
+  ],
+  [
+   "Debugging",
+   "Fehler finden und beheben"
+  ],
+  [
+   "Ablaufplan",
+   "Diagramm der Schritte"
+  ],
+  [
+   "Programmiersprache",
+   "Sprache für Programme"
+  ],
+  [
+   "Roboter",
+   "Maschine, die Befehle ausführt"
+  ],
+  [
+   "Reihenfolge",
+   "Schritte nacheinander"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist ein Algorithmus?",
+   "options": [
+    "Ein Computerteil",
+    "Ein Passwort",
+    "Eine genaue Schritt-für-Schritt-Anleitung"
+   ],
+   "answer": "Eine genaue Schritt-für-Schritt-Anleitung",
+   "hint": "",
+   "explain": "Algorithmen lösen ein Problem in klaren Schritten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Beispiel für einen Algorithmus?",
+   "options": [
+    "Ein Rezept",
+    "Eine Tür",
+    "Ein Foto"
+   ],
+   "answer": "Ein Rezept",
+   "hint": "",
+   "explain": "Ein Rezept gibt feste Schritte vor."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Programm?",
+   "options": [
+    "Ein Monitor",
+    "Ein Kabel",
+    "Eine Folge von Befehlen für den Computer"
+   ],
+   "answer": "Eine Folge von Befehlen für den Computer",
+   "hint": "",
+   "explain": "Programme führt der Computer aus."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet eine Schleife?",
+   "options": [
+    "Der Computer schläft",
+    "Befehle werden wiederholt",
+    "Das Programm stoppt"
+   ],
+   "answer": "Befehle werden wiederholt",
+   "hint": "",
+   "explain": "Mit Schleifen spart man Schreibarbeit."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür braucht man eine Bedingung?",
+   "options": [
+    "Zum Speichern",
+    "Zum Drucken",
+    "Für Entscheidungen: wenn …, dann …"
+   ],
+   "answer": "Für Entscheidungen: wenn …, dann …",
+   "hint": "",
+   "explain": "Bedingungen steuern, was passiert."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Bug?",
+   "options": [
+    "Ein Kabel",
+    "Ein Käfer im Computer",
+    "Ein Fehler im Programm"
+   ],
+   "answer": "Ein Fehler im Programm",
+   "hint": "",
+   "explain": "Bug bedeutet Fehler."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man das Suchen von Programmfehlern?",
+   "options": [
+    "Booten",
+    "Debugging",
+    "Streaming"
+   ],
+   "answer": "Debugging",
+   "hint": "",
+   "explain": "Beim Debugging behebt man Fehler."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Variable?",
+   "options": [
+    "Ein Speicherplatz mit einem Namen",
+    "Ein Fehler",
+    "Ein Gerät"
+   ],
+   "answer": "Ein Speicherplatz mit einem Namen",
+   "hint": "",
+   "explain": "Sie speichert Werte wie Punkte."
+  },
+  {
+   "type": "choice",
+   "q": "Ein Roboter soll 3 Schritte vorwärts gehen. Welche Schleife passt?",
+   "options": [
+    "3-mal: schlafe",
+    "1-mal: stopp",
+    "3-mal: gehe vor"
+   ],
+   "answer": "3-mal: gehe vor",
+   "hint": "",
+   "explain": "Die Schleife wiederholt den Befehl."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Reihenfolge ist beim Zähneputzen richtig?",
+   "options": [
+    "Zahnpasta drauf, putzen, ausspülen",
+    "Putzen, Zahnpasta drauf, ausspülen",
+    "Ausspülen, putzen, Zahnpasta drauf"
+   ],
+   "answer": "Zahnpasta drauf, putzen, ausspülen",
+   "hint": "",
+   "explain": "Die Reihenfolge der Schritte ist wichtig."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man ein Bild, das Schritte als Kästchen zeigt?",
+   "options": [
+    "Ablaufplan",
+    "Wetterkarte",
+    "Stadtplan"
+   ],
+   "answer": "Ablaufplan",
+   "hint": "",
+   "explain": "Ein Ablaufplan zeigt den Algorithmus."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Scratch?",
+   "options": [
+    "Ein Drucker",
+    "Ein Spiel",
+    "Eine Programmierumgebung mit Bausteinen"
+   ],
+   "answer": "Eine Programmierumgebung mit Bausteinen",
+   "hint": "",
+   "explain": "Mit Scratch programmiert man mit Blöcken."
+  },
+  {
+   "type": "choice",
+   "q": "Warum müssen Befehle genau sein?",
+   "options": [
+    "Es ist egal",
+    "Der Computer versteht nur klare Anweisungen",
+    "Der Computer rät mit"
+   ],
+   "answer": "Der Computer versteht nur klare Anweisungen",
+   "hint": "",
+   "explain": "Computer tun genau das, was man sagt."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert, wenn ein Befehl falsch ist?",
+   "options": [
+    "Der Computer repariert es",
+    "Alles klappt trotzdem",
+    "Das Programm macht etwas anderes oder bricht ab"
+   ],
+   "answer": "Das Programm macht etwas anderes oder bricht ab",
+   "hint": "",
+   "explain": "Dann muss man den Fehler suchen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Befehl hört mit der Schleife auf?",
+   "options": [
+    "Nie",
+    "Wenn es regnet",
+    "Wenn eine Bedingung erfüllt ist"
+   ],
+   "answer": "Wenn eine Bedingung erfüllt ist",
+   "hint": "",
+   "explain": "Schleifen enden oft durch eine Bedingung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Programmiersprache?",
+   "options": [
+    "Ein Wörterbuch",
+    "Eine Sprache, mit der man Computern Befehle gibt",
+    "Eine Fremdsprache"
+   ],
+   "answer": "Eine Sprache, mit der man Computern Befehle gibt",
+   "hint": "",
+   "explain": "Beispiele: Python, Scratch, Java."
+  },
+  {
+   "type": "choice",
+   "q": "Welche ist eine Programmiersprache?",
+   "options": [
+    "Python",
+    "Excel",
+    "Word"
+   ],
+   "answer": "Python",
+   "hint": "",
+   "explain": "Python wird oft zum Lernen genutzt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Roboter?",
+   "options": [
+    "Eine Maschine, die Befehle ausführt",
+    "Ein Mensch",
+    "Ein Spielzeug ohne Funktion"
+   ],
+   "answer": "Eine Maschine, die Befehle ausführt",
+   "hint": "",
+   "explain": "Roboter folgen Programmen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Ablauf im Algorithmus?",
+   "options": [
+    "Die Farbe",
+    "Die Reihenfolge der Schritte",
+    "Die Größe"
+   ],
+   "answer": "Die Reihenfolge der Schritte",
+   "hint": "",
+   "explain": "Falsche Reihenfolge führt zu Fehlern."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dient ein Kommentar im Programm?",
+   "options": [
+    "Er löscht Befehle",
+    "Er erklärt den Code für Menschen",
+    "Er wird ausgeführt"
+   ],
+   "answer": "Er erklärt den Code für Menschen",
+   "hint": "",
+   "explain": "Kommentare helfen beim Verstehen."
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "subject": "Physik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Physik 5 – Körper, Stoffe und Messen",
+ "key": "Alles besteht aus Stoffen. Wir messen Länge, Masse, Zeit und Temperatur mit passenden Einheiten.",
+ "slides": [
+  {
+   "title": "Messen",
+   "text": "Länge in Meter, Masse in Kilogramm, Zeit in Sekunden, Temperatur in Grad Celsius.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Aggregatzustände",
+   "text": "Fest, flüssig, gasförmig. Wärme kann einen Stoff schmelzen oder verdampfen lassen.",
+   "emoji": "🧊"
+  },
+  {
+   "title": "Volumen",
+   "text": "Wie viel Raum ein Körper einnimmt. Einheit: Liter oder Kubikzentimeter.",
+   "emoji": "🧪"
+  },
+  {
+   "title": "Dichte",
+   "text": "Ein Stoff ist dichter, wenn viel Masse in wenig Raum steckt. Eisen sinkt, Holz schwimmt.",
+   "emoji": "⚖️"
+  },
+  {
+   "title": "Temperatur",
+   "text": "Ein Thermometer misst die Temperatur. Wasser gefriert bei 0 °C und siedet bei 100 °C.",
+   "emoji": "🌡️"
+  }
+ ],
+ "vocab": [
+  [
+   "Masse",
+   "Wie schwer ein Körper ist, in kg"
+  ],
+  [
+   "Volumen",
+   "Raum, den ein Körper einnimmt"
+  ],
+  [
+   "Aggregatzustand",
+   "fest, flüssig oder gasförmig"
+  ],
+  [
+   "Schmelzen",
+   "fest wird flüssig"
+  ],
+  [
+   "Verdampfen",
+   "flüssig wird gasförmig"
+  ],
+  [
+   "Erstarren",
+   "flüssig wird fest"
+  ],
+  [
+   "Kondensieren",
+   "gasförmig wird flüssig"
+  ],
+  [
+   "Thermometer",
+   "misst die Temperatur"
+  ],
+  [
+   "Dichte",
+   "Masse pro Volumen"
+  ],
+  [
+   "Stoff",
+   "Material, aus dem ein Körper besteht"
+  ],
+  [
+   "Körper",
+   "Gegenstand mit fester Form"
+  ],
+  [
+   "Waage",
+   "misst die Masse"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Mit welchem Gerät misst man die Temperatur?",
+   "options": [
+    "Thermometer",
+    "Waage",
+    "Lineal"
+   ],
+   "answer": "Thermometer",
+   "hint": "",
+   "explain": "Das Thermometer zeigt die Temperatur an."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Einheit hat die Masse im Alltag?",
+   "options": [
+    "Kilogramm",
+    "Meter",
+    "Sekunde"
+   ],
+   "answer": "Kilogramm",
+   "hint": "",
+   "explain": "Masse misst man in Gramm oder Kilogramm."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Übergang von fest zu flüssig?",
+   "options": [
+    "Verdampfen",
+    "Schmelzen",
+    "Erstarren"
+   ],
+   "answer": "Schmelzen",
+   "hint": "",
+   "explain": "Eis schmilzt zu Wasser."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Übergang von flüssig zu gasförmig?",
+   "options": [
+    "Erstarren",
+    "Verdampfen",
+    "Schmelzen"
+   ],
+   "answer": "Verdampfen",
+   "hint": "",
+   "explain": "Wasser verdampft zu Wasserdampf."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Übergang von flüssig zu fest?",
+   "options": [
+    "Verdampfen",
+    "Erstarren",
+    "Kondensieren"
+   ],
+   "answer": "Erstarren",
+   "hint": "",
+   "explain": "Wasser erstarrt zu Eis."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Übergang von gasförmig zu flüssig?",
+   "options": [
+    "Schmelzen",
+    "Erstarren",
+    "Kondensieren"
+   ],
+   "answer": "Kondensieren",
+   "hint": "",
+   "explain": "Wasserdampf kondensiert an kalten Flächen zu Tropfen."
+  },
+  {
+   "type": "choice",
+   "q": "Bei wie viel Grad Celsius gefriert Wasser?",
+   "options": [
+    "0 °C",
+    "100 °C",
+    "10 °C"
+   ],
+   "answer": "0 °C",
+   "hint": "",
+   "explain": "Wasser gefriert bei 0 °C."
+  },
+  {
+   "type": "choice",
+   "q": "Bei wie viel Grad Celsius siedet Wasser?",
+   "options": [
+    "50 °C",
+    "0 °C",
+    "100 °C"
+   ],
+   "answer": "100 °C",
+   "hint": "",
+   "explain": "Wasser kocht bei 100 °C."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Gramm sind ein Kilogramm?",
+   "options": [
+    "100 g",
+    "1000 g",
+    "10 g"
+   ],
+   "answer": "1000 g",
+   "hint": "",
+   "explain": "1 kg = 1000 g."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Zentimeter sind ein Meter?",
+   "options": [
+    "10 cm",
+    "100 cm",
+    "1000 cm"
+   ],
+   "answer": "100 cm",
+   "hint": "",
+   "explain": "1 m = 100 cm."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Milliliter sind ein Liter?",
+   "options": [
+    "100 ml",
+    "10 ml",
+    "1000 ml"
+   ],
+   "answer": "1000 ml",
+   "hint": "",
+   "explain": "1 l = 1000 ml."
+  },
+  {
+   "type": "choice",
+   "q": "Was misst eine Stoppuhr?",
+   "options": [
+    "Zeit",
+    "Länge",
+    "Masse"
+   ],
+   "answer": "Zeit",
+   "hint": "",
+   "explain": "Die Stoppuhr misst die Zeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was misst ein Lineal?",
+   "options": [
+    "Zeit",
+    "Temperatur",
+    "Länge"
+   ],
+   "answer": "Länge",
+   "hint": "",
+   "explain": "Mit dem Lineal misst man Längen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Aggregatzustand hat eine feste Form?",
+   "options": [
+    "flüssig",
+    "gasförmig",
+    "fest"
+   ],
+   "answer": "fest",
+   "hint": "",
+   "explain": "Feste Körper behalten ihre Form."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff ist gasförmig bei Zimmertemperatur?",
+   "options": [
+    "Eisen",
+    "Wasser",
+    "Luft"
+   ],
+   "answer": "Luft",
+   "hint": "",
+   "explain": "Luft ist ein Gasgemisch."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert mit den meisten Stoffen, wenn sie warm werden?",
+   "options": [
+    "Sie schrumpfen immer",
+    "Nichts",
+    "Sie dehnen sich aus"
+   ],
+   "answer": "Sie dehnen sich aus",
+   "hint": "",
+   "explain": "Wärme dehnt die meisten Stoffe aus."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Körper in der Physik?",
+   "options": [
+    "Ein Stoff",
+    "Eine Wärme",
+    "Ein Gegenstand"
+   ],
+   "answer": "Ein Gegenstand",
+   "hint": "",
+   "explain": "Ein Körper hat eine Form und besteht aus einem Stoff."
+  },
+  {
+   "type": "choice",
+   "q": "Aus welchem Stoff besteht ein Löffel aus Metall?",
+   "options": [
+    "Holz",
+    "Glas",
+    "Metall"
+   ],
+   "answer": "Metall",
+   "hint": "",
+   "explain": "Der Körper ist der Löffel, der Stoff ist Metall."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Material schwimmt auf Wasser?",
+   "options": [
+    "Eisen",
+    "Stein",
+    "Holz"
+   ],
+   "answer": "Holz",
+   "hint": "",
+   "explain": "Holz hat eine geringere Dichte als Wasser."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt eine Waage an?",
+   "options": [
+    "Die Masse",
+    "Die Zeit",
+    "Die Länge"
+   ],
+   "answer": "Die Masse",
+   "hint": "",
+   "explain": "Die Waage misst die Masse."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Sekunden hat eine Minute?",
+   "options": [
+    "10",
+    "100",
+    "60"
+   ],
+   "answer": "60",
+   "hint": "",
+   "explain": "1 Minute = 60 Sekunden."
+  }
+ ]
+}

@@ -342,5 +342,101 @@
    "words": 12,
    "tasks": 23,
    "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_p1_koerper.json",
+   "title": "Physik 5 – Körper, Stoffe und Messen",
+   "subject": "Physik",
+   "words": 12,
+   "tasks": 21,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_p2_waerme_licht.json",
+   "title": "Physik 5 – Wärme, Licht und Schall",
+   "subject": "Physik",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_c1_stoffe.json",
+   "title": "Chemie 5 – Stoffe und ihre Eigenschaften",
+   "subject": "Chemie",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_c2_luft_wasser.json",
+   "title": "Chemie 5 – Luft, Wasser und Feuer",
+   "subject": "Chemie",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_i1_computer.json",
+   "title": "Informatik 5 – Computer und Daten",
+   "subject": "Informatik",
+   "words": 12,
+   "tasks": 21,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_i2_algorithmen.json",
+   "title": "Informatik 5 – Algorithmen und Programmieren",
+   "subject": "Informatik",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_po1_demokratie.json",
+   "title": "Politik 5 – Zusammenleben und Demokratie",
+   "subject": "Politik",
+   "words": 12,
+   "tasks": 21,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_po2_medien_geld.json",
+   "title": "Politik 5 – Medien, Geld und Umwelt",
+   "subject": "Politik",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_g1_steinzeit_aegypten.json",
+   "title": "Geschichte 5 – Steinzeit und Ägypten",
+   "subject": "Geschichte",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_g2_griechen_roemer.json",
+   "title": "Geschichte 5 – Griechen und Römer",
+   "subject": "Geschichte",
+   "words": 12,
+   "tasks": 21,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_m1_noten_rhythmus.json",
+   "title": "Musik 5 – Noten, Rhythmus und Takt",
+   "subject": "Musik",
+   "words": 12,
+   "tasks": 21,
+   "book": "Allgemein Klasse 5"
+ },
+ {
+   "file": "de_m2_instrumente.json",
+   "title": "Musik 5 – Instrumente und Orchester",
+   "subject": "Musik",
+   "words": 12,
+   "tasks": 20,
+   "book": "Allgemein Klasse 5"
  }
 ]

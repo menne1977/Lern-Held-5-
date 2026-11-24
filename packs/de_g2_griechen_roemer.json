@@ -1,0 +1,339 @@
+{
+ "subject": "Geschichte",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Geschichte 5 – Griechen und Römer",
+ "key": "Die Griechen erfanden Theater, Olympische Spiele und die Demokratie. Die Römer bauten ein riesiges Reich mit Straßen.",
+ "slides": [
+  {
+   "title": "Griechenland",
+   "text": "Viele Stadtstaaten (Polis). Athen und Sparta waren die bekanntesten.",
+   "emoji": "🏛️"
+  },
+  {
+   "title": "Olympia",
+   "text": "Seit 776 v. Chr. fanden Spiele zu Ehren des Zeus statt.",
+   "emoji": "🏅"
+  },
+  {
+   "title": "Demokratie",
+   "text": "In Athen entschieden freie Männer in der Volksversammlung.",
+   "emoji": "🗳️"
+  },
+  {
+   "title": "Rom",
+   "text": "Rom wurde nach der Sage 753 v. Chr. gegründet. Aus der Stadt wurde ein Weltreich.",
+   "emoji": "🏺"
+  },
+  {
+   "title": "Römer in Germanien",
+   "text": "Römische Straßen, Kastelle und Städte wie Köln und Trier.",
+   "emoji": "🛣️"
+  }
+ ],
+ "vocab": [
+  [
+   "Polis",
+   "griechischer Stadtstaat"
+  ],
+  [
+   "Olympia",
+   "Ort der antiken Spiele"
+  ],
+  [
+   "Demokratie",
+   "Volk herrscht"
+  ],
+  [
+   "Theater",
+   "griechische Erfindung"
+  ],
+  [
+   "Gladiator",
+   "Kämpfer in der Arena"
+  ],
+  [
+   "Kolosseum",
+   "Arena in Rom"
+  ],
+  [
+   "Kaiser",
+   "Herrscher Roms"
+  ],
+  [
+   "Legion",
+   "römische Einheit"
+  ],
+  [
+   "Limes",
+   "römische Grenze"
+  ],
+  [
+   "Aquädukt",
+   "Wasserleitung"
+  ],
+  [
+   "Senat",
+   "römische Versammlung"
+  ],
+  [
+   "Mythos",
+   "alte Sage"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wie nennt man griechische Stadtstaaten?",
+   "options": [
+    "Pharao",
+    "Limes",
+    "Polis"
+   ],
+   "answer": "Polis",
+   "hint": "",
+   "explain": "Athen und Sparta waren Poleis."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Stadt gilt als Ursprung der Demokratie?",
+   "options": [
+    "Sparta",
+    "Rom",
+    "Athen"
+   ],
+   "answer": "Athen",
+   "hint": "",
+   "explain": "In Athen entschieden Bürger mit."
+  },
+  {
+   "type": "choice",
+   "q": "Wo fanden die antiken Olympischen Spiele statt?",
+   "options": [
+    "In Olympia",
+    "In Rom",
+    "In Athen"
+   ],
+   "answer": "In Olympia",
+   "hint": "",
+   "explain": "Zu Ehren des Zeus."
+  },
+  {
+   "type": "choice",
+   "q": "Seit wann gab es Olympische Spiele laut Überlieferung?",
+   "options": [
+    "100 n. Chr.",
+    "1896 n. Chr.",
+    "776 v. Chr."
+   ],
+   "answer": "776 v. Chr.",
+   "hint": "",
+   "explain": "Die ersten Spiele werden auf 776 v. Chr. datiert."
+  },
+  {
+   "type": "choice",
+   "q": "Wer war der oberste griechische Gott?",
+   "options": [
+    "Apollon",
+    "Zeus",
+    "Poseidon"
+   ],
+   "answer": "Zeus",
+   "hint": "",
+   "explain": "Zeus herrschte über den Olymp."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Mythos?",
+   "options": [
+    "Ein Gesetz",
+    "Ein Wetterbericht",
+    "Eine alte Göttersage"
+   ],
+   "answer": "Eine alte Göttersage",
+   "hint": "",
+   "explain": "Mythen erklärten die Welt."
+  },
+  {
+   "type": "choice",
+   "q": "Was erfanden die Griechen für das Publikum?",
+   "options": [
+    "Das Radio",
+    "Den Film",
+    "Das Theater"
+   ],
+   "answer": "Das Theater",
+   "hint": "",
+   "explain": "Tragödien und Komödien."
+  },
+  {
+   "type": "choice",
+   "q": "Wie hieß die Hauptstadt des Römischen Reiches?",
+   "options": [
+    "Köln",
+    "Rom",
+    "Athen"
+   ],
+   "answer": "Rom",
+   "hint": "",
+   "explain": "Rom war das Zentrum."
+  },
+  {
+   "type": "choice",
+   "q": "Wie hieß die Arena in Rom?",
+   "options": [
+    "Kolosseum",
+    "Pantheon",
+    "Akropolis"
+   ],
+   "answer": "Kolosseum",
+   "hint": "",
+   "explain": "Hier kämpften Gladiatoren."
+  },
+  {
+   "type": "choice",
+   "q": "Wer kämpfte in der Arena?",
+   "options": [
+    "Mönche",
+    "Ritter",
+    "Gladiatoren"
+   ],
+   "answer": "Gladiatoren",
+   "hint": "",
+   "explain": "Sie unterhielten das Publikum."
+  },
+  {
+   "type": "choice",
+   "q": "Wer herrschte über das Römische Reich?",
+   "options": [
+    "Der Kaiser",
+    "Der Bürgermeister",
+    "Der Pharao"
+   ],
+   "answer": "Der Kaiser",
+   "hint": "",
+   "explain": "Augustus war der erste Kaiser."
+  },
+  {
+   "type": "choice",
+   "q": "Was war der Limes?",
+   "options": [
+    "Die Grenzbefestigung des Römischen Reiches",
+    "Eine Straße in Rom",
+    "Ein Fluss"
+   ],
+   "answer": "Die Grenzbefestigung des Römischen Reiches",
+   "hint": "",
+   "explain": "Er verlief durch Germanien."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dienten Aquädukte?",
+   "options": [
+    "Zum Schreiben",
+    "Zum Kämpfen",
+    "Zum Transport von Wasser"
+   ],
+   "answer": "Zum Transport von Wasser",
+   "hint": "",
+   "explain": "Sie brachten Wasser in die Städte."
+  },
+  {
+   "type": "choice",
+   "q": "Welche deutsche Stadt gründeten die Römer als Colonia?",
+   "options": [
+    "Dresden",
+    "Köln",
+    "Berlin"
+   ],
+   "answer": "Köln",
+   "hint": "",
+   "explain": "Colonia Claudia Ara Agrippinensium wurde zu Köln."
+  },
+  {
+   "type": "choice",
+   "q": "In welcher Sprache sprachen die Römer?",
+   "options": [
+    "Englisch",
+    "Griechisch",
+    "Latein"
+   ],
+   "answer": "Latein",
+   "hint": "",
+   "explain": "Viele Wörter stammen aus dem Latein."
+  },
+  {
+   "type": "choice",
+   "q": "Was war die römische Legion?",
+   "options": [
+    "Ein Gesetz",
+    "Ein Fest",
+    "Eine Einheit des Heeres"
+   ],
+   "answer": "Eine Einheit des Heeres",
+   "hint": "",
+   "explain": "Legionäre waren römische Soldaten."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür war Sparta bekannt?",
+   "options": [
+    "Für Handel",
+    "Für sein strenges Kriegertum",
+    "Für Theater"
+   ],
+   "answer": "Für sein strenges Kriegertum",
+   "hint": "",
+   "explain": "Spartaner wurden früh zu Kriegern erzogen."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür war Athen bekannt?",
+   "options": [
+    "Für Kultur und Demokratie",
+    "Für Eisenbahn",
+    "Für Piraten"
+   ],
+   "answer": "Für Kultur und Demokratie",
+   "hint": "",
+   "explain": "Philosophen und Künstler lebten dort."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Gebäude baute man oft aus Marmor?",
+   "options": [
+    "Tempel",
+    "Bahnhöfe",
+    "Fabriken"
+   ],
+   "answer": "Tempel",
+   "hint": "",
+   "explain": "Das Parthenon ist ein Beispiel."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Burg Athens?",
+   "options": [
+    "Kolosseum",
+    "Akropolis",
+    "Forum"
+   ],
+   "answer": "Akropolis",
+   "hint": "",
+   "explain": "Dort steht das Parthenon."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet n. Chr.?",
+   "options": [
+    "Nachts Christus",
+    "Nach Christi Geburt",
+    "Neue Chronik"
+   ],
+   "answer": "Nach Christi Geburt",
+   "hint": "",
+   "explain": "Zeitrechnung nach dem Jahr 1."
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "subject": "Informatik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Informatik 5 – Computer und Daten",
+ "key": "Ein Computer verarbeitet Daten nach dem EVA-Prinzip: Eingabe, Verarbeitung, Ausgabe.",
+ "slides": [
+  {
+   "title": "Hardware und Software",
+   "text": "Hardware kann man anfassen, Software sind Programme.",
+   "emoji": "💻"
+  },
+  {
+   "title": "EVA-Prinzip",
+   "text": "Eingabe, Verarbeitung, Ausgabe. Tastatur, Prozessor, Bildschirm.",
+   "emoji": "🔁"
+  },
+  {
+   "title": "Speicher",
+   "text": "Arbeitsspeicher ist flüchtig. Festplatte speichert dauerhaft.",
+   "emoji": "💾"
+  },
+  {
+   "title": "Bits und Bytes",
+   "text": "Ein Bit ist 0 oder 1. Acht Bits sind ein Byte.",
+   "emoji": "🔢"
+  },
+  {
+   "title": "Sicher im Netz",
+   "text": "Starke Passwörter, keine persönlichen Daten teilen, Vorsicht bei Fremden.",
+   "emoji": "🔐"
+  }
+ ],
+ "vocab": [
+  [
+   "Hardware",
+   "Teile des Computers zum Anfassen"
+  ],
+  [
+   "Software",
+   "Programme"
+  ],
+  [
+   "Prozessor",
+   "Rechenwerk, das verarbeitet"
+  ],
+  [
+   "Arbeitsspeicher",
+   "kurzzeitiger Speicher (RAM)"
+  ],
+  [
+   "Festplatte",
+   "dauerhafter Speicher"
+  ],
+  [
+   "Bit",
+   "0 oder 1"
+  ],
+  [
+   "Byte",
+   "acht Bits"
+  ],
+  [
+   "Eingabe",
+   "Daten in den Computer"
+  ],
+  [
+   "Ausgabe",
+   "Daten zeigen"
+  ],
+  [
+   "Passwort",
+   "Geheimwort zum Schutz"
+  ],
+  [
+   "Betriebssystem",
+   "steuert den Computer"
+  ],
+  [
+   "Datei",
+   "gespeicherte Information"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist Hardware?",
+   "options": [
+    "Teile des Computers, die man anfassen kann",
+    "Programme",
+    "Passwörter"
+   ],
+   "answer": "Teile des Computers, die man anfassen kann",
+   "hint": "",
+   "explain": "Beispiele: Tastatur, Maus, Bildschirm."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Software?",
+   "options": [
+    "Programme und Apps",
+    "Das Gehäuse",
+    "Das Kabel"
+   ],
+   "answer": "Programme und Apps",
+   "hint": "",
+   "explain": "Software ist nicht anfassbar."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür steht EVA?",
+   "options": [
+    "Energie, Volt, Ampere",
+    "Eingabe, Verarbeitung, Ausgabe",
+    "Erfassen, Verlieren, Aufgeben"
+   ],
+   "answer": "Eingabe, Verarbeitung, Ausgabe",
+   "hint": "",
+   "explain": "So arbeitet jeder Computer."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gerät dient zur Eingabe?",
+   "options": [
+    "Lautsprecher",
+    "Tastatur",
+    "Bildschirm"
+   ],
+   "answer": "Tastatur",
+   "hint": "",
+   "explain": "Mit der Tastatur gibt man Daten ein."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gerät dient zur Ausgabe?",
+   "options": [
+    "Maus",
+    "Bildschirm",
+    "Tastatur"
+   ],
+   "answer": "Bildschirm",
+   "hint": "",
+   "explain": "Der Bildschirm zeigt Ergebnisse an."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Bits hat ein Byte?",
+   "options": [
+    "2",
+    "16",
+    "8"
+   ],
+   "answer": "8",
+   "hint": "",
+   "explain": "Ein Byte besteht aus 8 Bits."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Werte kann ein Bit haben?",
+   "options": [
+    "0 oder 1",
+    "A bis Z",
+    "1 bis 10"
+   ],
+   "answer": "0 oder 1",
+   "hint": "",
+   "explain": "Computer rechnen binär."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Prozessor?",
+   "options": [
+    "Der Akku",
+    "Der Bildschirm",
+    "Das Rechenwerk des Computers"
+   ],
+   "answer": "Das Rechenwerk des Computers",
+   "hint": "",
+   "explain": "Er verarbeitet Daten."
+  },
+  {
+   "type": "choice",
+   "q": "Wo bleiben Dateien dauerhaft gespeichert?",
+   "options": [
+    "Im Arbeitsspeicher",
+    "Auf der Festplatte oder dem Stick",
+    "Auf dem Bildschirm"
+   ],
+   "answer": "Auf der Festplatte oder dem Stick",
+   "hint": "",
+   "explain": "Der Arbeitsspeicher verliert Daten beim Ausschalten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Betriebssystem?",
+   "options": [
+    "Ein Spiel",
+    "Programm, das den Computer steuert",
+    "Ein Kabel"
+   ],
+   "answer": "Programm, das den Computer steuert",
+   "hint": "",
+   "explain": "Beispiele: Windows, Android."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht ein Drucker?",
+   "options": [
+    "Nimmt Daten auf",
+    "Speichert Daten",
+    "Gibt Daten auf Papier aus"
+   ],
+   "answer": "Gibt Daten auf Papier aus",
+   "hint": "",
+   "explain": "Der Drucker ist ein Ausgabegerät."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein sicheres Passwort?",
+   "options": [
+    "Lang, mit Zahlen und Zeichen gemischt",
+    "1234",
+    "Dein Name"
+   ],
+   "answer": "Lang, mit Zahlen und Zeichen gemischt",
+   "hint": "",
+   "explain": "Starke Passwörter sind schwer zu erraten."
+  },
+  {
+   "type": "choice",
+   "q": "Was solltest du im Netz nicht verraten?",
+   "options": [
+    "Lieblingstier",
+    "Lieblingsfarbe",
+    "Wohnadresse und Passwörter"
+   ],
+   "answer": "Wohnadresse und Passwörter",
+   "hint": "",
+   "explain": "Persönliche Daten bleiben privat."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Browser?",
+   "options": [
+    "Ein Spiel",
+    "Ein Drucker",
+    "Programm zum Surfen im Internet"
+   ],
+   "answer": "Programm zum Surfen im Internet",
+   "hint": "",
+   "explain": "Beispiele: Chrome, Firefox."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine E-Mail?",
+   "options": [
+    "Ein Telefonat",
+    "Ein Brief aus Papier",
+    "Elektronische Post"
+   ],
+   "answer": "Elektronische Post",
+   "hint": "",
+   "explain": "E-Mails werden über das Internet versendet."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Download?",
+   "options": [
+    "Daten löschen",
+    "Daten drucken",
+    "Daten aus dem Netz auf das Gerät laden"
+   ],
+   "answer": "Daten aus dem Netz auf das Gerät laden",
+   "hint": "",
+   "explain": "Gegenteil ist Upload."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist das Internet?",
+   "options": [
+    "Ein einzelner Computer",
+    "Ein Kabel",
+    "Ein weltweites Netz verbundener Computer"
+   ],
+   "answer": "Ein weltweites Netz verbundener Computer",
+   "hint": "",
+   "explain": "Viele Rechner sind miteinander vernetzt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Datei ist ein Bild?",
+   "options": [
+    "lied.mp3",
+    "text.txt",
+    "foto.jpg"
+   ],
+   "answer": "foto.jpg",
+   "hint": "",
+   "explain": "JPG ist ein Bildformat."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Datei ist Musik?",
+   "options": [
+    "foto.jpg",
+    "text.txt",
+    "lied.mp3"
+   ],
+   "answer": "lied.mp3",
+   "hint": "",
+   "explain": "MP3 ist ein Audioformat."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ordner?",
+   "options": [
+    "Ein Behälter für Dateien",
+    "Ein Programm",
+    "Ein Virus"
+   ],
+   "answer": "Ein Behälter für Dateien",
+   "hint": "",
+   "explain": "Ordner sortieren Dateien."
+  },
+  {
+   "type": "choice",
+   "q": "Was sollte man bei Fremden im Chat tun?",
+   "options": [
+    "Alles erzählen",
+    "Adresse geben",
+    "Nichts Persönliches verraten"
+   ],
+   "answer": "Nichts Persönliches verraten",
+   "hint": "",
+   "explain": "Fremde können sich verstellen."
+  }
+ ]
+}

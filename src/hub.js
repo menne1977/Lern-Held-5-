@@ -17,6 +17,7 @@ function klassePage(){
 function subjTools(s,si){
   const lang=s.id==='deutsch'||s.id==='englisch',a=(h,i,t,sm,x)=>`<a class="act" href="${h}"${x||''}>${i}<b>${t}</b><small>${sm}</small></a>`;
   return `<p class="hint">🎓 Klasse ${klasse()} · <a href="#/klasse" style="color:var(--ac)">ändern</a></p><div class="acts">
+  ${a('#/quiz/'+s.id,'🎯','Quiz','10er-Runde oder endlos')}
   ${a('#/practice/gen_'+s.id,'♾️','Endlos-Training','immer neue Aufgaben')}
   ${a('#/explain/'+s.id,'📖','Erklär mir …','Folien, einfach oder ausführlich')}
   ${a('#/online/'+s.id,'🌐','Übungen aus dem Netz','Lückentexte zu jedem Thema')}

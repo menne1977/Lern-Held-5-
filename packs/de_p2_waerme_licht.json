@@ -1,0 +1,327 @@
+{
+ "subject": "Physik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Physik 5 – Wärme, Licht und Schall",
+ "key": "Wärme geht von warm nach kalt. Licht breitet sich geradlinig aus, Schall braucht einen Stoff.",
+ "slides": [
+  {
+   "title": "Wärme",
+   "text": "Wärme wandert von warmen zu kalten Körpern. Metalle leiten Wärme gut.",
+   "emoji": "🔥"
+  },
+  {
+   "title": "Licht",
+   "text": "Licht kommt von der Sonne und von Lampen. Es breitet sich geradlinig aus.",
+   "emoji": "💡"
+  },
+  {
+   "title": "Schatten",
+   "text": "Ein Gegenstand, der kein Licht durchlässt, wirft einen Schatten.",
+   "emoji": "🌓"
+  },
+  {
+   "title": "Spiegel",
+   "text": "Ein Spiegel wirft Licht zurück. Einfallswinkel gleich Ausfallswinkel.",
+   "emoji": "🪞"
+  },
+  {
+   "title": "Schall",
+   "text": "Schall entsteht durch Schwingungen. Im Weltall hört man nichts, denn dort ist Vakuum.",
+   "emoji": "🔊"
+  }
+ ],
+ "vocab": [
+  [
+   "Wärmeleitung",
+   "Wärme wandert durch einen Stoff"
+  ],
+  [
+   "Isolator",
+   "hält Wärme oder Strom zurück"
+  ],
+  [
+   "Lichtquelle",
+   "sendet Licht aus"
+  ],
+  [
+   "Schatten",
+   "dunkler Bereich hinter einem Körper"
+  ],
+  [
+   "Reflexion",
+   "Zurückwerfen von Licht"
+  ],
+  [
+   "Schall",
+   "Schwingungen, die man hören kann"
+  ],
+  [
+   "Echo",
+   "zurückgeworfener Schall"
+  ],
+  [
+   "Vakuum",
+   "Raum ohne Luft"
+  ],
+  [
+   "Lichtgeschwindigkeit",
+   "sehr schnell, rund 300 000 km/s"
+  ],
+  [
+   "Mondphase",
+   "sichtbarer Teil des Mondes"
+  ],
+  [
+   "Schwingung",
+   "hin und her Bewegung"
+  ],
+  [
+   "Tonhöhe",
+   "hoch oder tief"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wohin fließt Wärme von allein?",
+   "options": [
+    "Vom kalten zum warmen Körper",
+    "Gar nicht",
+    "Vom warmen zum kalten Körper"
+   ],
+   "answer": "Vom warmen zum kalten Körper",
+   "hint": "",
+   "explain": "Wärme wandert immer von warm nach kalt."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff leitet Wärme gut?",
+   "options": [
+    "Metall",
+    "Styropor",
+    "Holz"
+   ],
+   "answer": "Metall",
+   "hint": "",
+   "explain": "Metalle leiten Wärme sehr gut."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Stoff isoliert gut gegen Wärme?",
+   "options": [
+    "Eisen",
+    "Kupfer",
+    "Styropor"
+   ],
+   "answer": "Styropor",
+   "hint": "",
+   "explain": "Styropor enthält viel Luft und isoliert gut."
+  },
+  {
+   "type": "choice",
+   "q": "Welche ist eine Lichtquelle?",
+   "options": [
+    "Ein Spiegel",
+    "Die Sonne",
+    "Der Mond"
+   ],
+   "answer": "Die Sonne",
+   "hint": "",
+   "explain": "Die Sonne sendet selbst Licht aus."
+  },
+  {
+   "type": "choice",
+   "q": "Warum sehen wir den Mond?",
+   "options": [
+    "Er ist ein Stern",
+    "Er leuchtet selbst",
+    "Er wird von der Sonne angestrahlt"
+   ],
+   "answer": "Er wird von der Sonne angestrahlt",
+   "hint": "",
+   "explain": "Der Mond reflektiert Sonnenlicht."
+  },
+  {
+   "type": "choice",
+   "q": "Wie breitet sich Licht aus?",
+   "options": [
+    "Im Zickzack",
+    "Im Kreis",
+    "Geradlinig"
+   ],
+   "answer": "Geradlinig",
+   "hint": "",
+   "explain": "Licht breitet sich in geraden Linien aus."
+  },
+  {
+   "type": "choice",
+   "q": "Wann entsteht ein Schatten?",
+   "options": [
+    "Wenn es dunkel ist",
+    "Wenn ein Körper Licht nicht durchlässt",
+    "Wenn es regnet"
+   ],
+   "answer": "Wenn ein Körper Licht nicht durchlässt",
+   "hint": "",
+   "explain": "Ein undurchsichtiger Körper wirft Schatten."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht ein Spiegel mit Licht?",
+   "options": [
+    "Er wirft es zurück",
+    "Er schluckt es",
+    "Er erzeugt es"
+   ],
+   "answer": "Er wirft es zurück",
+   "hint": "",
+   "explain": "Spiegel reflektieren Licht."
+  },
+  {
+   "type": "choice",
+   "q": "Wie schnell ist Licht ungefähr?",
+   "options": [
+    "30 km/s",
+    "300 km/s",
+    "300 000 km/s"
+   ],
+   "answer": "300 000 km/s",
+   "hint": "",
+   "explain": "Licht legt etwa 300 000 km pro Sekunde zurück."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist schneller: Licht oder Schall?",
+   "options": [
+    "Licht",
+    "Beide gleich",
+    "Schall"
+   ],
+   "answer": "Licht",
+   "hint": "",
+   "explain": "Deshalb sieht man den Blitz vor dem Donner."
+  },
+  {
+   "type": "choice",
+   "q": "Wodurch entsteht Schall?",
+   "options": [
+    "Durch Schwingungen",
+    "Durch Magnete",
+    "Durch Wärme"
+   ],
+   "answer": "Durch Schwingungen",
+   "hint": "",
+   "explain": "Schwingende Körper erzeugen Schall."
+  },
+  {
+   "type": "choice",
+   "q": "Wo kann man keinen Schall hören?",
+   "options": [
+    "In Luft",
+    "Unter Wasser",
+    "Im Vakuum"
+   ],
+   "answer": "Im Vakuum",
+   "hint": "",
+   "explain": "Schall braucht einen Stoff, z. B. Luft."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Echo?",
+   "options": [
+    "Ein Lichtstrahl",
+    "Zurückgeworfener Schall",
+    "Ein sehr leiser Ton"
+   ],
+   "answer": "Zurückgeworfener Schall",
+   "hint": "",
+   "explain": "Schall wird an Wänden reflektiert."
+  },
+  {
+   "type": "choice",
+   "q": "Was bestimmt, ob ein Ton hoch oder tief klingt?",
+   "options": [
+    "Die Temperatur",
+    "Die Farbe",
+    "Die Schwingungen pro Sekunde"
+   ],
+   "answer": "Die Schwingungen pro Sekunde",
+   "hint": "",
+   "explain": "Viele Schwingungen ergeben einen hohen Ton."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Tier nutzt Ultraschall zur Orientierung?",
+   "options": [
+    "Adler",
+    "Hund",
+    "Fledermaus"
+   ],
+   "answer": "Fledermaus",
+   "hint": "",
+   "explain": "Fledermäuse orientieren sich mit Echoortung."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man Wärme, die von der Sonne zu uns kommt?",
+   "options": [
+    "Strömung",
+    "Strahlung",
+    "Leitung"
+   ],
+   "answer": "Strahlung",
+   "hint": "",
+   "explain": "Sonnenwärme erreicht uns als Wärmestrahlung."
+  },
+  {
+   "type": "choice",
+   "q": "Warum trägt man im Sommer helle Kleidung?",
+   "options": [
+    "Helle Kleidung reflektiert mehr Licht",
+    "Sie ist leichter",
+    "Sie ist dicker"
+   ],
+   "answer": "Helle Kleidung reflektiert mehr Licht",
+   "hint": "",
+   "explain": "Helle Flächen werfen mehr Licht zurück."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Thermometer?",
+   "options": [
+    "Ein Gerät zum Messen der Temperatur",
+    "Ein Lichtschalter",
+    "Ein Gerät zum Wiegen"
+   ],
+   "answer": "Ein Gerät zum Messen der Temperatur",
+   "hint": "",
+   "explain": "Es zeigt Temperaturen an."
+  },
+  {
+   "type": "choice",
+   "q": "Warum hört man Donner nach dem Blitz?",
+   "options": [
+    "Der Blitz ist leiser",
+    "Schall ist langsamer als Licht",
+    "Donner entsteht später"
+   ],
+   "answer": "Schall ist langsamer als Licht",
+   "hint": "",
+   "explain": "Schall braucht länger als Licht."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Farben hat der Regenbogen?",
+   "options": [
+    "Nur Schwarz und Weiß",
+    "Sieben Spektralfarben",
+    "Nur drei"
+   ],
+   "answer": "Sieben Spektralfarben",
+   "hint": "",
+   "explain": "Weißes Licht besteht aus vielen Farben."
+  }
+ ]
+}

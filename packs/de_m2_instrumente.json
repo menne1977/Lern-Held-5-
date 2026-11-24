@@ -1,0 +1,327 @@
+{
+ "subject": "Musik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Musik 5 – Instrumente und Orchester",
+ "key": "Instrumente gehören zu Gruppen: Streicher, Holzbläser, Blechbläser, Schlagzeug, Tasten. Im Orchester spielen sie zusammen.",
+ "slides": [
+  {
+   "title": "Streichinstrumente",
+   "text": "Violine, Bratsche, Cello und Kontrabass. Mit dem Bogen gestrichen.",
+   "emoji": "🎻"
+  },
+  {
+   "title": "Holzbläser",
+   "text": "Flöte, Klarinette, Oboe und Fagott. Der Ton entsteht durch Blasen.",
+   "emoji": "🪈"
+  },
+  {
+   "title": "Blechbläser",
+   "text": "Trompete, Posaune, Horn und Tuba. Aus Metall.",
+   "emoji": "🎺"
+  },
+  {
+   "title": "Schlaginstrumente",
+   "text": "Pauke, Trommel, Becken, Xylofon. Man schlägt oder schüttelt sie.",
+   "emoji": "🥁"
+  },
+  {
+   "title": "Orchester",
+   "text": "Etwa 80 Musiker unter einem Dirigenten. Er gibt Takt und Einsätze.",
+   "emoji": "🎶"
+  }
+ ],
+ "vocab": [
+  [
+   "Violine",
+   "Streichinstrument, hell klingend"
+  ],
+  [
+   "Cello",
+   "großes Streichinstrument"
+  ],
+  [
+   "Flöte",
+   "Holzblasinstrument"
+  ],
+  [
+   "Klarinette",
+   "Holzblasinstrument"
+  ],
+  [
+   "Trompete",
+   "Blechblasinstrument"
+  ],
+  [
+   "Posaune",
+   "Blechblasinstrument mit Zug"
+  ],
+  [
+   "Pauke",
+   "Schlaginstrument"
+  ],
+  [
+   "Klavier",
+   "Tasteninstrument"
+  ],
+  [
+   "Orchester",
+   "große Musikgruppe"
+  ],
+  [
+   "Dirigent",
+   "leitet das Orchester"
+  ],
+  [
+   "Bogen",
+   "zum Streichen der Saiten"
+  ],
+  [
+   "Saite",
+   "schwingt beim Streichen oder Zupfen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Zu welcher Gruppe gehört die Violine?",
+   "options": [
+    "Blechbläser",
+    "Schlagzeug",
+    "Streichinstrumente"
+   ],
+   "answer": "Streichinstrumente",
+   "hint": "",
+   "explain": "Man streicht die Saiten mit dem Bogen."
+  },
+  {
+   "type": "choice",
+   "q": "Zu welcher Gruppe gehört die Trompete?",
+   "options": [
+    "Blechbläser",
+    "Holzbläser",
+    "Streicher"
+   ],
+   "answer": "Blechbläser",
+   "hint": "",
+   "explain": "Sie ist aus Metall."
+  },
+  {
+   "type": "choice",
+   "q": "Zu welcher Gruppe gehört die Klarinette?",
+   "options": [
+    "Streicher",
+    "Blechbläser",
+    "Holzbläser"
+   ],
+   "answer": "Holzbläser",
+   "hint": "",
+   "explain": "Die Klarinette hat ein Rohrblatt."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument ist ein Schlaginstrument?",
+   "options": [
+    "Cello",
+    "Pauke",
+    "Flöte"
+   ],
+   "answer": "Pauke",
+   "hint": "",
+   "explain": "Pauken schlägt man mit Schlägeln."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument hat Tasten?",
+   "options": [
+    "Trompete",
+    "Geige",
+    "Klavier"
+   ],
+   "answer": "Klavier",
+   "hint": "",
+   "explain": "Das Klavier hat 88 Tasten."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Tasten hat ein Klavier?",
+   "options": [
+    "100",
+    "50",
+    "88"
+   ],
+   "answer": "88",
+   "hint": "",
+   "explain": "Ein Klavier hat 88 Tasten."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument ist das größte Streichinstrument?",
+   "options": [
+    "Bratsche",
+    "Kontrabass",
+    "Geige"
+   ],
+   "answer": "Kontrabass",
+   "hint": "",
+   "explain": "Der Kontrabass steht auf dem Boden."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht der Dirigent?",
+   "options": [
+    "Er leitet das Orchester",
+    "Er baut Instrumente",
+    "Er verkauft Karten"
+   ],
+   "answer": "Er leitet das Orchester",
+   "hint": "",
+   "explain": "Er gibt Einsätze und Tempo."
+  },
+  {
+   "type": "choice",
+   "q": "Womit spielt man eine Geige?",
+   "options": [
+    "Mit dem Mund",
+    "Mit den Fingern allein",
+    "Mit einem Bogen"
+   ],
+   "answer": "Mit einem Bogen",
+   "hint": "",
+   "explain": "Der Bogen streicht die Saiten."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument spielt man mit den Lippen?",
+   "options": [
+    "Posaune",
+    "Triangel",
+    "Klavier"
+   ],
+   "answer": "Posaune",
+   "hint": "",
+   "explain": "Blechbläser spielt man mit den Lippen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Saite?",
+   "options": [
+    "Ein gespannter Faden, der klingt",
+    "Eine Taste",
+    "Ein Rohr"
+   ],
+   "answer": "Ein gespannter Faden, der klingt",
+   "hint": "",
+   "explain": "Saiten bringen Töne hervor."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man ein Stück für ein ganzes Orchester?",
+   "options": [
+    "Choral",
+    "Lied",
+    "Sinfonie"
+   ],
+   "answer": "Sinfonie",
+   "hint": "",
+   "explain": "Sinfonien sind große Orchesterwerke."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument wird gezupft?",
+   "options": [
+    "Trompete",
+    "Gitarre",
+    "Posaune"
+   ],
+   "answer": "Gitarre",
+   "hint": "",
+   "explain": "Man zupft die Saiten."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument ist ein Holzblasinstrument?",
+   "options": [
+    "Pauke",
+    "Tuba",
+    "Oboe"
+   ],
+   "answer": "Oboe",
+   "hint": "",
+   "explain": "Die Oboe hat ein Doppelrohrblatt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man eine Gruppe von Sängern?",
+   "options": [
+    "Band",
+    "Orchester",
+    "Chor"
+   ],
+   "answer": "Chor",
+   "hint": "",
+   "explain": "Ein Chor singt gemeinsam."
+  },
+  {
+   "type": "choice",
+   "q": "Welches ist ein Blechblasinstrument?",
+   "options": [
+    "Harfe",
+    "Horn",
+    "Flöte"
+   ],
+   "answer": "Horn",
+   "hint": "",
+   "explain": "Das Horn ist aus Messing."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Instrument gehört zu den Zupfinstrumenten?",
+   "options": [
+    "Harfe",
+    "Klarinette",
+    "Tuba"
+   ],
+   "answer": "Harfe",
+   "hint": "",
+   "explain": "Die Harfe wird gezupft."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet a cappella?",
+   "options": [
+    "Singen ohne Instrumente",
+    "Sehr schnell",
+    "Sehr laut"
+   ],
+   "answer": "Singen ohne Instrumente",
+   "hint": "",
+   "explain": "A cappella heißt nur mit Stimmen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Metronom?",
+   "options": [
+    "Ein Instrument zum Blasen",
+    "Ein Gerät, das gleichmäßige Schläge gibt",
+    "Ein Notenheft"
+   ],
+   "answer": "Ein Gerät, das gleichmäßige Schläge gibt",
+   "hint": "",
+   "explain": "Es hilft, das Tempo zu halten."
+  },
+  {
+   "type": "choice",
+   "q": "Wo wird ein Konzert oft aufgeführt?",
+   "options": [
+    "In einem Zoo",
+    "In einem Konzertsaal",
+    "In einer Werkstatt"
+   ],
+   "answer": "In einem Konzertsaal",
+   "hint": "",
+   "explain": "Konzertsäle haben gute Akustik."
+  }
+ ]
+}

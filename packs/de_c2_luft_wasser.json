@@ -1,0 +1,327 @@
+{
+ "subject": "Chemie",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Chemie 5 – Luft, Wasser und Feuer",
+ "key": "Luft besteht zu etwa einem Fünftel aus Sauerstoff. Wasser ist lebenswichtig. Feuer braucht Sauerstoff.",
+ "slides": [
+  {
+   "title": "Luft",
+   "text": "Etwa 78 % Stickstoff, 21 % Sauerstoff, dazu Kohlendioxid und Edelgase.",
+   "emoji": "💨"
+  },
+  {
+   "title": "Sauerstoff",
+   "text": "Wir atmen Sauerstoff ein. Er fördert die Verbrennung.",
+   "emoji": "🫁"
+  },
+  {
+   "title": "Kohlendioxid",
+   "text": "Entsteht beim Atmen und Verbrennen. Pflanzen nutzen es bei der Fotosynthese.",
+   "emoji": "🌿"
+  },
+  {
+   "title": "Wasser",
+   "text": "Wasser kann fest, flüssig und gasförmig sein. Es löst viele Stoffe.",
+   "emoji": "💧"
+  },
+  {
+   "title": "Feuer löschen",
+   "text": "Wasser kühlt, Sand und Decken ersticken, Kohlendioxid verdrängt Sauerstoff.",
+   "emoji": "🧯"
+  }
+ ],
+ "vocab": [
+  [
+   "Sauerstoff",
+   "Gas, das wir zum Atmen brauchen"
+  ],
+  [
+   "Stickstoff",
+   "Hauptbestandteil der Luft"
+  ],
+  [
+   "Kohlendioxid",
+   "Gas beim Atmen und Verbrennen"
+  ],
+  [
+   "Edelgas",
+   "reagiert kaum, z. B. Helium"
+  ],
+  [
+   "Wasserdampf",
+   "gasförmiges Wasser"
+  ],
+  [
+   "Lösungsmittel",
+   "löst andere Stoffe"
+  ],
+  [
+   "Löschen",
+   "Feuer beenden"
+  ],
+  [
+   "Zündtemperatur",
+   "Temperatur, ab der ein Stoff brennt"
+  ],
+  [
+   "Brandbekämpfung",
+   "Feuer löschen"
+  ],
+  [
+   "Atmung",
+   "Aufnahme von Sauerstoff"
+  ],
+  [
+   "Fotosynthese",
+   "Pflanzen bilden Zucker aus CO₂ und Wasser"
+  ],
+  [
+   "Kläranlage",
+   "reinigt Abwasser"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wie viel Prozent der Luft ist Sauerstoff?",
+   "options": [
+    "Etwa 78 %",
+    "Etwa 50 %",
+    "Etwa 21 %"
+   ],
+   "answer": "Etwa 21 %",
+   "hint": "",
+   "explain": "Luft besteht zu rund einem Fünftel aus Sauerstoff."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas ist der größte Anteil der Luft?",
+   "options": [
+    "Sauerstoff",
+    "Kohlendioxid",
+    "Stickstoff"
+   ],
+   "answer": "Stickstoff",
+   "hint": "",
+   "explain": "Etwa 78 % der Luft sind Stickstoff."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas atmen wir aus?",
+   "options": [
+    "Kohlendioxid",
+    "Wasserstoff",
+    "Sauerstoff"
+   ],
+   "answer": "Kohlendioxid",
+   "hint": "",
+   "explain": "Beim Ausatmen enthält die Luft mehr Kohlendioxid."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas brauchen Pflanzen zur Fotosynthese?",
+   "options": [
+    "Helium",
+    "Sauerstoff",
+    "Kohlendioxid"
+   ],
+   "answer": "Kohlendioxid",
+   "hint": "",
+   "explain": "Pflanzen nehmen CO₂ auf und geben Sauerstoff ab."
+  },
+  {
+   "type": "choice",
+   "q": "Wie weist man Kohlendioxid nach?",
+   "options": [
+    "Mit Waage",
+    "Mit Kalkwasser, es wird trüb",
+    "Mit Magnet"
+   ],
+   "answer": "Mit Kalkwasser, es wird trüb",
+   "hint": "",
+   "explain": "Kalkwasser trübt sich mit Kohlendioxid."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert mit einer Kerze in reinem Sauerstoff?",
+   "options": [
+    "Sie wird blau",
+    "Sie erlischt",
+    "Sie brennt heller"
+   ],
+   "answer": "Sie brennt heller",
+   "hint": "",
+   "explain": "Sauerstoff fördert die Verbrennung."
+  },
+  {
+   "type": "choice",
+   "q": "Womit löscht man Fettbrand nicht?",
+   "options": [
+    "Mit Löschdecke",
+    "Mit Deckel",
+    "Mit Wasser"
+   ],
+   "answer": "Mit Wasser",
+   "hint": "",
+   "explain": "Wasser kann das heiße Fett explodieren lassen."
+  },
+  {
+   "type": "choice",
+   "q": "Was macht eine Löschdecke?",
+   "options": [
+    "Sie zündet an",
+    "Sie erstickt das Feuer",
+    "Sie kühlt"
+   ],
+   "answer": "Sie erstickt das Feuer",
+   "hint": "",
+   "explain": "Ohne Luft erlischt das Feuer."
+  },
+  {
+   "type": "choice",
+   "q": "Welche drei Bedingungen braucht Feuer?",
+   "options": [
+    "Brennstoff, Sauerstoff, Zündtemperatur",
+    "Wasser, Sand, Luft",
+    "Eis, Wind, Licht"
+   ],
+   "answer": "Brennstoff, Sauerstoff, Zündtemperatur",
+   "hint": "",
+   "explain": "Das ist das Verbrennungsdreieck."
+  },
+  {
+   "type": "choice",
+   "q": "In welchem Aggregatzustand ist Wasserdampf?",
+   "options": [
+    "flüssig",
+    "fest",
+    "gasförmig"
+   ],
+   "answer": "gasförmig",
+   "hint": "",
+   "explain": "Dampf ist gasförmiges Wasser."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viel Prozent der Erde sind etwa mit Wasser bedeckt?",
+   "options": [
+    "Etwa 70 %",
+    "Etwa 30 %",
+    "Etwa 10 %"
+   ],
+   "answer": "Etwa 70 %",
+   "hint": "",
+   "explain": "Rund 70 % der Erdoberfläche sind Wasser."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Trinkwasser?",
+   "options": [
+    "Sauberes, gesundes Wasser zum Trinken",
+    "Abwasser",
+    "Salzwasser"
+   ],
+   "answer": "Sauberes, gesundes Wasser zum Trinken",
+   "hint": "",
+   "explain": "Es wird streng kontrolliert."
+  },
+  {
+   "type": "choice",
+   "q": "Was geschieht in einer Kläranlage?",
+   "options": [
+    "Wasser wird gefärbt",
+    "Wasser wird gesalzen",
+    "Abwasser wird gereinigt"
+   ],
+   "answer": "Abwasser wird gereinigt",
+   "hint": "",
+   "explain": "So gelangt sauberes Wasser zurück in Flüsse."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas ist leichter als Luft und steigt auf?",
+   "options": [
+    "Sauerstoff",
+    "Helium",
+    "Kohlendioxid"
+   ],
+   "answer": "Helium",
+   "hint": "",
+   "explain": "Helium füllt Ballons und steigt auf."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man das Gemisch aus Gasen um die Erde?",
+   "options": [
+    "Lithosphäre",
+    "Hydrosphäre",
+    "Atmosphäre"
+   ],
+   "answer": "Atmosphäre",
+   "hint": "",
+   "explain": "Die Atmosphäre ist die Lufthülle."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist saurer Regen?",
+   "options": [
+    "Regen im Sommer",
+    "Regen mit Zucker",
+    "Regen mit Schadstoffen aus Abgasen"
+   ],
+   "answer": "Regen mit Schadstoffen aus Abgasen",
+   "hint": "",
+   "explain": "Abgase verbinden sich mit Wasser zu Säuren."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas wird bei der Fotosynthese frei?",
+   "options": [
+    "Stickstoff",
+    "Sauerstoff",
+    "Kohlendioxid"
+   ],
+   "answer": "Sauerstoff",
+   "hint": "",
+   "explain": "Pflanzen geben Sauerstoff ab."
+  },
+  {
+   "type": "choice",
+   "q": "Wie kann man Wasser sparen?",
+   "options": [
+    "Duschen statt Baden, tropfende Hähne reparieren",
+    "Wasser laufen lassen",
+    "Mehr gießen"
+   ],
+   "answer": "Duschen statt Baden, tropfende Hähne reparieren",
+   "hint": "",
+   "explain": "Sparsam mit Wasser umzugehen schützt die Umwelt."
+  },
+  {
+   "type": "choice",
+   "q": "Warum schwimmt Eis auf Wasser?",
+   "options": [
+    "Eis ist weniger dicht als Wasser",
+    "Eis ist wärmer",
+    "Eis ist schwerer"
+   ],
+   "answer": "Eis ist weniger dicht als Wasser",
+   "hint": "",
+   "explain": "Wasser dehnt sich beim Gefrieren aus."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert, wenn man Wasser auf 100 °C erhitzt?",
+   "options": [
+    "Es gefriert",
+    "Es siedet und verdampft",
+    "Es wird zu Salz"
+   ],
+   "answer": "Es siedet und verdampft",
+   "hint": "",
+   "explain": "Bei 100 °C siedet Wasser."
+  }
+ ]
+}

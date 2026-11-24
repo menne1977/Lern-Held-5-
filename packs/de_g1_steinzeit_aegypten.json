@@ -1,0 +1,327 @@
+{
+ "subject": "Geschichte",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Geschichte 5 – Steinzeit und Ägypten",
+ "key": "Die Menschen der Steinzeit waren Jäger und Sammler, später Bauern. In Ägypten entstand vor rund 5000 Jahren eine Hochkultur am Nil.",
+ "slides": [
+  {
+   "title": "Steinzeit",
+   "text": "Werkzeuge aus Stein. Jäger und Sammler zogen umher. Feuer schützte und wärmte.",
+   "emoji": "🪨"
+  },
+  {
+   "title": "Sesshaftigkeit",
+   "text": "Vor etwa 10 000 Jahren wurden Menschen Bauern und bauten Häuser.",
+   "emoji": "🌾"
+  },
+  {
+   "title": "Ägypten",
+   "text": "Das Land am Nil. Das jährliche Hochwasser machte den Boden fruchtbar.",
+   "emoji": "🏺"
+  },
+  {
+   "title": "Pharao",
+   "text": "Der Herrscher galt als Gott auf Erden. Pyramiden waren Grabmäler.",
+   "emoji": "🔺"
+  },
+  {
+   "title": "Hieroglyphen",
+   "text": "Bilderschrift der Ägypter. Geschrieben wurde auf Papyrus.",
+   "emoji": "📜"
+  }
+ ],
+ "vocab": [
+  [
+   "Steinzeit",
+   "Zeit mit Werkzeugen aus Stein"
+  ],
+  [
+   "Jäger und Sammler",
+   "Menschen, die jagten und sammelten"
+  ],
+  [
+   "sesshaft",
+   "an einem Ort wohnend"
+  ],
+  [
+   "Ackerbau",
+   "Pflanzen anbauen"
+  ],
+  [
+   "Viehzucht",
+   "Tiere halten"
+  ],
+  [
+   "Pharao",
+   "Herrscher Ägyptens"
+  ],
+  [
+   "Pyramide",
+   "Grabbau der Pharaonen"
+  ],
+  [
+   "Mumie",
+   "einbalsamierter Körper"
+  ],
+  [
+   "Hieroglyphen",
+   "Bilderschrift"
+  ],
+  [
+   "Papyrus",
+   "Schreibmaterial aus Schilf"
+  ],
+  [
+   "Nil",
+   "Fluss in Ägypten"
+  ],
+  [
+   "Hochkultur",
+   "hoch entwickelte frühe Kultur"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wovon lebten die Menschen der Steinzeit zuerst?",
+   "options": [
+    "Von Jagen und Sammeln",
+    "Von Ackerbau",
+    "Von Handel mit Gold"
+   ],
+   "answer": "Von Jagen und Sammeln",
+   "hint": "",
+   "explain": "Sie zogen den Tieren und Früchten nach."
+  },
+  {
+   "type": "choice",
+   "q": "Woraus waren die ersten Werkzeuge?",
+   "options": [
+    "Stein",
+    "Eisen",
+    "Plastik"
+   ],
+   "answer": "Stein",
+   "hint": "",
+   "explain": "Daher der Name Steinzeit."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu nutzten Menschen das Feuer?",
+   "options": [
+    "Nur zum Spielen",
+    "Wärme, Licht, Schutz und Kochen",
+    "Für Strom"
+   ],
+   "answer": "Wärme, Licht, Schutz und Kochen",
+   "hint": "",
+   "explain": "Feuer veränderte das Leben stark."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet sesshaft?",
+   "options": [
+    "Im Wasser leben",
+    "An einem Ort wohnen",
+    "Immer wandern"
+   ],
+   "answer": "An einem Ort wohnen",
+   "hint": "",
+   "explain": "Die Menschen wurden zu Bauern."
+  },
+  {
+   "type": "choice",
+   "q": "Was brachte die Sesshaftigkeit mit sich?",
+   "options": [
+    "Nur Jagd",
+    "Ackerbau und Viehzucht",
+    "Keine Häuser"
+   ],
+   "answer": "Ackerbau und Viehzucht",
+   "hint": "",
+   "explain": "Pflanzenanbau und Tierhaltung."
+  },
+  {
+   "type": "choice",
+   "q": "Woran erkennen wir die Steinzeit?",
+   "options": [
+    "Aus Zeitungen",
+    "Aus Filmen",
+    "Funde wie Werkzeuge und Höhlenmalereien"
+   ],
+   "answer": "Funde wie Werkzeuge und Höhlenmalereien",
+   "hint": "",
+   "explain": "Archäologen untersuchen Funde."
+  },
+  {
+   "type": "choice",
+   "q": "Wer untersucht alte Funde?",
+   "options": [
+    "Archäologen",
+    "Bäcker",
+    "Piloten"
+   ],
+   "answer": "Archäologen",
+   "hint": "",
+   "explain": "Sie graben nach Überresten."
+  },
+  {
+   "type": "choice",
+   "q": "An welchem Fluss entstand das alte Ägypten?",
+   "options": [
+    "An der Donau",
+    "Am Rhein",
+    "Am Nil"
+   ],
+   "answer": "Am Nil",
+   "hint": "",
+   "explain": "Das Nil-Hochwasser machte den Boden fruchtbar."
+  },
+  {
+   "type": "choice",
+   "q": "Wie hieß der Herrscher in Ägypten?",
+   "options": [
+    "Kaiser",
+    "Pharao",
+    "Bürgermeister"
+   ],
+   "answer": "Pharao",
+   "hint": "",
+   "explain": "Der Pharao galt als Gott."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu dienten Pyramiden?",
+   "options": [
+    "Als Wohnhäuser",
+    "Als Grabmäler für Pharaonen",
+    "Als Schulen"
+   ],
+   "answer": "Als Grabmäler für Pharaonen",
+   "hint": "",
+   "explain": "Sie sollten das Leben nach dem Tod sichern."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Schrift der Ägypter?",
+   "options": [
+    "Keilschrift",
+    "Runen",
+    "Hieroglyphen"
+   ],
+   "answer": "Hieroglyphen",
+   "hint": "",
+   "explain": "Es ist eine Bilderschrift."
+  },
+  {
+   "type": "choice",
+   "q": "Worauf schrieben die Ägypter?",
+   "options": [
+    "Auf Papyrus",
+    "Auf Plastik",
+    "Auf Papier"
+   ],
+   "answer": "Auf Papyrus",
+   "hint": "",
+   "explain": "Papyrus wurde aus Schilf hergestellt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Mumie?",
+   "options": [
+    "Ein Tempel",
+    "Ein Schmuckstück",
+    "Ein einbalsamierter Körper"
+   ],
+   "answer": "Ein einbalsamierter Körper",
+   "hint": "",
+   "explain": "Die Ägypter konservierten die Toten."
+  },
+  {
+   "type": "choice",
+   "q": "Wie hießen ägyptische Götter?",
+   "options": [
+    "Zeus und Hera",
+    "Odin und Thor",
+    "Zum Beispiel Re und Osiris"
+   ],
+   "answer": "Zum Beispiel Re und Osiris",
+   "hint": "",
+   "explain": "Re war der Sonnengott."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die berühmteste Pyramide?",
+   "options": [
+    "Kolosseum",
+    "Eiffelturm",
+    "Cheops-Pyramide"
+   ],
+   "answer": "Cheops-Pyramide",
+   "hint": "",
+   "explain": "Sie steht bei Gizeh."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Jahre ist die Cheops-Pyramide ungefähr alt?",
+   "options": [
+    "Etwa 500 Jahre",
+    "Etwa 100 Jahre",
+    "Etwa 4500 Jahre"
+   ],
+   "answer": "Etwa 4500 Jahre",
+   "hint": "",
+   "explain": "Sie wurde um 2550 v. Chr. gebaut."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet v. Chr.?",
+   "options": [
+    "Vom Christentum",
+    "Verbannt Christus",
+    "Vor Christi Geburt"
+   ],
+   "answer": "Vor Christi Geburt",
+   "hint": "",
+   "explain": "Zeitangabe vor dem Jahr 1."
+  },
+  {
+   "type": "choice",
+   "q": "Wer baute die Pyramiden?",
+   "options": [
+    "Außerirdische",
+    "Nur der Pharao allein",
+    "Viele Arbeiter und Handwerker"
+   ],
+   "answer": "Viele Arbeiter und Handwerker",
+   "hint": "",
+   "explain": "Tausende Menschen arbeiteten daran."
+  },
+  {
+   "type": "choice",
+   "q": "Wo in Deutschland sieht man Steinzeitfunde?",
+   "options": [
+    "Nur im Fernsehen",
+    "Nirgendwo",
+    "In Museen"
+   ],
+   "answer": "In Museen",
+   "hint": "",
+   "explain": "Museen zeigen Funde."
+  },
+  {
+   "type": "choice",
+   "q": "Wie nennt man frühe Kulturen mit Städten, Schrift und Staat?",
+   "options": [
+    "Hochkulturen",
+    "Eiszeit",
+    "Steinzeit"
+   ],
+   "answer": "Hochkulturen",
+   "hint": "",
+   "explain": "Ägypten, Mesopotamien und Indien waren Hochkulturen."
+  }
+ ]
+}

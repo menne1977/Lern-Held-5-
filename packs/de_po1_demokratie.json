@@ -1,0 +1,339 @@
+{
+ "subject": "Politik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Politik 5 – Zusammenleben und Demokratie",
+ "key": "In Familie, Schule und Gemeinde gelten Regeln. In einer Demokratie bestimmt das Volk mit.",
+ "slides": [
+  {
+   "title": "Regeln",
+   "text": "Regeln helfen, dass alle gut zusammenleben. Sie gelten in Familie, Schule und im Staat.",
+   "emoji": "📜"
+  },
+  {
+   "title": "Demokratie",
+   "text": "Das Volk entscheidet durch Wahlen. Mehrheit entscheidet, Minderheiten werden geschützt.",
+   "emoji": "🗳️"
+  },
+  {
+   "title": "Gemeinde",
+   "text": "Die Gemeinde kümmert sich um Schulen, Straßen, Müll und Freizeit. Der Bürgermeister leitet sie.",
+   "emoji": "🏘️"
+  },
+  {
+   "title": "Schule mitbestimmen",
+   "text": "Klassensprecher und Schülervertretung vertreten Schüler.",
+   "emoji": "🏫"
+  },
+  {
+   "title": "Grundgesetz",
+   "text": "Das Grundgesetz der Bundesrepublik Deutschland gilt seit 1949. Artikel 1: Die Würde des Menschen ist unantastbar.",
+   "emoji": "⚖️"
+  }
+ ],
+ "vocab": [
+  [
+   "Demokratie",
+   "Herrschaft des Volkes"
+  ],
+  [
+   "Wahl",
+   "Bürger bestimmen Vertreter"
+  ],
+  [
+   "Mehrheit",
+   "mehr als die Hälfte der Stimmen"
+  ],
+  [
+   "Klassensprecher",
+   "vertritt die Klasse"
+  ],
+  [
+   "Gemeinde",
+   "kleinste politische Einheit"
+  ],
+  [
+   "Bürgermeister",
+   "leitet die Gemeinde"
+  ],
+  [
+   "Grundgesetz",
+   "Verfassung Deutschlands"
+  ],
+  [
+   "Menschenwürde",
+   "jeder Mensch zählt"
+  ],
+  [
+   "Regel",
+   "Vorschrift für das Zusammenleben"
+  ],
+  [
+   "Gesetz",
+   "staatliche Regel"
+  ],
+  [
+   "Konflikt",
+   "Streit"
+  ],
+  [
+   "Kompromiss",
+   "Einigung, bei der alle nachgeben"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was bedeutet Demokratie?",
+   "options": [
+    "Das Volk bestimmt mit",
+    "Ein König bestimmt",
+    "Niemand bestimmt"
+   ],
+   "answer": "Das Volk bestimmt mit",
+   "hint": "",
+   "explain": "Demokratie heißt Herrschaft des Volkes."
+  },
+  {
+   "type": "choice",
+   "q": "Wie bestimmen Bürger in einer Demokratie ihre Vertreter?",
+   "options": [
+    "Durch Wahlen",
+    "Durch Losen",
+    "Durch Kampf"
+   ],
+   "answer": "Durch Wahlen",
+   "hint": "",
+   "explain": "Wahlen sind das wichtigste Mittel der Mitbestimmung."
+  },
+  {
+   "type": "choice",
+   "q": "Was entscheidet bei einer Abstimmung?",
+   "options": [
+    "Der Lauteste",
+    "Die Mehrheit",
+    "Der Älteste"
+   ],
+   "answer": "Die Mehrheit",
+   "hint": "",
+   "explain": "Mehr als die Hälfte der Stimmen gewinnt."
+  },
+  {
+   "type": "choice",
+   "q": "Wer vertritt in der Schule die Klasse?",
+   "options": [
+    "Der Direktor",
+    "Der Klassensprecher",
+    "Der Hausmeister"
+   ],
+   "answer": "Der Klassensprecher",
+   "hint": "",
+   "explain": "Der Klassensprecher bringt Anliegen der Klasse vor."
+  },
+  {
+   "type": "choice",
+   "q": "Wer leitet eine Gemeinde?",
+   "options": [
+    "Der Bundeskanzler",
+    "Der Bürgermeister",
+    "Der Lehrer"
+   ],
+   "answer": "Der Bürgermeister",
+   "hint": "",
+   "explain": "Er ist der Chef der Stadt- oder Gemeindeverwaltung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist das Grundgesetz?",
+   "options": [
+    "Ein Schulbuch",
+    "Ein Roman",
+    "Die Verfassung Deutschlands"
+   ],
+   "answer": "Die Verfassung Deutschlands",
+   "hint": "",
+   "explain": "Es regelt die Grundrechte und den Staatsaufbau."
+  },
+  {
+   "type": "choice",
+   "q": "Was steht in Artikel 1 des Grundgesetzes?",
+   "options": [
+    "Die Würde des Menschen ist unantastbar",
+    "Jeder darf alles",
+    "Alle müssen wählen"
+   ],
+   "answer": "Die Würde des Menschen ist unantastbar",
+   "hint": "",
+   "explain": "Das ist der wichtigste Satz."
+  },
+  {
+   "type": "choice",
+   "q": "Seit wann gilt das Grundgesetz?",
+   "options": [
+    "2000",
+    "1989",
+    "1949"
+   ],
+   "answer": "1949",
+   "hint": "",
+   "explain": "Es wurde im Mai 1949 verkündet."
+  },
+  {
+   "type": "choice",
+   "q": "Wozu gibt es Regeln?",
+   "options": [
+    "Zum Ärgern",
+    "Damit alle gut zusammenleben",
+    "Für den Lehrer"
+   ],
+   "answer": "Damit alle gut zusammenleben",
+   "hint": "",
+   "explain": "Regeln schützen und ordnen das Zusammenleben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Kompromiss?",
+   "options": [
+    "Ein Streit",
+    "Eine Einigung, bei der alle etwas nachgeben",
+    "Ein Gesetz"
+   ],
+   "answer": "Eine Einigung, bei der alle etwas nachgeben",
+   "hint": "",
+   "explain": "Alle Seiten kommen sich entgegen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Konflikt?",
+   "options": [
+    "Eine Wahl",
+    "Ein Fest",
+    "Ein Streit"
+   ],
+   "answer": "Ein Streit",
+   "hint": "",
+   "explain": "Konflikte kann man friedlich lösen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Aufgabe hat die Gemeinde?",
+   "options": [
+    "Straßen, Müll und Schulen organisieren",
+    "Das Wetter bestimmen",
+    "Gesetze für Deutschland beschließen"
+   ],
+   "answer": "Straßen, Müll und Schulen organisieren",
+   "hint": "",
+   "explain": "Die Gemeinde kümmert sich um das Leben vor Ort."
+  },
+  {
+   "type": "choice",
+   "q": "Ab welchem Alter darf man bei der Bundestagswahl wählen?",
+   "options": [
+    "16",
+    "14",
+    "18"
+   ],
+   "answer": "18",
+   "hint": "",
+   "explain": "Bei der Bundestagswahl ist man ab 18 wahlberechtigt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist geheime Wahl?",
+   "options": [
+    "Alle sehen es",
+    "Nur der Lehrer weiß es",
+    "Niemand erfährt, wen du gewählt hast"
+   ],
+   "answer": "Niemand erfährt, wen du gewählt hast",
+   "hint": "",
+   "explain": "So kann jeder frei entscheiden."
+  },
+  {
+   "type": "choice",
+   "q": "Wo sitzen die Abgeordneten des Bundestags?",
+   "options": [
+    "In Hamburg",
+    "In München",
+    "In Berlin"
+   ],
+   "answer": "In Berlin",
+   "hint": "",
+   "explain": "Der Bundestag tagt im Reichstagsgebäude."
+  },
+  {
+   "type": "choice",
+   "q": "Wer leitet die Bundesregierung?",
+   "options": [
+    "Der Bundespräsident",
+    "Der Bürgermeister",
+    "Der Bundeskanzler oder die Bundeskanzlerin"
+   ],
+   "answer": "Der Bundeskanzler oder die Bundeskanzlerin",
+   "hint": "",
+   "explain": "Der Kanzler leitet die Regierung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Bundestag?",
+   "options": [
+    "Ein Gericht",
+    "Eine Schule",
+    "Das Parlament Deutschlands"
+   ],
+   "answer": "Das Parlament Deutschlands",
+   "hint": "",
+   "explain": "Er beschließt Gesetze."
+  },
+  {
+   "type": "choice",
+   "q": "Wer sind Abgeordnete?",
+   "options": [
+    "Lehrer",
+    "Polizisten",
+    "Gewählte Vertreter des Volkes"
+   ],
+   "answer": "Gewählte Vertreter des Volkes",
+   "hint": "",
+   "explain": "Sie sprechen und entscheiden für die Bürger."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Rechte haben Kinder?",
+   "options": [
+    "Keine",
+    "Nur Pflichten",
+    "Zum Beispiel Schutz, Bildung und Spiel"
+   ],
+   "answer": "Zum Beispiel Schutz, Bildung und Spiel",
+   "hint": "",
+   "explain": "Die UN-Kinderrechtskonvention schützt Kinder."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Gleichberechtigung?",
+   "options": [
+    "Alle haben die gleichen Rechte",
+    "Alle sind gleich alt",
+    "Alle sind gleich groß"
+   ],
+   "answer": "Alle haben die gleichen Rechte",
+   "hint": "",
+   "explain": "Mädchen und Jungen haben gleiche Rechte."
+  },
+  {
+   "type": "choice",
+   "q": "Was tun, wenn jemand ausgegrenzt wird?",
+   "options": [
+    "Mitlachen",
+    "Wegsehen",
+    "Helfen und nicht mitmachen"
+   ],
+   "answer": "Helfen und nicht mitmachen",
+   "hint": "",
+   "explain": "Mobbing beendet man gemeinsam."
+  }
+ ]
+}

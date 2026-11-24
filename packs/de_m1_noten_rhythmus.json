@@ -1,0 +1,339 @@
+{
+ "subject": "Musik",
+ "book": "Allgemein Klasse 5",
+ "klasse": 5,
+ "title": "Musik 5 – Noten, Rhythmus und Takt",
+ "key": "Noten zeigen Tonhöhe und Länge. Der Takt ordnet die Schläge. Dynamik und Tempo prägen die Musik.",
+ "slides": [
+  {
+   "title": "Notenlinien",
+   "text": "Fünf Linien tragen die Noten. Der Violinschlüssel markiert die Lage der Töne.",
+   "emoji": "🎼"
+  },
+  {
+   "title": "Notenwerte",
+   "text": "Ganze Note = 4 Schläge, halbe = 2, Viertel = 1, Achtel = ½.",
+   "emoji": "🎵"
+  },
+  {
+   "title": "Takt",
+   "text": "Der Takt gliedert Musik in gleich lange Abschnitte. Der 4/4-Takt hat vier Schläge.",
+   "emoji": "🥁"
+  },
+  {
+   "title": "Tonleiter",
+   "text": "C-Dur: c d e f g a h c. Acht Töne in Stufen.",
+   "emoji": "🎹"
+  },
+  {
+   "title": "Dynamik und Tempo",
+   "text": "Piano = leise, forte = laut. Allegro = schnell, Adagio = langsam.",
+   "emoji": "📈"
+  }
+ ],
+ "vocab": [
+  [
+   "Notenlinie",
+   "eine der fünf Linien"
+  ],
+  [
+   "Violinschlüssel",
+   "Schlüssel am Notenanfang"
+  ],
+  [
+   "Takt",
+   "gleiche Abschnitte der Musik"
+  ],
+  [
+   "Viertelnote",
+   "ein Schlag"
+  ],
+  [
+   "Halbe Note",
+   "zwei Schläge"
+  ],
+  [
+   "Ganze Note",
+   "vier Schläge"
+  ],
+  [
+   "Pause",
+   "Stille mit Dauer"
+  ],
+  [
+   "Piano",
+   "leise"
+  ],
+  [
+   "Forte",
+   "laut"
+  ],
+  [
+   "Tempo",
+   "Geschwindigkeit"
+  ],
+  [
+   "Rhythmus",
+   "Folge langer und kurzer Töne"
+  ],
+  [
+   "Melodie",
+   "Folge von Tönen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Wie viele Linien hat ein Notensystem?",
+   "options": [
+    "5",
+    "3",
+    "7"
+   ],
+   "answer": "5",
+   "hint": "",
+   "explain": "Fünf Linien und vier Zwischenräume."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt der Schlüssel am Anfang der meisten Notenzeilen?",
+   "options": [
+    "Violinschlüssel",
+    "Hausschlüssel",
+    "Taktschlüssel"
+   ],
+   "answer": "Violinschlüssel",
+   "hint": "",
+   "explain": "Er heißt auch G-Schlüssel."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Schläge hat eine ganze Note?",
+   "options": [
+    "1",
+    "4",
+    "2"
+   ],
+   "answer": "4",
+   "hint": "",
+   "explain": "Ganze Note = 4 Schläge."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Schläge hat eine halbe Note?",
+   "options": [
+    "4",
+    "2",
+    "1"
+   ],
+   "answer": "2",
+   "hint": "",
+   "explain": "Halbe Note = 2 Schläge."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Schläge hat eine Viertelnote?",
+   "options": [
+    "2",
+    "1",
+    "4"
+   ],
+   "answer": "1",
+   "hint": "",
+   "explain": "Viertelnote = 1 Schlag."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Achtelnoten passen in eine Viertelnote?",
+   "options": [
+    "4",
+    "1",
+    "2"
+   ],
+   "answer": "2",
+   "hint": "",
+   "explain": "Zwei Achtel = ein Viertel."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür steht piano?",
+   "options": [
+    "Leise",
+    "Schnell",
+    "Laut"
+   ],
+   "answer": "Leise",
+   "hint": "",
+   "explain": "piano = leise."
+  },
+  {
+   "type": "choice",
+   "q": "Wofür steht forte?",
+   "options": [
+    "Langsam",
+    "Leise",
+    "Laut"
+   ],
+   "answer": "Laut",
+   "hint": "",
+   "explain": "forte = laut."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet allegro?",
+   "options": [
+    "Langsam",
+    "Schnell und fröhlich",
+    "Leise"
+   ],
+   "answer": "Schnell und fröhlich",
+   "hint": "",
+   "explain": "Allegro ist ein Tempo."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet adagio?",
+   "options": [
+    "Schnell",
+    "Langsam",
+    "Laut"
+   ],
+   "answer": "Langsam",
+   "hint": "",
+   "explain": "Adagio = ruhig und langsam."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Schläge hat ein 4/4-Takt?",
+   "options": [
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": "4",
+   "hint": "",
+   "explain": "Vier Viertel pro Takt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Schläge hat ein 3/4-Takt (Walzer)?",
+   "options": [
+    "3",
+    "6",
+    "4"
+   ],
+   "answer": "3",
+   "hint": "",
+   "explain": "Drei Viertel pro Takt."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißen die Töne der C-Dur-Tonleiter?",
+   "options": [
+    "c c c c c c c c",
+    "a b c d e f g",
+    "c d e f g a h c"
+   ],
+   "answer": "c d e f g a h c",
+   "hint": "",
+   "explain": "Von c bis zum hohen c."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Pause in der Musik?",
+   "options": [
+    "Ein lauter Ton",
+    "Eine Tonleiter",
+    "Stille mit einer bestimmten Dauer"
+   ],
+   "answer": "Stille mit einer bestimmten Dauer",
+   "hint": "",
+   "explain": "Auch Pausen gehören zum Rhythmus."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Rhythmus?",
+   "options": [
+    "Ein Lied",
+    "Ein Instrument",
+    "Eine Folge von langen und kurzen Tönen"
+   ],
+   "answer": "Eine Folge von langen und kurzen Tönen",
+   "hint": "",
+   "explain": "Rhythmus gliedert die Zeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Melodie?",
+   "options": [
+    "Ein Takt",
+    "Ein Instrument",
+    "Eine Folge von Tönen verschiedener Höhe"
+   ],
+   "answer": "Eine Folge von Tönen verschiedener Höhe",
+   "hint": "",
+   "explain": "Die Melodie kann man singen oder summen."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele verschiedene Töne hat eine Dur-Tonleiter?",
+   "options": [
+    "3",
+    "12",
+    "7"
+   ],
+   "answer": "7",
+   "hint": "",
+   "explain": "Sieben verschiedene Töne."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet crescendo?",
+   "options": [
+    "Leiser werdend",
+    "Schneller werdend",
+    "Lauter werdend"
+   ],
+   "answer": "Lauter werdend",
+   "hint": "",
+   "explain": "Crescendo = anschwellen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet decrescendo?",
+   "options": [
+    "Lauter werdend",
+    "Langsamer werdend",
+    "Leiser werdend"
+   ],
+   "answer": "Leiser werdend",
+   "hint": "",
+   "explain": "Auch diminuendo genannt."
+  },
+  {
+   "type": "choice",
+   "q": "Wer hat die Zauberflöte komponiert?",
+   "options": [
+    "Mozart",
+    "Bach",
+    "Beethoven"
+   ],
+   "answer": "Mozart",
+   "hint": "",
+   "explain": "Wolfgang Amadeus Mozart schrieb die Oper."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Sinfonien komponierte Beethoven?",
+   "options": [
+    "3",
+    "12",
+    "9"
+   ],
+   "answer": "9",
+   "hint": "",
+   "explain": "Die 9. Sinfonie enthält die Ode an die Freude."
+  }
+ ]
+}
