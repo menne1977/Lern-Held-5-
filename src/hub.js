@@ -11,6 +11,7 @@ function hubInit(){
 function klassePage(){
   setNav('home');
   app().innerHTML=`<a class="back" href="#/">← Start</a><h1>🎓 Meine Klasse</h1><p class="lead">Die Klasse bestimmt, wie schwer das Endlos-Training ist, welche Erklärungen und Videos gesucht werden und was in den KI-Aufträgen steht.</p><div class="chips">${klBtns(klasse(),'klc')}</div><p class="hint">Die fertigen Lektionen in der App (Mathe, Englisch, Deutsch) sind für Klasse 5. Für alle anderen Klassen und Fächer helfen Endlos-Training, Lexikon-Erklärungen, Videos und KI-Pakete.</p>`;
+  $('#app').insertAdjacentHTML('beforeend','<h2>🏫 Schulform</h2>'+sfChips('ksf2'));document.querySelectorAll('.ksf2').forEach(b=>b.onclick=()=>{sfSet(b.dataset.v);klassePage()});
   document.querySelectorAll('.klc').forEach(b=>b.onclick=()=>{try{localStorage.setItem('sh5kl',b.dataset.k)}catch(e){}klassePage()});
 }
 /* ---------- Fach-Seite: Werkzeuge + eigene Sachen ---------- */
@@ -47,6 +48,12 @@ function kiRules(id,k){
    politik:'Begriffe, Institutionen, Rechte und Pflichten, Demokratie, Fallbeispiele. Neutral und ohne Meinung.',geschichte:'Jahreszahlen, Personen, Ursachen und Folgen, Epochen, Reihenfolgen.',
    musik:'Noten, Rhythmus, Instrumente, Komponisten, Epochen, Fachbegriffe.',erdkunde:'Länder, Hauptstädte, Klima, Karten, Landschaften, Fachbegriffe, Ursachen und Folgen.'};
   return (R[id]||'')+(id!=='englisch'&&id!=='mathe'?' Gib die wichtigsten Fachbegriffe in "vocab" als ["Begriff","kurze Erklärung"] aus.':'')}
+function SF_LIST(){return['Grundschule','Hauptschule','Realschule','Sekundarschule','Gesamtschule','Gymnasium','Förderschule','Berufskolleg']}
+function schulform(){try{return localStorage.getItem('sh5sf')||''}catch(e){return''}}
+function sfSet(v){try{localStorage.setItem('sh5sf',v)}catch(e){}}
+function sfText(){const f=schulform();return f?f+' NRW':'Schule in NRW'}
+function sfChips(cls){const f=schulform();return `<div class="chips">${SF_LIST().map(x=>`<button class="chip ${cls}${x===f?' on':''}" data-v="${x}">${x}</button>`).join('')}</div>`+(f?'':'<p class="hint" style="color:#b45309;font-weight:700">⚠️ Bitte zuerst die Schulform wählen – damit die KI das richtige Niveau trifft.</p>')}
+function sfLevel(){const f=schulform();return f==='Gymnasium'?' Niveau: Gymnasium (anspruchsvoll, mehr Transferaufgaben).':f==='Förderschule'?' Niveau: Förderschule (sehr kleine Schritte, einfache Sprache, viele Beispiele).':f==='Hauptschule'?' Niveau: Hauptschule (einfache Sprache, alltagsnah, kleine Schritte).':f==='Grundschule'?' Niveau: Grundschule (sehr einfach, kindgerecht).':f==='Berufskolleg'?' Niveau: Berufskolleg (berufsbezogen, praxisnah).':f?' Niveau: '+f+'.':''}
 function kiPrompt(o){
   const s=subjById(o.f)||SUBJ[2],k=o.k,book=o.book?` Buch: ${o.book}${o.page?', Seite '+o.page:''}.`:'',top=o.topic?` Thema: ${o.topic}.`:'',kids=k<=7?'sehr einfach und kindgerecht, kurze Sätze, Beispiele aus dem Alltag':k<=10?'verständlich mit Beispielen':'fachlich genau, auf Oberstufen-Niveau, mit Fachsprache';
   const what={foto:`Ich schicke dir ein Foto einer Schulbuch- oder Arbeitsheftseite. Lies die Seite, erkenne NUR das Wichtige (ignoriere Seitenzahlen, Lautschrift, Kopfzeilen, Werbung) und baue daraus ein Lernpaket: Zusammenfassung, 6–10 Erklär-Folien und 30–40 Aufgaben.`,
@@ -55,7 +62,7 @@ function kiPrompt(o){
    dikt:`Erstelle ein Diktat: 15 Sätze in "dictation" (passend zu Klasse ${k}), dazu 10 Rechtschreib-Aufgaben in "tasks" und 2 Folien mit den Rechtschreibregeln.`,
    arbeit:`Erstelle eine Übungs-Klassenarbeit: 25 Aufgaben wie in einer echten Arbeit (gemischt, von leicht nach schwer) mit Lösungen und Erklärungen, dazu 5 Folien zum Wiederholen.`,
    vok:`Ich schicke dir ein Foto einer Vokabel- oder Begriffsseite. Gib ALLE Wörter/Begriffe in "vocab" aus und baue 20 Aufgaben dazu.`}[o.type]||'';
-  return `Du bist eine freundliche, geduldige Lehrkraft. Fach: ${s.name}, Klasse ${k} (Gesamtschule NRW).${book}${top}
+  return `Du bist eine freundliche, geduldige Lehrkraft. Fach: ${s.name}, Klasse ${k} (${sfText()}).${sfLevel()}${book}${top}
 ${what}
 Regeln für das Fach: ${kiRules(s.id,k)}
 Sprache: Deutsch, ${kids}.
@@ -78,6 +85,7 @@ function kiPage(f){
   app().innerHTML=`<h1>🤖 KI-Auftrag bauen</h1><p class="lead">Die App schreibt den Auftrag für die KI. Du kopierst ihn, gibst ihn (mit Foto) an ChatGPT, Gemini oder Claude und fügst die Antwort hier wieder ein.</p>
   <h2>1. Fach</h2><div class="chips">${SUBJ.map(x=>`<button class="chip kf${x.id===st.f?' on':''}" data-f="${x.id}">${x.icon} ${x.name}</button>`).join('')}</div>
   <h2>2. Klasse</h2><div class="chips">${klBtns(st.k,'kk')}</div>
+  <h2>Schulform</h2>${sfChips('ksf')}
   <h2>3. Was soll die KI bauen?</h2><div class="chips">${T.map(t=>`<button class="chip kt${t[0]===st.type?' on':''}" data-t="${t[0]}">${t[1]} ${t[2]}</button>`).join('')}</div>
   ${needTopic?`<input id="kto" class="ans" placeholder="Thema, z. B. Photosynthese, Bruchrechnung, Simple Past" value="${esc(st.topic)}">`:''}
   <div class="row2"><input id="kbo" class="ans" placeholder="Buch (optional)" value="${esc(st.book)}"><input id="kpa" class="ans" placeholder="Seite (optional)" value="${esc(st.page)}" style="max-width:130px"></div>
@@ -96,8 +104,9 @@ function kiPage(f){
   document.querySelectorAll('.kf').forEach(b=>b.onclick=()=>{up();st.f=b.dataset.f;st.book='';kiPage()});
   document.querySelectorAll('.kk').forEach(b=>b.onclick=()=>{up();st.k=+b.dataset.k;kiPage()});
   document.querySelectorAll('.kt').forEach(b=>b.onclick=()=>{up();st.type=b.dataset.t;kiPage()});
+  document.querySelectorAll('.ksf').forEach(b=>b.onclick=()=>{up();sfSet(b.dataset.v);kiPage()});
   document.querySelectorAll('.ka').forEach(b=>b.onclick=()=>{up();st.ai=b.dataset.a;kiPage()});
-  $('#kcp').onclick=()=>{up();copyText($('#kpr').value).then(ok=>{$('#kmsg').textContent=ok?'✔ Kopiert! Jetzt die KI öffnen und einfügen.':'Bitte den Text im Feld lange drücken → Alles auswählen → Kopieren.'})};
+  $('#kcp').onclick=()=>{up();if(!schulform()){$('#kmsg').textContent='⚠️ Bitte erst oben die Schulform wählen.';document.querySelector('.ksf').scrollIntoView({behavior:'smooth',block:'center'});return}copyText($('#kpr').value).then(ok=>{$('#kmsg').textContent=ok?'✔ Kopiert! Jetzt die KI öffnen und einfügen.':'Bitte den Text im Feld lange drücken → Alles auswählen → Kopieren.'})};
 }
 async function copyText(t){try{await navigator.clipboard.writeText(t);return true}catch(e){try{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();const ok=document.execCommand('copy');a.remove();return ok}catch(x){return false}}}
 
@@ -273,7 +282,7 @@ function helpPage(){
   app().innerHTML=`<a class="back" href="#/">← Start</a><h1>❓ Anleitung</h1><p class="lead">So funktioniert Schul-Held – für alle Fächer von Klasse 5 bis 13.</p>
   ${sec('📁 Meine Dateien &amp; Lesegerät','Start → „📁 Meine Dateien“ (oder die Kachel im Fach). Oben ein Fach wählen, dann Dateien hinzufügen: ePub, PDF, Bilder, Text, HTML. „👁 Ansehen“ öffnet das <b>Vollbild-Lesegerät</b>:<br>• <b>Blättern:</b> linken/rechten Rand antippen, wischen oder ◀ ▶. Mitte antippen blendet die Knöpfe aus/ein.<br>• <b>Drehen:</b> ↺ ↻ unten (PDF und Bilder), die Drehung wird pro Datei gemerkt.<br>• <b>Zoomen:</b> mit zwei Fingern auseinanderziehen – die Stelle unter deinen Fingern bleibt stehen. <b>Doppeltipp</b> zoomt hinein, noch ein Doppeltipp zurück auf ganze Seite. Gezoomt schiebst du die Seite mit einem Finger hin und her. Am Rand weiterwischen blättert um.<br>• <b>Doppelseite</b> wie ein aufgeschlagenes Buch: ⚙ → Doppelseite (Automatisch = wenn das Gerät quer liegt).<br>• <b>ePub</b> wird in echte Buchseiten gesetzt; ⚙ ändert Schrift, Größe, Zeilenabstand und Rand.<br>• <b>Farbe:</b> Hell, Sepia, Dunkel, Schwarz und Helligkeit (⚙).<br>• ☰ Inhaltsverzeichnis, ⭐ Lesezeichen, 🔍 Suche (bei ePub und PDF mit Text) und „Zu Seite …“.<br>• Der Schieber unten springt durch das ganze Buch. Beim nächsten Öffnen geht es an derselben Stelle weiter.<br>Die Dateien bleiben nur auf diesem Gerät und sind <b>nicht</b> in der Sicherung. „🗑 Löschen“ entfernt sie ganz. Lege nur Bücher ab, die du selbst besitzt oder die frei sind.')}
   ${sec('🎓 Klasse einstellen','Start → „Klasse … ändern“. Danach richten sich Endlos-Training, Erklärungen, Videos und KI-Aufträge nach deiner Klasse.')}
-  ${sec('📚 Fächer','Mathe, Englisch, Deutsch, Biologie, Physik, Chemie, Informatik, Politik, Geschichte, Musik und Erdkunde. Jedes Fach hat: ♾️ Endlos-Training, 📖 Erklär mir (Folien), 🌐 Übungen aus dem Netz, 🎬 Videos, 🤖 KI-Auftrag, 📚 Bücher und eigene Sachen. Fertige Lektionen gibt es für Mathe, Englisch und Deutsch Klasse 5 – alles andere kommt über KI-Pakete, Lexikon und Endlos-Training.')}
+  ${sec('📚 Fächer','Mathe, Englisch, Deutsch, Biologie, Physik, Chemie, Informatik, Politik, Geschichte, Musik, Erdkunde, Französisch, Spanisch und Latein – dazu 7 weitere Sprachen Europas, 👂 Hören & Aussprache, 📖 Lesen lernen mit farbigen Silben, 🖨️ Arbeitsblätter zum Drucken und 🧮 Taschenrechner. Jedes Fach hat: ♾️ Endlos-Training, 📖 Erklär mir (Folien), 🌐 Übungen aus dem Netz, 🎬 Videos, 🤖 KI-Auftrag, 📚 Bücher und eigene Sachen. Fertige Lektionen gibt es für Mathe, Englisch und Deutsch Klasse 5 – alles andere kommt über KI-Pakete, Lexikon und Endlos-Training.')}
   ${sec('🤖 Mit einer KI Pakete bauen (ChatGPT, Gemini, Claude, Copilot)','<ol style="margin-left:18px"><li>Menü <b>KI</b> (unten) öffnen.</li><li>Fach, Klasse und Art wählen: Paket aus Foto, Vokabeln aus Foto, Erklärung mit Folien, 40 Übungen, Klassenarbeit oder Diktat.</li><li>Bei Bedarf Thema, Buch und Seite eintragen.</li><li><b>📋 Text kopieren</b> → KI öffnen → bei Fotos mit 📎/+ das Foto anhängen → Text einfügen → senden.</li><li>Die Antwort (der Code-Kasten) kopieren.</li><li>In der App: Meine Sachen → <b>📥 Antwort der KI einfügen</b> → Importieren.</li></ol>Gleicher Titel ersetzt das alte Paket, ein neuer Titel kommt dazu. Klappt es nicht („Kein Paket gefunden“), der KI schreiben: „Gib nur gültiges JSON aus.“')}
   ${sec('📖 Erklär mir … (Folien)','Thema eingeben → „Einfach“ (Kinderlexikon Klexikon) oder „Ausführlich“ (Wikipedia). Die App macht Folien zum Wischen, liest vor und kann daraus Übungen bauen oder alles als Sache speichern. Braucht Internet.')}
   ${sec('♾️ Endlos-Training','In jedem Fach – immer neue Aufgaben passend zur Klasse: Mathe (vom Einmaleins bis Ableitungen), Physik-Formeln, Chemie-Elemente und Molmassen, Informatik (Binärzahlen, Logik, Code), Erdkunde (Länder, Hauptstädte, Bundesländer), Geschichte (Jahreszahlen), Musik (Noten, Intervalle), Biologie, Politik, Deutsch (Zeitformen, das/dass, Stilmittel), Englisch (Vokabeln, unregelmäßige Verben).')}
