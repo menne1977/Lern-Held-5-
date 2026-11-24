@@ -22,7 +22,7 @@ function hoerenPage(c){
   setNav('home');const rate=hrRate();
   app().innerHTML=`<a class="back" href="#/">← Start</a><header class="shead" style="--c:#0891b2"><span>👂</span><div><h1>Hören & Aussprache</h1><small>Hörverstehen in ${hrLangs().length} Sprachen</small></div></header>
   <p class="lead">Wähle eine Sprache. Die Wörter werden vorgelesen – du erkennst sie, schreibst sie oder findest die Bedeutung.</p>
-  <h2>Sprechtempo</h2><div class="chips"><button class="chip hrr${rate==='normal'?' on':''}" data-v="normal">🐇 Normal</button><button class="chip hrr${rate==='langsam'?' on':''}" data-v="langsam">🐢 Langsam</button></div>
+  <a class="lnk" href="#/stimme">🔊 Stimme wählen (Frau / Mann)</a><h2>Sprechtempo</h2><div class="chips"><button class="chip hrr${rate==='normal'?' on':''}" data-v="normal">🐇 Normal</button><button class="chip hrr${rate==='langsam'?' on':''}" data-v="langsam">🐢 Langsam</button></div>
   <div class="chips">${hrLangs().map(l=>`<button class="chip hrl${l[0]===(c||'de')?' on':''}" data-c="${l[0]}">${l[2]} ${l[1]}</button>`).join('')}</div>
   <div class="acts">${hrModes(c||'de').map(m=>`<a class="act" href="#/practice/hr_${c||'de'}_${m[0]}">${m[1]}<b>${m[2]}</b><small>${m[3]}</small></a>`).join('')}</div>
   <p class="hint">Tipp: Kopfhörer helfen. Erst zuhören, dann nachsprechen, dann antippen.</p>`;

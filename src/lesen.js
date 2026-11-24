@@ -25,10 +25,13 @@ function lsSyl(w){
 function lsWordHtml(word,arc){const p=lsSyl(word);return `<span class="lsw" data-w="${esc(word)}">`+p.map((x,i)=>`<span class="ls${i%2?2:1}${arc?' lsa':''}">${esc(x)}</span>`).join('')+'</span>'}
 function lsColor(text,mode){if(mode==='aus')return esc(text).replace(/\n/g,'<br>');
   return text.split(/(\s+)/).map(t=>{if(/^\s+$/.test(t))return t.indexOf('\n')>=0?'<br>':' ';const m=t.match(/^([^A-Za-zÄÖÜäöüß]*)([A-Za-zÄÖÜäöüß-]+)([^A-Za-zÄÖÜäöüß]*)$/);if(!m)return esc(t);return esc(m[1])+m[2].split('-').map(x=>lsWordHtml(x,mode==='boegen')).join('-')+esc(m[3])}).join('')}
-function lsOpt(){let o={};try{o=JSON.parse(localStorage.getItem('sh5ls')||'{}')}catch(e){}return Object.assign({size:22,mode:'farbe',text:''},o)}
+function lsOpt(){let o={};try{o=JSON.parse(localStorage.getItem('sh5ls')||'{}')}catch(e){}return Object.assign({size:22,mode:'farbe',text:'',c1:'#2563eb',c2:'#dc2626'},o)}
+const LS_PRE=[['Blau · Rot','#2563eb','#dc2626'],['Grün · Orange','#16a34a','#ea580c'],['Lila · Türkis','#7c3aed','#0891b2'],['Schwarz · Blau','#111827','#2563eb'],['Pink · Grün','#db2777','#15803d']];
+function lsApply(){const o=lsOpt(),r=document.documentElement.style;r.setProperty('--ls1',o.c1);r.setProperty('--ls2',o.c2)}
+function lsKiPrompt(f){return `Schreibe einen Lesetext für eine Schülerin/einen Schüler (${klasse()}. Klasse, ${sfText()}).${sfLevel()}\nThema: ${f.topic||'(Thema einfügen)'}\nLänge: ${f.len==='kurz'?'etwa 5 Sätze':f.len==='lang'?'etwa 15 Sätze':'etwa 9 Sätze'}.\nRegeln: kurze, klare Sätze (höchstens 12 Wörter), einfache bekannte Wörter, keine Abkürzungen, keine Aufzählungszeichen, nur normaler Fließtext, Absätze mit Leerzeile. Der Text soll gut vorlesbar sein und zum Thema passen. Schreibe ausschließlich den Text, ohne Überschrift und ohne Kommentar.`}
 function lsSave(o){try{localStorage.setItem('sh5ls',JSON.stringify(o))}catch(e){}}
 function lsTopic(id,title,slides,gen){TOPICS[id]={id,title,tags:'lesen silben '+title,sub:lsSub(),chap:{t:'Lesen lernen',i:'📖'},s:slides,ex:[],extra:[],vgen:gen};return TOPICS[id]}
-function lesenInit(){
+function lesenInit(){lsApply();
   const W=lsWords();
   lsTopic('ls_zaehlen','Silben zählen',[['👏 Silben klatschen','Sprich das Wort langsam und klatsche bei jeder Silbe. <b>Ba-na-ne</b> = 3 Mal klatschen. Jede Silbe hat einen Selbstlaut (a, e, i, o, u, ä, ö, ü, au, ei, eu).']],
     ()=>{const x=pick(W);return Q(`Wie viele Silben hat das Wort?<div class="big">${esc(x.w)}</div>`,String(x.s.length),{kind:'choice',opts:['1','2','3','4'],speak:x.w,sl:'de-DE',steps:`<span class="lsbig">${x.s.map((y,i)=>`<span class="ls${i%2?2:1}">${esc(y)}</span>`).join('·')}</span> = ${x.s.length} Silben`})});
@@ -39,13 +42,13 @@ function lesenInit(){
     (()=>{let q=shuffle(t[2]);return()=>{if(!q.length)q=shuffle(t[2]);const x=q.shift();return Q(`<small>${esc(t[0])}</small><br>${esc(x[0])}`,x[1],{kind:'choice',opts:shuffle([x[1]].concat(x[2])),steps:'Schau noch einmal in den Text.'})}})()));
 }
 function lesenPage(){
-  setNav('home');const A=(h,i,t,sm)=>`<a class="act" href="${h}">${i}<b>${t}</b><small>${sm}</small></a>`;
+  setNav('home');lsApply();const A=(h,i,t,sm)=>`<a class="act" href="${h}">${i}<b>${t}</b><small>${sm}</small></a>`;
   app().innerHTML=`<a class="back" href="#/">← Start</a><header class="shead" style="--c:#16a34a"><span>📖</span><div><h1>Lesen lernen</h1><small>Silben farbig · Schritt für Schritt besser lesen</small></div></header>
   <p class="lead">Wörter werden in <span class="ls1">Sil</span><span class="ls2">ben</span> zerlegt und abwechselnd <b style="color:#2563eb">blau</b> und <b style="color:#dc2626">rot</b> gefärbt. So erkennst du Wortteile schneller.</p>
   <div class="acts">${A('#/lesen/text','🌈','Silbentext','eigener Text farbig')}${A('#/lesen/listen','📋','Wortlisten','3 Stufen, antippen = hören')}${A('#/practice/ls_zaehlen','👏','Silben zählen','klatschen und tippen')}${A('#/lesen/puzzle','🧩','Silben-Puzzle','Wort zusammensetzen')}${A('#/lesen/blitz','⚡','Blitzlesen','Wort kurz sehen')}${A('#/lesen/tempo','⏱️','Lesetempo','Wörter pro Minute')}${A('#/practice/ls_detektiv','🔍','Buchstaben-Detektiv','b/d/p · m/n · ei/ie')}${A('#/lesen/zeile','📏','Zeile für Zeile','Leselineal')}</div>
   <h2>📖 Lesen & verstehen</h2>${lsTexts().map((t,i)=>`<a class="row" href="#/t/ls_text${i}"><span>${esc(t[0])}<small>Text lesen, dann 3 Fragen</small></span><em>${starStr('ls_text'+i)}</em></a>`).join('')}
   <h2>💡 So wirst du besser</h2><div class="card" style="padding:12px;line-height:1.6">• <b>Jeden Tag 10 Minuten</b> lesen ist besser als einmal in der Woche lange.<br>• Erst die <b>Silben</b> lesen, dann das ganze Wort.<br>• <b>Laut lesen</b> – auch mal einem Kuscheltier oder den Eltern vor.<br>• Texte <b>zweimal</b> lesen: beim zweiten Mal geht es schon flüssiger.<br>• Mit dem <b>Finger</b> oder dem Leselineal unter der Zeile mitfahren.<br>• Schwierige Wörter <b>anhören</b> (antippen) und nachsprechen.<br>• Beim Lesetempo nicht hetzen: <b>richtig</b> lesen ist wichtiger als schnell.</div>`}
-function lesenRoute(p){if(p==='text')return lsTextPage();if(p==='listen')return lsListPage();if(p==='puzzle')return lsPuzzle();if(p==='blitz')return lsBlitz();if(p==='tempo')return lsTempo();if(p==='zeile')return lsZeile();lesenPage()}
+function lesenRoute(p){lsApply();if(p==='text')return lsTextPage();if(p==='listen')return lsListPage();if(p==='puzzle')return lsPuzzle();if(p==='blitz')return lsBlitz();if(p==='tempo')return lsTempo();if(p==='zeile')return lsZeile();lesenPage()}
 function lsBack(){return '<a class="back noprint" href="#/lesen">← Lesen lernen</a>'}
 function lsBindWords(root){root.querySelectorAll('.lsw').forEach(s=>s.onclick=()=>speak(s.dataset.w,'de-DE'))}
 function lsTextPage(){
@@ -54,14 +57,28 @@ function lsTextPage(){
   app().innerHTML=`${lsBack()}<h1 class="noprint">🌈 Silbentext</h1><div class="noprint"><p class="hint">Eigenen Text einfügen oder einen Beispieltext wählen. Ein Wort antippen = vorlesen.</p>
   <div class="chips">${lsTexts().map((t,i)=>`<button class="chip lst" data-i="${i}">${esc(t[0])}</button>`).join('')}</div>
   <textarea id="lstx" class="ans" rows="4">${esc(o.text)}</textarea>
-  <div class="chips">${chip('farbe','🌈 Silben farbig')}${chip('boegen','⌒ Silbenbögen')}${chip('aus','Aus')}<button class="chip" id="lsm">A−</button><button class="chip" id="lsp">A+</button><button class="chip" id="lsv">🔊 Vorlesen</button><button class="chip" id="lspr">🖨️ Drucken</button></div></div>
+  <div class="chips">${chip('farbe','🌈 Silben farbig')}${chip('boegen','⌒ Silbenbögen')}${chip('aus','Aus')}<button class="chip" id="lsm">A−</button><button class="chip" id="lsp">A+</button><button class="chip" id="lsv">🔊 Vorlesen</button><button class="chip" id="lspr">🖨️ Drucken</button></div>
+  <h2>🎨 Farben der Silben</h2><div class="chips">${LS_PRE.map((x,i)=>`<button class="chip lsc${o.c1===x[1]&&o.c2===x[2]?' on':''}" data-i="${i}"><b style="color:${x[1]}">Sil</b><b style="color:${x[2]}">ben</b> ${x[0]}</button>`).join('')}</div>
+  <div class="chips" style="align-items:center"><label>Farbe 1 <input type="color" id="lsc1" value="${o.c1}"></label><label>Farbe 2 <input type="color" id="lsc2" value="${o.c2}"></label></div>
+  <h2>🤖 Text von der KI schreiben lassen</h2><p class="hint">Thema eingeben, Auftrag kopieren, in ChatGPT/Gemini/Claude einfügen, die Antwort oben in das Textfeld einfügen – fertig.</p>
+  <input id="lskt" class="ans" placeholder="Thema, z. B. Ein Tag am Meer" value="${esc(o.ktopic||'')}"><div class="chips">${['kurz','mittel','lang'].map(v=>`<button class="chip lskl${(o.klen||'mittel')===v?' on':''}" data-v="${v}">${v}</button>`).join('')}</div>
+  ${sfChips('lssf')}<div class="row2"><button class="go" id="lskc">📋 Auftrag kopieren</button>${gemCfg().key?'<button id="lskg">🤖 Direkt mit Gemini</button>':''}</div><p class="hint" id="lsks"></p></div>
   <div id="lsout" class="lstext" style="font-size:${o.size}px">${lsColor(o.text,o.mode)}</div><p class="hint noprint">Die Silben werden automatisch getrennt – bei einzelnen Wörtern kann die Trennung abweichen.</p>`;
   const upd=()=>{o.text=$('#lstx').value;lsSave(o);$('#lsout').innerHTML=lsColor(o.text,o.mode);$('#lsout').style.fontSize=o.size+'px';lsBindWords($('#lsout'))};
   $('#lstx').oninput=upd;lsBindWords($('#lsout'));
   document.querySelectorAll('.lsm').forEach(b=>b.onclick=()=>{o.mode=b.dataset.v;lsSave(o);lsTextPage()});
   document.querySelectorAll('.lst').forEach(b=>b.onclick=()=>{$('#lstx').value=lsTexts()[+b.dataset.i][1];upd()});
   $('#lsm').onclick=()=>{o.size=Math.max(14,o.size-2);upd()};$('#lsp').onclick=()=>{o.size=Math.min(48,o.size+2);upd()};
-  $('#lsv').onclick=()=>speak($('#lstx').value,'de-DE');$('#lspr').onclick=()=>doPrint('Silbentext')}
+  $('#lsv').onclick=()=>speak($('#lstx').value,'de-DE');$('#lspr').onclick=()=>doPrint('Silbentext');
+  const setc=(a,b)=>{o.c1=a;o.c2=b;lsSave(o);lsApply()};
+  document.querySelectorAll('.lsc').forEach(b=>b.onclick=()=>{const x=LS_PRE[+b.dataset.i];setc(x[1],x[2]);lsTextPage()});
+  $('#lsc1').oninput=e=>{setc(e.target.value,o.c2);$('#lsout').innerHTML=lsColor(o.text,o.mode)};$('#lsc2').oninput=e=>{setc(o.c1,e.target.value);$('#lsout').innerHTML=lsColor(o.text,o.mode)};
+  const kf=()=>({topic:$('#lskt').value.trim(),len:o.klen||'mittel'});
+  $('#lskt').oninput=()=>{o.ktopic=$('#lskt').value;lsSave(o)};
+  document.querySelectorAll('.lskl').forEach(b=>b.onclick=()=>{o.klen=b.dataset.v;lsSave(o);document.querySelectorAll('.lskl').forEach(x=>x.classList.toggle('on',x===b))});
+  document.querySelectorAll('.lssf').forEach(b=>b.onclick=()=>{sfSet(b.dataset.v);lsTextPage()});
+  $('#lskc').onclick=async()=>{if(!schulform()){$('#lsks').textContent='⚠️ Bitte erst die Schulform wählen.';return}if(!kf().topic){$('#lsks').textContent='⚠️ Bitte ein Thema eintragen.';return}const t=lsKiPrompt(kf());try{await navigator.clipboard.writeText(t);$('#lsks').textContent='✅ Auftrag kopiert. In die KI einfügen und die Antwort oben ins Textfeld einfügen.'}catch(e){window.prompt('Auftrag kopieren:',t)}};
+  const g=$('#lskg');if(g)g.onclick=async()=>{if(!schulform()){$('#lsks').textContent='⚠️ Bitte erst die Schulform wählen.';return}if(!kf().topic){$('#lsks').textContent='⚠️ Bitte ein Thema eintragen.';return}$('#lsks').textContent='Die KI schreibt … (10–20 Sekunden)';try{const t=await gemini(lsKiPrompt(kf()));$('#lstx').value=t.trim();upd();$('#lsks').textContent='✅ Text eingefügt.'}catch(e){$('#lsks').textContent='⚠️ '+e.message}}}
 function lsListPage(){
   setNav('home');
   app().innerHTML=`${lsBack()}<h1>📋 Silben-Wortlisten</h1><p class="hint noprint">Lies jedes Wort erst in Silben, dann ganz. Antippen = anhören.</p><button class="chip noprint" id="lspr">🖨️ Drucken</button>`+
