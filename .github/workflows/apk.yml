@@ -2,7 +2,7 @@ name: APK bauen
 on:
   workflow_dispatch:
   push:
-    paths: ['.github/workflows/apk.yml', 'index.html', 'sw.js', 'manifest.webmanifest', 'packs/**', 'pdfjs/**']
+    paths: ['.github/workflows/apk.yml', 'android-src/**', 'index.html', 'sw.js', 'manifest.webmanifest', 'packs/**', 'pdfjs/**']
 permissions:
   contents: write
 jobs:
@@ -40,6 +40,7 @@ jobs:
           JSON
           npx cap add android
           sed -i 's#</manifest>#<uses-permission android:name="android.permission.CAMERA" />\n<uses-feature android:name="android.hardware.camera" android:required="false" />\n</manifest>#' android/app/src/main/AndroidManifest.xml
+          cp android-src/MainActivity.java android/app/src/main/java/de/menne/schulheld5/MainActivity.java
           R=android/app/src/main/res
           rm -rf $R/mipmap-anydpi-v26 $R/drawable-v24
           cp -r android-res/* $R/

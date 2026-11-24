@@ -15,9 +15,12 @@ function klassePage(){
 }
 /* ---------- Fach-Seite: Werkzeuge + eigene Sachen ---------- */
 function subjTools(s,si){
-  const lang=s.id==='deutsch'||s.id==='englisch',a=(h,i,t,sm,x)=>`<a class="act" href="${h}"${x||''}>${i}<b>${t}</b><small>${sm}</small></a>`;
+  const lang=s.id==='deutsch'||s.id==='englisch',fl=LANG_SUBJ[s.id],a=(h,i,t,sm,x)=>`<a class="act" href="${h}"${x||''}>${i}<b>${t}</b><small>${sm}</small></a>`;
   return `<p class="hint">🎓 Klasse ${klasse()} · <a href="#/klasse" style="color:var(--ac)">ändern</a></p><div class="acts">
-  ${a('#/quiz/'+s.id,'🎯','Quiz','10er-Runde oder endlos')}
+  ${a('#/quiz/'+s.id,'🎯','Quiz','tippen, schreiben, gemischt')}
+  ${fl||lang?a('#/s/hoeren/'+(fl||(s.id==='englisch'?'en':'de')),'👂','Hören','Aussprache & Hörverstehen'):''}
+  ${s.id==='deutsch'?a('#/lesen','📖','Lesen lernen','Silben farbig'):''}
+  ${a('#/ws/'+s.id,'🖨️','Arbeitsblatt','zum Ausdrucken')}
   ${a('#/practice/gen_'+s.id,'♾️','Endlos-Training','immer neue Aufgaben')}
   ${a('#/explain/'+s.id,'📖','Erklär mir …','Folien, einfach oder ausführlich')}
   ${a('#/online/'+s.id,'🌐','Übungen aus dem Netz','Lückentexte zu jedem Thema')}
@@ -285,7 +288,7 @@ function helpPage(){
 }
 
 /* ---------- Endlos-Generatoren ---------- */
-function genQ(id){const k=klasse(),f={mathe:gMathe,englisch:gEng,deutsch:gDeu,biologie:gBio,physik:gPhy,chemie:gChe,informatik:gInf,politik:gPol,geschichte:gGes,musik:gMus,erdkunde:gErd}[id]||gDeu;try{return f(k)}catch(e){return Q('Was ist 2 + 3?',5)}}
+function genQ(id){const k=klasse(),f={mathe:gMathe,englisch:gEng,deutsch:gDeu,biologie:gBio,physik:gPhy,chemie:gChe,informatik:gInf,politik:gPol,geschichte:gGes,musik:gMus,erdkunde:gErd,franzoesisch:()=>gLang('franzoesisch'),spanisch:()=>gLang('spanisch'),latein:()=>gLang('latein')}[id]||gDeu;try{return f(k)}catch(e){return Q('Was ist 2 + 3?',5)}}
 function lv(k){return R(0,3)?k:R(5,k)}  /* meist eigene Klasse, manchmal Wiederholung */
 function chQ(q,a,others,ex){return Q(q,String(a),{kind:'choice',opts:shuffle([String(a)].concat(shuffle(others.map(String).filter(x=>x!==String(a))).slice(0,3))),steps:ex||''})}
 function fromSet(set,k){const l=set.filter(x=>x[0]<=k);const e=pick(l.filter(x=>x[0]>=k-1).length&&R(0,2)?l.filter(x=>x[0]>=k-1):l);return chQ(e[1],e[2],e[3],e[4])}

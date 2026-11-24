@@ -35,7 +35,7 @@ function vocQueue(def){const n=vsize(def);return shuffle(shuffle(vocPool()).sort
 function vnorm(s){return String(s).toLowerCase().replace(/[’`´]/g,"'").replace(/[.!?…,;]+$/g,'').replace(/\s+/g,' ').trim()}
 function vcands(en){const b=en.replace(/\s*\([^)]*\)/g,'').trim();return[...new Set([vnorm(en),vnorm(b),vnorm(b.replace(/^to\s+/i,'')),vnorm(en.replace(/[()]/g,''))])]}
 function vpattern(en,r){let n=0;return en.split('').map(c=>{if(c===' ')return'  ';if(!/[A-Za-zÄÖÜäöüß0-9]/.test(c))return c;n++;return n<=r?c:'_'}).join(' ')}
-function vsay(t){speak(t,(vst().f||'englisch')==='englisch'?'en-GB':'de-DE')}
+function vsay(t){const f=vst().f||'englisch',s=SUBJ.find(x=>x.id===f);speak(t,f==='englisch'?'en-GB':(s&&s.lang)||'de-DE')}
 function vend(good,again,total,mode){
   app().innerHTML=`<h1>🎉 Geschafft!</h1><div class="qcard"><div class="q">${good} von ${total} gewusst</div><p class="lead">${again?again+' Wörter üben wir bald noch einmal.':'Alles gewusst – stark!'}</p></div><a class="go" style="text-align:center" href="#/vocab/${mode}" onclick="setTimeout(route,0)">Nochmal</a><a class="go" style="text-align:center;background:var(--card);color:var(--tx);border:2px solid var(--bd)" href="#/vocab">Zurück zum Vokabel-Trainer</a>`}
 

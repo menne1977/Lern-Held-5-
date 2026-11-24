@@ -1,5 +1,5 @@
 /* ===== Quiz: Fächer, Allgemeinwissen, Geräusche, Tierlaute, Bilder-Rätsel (Funktionsdeklarationen) ===== */
-function qzSP(){return{allg:{name:'Allgemeinwissen',icon:'🧠',color:'#7c3aed',sub:'leicht bis schwer, nur antippen'},ton:{name:'Geräusche raten',icon:'👂',color:'#0891b2',sub:'Was hörst du?'},tier:{name:'Tierlaute raten',icon:'🐾',color:'#16a34a',sub:'Wer macht das?'},bild:{name:'Bilder-Rätsel',icon:'🧩',color:'#db2777',sub:'Emojis zum Wort erraten'}}}
+function qzSP(){return{allg:{name:'Allgemeinwissen',icon:'🧠',color:'#7c3aed',sub:'leicht bis schwer'},ton:{name:'Geräusche raten',icon:'👂',color:'#0891b2',sub:'Was hörst du?'},tier:{name:'Tierlaute raten',icon:'🐾',color:'#16a34a',sub:'Wer macht das?'},bild:{name:'Bilder-Rätsel',icon:'🧩',color:'#db2777',sub:'Emojis zum Wort erraten'}}}
 function qzOpt(){let o={};try{o=JSON.parse(localStorage.getItem('sh5qz')||'{}')}catch(e){}return Object.assign({src:'mix',typ:'all'},o)}
 function qzSet(k,v){const o=qzOpt();o[k]=v;try{localStorage.setItem('sh5qz',JSON.stringify(o))}catch(e){}}
 function quizPool(si){
@@ -10,16 +10,19 @@ function qzTap(q){ /* nur Antippen: Rechenaufgaben bekommen Antwortkarten, Schre
   if(q.kind==='num'&&typeof q.a==='number'){const a=q.a,s=new Set([a]);let n=0;const st=Math.max(1,Math.abs(a)>20?Math.round(Math.abs(a)/10):1);while(s.size<4&&n++<40){const d=(R(1,4))*st*(R(0,1)?1:-1);s.add(Math.round((a+d)*100)/100)}
     const f=x=>String(x).replace('.',',');return Object.assign({},q,{kind:'choice',a:f(a),opts:[...s].map(f)})}
   return null}
-function qzWrite(q){ /* nur Schreiben: Auswahlfragen ohne Antwortkarten */
-  if(q.kind==='choice'){const a=[].concat(q.a).map(String);return Object.assign({},q,{kind:'text',opts:null,a,hint:q.hint||('Die Antwort beginnt mit „'+a[0][0]+'“.')})}
-  return q}
+function qzNoEmo(x){return String(x).replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu,'').trim()}
+function qzWrite(q,force){ /* Schreibaufgabe: Auswahlfragen ohne Antwortkarten; zu lange Antworten bleiben Auswahl (oder fallen weg) */
+  if(q.kind!=='choice')return q;const a0=String([].concat(q.a)[0]),clean=qzNoEmo(a0);
+  if(clean.split(/\s+/).length>3||clean.length>28)return force?null:q;
+  const acc=[a0,clean,langDeacc(clean)];return Object.assign({},q,{kind:'text',opts:null,a:acc,pre:x=>langDeacc(qzNoEmo(x)),ks:true,hint:q.hint||('Die Antwort beginnt mit „'+clean[0]+'“ und hat '+clean.length+' Zeichen.')})}
+function qzFit(q,typ){if(!q)return null;if(typ==='tap')return qzTap(q);if(typ==='write')return qzWrite(q,true);return R(0,1)?(qzWrite(q,true)||qzTap(q)||q):(qzTap(q)||q)}
 function quizSrc(si,id){
   const o=qzOpt(),own=quizPool(si);let queue=shuffle(own),seen=new Set(),useOwn=o.src!=='app'&&own.length,useApp=o.src!=='own'||!own.length;
-  const fit=q=>{if(!q)return null;return o.typ==='tap'?qzTap(q):o.typ==='write'?qzWrite(q):q};
+  const fit=q=>qzFit(q,o.typ);
   return()=>{for(let i=0;i<60;i++){let q;
     if(useOwn&&(!useApp||R(0,1))){if(!queue.length)queue=shuffle(own);q=queue.shift()}else q=genQ(id);
     q=fit(q);if(!q)continue;if(!seen.has(q.q)||i>50){seen.add(q.q);if(seen.size>300)seen.clear();return q}}
-    return genQ(id)}}
+    const g=genQ(id);return o.typ==='write'?(qzWrite(g)||g):o.typ==='tap'?(qzTap(g)||g):g}}
 function qzSounds_play(n){
   const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return false;
   const c=window.__qzc||(window.__qzc=new AC());if(c.state==='suspended')c.resume();const t0=c.currentTime+.05,g=c.createGain();g.connect(c.destination);g.gain.value=.4;
@@ -56,16 +59,20 @@ function quizSubject(id){
   const A=(h,i,t,sm)=>`<a class="act" href="${h}">${i}<b>${t}</b><small>${sm}</small></a>`;
   if(sp){
     const lv=id==='allg'?`<h2>Schwierigkeit</h2><div class="acts">${[['leicht','🟢','Leicht'],['mittel','🟡','Mittel'],['schwer','🔴','Schwer'],['alle','🌈','Alles gemischt']].map(x=>A('#/quiz/allg/'+x[0],x[1],x[2],'wählen')).join('')}</div>`:'';
-    app().innerHTML=`<a class="back" href="#/quiz">← Quiz</a><header class="shead" style="--c:${sp.color}"><span>${sp.icon}</span><div><h1>${sp.name}</h1><small>${sp.sub}</small></div></header>`+(id==='allg'?lv:`<div class="acts">${A('#/quiz/'+id+'/10','🎯','10er-Runde','mit Ergebnis')}${A('#/quiz/'+id+'/inf','♾️','Endlos','nie zu Ende')}</div>`);return}
-  const o=qzOpt(),chip=(k,v,l)=>`<button class="chip qo${o[k]===v?' on':''}" data-k="${k}" data-v="${v}">${l}</button>`,n=quizPool(SUBJ.indexOf(s)).length;
+    app().innerHTML=`<a class="back" href="#/quiz">← Quiz</a><header class="shead" style="--c:${sp.color}"><span>${sp.icon}</span><div><h1>${sp.name}</h1><small>${sp.sub}</small></div></header>`+(id==='allg'?lv:qzModes(id));if(id!=='allg')qzModeBind(id);return}
+  const n=quizPool(SUBJ.indexOf(s)).length,o=qzOpt();
   app().innerHTML=`<a class="back" href="#/quiz">← Quiz</a><header class="shead" style="--c:${s.color}"><span>${s.icon}</span><div><h1>${s.name}-Quiz</h1><small>🎓 Klasse ${klasse()} · ${n} Fragen aus deinen Paketen</small></div></header>
-  <h2>Woher sollen die Fragen kommen?</h2><div class="chips">${chip('src','mix','🔀 Beides')}${chip('src','own','🗂️ Nur meine Sachen')}${chip('src','app','📘 Nur App-Aufgaben')}</div>${n?'':'<p class="hint">Noch keine eigenen Fragen: unter „Meine Sachen“ oder „Fertige Pakete“ etwas hinzufügen.</p>'}
-  <h2>Wie willst du antworten?</h2><div class="chips">${chip('typ','all','🔀 Beides')}${chip('typ','tap','👆 Nur antippen')}${chip('typ','write','✍️ Nur schreiben')}</div>
-  <div class="acts" style="margin-top:14px">${A('#/quiz/'+id+'/10','🎯','10er-Runde','mit Ergebnis')}${A('#/quiz/'+id+'/inf','♾️','Endlos','nie zu Ende')}</div>`;
-  document.querySelectorAll('.qo').forEach(b=>b.onclick=()=>{qzSet(b.dataset.k,b.dataset.v);quizSubject(id)})}
+  <h2>Woher kommen die Fragen?</h2><div class="chips">${[['mix','🔀 Beides'],['own','🗂️ Nur meine Sachen'],['app','📘 Nur App-Aufgaben']].map(x=>`<button class="chip qo${o.src===x[0]?' on':''}" data-v="${x[0]}">${x[1]}</button>`).join('')}</div>${n?'':'<p class="hint">Noch keine eigenen Fragen: unter „Meine Sachen“ oder „Fertige Pakete“ etwas hinzufügen.</p>'}`+qzModes(id);
+  document.querySelectorAll('.qo').forEach(b=>b.onclick=()=>{qzSet('src',b.dataset.v);quizSubject(id)});qzModeBind(id)}
+function qzModes(id,pre){const o=qzOpt(),len=o.len||'10';
+  return `<h2>Wie lange?</h2><div class="chips"><button class="chip ql${len==='10'?' on':''}" data-v="10">🎯 10 Fragen</button><button class="chip ql${len==='inf'?' on':''}" data-v="inf">♾️ Endlos</button></div>
+  <h2>Quiz starten</h2><div class="qzm">${[['tap','👆','Tipp-Quiz','nur antippen'],['write','✍️','Schreib-Quiz','selbst schreiben'],['all','🔀','Gemischt','tippen und schreiben']].map(m=>`<button class="qzb" data-t="${m[0]}" data-h="#/quiz/${id}/${pre?pre+'/':''}">${m[1]}<b>${m[2]}</b><small>${m[3]}</small></button>`).join('')}</div>`}
+function qzModeBind(id,pre){
+  document.querySelectorAll('.ql').forEach(b=>b.onclick=()=>{qzSet('len',b.dataset.v);document.querySelectorAll('.ql').forEach(c=>c.classList.toggle('on',c===b))});
+  document.querySelectorAll('.qzb').forEach(b=>b.onclick=()=>{qzSet('typ',b.dataset.t);go(b.dataset.h+(qzOpt().len||'10'))})}
 function quizPlay(id,mode,opt){
   const sp=qzSP()[id],s=sp||subjById(id);if(!s)return quizHome();setNav('home');
-  const inf=mode==='inf',N=10,si=sp?-1:SUBJ.indexOf(s),src=sp?qzSpecialSrc(id,opt):quizSrc(si,id),back=sp?'#/quiz/'+id:'#/quiz/'+id,ttl=sp?s.name+(opt&&opt!=='alle'?' · '+opt:''):s.name+'-Quiz';
+  const inf=mode==='inf',N=10,si=sp?-1:SUBJ.indexOf(s),src=sp?(()=>{const g=qzSpecialSrc(id,opt),ty=qzOpt().typ;return()=>{let q,n=0;do{q=qzFit(g(),ty)}while(!q&&n++<20);return q||g()}})():quizSrc(si,id),back=sp?'#/quiz/'+id:'#/quiz/'+id,ttl=sp?s.name+(opt&&opt!=='alle'?' · '+opt:''):s.name+'-Quiz';
   const S={n:0,ok:0,streak:0,bad:[],q:null,opts:null,done:false};
   const next=()=>{S.q=src();S.opts=S.q.opts?shuffle(S.q.opts):null;S.done=false;draw()};
   const end=()=>{const tot=S.n,p=tot?S.ok/tot:0;
@@ -75,16 +82,17 @@ function quizPlay(id,mode,opt){
     $('#qa').onclick=e=>{e.preventDefault();quizPlay(id,mode,opt)}};
   const draw=()=>{const q=S.q;
     app().innerHTML=`<div class="stop"><a href="${back}">✕ Ende</a><div class="bar"><i style="width:${inf?(S.n%10)*10:S.n/N*100}%"></i></div><span>${inf?'♾️ ':''}⭐ ${S.ok}/${S.n}${inf?'':' · '+(S.n+1)+'/'+N}</span></div>
-    <div class="qcard" style="--c:${s.color}"><small class="qt">${s.icon} ${ttl}${q.lv?' · '+['','🟢 leicht','🟡 mittel','🔴 schwer'][q.lv]:''}</small>${q._it?'<div id="qimg"></div>':''}${q.big?`<div style="font-size:${q.big.length>16?'1.8':'3.2'}rem;text-align:center;line-height:1.3;margin:8px 0">${q.big}</div>`:''}<div class="q">${q.q}</div>${q.snd?`<button class="go" id="snd" style="margin:8px 0">🔊 Geräusch abspielen</button>`:''}${q.speak?`<button class="say spk" data-t="${esc(q.speak)}">🔊 Anhören</button>`:''}
+    <div class="qcard" style="--c:${s.color}"><small class="qt">${s.icon} ${ttl}${q.lv?' · '+['','🟢 leicht','🟡 mittel','🔴 schwer'][q.lv]:''}</small>${q._it?'<div id="qimg"></div>':''}${q.big?`<div style="font-size:${q.big.length>16?'1.8':'3.2'}rem;text-align:center;line-height:1.3;margin:8px 0">${q.big}</div>`:''}<div class="q">${q.q}</div>${q.snd?`<button class="go" id="snd" style="margin:8px 0">🔊 Geräusch abspielen</button>`:''}${q.speak?`<button class="say spk" data-t="${esc(q.speak)}"${q.sl?` data-l="${q.sl}"`:''}>🔊 Anhören</button>`:''}
     ${S.opts?`<div class="opts">${S.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<input id="in" class="ans" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="${q.kind==='num'?'decimal':'text'}" placeholder="Deine Antwort"><button id="chk" class="go">Prüfen</button>`}
     ${q.hint?`<button id="hb" class="lnk">💡 Tipp</button><div id="hint" class="tip" hidden>${q.hint}</div>`:''}<div id="fb"></div></div>`;
+    if(q.speak&&q.auto)setTimeout(()=>speak(q.speak,q.sl),300);
     if(q.snd){const pl=()=>{if(!qzSounds_play(q.snd))noSound()};$('#snd').onclick=pl}
     if(q._it)imgGet(q._it).then(a=>{if(a&&a[0]&&$('#qimg'))$('#qimg').innerHTML='<img alt="" style="max-width:100%;max-height:240px;border-radius:12px;display:block;margin:0 auto 8px" src="data:image/jpeg;base64,'+a[0]+'">'});
     if(q.hint)$('#hb').onclick=()=>{$('#hint').hidden=false};
     if(S.opts)document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>fin(S.opts[+b.dataset.k],b));
     else{const inp=$('#in');inp.focus();inp.onkeydown=e=>{if(e.key==='Enter')fin(inp.value)};$('#chk').onclick=()=>fin(inp.value)}};
   const fin=(val,btn)=>{
-    if(S.done)return;const q=S.q,ok=checkAns(q,val);if(ok===null)return;S.done=true;S.n++;if(ok){S.ok++;S.streak++}else{S.streak=0;S.bad.push(q)}
+    if(S.done)return;const q=S.q,ok=checkAns(q,val);if(ok===null)return;S.done=true;S.n++;if(ok){S.ok++;S.streak++}else{S.streak=0;S.bad.push(q)}if(q.speakAfter)speak(q.speakAfter,q.sl);
     document.querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(q.kind==='choice'&&[].concat(q.a).map(String).includes(S.opts[+b.dataset.k]))b.classList.add('good');else if(b===btn)b.classList.add('bad')});
     const inp=$('#in');if(inp){inp.disabled=true;inp.classList.add(ok?'good':'bad');$('#chk').remove()}
     const last=!inf&&S.n>=N;
@@ -93,5 +101,5 @@ function quizPlay(id,mode,opt){
   next()}
 
 function quizAllgMode(lv){
-  const s=qzSP().allg,A=(h,i,t,sm)=>`<a class="act" href="${h}">${i}<b>${t}</b><small>${sm}</small></a>`;setNav('home');
-  app().innerHTML=`<a class="back" href="#/quiz/allg">← Schwierigkeit</a><header class="shead" style="--c:${s.color}"><span>${s.icon}</span><div><h1>${s.name}</h1><small>${lv==='alle'?'Alles gemischt':lv}</small></div></header><div class="acts">${A('#/quiz/allg/'+lv+'/10','🎯','10er-Runde','mit Ergebnis')}${A('#/quiz/allg/'+lv+'/inf','♾️','Endlos','nie zu Ende')}</div>`}
+  const s=qzSP().allg;setNav('home');
+  app().innerHTML=`<a class="back" href="#/quiz/allg">← Schwierigkeit</a><header class="shead" style="--c:${s.color}"><span>${s.icon}</span><div><h1>${s.name}</h1><small>${lv==='alle'?'Alles gemischt':lv}</small></div></header>`+qzModes('allg',lv);qzModeBind('allg',lv)}

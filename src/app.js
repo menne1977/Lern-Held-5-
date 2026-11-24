@@ -10,7 +10,10 @@ const SUBJ=[
  {id:'politik',name:'Politik',icon:'🏛️',color:'#b45309',book:'',ch:[],lang:'de-DE'},
  {id:'geschichte',name:'Geschichte',icon:'📜',color:'#92400e',book:'',ch:[],lang:'de-DE'},
  {id:'musik',name:'Musik',icon:'🎵',color:'#db2777',book:'',ch:[],lang:'de-DE'},
- {id:'erdkunde',name:'Erdkunde',icon:'🌍',color:'#15803d',book:'',ch:[],lang:'de-DE'}];
+ {id:'erdkunde',name:'Erdkunde',icon:'🌍',color:'#15803d',book:'',ch:[],lang:'de-DE'},
+ {id:'franzoesisch',name:'Französisch',icon:'🇫🇷',color:'#1d4ed8',book:'Grundwortschatz',ch:langCh('fr'),lang:'fr-FR'},
+ {id:'spanisch',name:'Spanisch',icon:'🇪🇸',color:'#ea580c',book:'Grundwortschatz',ch:langCh('es'),lang:'es-ES'},
+ {id:'latein',name:'Latein',icon:'🏛️',color:'#78716c',book:'Grundwortschatz',ch:langCh('la'),lang:'it-IT'}];
 function subIdx(name){const n=String(name||'').toLowerCase();if(/mathe/.test(n))return 0;if(/engl/.test(n))return 1;if(/deutsch|german/.test(n))return 2;if(/geo|erdk/.test(n))return 10;const i=SUBJ.findIndex(x=>n.indexOf(x.id.slice(0,4))>=0||n.indexOf(x.name.toLowerCase().slice(0,4))>=0);return i<0?2:i}
 function klasse(){let k=5;try{k=+localStorage.getItem('sh5kl')||5}catch(e){}return Math.min(13,Math.max(5,k))}
 const TOPICS={};
@@ -24,10 +27,11 @@ const gf=t=>t.vgen||(t.gen&&G[t.gen]);
 const hasQ=t=>!!(gf(t)||(t.ex&&t.ex.length));
 const strip=h=>String(h).replace(/<[^>]+>/g,' ').replace(/&[a-z]+;/g,' ').replace(/\s+/g,' ');
 let curLang='de-DE';
-function webSpeak(t,l){try{if(!window.speechSynthesis||!window.SpeechSynthesisUtterance)throw 0;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=l;u.rate=.9;const v=(speechSynthesis.getVoices()||[]).find(x=>x.lang&&x.lang.replace('_','-').toLowerCase().startsWith(l.slice(0,2).toLowerCase()));if(v)u.voice=v;speechSynthesis.speak(u)}catch(e){noSound()}}
+function hrR(r){if(r)return r;try{return localStorage.getItem('sh5rate')==='langsam'?.55:.9}catch(e){return .9}}
+function webSpeak(t,l,r){try{if(!window.speechSynthesis||!window.SpeechSynthesisUtterance)throw 0;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=l;u.rate=hrR(r);const v=(speechSynthesis.getVoices()||[]).find(x=>x.lang&&x.lang.replace('_','-').toLowerCase().startsWith(l.slice(0,2).toLowerCase()));if(v)u.voice=v;speechSynthesis.speak(u)}catch(e){noSound()}}
 function noSound(){let d=document.getElementById('nosnd');if(!d){d=document.createElement('div');d.id='nosnd';d.style.cssText='position:fixed;left:12px;right:12px;bottom:80px;z-index:99;background:#333;color:#fff;padding:12px;border-radius:12px;font-size:14px';document.body.appendChild(d)}d.textContent='Kein Ton? Prüfe: Lautstärke an und in den Android-Einstellungen unter „Text-to-Speech“ die Google-Sprachausgabe mit Deutsch und Englisch installieren.';d.style.display='block';clearTimeout(d._t);d._t=setTimeout(()=>d.style.display='none',6000)}
-function speak(t,l){l=l||curLang;try{const C=window.Capacitor,P=C&&C.isNativePlatform&&C.isNativePlatform()&&(C.Plugins.TextToSpeech||(C.registerPlugin&&C.registerPlugin('TextToSpeech')));if(P&&P.speak){try{P.stop&&P.stop().catch(()=>{})}catch(e){}P.speak({text:t,lang:l,rate:.9,pitch:1,volume:1,category:'ambient'}).catch(()=>webSpeak(t,l));return}}catch(e){}webSpeak(t,l)}
-document.addEventListener('click',e=>{const s=e.target.closest('.say');if(s){e.preventDefault();speak(s.dataset.t,/[äöüß]/i.test(s.dataset.t)?'de-DE':curLang);}});
+function speak(t,l,r){l=l||curLang;try{const C=window.Capacitor,P=C&&C.isNativePlatform&&C.isNativePlatform()&&(C.Plugins.TextToSpeech||(C.registerPlugin&&C.registerPlugin('TextToSpeech')));if(P&&P.speak){try{P.stop&&P.stop().catch(()=>{})}catch(e){}P.speak({text:t,lang:l,rate:hrR(r),pitch:1,volume:1,category:'ambient'}).catch(()=>webSpeak(t,l,r));return}}catch(e){}webSpeak(t,l,r)}
+document.addEventListener('click',e=>{const s=e.target.closest('.say');if(s){e.preventDefault();speak(s.dataset.t,s.dataset.l||(/[äöüß]/i.test(s.dataset.t)?'de-DE':curLang));}});
 function ansText(q){let a=Array.isArray(q.a)?q.a[0]:q.a;if(q.kind==='num')return fmt(a);a=String(a);if(q.rest)a=a.replace('r',' R ');return a}
 const PRAISE=['Super! 🎉','Richtig! ⭐','Stark! 💪','Genau! ✅','Klasse! 🚀','Top! 🌟','Prima! 👍'];
 
@@ -40,13 +44,20 @@ function route(){
   window.scrollTo(0,0);document.body.dataset.v=p[0]||'home';
   const t=TOPICS[p[1]];if(t)curLang=t.sub.lang;
   if(!p.length)return home();
+  if(p[0]==='s'&&p[1]==='eu')return langEuPage();
+  if(p[0]==='s'&&p[1]==='hoeren'||p[0]==='hoeren')return hoerenPage(p[0]==='hoeren'?p[1]:p[2]);
+  if(p[0]==='s'&&p[1]==='lesen')return lesenPage();
+  if(p[0]==='lesen')return lesenRoute(p[1]);
+  if(p[0]==='sprachen')return langEuPage();
+  if(p[0]==='ws')return wsPage(p[1]);
+  if(p[0]==='bilder'&&t)return bilderPage(t);
   if(p[0]==='s')return subject(p[1]);
   if(p[0]==='t'&&t)return topic(t);
   if(p[0]==='slides'&&t)return slides(t,+p[2]||0);
   if(p[0]==='practice'&&t)return practice(t);
   if(p[0]==='sheet'&&t)return sheet(t);
   if(p[0]==='search')return search(decodeURIComponent((qs||'').replace(/^q=/,'')));
-  if(p[0]==='calc')return calc();
+  if(p[0]==='calc')return p[1]==='weg'?calcWeg():calc();
   if(p[0]==='photo')return photo();
   if(p[0]==='mine')return mineList();
   if(p[0]==='import')return importPage();
@@ -78,7 +89,7 @@ function home(){
   <a class="searchbar" href="#/search">🔎 Suche in allen Fächern …</a>
   <div class="grid">${SUBJ.map(s=>{const ids=s.ch.flatMap(c=>c.tp.map(t=>t.id)),d=ids.filter(i=>stars(i)>0).length;return `<a class="subj" style="--c:${s.color}" href="#/s/${s.id}"><span class="ic">${s.icon}</span><b>${s.name}</b><small>${s.book}</small><i class="pb"><u style="width:${ids.length?Math.round(d/ids.length*100):0}%"></u></i><small>${d} von ${ids.length} Themen geübt</small></a>`}).join('')}</div>
   <h2>Schnell starten</h2>
-  <div class="quick"><a href="#/quiz">🎯<b>Quiz</b><small>10er-Runde oder endlos, alle Fächer</small></a><a href="#/ki">🤖<b>KI-Auftrag bauen</b><small>Foto → ChatGPT/Gemini/Claude → App</small></a><a href="#/explain">📖<b>Erklär mir …</b><small>Folien für Kinder, einfach oder ausführlich</small></a><a href="#/dictat">✍️<b>Diktat</b><small>endlos, zum Hören und Schreiben</small></a><a href="#/lib">📁<b>Meine Dateien</b><small>eBooks, PDF, Bilder je Fach</small></a><a href="#/books">📚<b>Bücher &amp; ISBN</b><small>freie Bücher online finden</small></a><a href="#/help">❓<b>Anleitung</b><small>So funktioniert die App</small></a><a href="#/calc">🧮<b>Rechen-Helfer</b><small>Rechnung eingeben – Rechenweg sehen</small></a><a href="#" id="rnd">🎲<b>Zufalls-Übung</b><small>Ein Thema wird ausgewählt</small></a><a href="#/photo">📷<b>Seite fotografieren</b><small>Aufgaben aus dem Buch bauen</small></a><a href="#/mine">🗂️<b>Meine Sachen</b><small>Meine Fotos &amp; Übungen</small></a><a href="#/tricks">🪄<b>Trick-Kiste</b><small>Schneller rechnen</small></a><a href="#/settings">🤖<b>KI-Hilfe (Gemini)</b><small>Optional: mehr Übungen &amp; Erklärungen</small></a><a href="#/search?q=Wortarten">🌐<b>Im Netz suchen</b><small>Kinderlexikon &amp; Wikipedia</small></a></div>
+  <div class="quick"><a href="#/lesen">📖<b>Lesen lernen</b><small>Silben farbig, Blitzlesen, Lesetempo</small></a><a href="#/sprachen">🇪🇺<b>Sprachen Europas</b><small>Französisch, Spanisch, Latein und mehr</small></a><a href="#/hoeren">👂<b>Hören &amp; Aussprache</b><small>Hörverstehen in 12 Sprachen</small></a><a href="#/ws">🖨️<b>Arbeitsblatt erstellen</b><small>App, KI oder Internet – zum Drucken</small></a><a href="#/quiz">🎯<b>Quiz</b><small>10er-Runde oder endlos, alle Fächer</small></a><a href="#/ki">🤖<b>KI-Auftrag bauen</b><small>Foto → ChatGPT/Gemini/Claude → App</small></a><a href="#/explain">📖<b>Erklär mir …</b><small>Folien für Kinder, einfach oder ausführlich</small></a><a href="#/dictat">✍️<b>Diktat</b><small>endlos, zum Hören und Schreiben</small></a><a href="#/lib">📁<b>Meine Dateien</b><small>eBooks, PDF, Bilder je Fach</small></a><a href="#/books">📚<b>Bücher &amp; ISBN</b><small>freie Bücher online finden</small></a><a href="#/help">❓<b>Anleitung</b><small>So funktioniert die App</small></a><a href="#/calc">🧮<b>Rechen-Helfer</b><small>Rechnung eingeben – Rechenweg sehen</small></a><a href="#" id="rnd">🎲<b>Zufalls-Übung</b><small>Ein Thema wird ausgewählt</small></a><a href="#/photo">📷<b>Seite fotografieren</b><small>Aufgaben aus dem Buch bauen</small></a><a href="#/mine">🗂️<b>Meine Sachen</b><small>Meine Fotos &amp; Übungen</small></a><a href="#/tricks">🪄<b>Trick-Kiste</b><small>Schneller rechnen</small></a><a href="#/settings">🤖<b>KI-Hilfe (Gemini)</b><small>Optional: mehr Übungen &amp; Erklärungen</small></a><a href="#/search?q=Wortarten">🌐<b>Im Netz suchen</b><small>Kinderlexikon &amp; Wikipedia</small></a></div>
   <button id="inst" class="big-btn" ${deferredInstall?'':'hidden'}>📲 Als App installieren</button>
   <p class="hint" id="ioshint" hidden>iPhone/iPad: In Safari auf <b>Teilen</b> tippen → <b>Zum Home-Bildschirm</b>.</p>
   <p class="foot">⭐ ${got} von ${total} Themen mit Sternen · Daten bleiben auf diesem Gerät</p>`;
@@ -104,7 +115,7 @@ function topic(t){
   <header class="thead" style="--c:${s.color}"><small>${t.chap.i} ${t.chap.t}</small><h1>${t.title}</h1><div class="st">${hasQ(t)?starStr(t.id):''}</div></header>
   <div class="acts"><a class="act" href="#/slides/${t.id}/0">📖<b>Erklärung</b><small>${t.s.length} Folien</small></a>
   ${hasQ(t)?`<a class="act" href="#/practice/${t.id}">✏️<b>Üben</b><small>endlos</small></a><a class="act" href="#/sheet/${t.id}">📝<b>Aufgaben</b><small>10 mit Lösungen</small></a>`:''}
-  ${(t.extra||[]).map(e=>`<a class="act" href="${e.h}">${e.i}<b>${e.l}</b><small>${e.s||''}</small></a>`).join('')}<a class="act" href="#/search?q=${encodeURIComponent(t.title)}">🌐<b>Im Netz</b><small>mehr erfahren</small></a><a class="act" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${encodeURIComponent((t.title+' '+(t.mine?t.chap.t:s.name)+' Klasse '+klasse()+' einfach erklärt').replace(/<[^>]+>/g,''))}">🎬<b>Videos</b><small>Erklärvideos (online)</small></a></div>
+  ${(t.extra||[]).map(e=>`<a class="act" href="${e.h}">${e.i}<b>${e.l}</b><small>${e.s||''}</small></a>`).join('')}<a class="act" href="#/bilder/${t.id}">🖼️<b>Bilder</b><small>aus Wikipedia</small></a><a class="act" href="#/search?q=${encodeURIComponent(t.title)}">🌐<b>Im Netz</b><small>mehr erfahren</small></a><a class="act" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${encodeURIComponent((t.title+' '+(t.mine?t.chap.t:s.name)+' Klasse '+klasse()+' einfach erklärt').replace(/<[^>]+>/g,''))}">🎬<b>Videos</b><small>Erklärvideos (online)</small></a></div>
   ${t.trick?`<div class="trick">💡 <b>Merke:</b> ${t.trick}</div>`:''}
   <h2>Zum Nachlesen</h2>${t.s.map(x=>`<section class="rd"><h3>${x[0]}</h3><div>${x[1]}</div></section>`).join('')}${t.mine?'<button id="gm2" class="big-btn" style="background:#7c3aed">🤖 Mehr Übungen mit KI bauen</button><div id="gst" class="hint"></div><button id="dm" class="big-btn" style="background:#dc2626">🗑️ Diese Sache löschen</button>':''}`;
   if(t.mine)$('#gm2').onclick=async()=>{if(!gemCfg().key){$('#gst').innerHTML='Erst den KI-Schlüssel eintragen: <a href="#/settings" style="color:var(--ac)">KI-Einstellungen</a>';return}const it=MINE.find(x=>x.id===t.mine);$('#gst').textContent='Die KI baut Übungen … (kann 10–30 Sekunden dauern)';try{const n=await aiBuild(it,12,null);$('#gst').textContent=n+' neue Aufgaben! Seite wird neu geladen …';setTimeout(()=>topic(TOPICS['m_'+it.id]),900)}catch(e){$('#gst').textContent='Fehler: '+e.message}};
@@ -114,7 +125,7 @@ function topic(t){
 function slides(t,i){
   setNav('home');i=Math.max(0,Math.min(t.s.length-1,i));const x=t.s[i],last=i===t.s.length-1,s=t.sub;
   app().innerHTML=`<div class="stop"><a href="#/t/${t.id}">✕</a><div class="dots">${t.s.map((_,k)=>`<i class="${k<=i?'on':''}"></i>`).join('')}</div><span>${i+1}/${t.s.length}</span></div>
-  <div class="slide in" style="--c:${s.color}"><h2>${x[0]}</h2><div class="sbody">${x[1]}</div></div>
+  <div class="slide in" style="--c:${s.color}"><h2>${x[0]}</h2><div class="sbody">${x[1]}${!t.mine&&i===0&&!/<svg/.test(x[1])&&t.sub&&!['englisch','franzoesisch','spanisch','latein','eu','hoeren','lesen'].includes(t.sub.id)?bildFor(t.title+' '+(t.tags||'')):''}</div></div>
   <div class="snav"><button id="pv" ${i?'':'disabled'}>◀ Zurück</button>${last?(hasQ(t)?`<a class="go" href="#/practice/${t.id}">✏️ Jetzt üben</a>`:`<a class="go" href="#/t/${t.id}">Fertig ✔</a>`):`<button id="nx" class="go">Weiter ▶</button>`}</div>`;
   const to=k=>go(`#/slides/${t.id}/${k}`);
   const pv=$('#pv'),nx=$('#nx');if(pv)pv.onclick=()=>to(i-1);if(nx)nx.onclick=()=>to(i+1);
@@ -130,17 +141,18 @@ function practice(t){
   const next=()=>{S.q=S.src();S.opts=S.q.opts?shuffle(S.q.opts):null;S.done=false;draw()};
   const draw=()=>{const q=S.q;
     app().innerHTML=`<div class="stop"><a href="#/t/${t.id}">✕ Ende</a><div class="bar"><i style="width:${(S.n%10)*10}%"></i></div><span>⭐ ${S.ok}/${S.n}</span></div>
-    <div class="qcard" style="--c:${t.sub.color}"><small class="qt">${t.title}</small><div class="q">${q.q}</div>${q.speak?`<button class="say spk" data-t="${esc(q.speak)}">🔊 Anhören</button>`:''}
+    <div class="qcard" style="--c:${t.sub.color}"><small class="qt">${t.title}</small><div class="q">${q.q}</div>${q.speak?`<button class="say spk" data-t="${esc(q.speak)}"${q.sl?` data-l="${q.sl}"`:''}>🔊 Anhören</button><button class="spk" id="slow">🐢 Langsam</button>`:''}
     ${S.opts?`<div class="opts">${S.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<input id="in" class="ans" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="${q.kind==='num'?'decimal':'text'}" placeholder="Deine Antwort"><button id="chk" class="go">Prüfen</button>`}
     ${q.hint?`<button id="hb" class="lnk">💡 Tipp</button><div id="hint" class="tip" hidden>${q.hint}</div>`:''}
     <div id="fb"></div></div>`;
+    if(q.speak){$('#slow').onclick=()=>speak(q.speak,q.sl||curLang,.5);if(q.auto)setTimeout(()=>speak(q.speak,q.sl||curLang),300)}
     if(q.hint)$('#hb').onclick=()=>{$('#hint').hidden=false};
     if(S.opts)document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>finish(S.opts[+b.dataset.k],b));
     else{const inp=$('#in');inp.focus();inp.onkeydown=e=>{if(e.key==='Enter')finish(inp.value)};$('#chk').onclick=()=>finish(inp.value)}
   };
   const finish=(val,btn)=>{
     if(S.done)return;const q=S.q,ok=checkAns(q,val);if(ok===null)return;S.done=true;S.n++;if(ok){S.ok++;S.streak++}else S.streak=0;
-    const rec=P[t.id]||(P[t.id]={n:0,r:0});rec.n++;if(ok)rec.r++;save();
+    const rec=P[t.id]||(P[t.id]={n:0,r:0});rec.n++;if(ok)rec.r++;save();if(q.speakAfter)speak(q.speakAfter,q.sl||curLang);
     document.querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(q.kind==='choice'&&[].concat(q.a).map(String).includes(S.opts[+b.dataset.k]))b.classList.add('good');else if(b===btn)b.classList.add('bad')});
     const inp=$('#in');if(inp){inp.disabled=true;inp.classList.add(ok?'good':'bad');$('#chk').remove()}
     $('#fb').innerHTML=`<div class="fb ${ok?'ok':'no'}"><b>${ok?pick(PRAISE):'Nicht ganz.'}</b>${ok?'':` Richtig ist: <b>${ansText(q)}</b>`}${S.streak>=3&&ok?` · 🔥 ${S.streak} in Folge`:''}</div>${q.steps?`<div class="steps"><b>So geht's:</b><div>${q.steps}</div></div>`:''}${S.n%10===0?`<div class="round">🎉 ${S.n} Aufgaben geschafft! Weiter so – oder oben auf „Ende“.</div>`:''}${gemCfg().key?'<button id="ge" class="lnk">🤖 Erkläre mir das</button><div id="gx" class="steps" hidden></div>':''}<button id="nxt" class="go">Weiter ▶</button>`;
@@ -162,7 +174,7 @@ function sheet(t){
     const inp=li.querySelector('.sh-in');if(inp){const check=()=>{if(li.dataset.done)return;const r=checkAns(q,inp.value);if(r===null)return;li.dataset.done=1;const ok=r===true;inp.disabled=true;inp.classList.add(ok?'good':'bad');li.querySelector('.sh-chk').remove();show(ok)};
       inp.onkeydown=e=>{if(e.key==='Enter')check()};li.querySelector('.sh-chk').onclick=check}
   });
-  $('#sa').onclick=()=>document.querySelectorAll('.sol').forEach(d=>d.open=true);$('#nw').onclick=()=>sheet(t);$('#pr').onclick=()=>window.print();
+  $('#sa').onclick=()=>document.querySelectorAll('.sol').forEach(d=>d.open=true);$('#nw').onclick=()=>sheet(t);$('#pr').onclick=()=>doPrint(t.title);
 }
 /* Suche */
 let INDEX=null;
@@ -197,9 +209,9 @@ async function online(q){
   out.innerHTML=(html||'<p class="lead">Keine Online-Treffer – bist du mit dem Internet verbunden? Probiere die Links:</p>')+links;
 }
 /* Rechen-Helfer */
-function calc(){
+function calcWeg(){
   setNav('calc');
-  app().innerHTML=`<h1>🧮 Rechen-Helfer</h1><p class="lead">Gib eine Rechnung ein – ich zeige dir <b>Ergebnis, Rechenweg und Tricks</b>.</p>
+  app().innerHTML=`<a class="back" href="#/calc">← Taschenrechner</a><h1>📝 Rechenweg</h1><p class="lead">Gib eine Rechnung ein – ich zeige dir <b>Ergebnis, Rechenweg und Tricks</b>.</p>
   <input id="ex" class="ans" autocomplete="off" autocapitalize="off" placeholder="z. B. 345 + 278" inputmode="text">
   <div class="keys">${['+','−','·',':','(',')','/','von'].map(k=>`<button data-k="${k}">${k}</button>`).join('')}<button id="del">⌫</button></div>
   <button id="go" class="go big-btn">Rechnen</button><div id="out"></div>
@@ -210,6 +222,7 @@ function calc(){
   document.querySelectorAll('.keys [data-k]').forEach(b=>b.onclick=()=>{inp.value+=b.dataset.k==='von'?' von ':b.dataset.k;inp.focus()});
   $('#del').onclick=()=>{inp.value=inp.value.slice(0,-1);inp.focus()};
   document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{inp.value=b.textContent;run()});
+  if(window.__tcWeg){inp.value=window.__tcWeg;window.__tcWeg='';run()}
 }
 
 /* Foto -> Aufgaben */
@@ -290,7 +303,7 @@ function buildMine(it){
   if(it.s===0){const ms=findMath(it.text);base.ex=ms.map(mathQ);if(ms.length)base.vgen=()=>R(0,2)?variantQ(pick(ms)):mathQ(pick(ms))}
   else if(it.s===1){base.ex=makeEx(it.text);const v=it.vocab||[];if(v.length){TOPICS['mv_'+it.id]=Object.assign({},base,{id:'mv_'+it.id,title:it.name+' – Vokabeln',ex:[],extra:[],s:[['Vokabelkarten','<div class="cards">'+v.map(w=>`<div class="fc say" data-t="${esc(w[0])}"><b>${esc(w[0])}</b><span>${esc(w[1])}</span></div>`).join('')+'</div>']],vgen:vocabGen(v)});base.extra=[{h:'#/practice/mv_'+it.id,i:'🃏',l:'Vokabel-Trainer',s:v.length+' Wörter'}]}}
   else{base.ex=makeEx(it.text).concat(extraDeu(it.text,words));const v=it.vocab||[];if(v.length>=2){TOPICS['mv_'+it.id]=Object.assign({},base,{id:'mv_'+it.id,title:it.name+' – Fachbegriffe',ex:[],extra:[],s:[['Fachbegriffe','<div class="cards">'+v.map(w=>`<div class="fc"><b>${esc(w[0])}</b><span>${esc(w[1])}</span></div>`).join('')+'</div>']],vgen:vocabGen(v,false)});base.extra=[{h:'#/practice/mv_'+it.id,i:'🃏',l:'Fachbegriffe üben',s:v.length+' Begriffe'}]}}
-  if(it.slides&&it.slides.length)base.s=it.slides.map(x=>[(x.emoji?x.emoji+' ':'')+esc(x.title),esc(x.text).replace(/\n/g,'<br>')]).concat(base.s);
+  if(it.slides&&it.slides.length){const used=new Set();base.s=it.slides.map(x=>[(x.emoji?x.emoji+' ':'')+esc(x.title),esc(x.text).replace(/\n/g,'<br>')+(it.s===1||it.s>=11?'':bildFor(x.title+' '+x.text,used))]).concat(base.s)}
   if(it.dict&&it.dict.length)base.extra=(base.extra||[]).concat([{h:'#/dictat/m_'+it.id,i:'✍️',l:'Diktat',s:it.dict.length+' Sätze'}]);
   base.chap={t:SUBJ[it.s].name+(it.book?' · '+it.book:''),i:SUBJ[it.s].icon};
   if(it.ai&&it.ai.length)base.ex=base.ex.concat(it.ai.map(aiToQ));
@@ -360,6 +373,7 @@ function photo(){
 }
 if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js').catch(()=>{});
 try{hubInit()}catch(e){console.log(e)}
+try{langInit();hoerenInit();lesenInit()}catch(e){console.log(e)}
 route();
 
 /* Paket-Import (von Claude aus dem Chat) */
