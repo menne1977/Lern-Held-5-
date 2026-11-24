@@ -1049,6 +1049,7 @@ function route(){
   if(p[0]==='videos')return videosPage(p[1]);
   if(p[0]==='online')return onlineExPage(p[1],decodeURIComponent((qs||'').replace(/^q=/,'')));
   if(p[0]==='tricks')return tricks();
+  if(p[0]==='quiz')return p[2]?quizPlay(p[1],p[2]):p[1]?quizSubject(p[1]):quizHome();
   home();
 }
 /* Home */
@@ -1061,7 +1062,7 @@ function home(){
   <a class="searchbar" href="#/search">🔎 Suche in allen Fächern …</a>
   <div class="grid">${SUBJ.map(s=>{const ids=s.ch.flatMap(c=>c.tp.map(t=>t.id)),d=ids.filter(i=>stars(i)>0).length;return `<a class="subj" style="--c:${s.color}" href="#/s/${s.id}"><span class="ic">${s.icon}</span><b>${s.name}</b><small>${s.book}</small><i class="pb"><u style="width:${ids.length?Math.round(d/ids.length*100):0}%"></u></i><small>${d} von ${ids.length} Themen geübt</small></a>`}).join('')}</div>
   <h2>Schnell starten</h2>
-  <div class="quick"><a href="#/ki">🤖<b>KI-Auftrag bauen</b><small>Foto → ChatGPT/Gemini/Claude → App</small></a><a href="#/explain">📖<b>Erklär mir …</b><small>Folien für Kinder, einfach oder ausführlich</small></a><a href="#/dictat">✍️<b>Diktat</b><small>endlos, zum Hören und Schreiben</small></a><a href="#/lib">📁<b>Meine Dateien</b><small>eBooks, PDF, Bilder je Fach</small></a><a href="#/books">📚<b>Bücher &amp; ISBN</b><small>freie Bücher online finden</small></a><a href="#/help">❓<b>Anleitung</b><small>So funktioniert die App</small></a><a href="#/calc">🧮<b>Rechen-Helfer</b><small>Rechnung eingeben – Rechenweg sehen</small></a><a href="#" id="rnd">🎲<b>Zufalls-Übung</b><small>Ein Thema wird ausgewählt</small></a><a href="#/photo">📷<b>Seite fotografieren</b><small>Aufgaben aus dem Buch bauen</small></a><a href="#/mine">🗂️<b>Meine Sachen</b><small>Meine Fotos &amp; Übungen</small></a><a href="#/tricks">🪄<b>Trick-Kiste</b><small>Schneller rechnen</small></a><a href="#/settings">🤖<b>KI-Hilfe (Gemini)</b><small>Optional: mehr Übungen &amp; Erklärungen</small></a><a href="#/search?q=Wortarten">🌐<b>Im Netz suchen</b><small>Kinderlexikon &amp; Wikipedia</small></a></div>
+  <div class="quick"><a href="#/quiz">🎯<b>Quiz</b><small>10er-Runde oder endlos, alle Fächer</small></a><a href="#/ki">🤖<b>KI-Auftrag bauen</b><small>Foto → ChatGPT/Gemini/Claude → App</small></a><a href="#/explain">📖<b>Erklär mir …</b><small>Folien für Kinder, einfach oder ausführlich</small></a><a href="#/dictat">✍️<b>Diktat</b><small>endlos, zum Hören und Schreiben</small></a><a href="#/lib">📁<b>Meine Dateien</b><small>eBooks, PDF, Bilder je Fach</small></a><a href="#/books">📚<b>Bücher &amp; ISBN</b><small>freie Bücher online finden</small></a><a href="#/help">❓<b>Anleitung</b><small>So funktioniert die App</small></a><a href="#/calc">🧮<b>Rechen-Helfer</b><small>Rechnung eingeben – Rechenweg sehen</small></a><a href="#" id="rnd">🎲<b>Zufalls-Übung</b><small>Ein Thema wird ausgewählt</small></a><a href="#/photo">📷<b>Seite fotografieren</b><small>Aufgaben aus dem Buch bauen</small></a><a href="#/mine">🗂️<b>Meine Sachen</b><small>Meine Fotos &amp; Übungen</small></a><a href="#/tricks">🪄<b>Trick-Kiste</b><small>Schneller rechnen</small></a><a href="#/settings">🤖<b>KI-Hilfe (Gemini)</b><small>Optional: mehr Übungen &amp; Erklärungen</small></a><a href="#/search?q=Wortarten">🌐<b>Im Netz suchen</b><small>Kinderlexikon &amp; Wikipedia</small></a></div>
   <button id="inst" class="big-btn" ${deferredInstall?'':'hidden'}>📲 Als App installieren</button>
   <p class="hint" id="ioshint" hidden>iPhone/iPad: In Safari auf <b>Teilen</b> tippen → <b>Zum Home-Bildschirm</b>.</p>
   <p class="foot">⭐ ${got} von ${total} Themen mit Sternen · Daten bleiben auf diesem Gerät</p>`;
@@ -1136,8 +1137,15 @@ function practice(t){
 function sheet(t){
   setNav('home');if(!hasQ(t))return go('#/t/'+t.id);const src=qSource(t),qs=[];for(let i=0;i<10;i++)qs.push(src());
   app().innerHTML=`<a class="back" href="#/t/${t.id}">← ${t.title}</a><h1>📝 ${t.title}</h1><p class="lead">Rechne zuerst selbst auf einem Blatt. Dann zeigst du die Lösungen.</p>
-  <ol class="sheet">${qs.map(q=>`<li><div>${q.q}</div>${q.opts?`<p class="chs">${q.opts.map(o=>`<span>◻ ${esc(o)}</span>`).join(' ')}</p>`:''}<details class="sol"><summary>Lösung</summary><b>${ansText(q)}</b>${q.steps?`<div class="steps">${q.steps}</div>`:''}</details></li>`).join('')}</ol>
+  <ol class="sheet">${qs.map(q=>`<li><div>${q.q}</div>${q.speak?`<button class="say spk" data-t="${esc(q.speak)}">🔊 Anhören</button>`:''}${q.opts?`<div class="chs">${q.opts.map((o,k)=>`<button class="opt sh-opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<div class="shin"><input class="ans sh-in" inputmode="${q.kind==='num'?'decimal':'text'}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Deine Antwort"><button class="go sh-chk">Prüfen</button></div>`}<div class="sh-fb"></div><details class="sol"><summary>Lösung</summary><b>${ansText(q)}</b>${q.steps?`<div class="steps">${q.steps}</div>`:''}</details></li>`).join('')}</ol>
   <div class="row2"><button id="sa" class="go">Alle Lösungen zeigen</button><button id="nw">🔄 Neue Aufgaben</button><button id="pr">🖨️ Drucken</button></div>`;
+  document.querySelectorAll('.sheet > li').forEach((li,i)=>{const q=qs[i],fb=li.querySelector('.sh-fb');
+    const show=(ok)=>{fb.innerHTML=`<div class="fb ${ok?'ok':'no'}"><b>${ok?'Richtig! 🎉':'Nicht ganz.'}</b>${ok?'':` Richtig ist: <b>${ansText(q)}</b>`}</div>`};
+    li.querySelectorAll('.sh-opt').forEach(b=>b.onclick=()=>{if(li.dataset.done)return;li.dataset.done=1;const ok=checkAns(q,q.opts[+b.dataset.k])===true;
+      li.querySelectorAll('.sh-opt').forEach(x=>{x.disabled=true;if([].concat(q.a).map(String).includes(q.opts[+x.dataset.k]))x.classList.add('good')});if(!ok)b.classList.add('bad');show(ok)});
+    const inp=li.querySelector('.sh-in');if(inp){const check=()=>{if(li.dataset.done)return;const r=checkAns(q,inp.value);if(r===null)return;li.dataset.done=1;const ok=r===true;inp.disabled=true;inp.classList.add(ok?'good':'bad');li.querySelector('.sh-chk').remove();show(ok)};
+      inp.onkeydown=e=>{if(e.key==='Enter')check()};li.querySelector('.sh-chk').onclick=check}
+  });
   $('#sa').onclick=()=>document.querySelectorAll('.sol').forEach(d=>d.open=true);$('#nw').onclick=()=>sheet(t);$('#pr').onclick=()=>window.print();
 }
 /* Suche */
@@ -1603,6 +1611,7 @@ function klassePage(){
 function subjTools(s,si){
   const lang=s.id==='deutsch'||s.id==='englisch',a=(h,i,t,sm,x)=>`<a class="act" href="${h}"${x||''}>${i}<b>${t}</b><small>${sm}</small></a>`;
   return `<p class="hint">🎓 Klasse ${klasse()} · <a href="#/klasse" style="color:var(--ac)">ändern</a></p><div class="acts">
+  ${a('#/quiz/'+s.id,'🎯','Quiz','10er-Runde oder endlos')}
   ${a('#/practice/gen_'+s.id,'♾️','Endlos-Training','immer neue Aufgaben')}
   ${a('#/explain/'+s.id,'📖','Erklär mir …','Folien, einfach oder ausführlich')}
   ${a('#/online/'+s.id,'🌐','Übungen aus dem Netz','Lückentexte zu jedem Thema')}
@@ -1931,6 +1940,53 @@ function gErd(k){const B=[['Baden-Württemberg','Stuttgart'],['Bayern','München
   if(t===1){const l=pick(k<=6?L.slice(0,16):L);return chQ(`Hauptstadt von ${l[0]}?`,l[1],L.map(x=>x[1]))}
   if(t===2){const l=pick(L.filter(x=>x[2]!=='Europa/Asien'));return chQ(`Auf welchem Kontinent liegt ${l[0]}?`,l[2],['Europa','Asien','Afrika','Nordamerika','Südamerika','Australien und Ozeanien'])}
   return fromSet([[5,'Wie heißt der höchste Berg Deutschlands?','Zugspitze',['Brocken','Feldberg','Watzmann']],[5,'Welcher Fluss fließt durch Köln und Düsseldorf?','Rhein',['Elbe','Donau','Weser']],[5,'Wo geht die Sonne auf?','im Osten',['im Westen','im Norden','im Süden']],[6,'Welcher ist der größte Ozean?','Pazifik',['Atlantik','Indischer Ozean','Arktischer Ozean']],[6,'Welches ist der flächenmäßig größte Kontinent?','Asien',['Afrika','Europa','Amerika']],[7,'Was zeigt ein Klimadiagramm?','Temperatur und Niederschlag im Jahresverlauf',['Bevölkerung','Höhe der Berge','Straßen']],[7,'Wie heißt die große Wüste in Nordafrika?','Sahara',['Gobi','Atacama','Kalahari']],[8,'In welcher Klimazone liegt Deutschland?','gemäßigte Zone',['Tropen','Polarzone','Subtropen']],[8,'Was ist ein Ballungsraum?','ein Gebiet mit vielen Städten und Menschen dicht beieinander',['ein Naturschutzgebiet','eine Wüste','ein Gebirge']],[8,'Welches Gebiet in NRW ist ein bekannter Ballungsraum?','Ruhrgebiet',['Eifel','Sauerland','Münsterland']],[9,'Was entsteht, wenn zwei Erdplatten auseinanderdriften (im Ozean)?','ein mittelozeanischer Rücken',['ein Tiefseegraben','eine Wüste','ein Gletscher']],[9,'Was versteht man unter Nachhaltigkeit?','nur so viel nutzen, wie nachwachsen kann',['möglichst viel verbrauchen','nur Wälder schützen','nur Geld sparen']],[10,'Was misst der HDI (Human Development Index)?','Entwicklungsstand: Lebenserwartung, Bildung, Einkommen',['nur die Einwohnerzahl','die Fläche eines Landes','das Klima']],[11,'Was beschreibt der demografische Wandel in Deutschland vor allem?','die Bevölkerung wird älter',['die Bevölkerung wird jünger','mehr Geburten als früher','weniger Städte']]],k)}
+
+/* ===== Quiz: Runden mit 10 Fragen oder Endlos, je Fach (Funktionsdeklarationen) ===== */
+function quizPool(si){
+  const own=[];MINE.forEach(it=>{if(it.s!==si)return;const t=TOPICS['m_'+it.id];if(t&&t.ex)t.ex.forEach(q=>{if(q&&q.q&&q.a!==undefined&&!q.scr)own.push(q)})});
+  return own}
+function quizSrc(si,id){
+  const own=quizPool(si);let queue=shuffle(own),seen=new Set();
+  return()=>{for(let i=0;i<30;i++){let q;
+    if(queue.length&&(R(0,1)||!genQ(id)))q=queue.shift();else{q=genQ(id);if(!q)q=queue.shift()}
+    if(!q)q=genQ(id);
+    if(!seen.has(q.q)||i>25){seen.add(q.q);if(seen.size>400)seen.clear();return q}
+    if(!queue.length&&own.length)queue=shuffle(own)}
+    return genQ(id)}}
+function quizHome(){
+  setNav('home');
+  app().innerHTML=`<a class="back" href="#/">← Start</a><h1>🎯 Quiz</h1><p class="lead">Wähle ein Fach: 10 Fragen pro Runde oder endlos. Fragen aus deinen Paketen (Meine Sachen) und immer neue Aufgaben aus der App.</p><div class="grid">${SUBJ.map(s=>`<a class="subj" style="--c:${s.color}" href="#/quiz/${s.id}"><span class="ic">${s.icon}</span><b>${s.name}</b><small>${quizPool(SUBJ.indexOf(s)).length} eigene Fragen</small></a>`).join('')}</div>`}
+function quizSubject(id){
+  const s=subjById(id);if(!s)return quizHome();setNav('home');
+  app().innerHTML=`<a class="back" href="#/quiz">← Quiz</a><header class="shead" style="--c:${s.color}"><span>${s.icon}</span><div><h1>${s.name}-Quiz</h1><small>🎓 Klasse ${klasse()} · ${quizPool(SUBJ.indexOf(s)).length} Fragen aus deinen Paketen</small></div></header>
+  <div class="acts"><a class="act" href="#/quiz/${id}/10">🎯<b>10er-Runde</b><small>mit Ergebnis</small></a><a class="act" href="#/quiz/${id}/inf">♾️<b>Endlos</b><small>nie zu Ende</small></a></div>
+  <p class="hint">Mehr Fragen: unter <a href="#/packs" style="color:var(--ac)">Fertige Pakete</a> Pakete für ${s.name} hinzufügen.</p>`}
+function quizPlay(id,mode){
+  const s=subjById(id);if(!s)return quizHome();setNav('home');
+  const si=SUBJ.indexOf(s),inf=mode==='inf',N=10,src=quizSrc(si,id);
+  const S={n:0,ok:0,streak:0,bad:[],q:null,opts:null,done:false};
+  const next=()=>{S.q=src();S.opts=S.q.opts?shuffle(S.q.opts):null;S.done=false;draw()};
+  const end=()=>{const tot=S.n,p=tot?S.ok/tot:0;
+    app().innerHTML=`<div class="qcard" style="--c:${s.color};text-align:center"><div style="font-size:3rem">${p>=.9?'🏆':p>=.6?'🎉':'💪'}</div><h1>${S.ok} von ${tot} richtig</h1>${p>=.9?'<p>Fantastisch!</p>':p>=.6?'<p>Gut gemacht!</p>':'<p>Übung macht den Meister – nochmal?</p>'}</div>
+    ${S.bad.length?`<h2>Das üben wir nochmal</h2>`+S.bad.map(q=>`<div class="card" style="margin:8px 0;padding:12px"><b>${q.q}</b><div>✔ ${ansText(q)}</div>${q.steps?`<div class="steps">${q.steps}</div>`:''}</div>`).join(''):''}
+    <a class="go" style="display:block;text-align:center;margin-top:12px" href="#" id="qa">Nochmal</a><a class="go" style="display:block;text-align:center;margin-top:8px;background:#475569;border-color:#475569" href="#/quiz">Anderes Fach</a>`;
+    $('#qa').onclick=e=>{e.preventDefault();quizPlay(id,mode)}};
+  const draw=()=>{const q=S.q;
+    app().innerHTML=`<div class="stop"><a href="#/quiz/${id}">✕ Ende</a><div class="bar"><i style="width:${inf?(S.n%10)*10:S.n/N*100}%"></i></div><span>${inf?'♾️ ':''}⭐ ${S.ok}/${S.n}${inf?'':' · '+(S.n+1)+'/'+N}</span></div>
+    <div class="qcard" style="--c:${s.color}"><small class="qt">${s.icon} ${s.name}-Quiz</small><div class="q">${q.q}</div>${q.speak?`<button class="say spk" data-t="${esc(q.speak)}">🔊 Anhören</button>`:''}
+    ${S.opts?`<div class="opts">${S.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<input id="in" class="ans" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="${q.kind==='num'?'decimal':'text'}" placeholder="Deine Antwort"><button id="chk" class="go">Prüfen</button>`}
+    ${q.hint?`<button id="hb" class="lnk">💡 Tipp</button><div id="hint" class="tip" hidden>${q.hint}</div>`:''}<div id="fb"></div></div>`;
+    if(q.hint)$('#hb').onclick=()=>{$('#hint').hidden=false};
+    if(S.opts)document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>fin(S.opts[+b.dataset.k],b));
+    else{const inp=$('#in');inp.focus();inp.onkeydown=e=>{if(e.key==='Enter')fin(inp.value)};$('#chk').onclick=()=>fin(inp.value)}};
+  const fin=(val,btn)=>{
+    if(S.done)return;const q=S.q,ok=checkAns(q,val);if(ok===null)return;S.done=true;S.n++;if(ok){S.ok++;S.streak++}else{S.streak=0;S.bad.push(q)}
+    document.querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(q.kind==='choice'&&[].concat(q.a).map(String).includes(S.opts[+b.dataset.k]))b.classList.add('good');else if(b===btn)b.classList.add('bad')});
+    const inp=$('#in');if(inp){inp.disabled=true;inp.classList.add(ok?'good':'bad');$('#chk').remove()}
+    const last=!inf&&S.n>=N;
+    $('#fb').innerHTML=`<div class="fb ${ok?'ok':'no'}"><b>${ok?pick(PRAISE):'Nicht ganz.'}</b>${ok?'':` Richtig ist: <b>${ansText(q)}</b>`}${S.streak>=3&&ok?` · 🔥 ${S.streak} in Folge`:''}</div>${q.steps?`<div class="steps"><b>So geht's:</b><div>${q.steps}</div></div>`:''}<button id="nxt" class="go">${last?'Ergebnis 🏁':'Weiter ▶'}</button>${inf?'<button id="qe" class="lnk">⏹ Beenden und Ergebnis</button>':''}`;
+    const nb=$('#nxt');nb.focus();nb.onclick=last?end:next;const qe=$('#qe');if(qe)qe.onclick=end};
+  next()}
 
 /* Bibliothek: eigene Dateien (ePub, PDF, Bilder, Text, HTML …) pro Fach.
    Nur Funktions-Deklarationen (route() läuft vor diesem Code). */
