@@ -65,7 +65,7 @@ function route(){
   if(p[0]==='videos')return videosPage(p[1]);
   if(p[0]==='online')return onlineExPage(p[1],decodeURIComponent((qs||'').replace(/^q=/,'')));
   if(p[0]==='tricks')return tricks();
-  if(p[0]==='quiz')return p[2]?quizPlay(p[1],p[2]):p[1]?quizSubject(p[1]):quizHome();
+  if(p[0]==='quiz')return p[1]==='allg'&&p[2]&&p[2]!=='10'&&p[2]!=='inf'?(p[3]?quizPlay('allg',p[3],p[2]):quizAllgMode(p[2])):p[2]?quizPlay(p[1],p[2]):p[1]?quizSubject(p[1]):quizHome();
   home();
 }
 /* Home */
