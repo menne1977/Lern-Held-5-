@@ -1,0 +1,368 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Erdaufbau, Erdbeben und Vulkane",
+ "key": "Die Erdkruste ist in Platten geteilt. Ihre Bewegungen erzeugen Gebirge, Erdbeben und Vulkane.\nIm Buch: Atlas: Tektonik und Vulkanismus",
+ "slides": [
+  {
+   "title": "Erdaufbau",
+   "text": "Kruste, Mantel, äußerer und innerer Kern. Die Kruste ist in Platten geteilt.",
+   "emoji": "🌋"
+  },
+  {
+   "title": "Plattenbewegungen",
+   "text": "Platten stoßen zusammen, driften auseinander oder reiben aneinander.",
+   "emoji": "🧭"
+  },
+  {
+   "title": "Erdbeben",
+   "text": "Herd im Inneren, Epizentrum an der Oberfläche. Stärke nach der Richterskala.",
+   "emoji": "🌍"
+  },
+  {
+   "title": "Vulkane",
+   "text": "Magma wird zu Lava. Schicht- und Schildvulkane unterscheiden sich in Form und Lava.",
+   "emoji": "🔥"
+  },
+  {
+   "title": "Gesteinskreislauf",
+   "text": "Magmatit, Sedimentgestein, Metamorphit. Verwitterung und Erosion formen die Landschaft.",
+   "emoji": "🪨"
+  },
+  {
+   "title": "Pazifischer Feuerring",
+   "text": "Viele Vulkane und Beben liegen am Rand des Pazifiks, z. B. in Japan.",
+   "emoji": "🗾"
+  }
+ ],
+ "vocab": [
+  [
+   "Erdkruste",
+   "äußerste feste Schicht"
+  ],
+  [
+   "Lithosphärenplatte",
+   "bewegliche Platte der Kruste"
+  ],
+  [
+   "Magma",
+   "flüssiges Gestein unter der Erde"
+  ],
+  [
+   "Lava",
+   "Magma an der Oberfläche"
+  ],
+  [
+   "Erdbeben",
+   "Erschütterung der Erdkruste"
+  ],
+  [
+   "Epizentrum",
+   "Punkt an der Oberfläche über dem Herd"
+  ],
+  [
+   "Schichtvulkan",
+   "steiler Vulkan aus Schichten"
+  ],
+  [
+   "Schildvulkan",
+   "flacher Vulkan mit dünner Lava"
+  ],
+  [
+   "Tsunami",
+   "große Flutwelle"
+  ],
+  [
+   "Erosion",
+   "Abtragung von Gestein"
+  ],
+  [
+   "Verwitterung",
+   "Zersetzung von Gestein"
+  ],
+  [
+   "Magmatit",
+   "aus erstarrtem Magma"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist die Erdkruste?",
+   "options": [
+    "Die äußerste feste Schicht der Erde",
+    "Der Erdkern",
+    "Der Mantel"
+   ],
+   "answer": "Die äußerste feste Schicht der Erde",
+   "hint": "Oberste Schicht.",
+   "explain": "Die Erdkruste ist die dünne, feste äußere Schale."
+  },
+  {
+   "type": "choice",
+   "q": "Wie heißt die Schicht unter der Kruste?",
+   "options": [
+    "Erdmantel",
+    "Atmosphäre",
+    "Hydrosphäre"
+   ],
+   "answer": "Erdmantel",
+   "hint": "Unter der Kruste.",
+   "explain": "Der Mantel liegt zwischen Kruste und Erdkern."
+  },
+  {
+   "type": "choice",
+   "q": "Woraus besteht der äußere Erdkern?",
+   "options": [
+    "Flüssigem Eisen und Nickel",
+    "Festem Gestein",
+    "Wasser"
+   ],
+   "answer": "Flüssigem Eisen und Nickel",
+   "hint": "Metall.",
+   "explain": "Der äußere Kern ist flüssig, besteht vor allem aus Eisen und Nickel."
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Lithosphärenplatten?",
+   "options": [
+    "Große, bewegliche Teile der Erdkruste",
+    "Teile der Atmosphäre",
+    "Wolken"
+   ],
+   "answer": "Große, bewegliche Teile der Erdkruste",
+   "hint": "Platten.",
+   "explain": "Die Erdkruste ist in große Platten geteilt, die sich bewegen."
+  },
+  {
+   "type": "choice",
+   "q": "Was passiert an einer Plattengrenze, wenn zwei Platten aufeinanderstoßen?",
+   "options": [
+    "Gebirge entstehen oder Erdbeben treten auf",
+    "Die Erde wird kälter",
+    "Nichts"
+   ],
+   "answer": "Gebirge entstehen oder Erdbeben treten auf",
+   "hint": "Zusammenstoß.",
+   "explain": "Beim Zusammenstoß falten sich Gebirge auf oder es gibt Beben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Erdbeben?",
+   "options": [
+    "Eine plötzliche Erschütterung der Erdkruste",
+    "Ein Sturm",
+    "Eine Überschwemmung"
+   ],
+   "answer": "Eine plötzliche Erschütterung der Erdkruste",
+   "hint": "Erschütterung.",
+   "explain": "Erdbeben entstehen durch ruckartige Bewegungen der Erdkruste."
+  },
+  {
+   "type": "choice",
+   "q": "Wo entsteht ein Erdbeben?",
+   "options": [
+    "Im Hypozentrum unter der Erde",
+    "Auf dem Meeresgrund allein",
+    "In der Luft"
+   ],
+   "answer": "Im Hypozentrum unter der Erde",
+   "hint": "Herd.",
+   "explain": "Der Herd liegt im Inneren, das Epizentrum liegt darüber an der Oberfläche."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Vulkan?",
+   "options": [
+    "Eine Öffnung, durch die Magma an die Oberfläche gelangt",
+    "Ein Berg aus Schnee",
+    "Ein Fluss"
+   ],
+   "answer": "Eine Öffnung, durch die Magma an die Oberfläche gelangt",
+   "hint": "Magma.",
+   "explain": "Vulkane sind Öffnungen, aus denen Magma austritt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Magma, wenn es an der Oberfläche austritt?",
+   "options": [
+    "Lava",
+    "Schnee",
+    "Sand"
+   ],
+   "answer": "Lava",
+   "hint": "Heiße Schmelze.",
+   "explain": "Austretendes Magma heißt Lava."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Vulkanform hat einen steilen Kegel?",
+   "options": [
+    "Schichtvulkan",
+    "Schildvulkan allein",
+    "Ein See"
+   ],
+   "answer": "Schichtvulkan",
+   "hint": "Schichten.",
+   "explain": "Schichtvulkane bauen sich aus Lava und Asche in Schichten auf."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Land liegt im Pazifischen Feuerring?",
+   "options": [
+    "Japan",
+    "Schweden",
+    "Brasilien"
+   ],
+   "answer": "Japan",
+   "hint": "Vulkane und Beben am Pazifik.",
+   "explain": "Japan liegt am Pazifischen Feuerring mit vielen Erdbeben und Vulkanen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Tsunami?",
+   "options": [
+    "Eine große Flutwelle, oft nach einem Seebeben",
+    "Ein Hagelsturm",
+    "Ein Schneesturm"
+   ],
+   "answer": "Eine große Flutwelle, oft nach einem Seebeben",
+   "hint": "Welle.",
+   "explain": "Tsunamis entstehen oft durch Erdbeben unter dem Meer."
+  },
+  {
+   "type": "choice",
+   "q": "Wodurch entstehen Gebirgsketten wie die Alpen?",
+   "options": [
+    "Durch Kollision der Platten",
+    "Durch Erosion allein",
+    "Durch Vulkane allein"
+   ],
+   "answer": "Durch Kollision der Platten",
+   "hint": "Faltung.",
+   "explain": "Die Alpen entstanden durch den Zusammenstoß von Platten."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Erosion?",
+   "options": [
+    "Abtragung von Gestein durch Wasser, Wind oder Eis",
+    "Bildung neuer Gesteine",
+    "Auffüllung eines Sees"
+   ],
+   "answer": "Abtragung von Gestein durch Wasser, Wind oder Eis",
+   "hint": "Abtragen.",
+   "explain": "Erosion trägt Gestein ab."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Verwitterung?",
+   "options": [
+    "Zersetzung von Gestein an Ort und Stelle",
+    "Wanderung von Sand",
+    "Bildung eines Vulkans"
+   ],
+   "answer": "Zersetzung von Gestein an Ort und Stelle",
+   "hint": "Vor Ort.",
+   "explain": "Verwitterung zersetzt Gestein, ohne es weit zu transportieren."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Sedimentation?",
+   "options": [
+    "Ablagerung von Material, z. B. Sand im Meer",
+    "Schmelzen von Gestein",
+    "Ein Erdbeben"
+   ],
+   "answer": "Ablagerung von Material, z. B. Sand im Meer",
+   "hint": "Ablagerung.",
+   "explain": "Sedimente lagern sich in Becken ab."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Gesteinsart entsteht aus Magma?",
+   "options": [
+    "Magmatit oder Erstarrungsgestein",
+    "Sedimentgestein",
+    "Metamorphes Gestein"
+   ],
+   "answer": "Magmatit oder Erstarrungsgestein",
+   "hint": "Erstarrt.",
+   "explain": "Aus erstarrtem Magma entsteht Magmatit."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Gesteinsart entsteht aus Ablagerungen?",
+   "options": [
+    "Sedimentgestein",
+    "Magmatit",
+    "Metamorphit"
+   ],
+   "answer": "Sedimentgestein",
+   "hint": "Schichten.",
+   "explain": "Sedimentgesteine bilden sich aus abgelagerten Schichten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Verwerfung?",
+   "options": [
+    "Ein Bruch in der Erdkruste mit Versatz",
+    "Ein Fluss",
+    "Eine Stadt"
+   ],
+   "answer": "Ein Bruch in der Erdkruste mit Versatz",
+   "hint": "Bruch.",
+   "explain": "An Verwerfungen sind Gesteine gegeneinander verschoben."
+  },
+  {
+   "type": "choice",
+   "q": "Was misst die Richterskala ungefähr?",
+   "options": [
+    "Die Stärke eines Erdbebens",
+    "Die Temperatur",
+    "Den Regen"
+   ],
+   "answer": "Die Stärke eines Erdbebens",
+   "hint": "Beben.",
+   "explain": "Die Richterskala gibt die Stärke eines Erdbebens an."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Schildvulkan?",
+   "options": [
+    "Ein flacher Vulkan mit dünnflüssiger Lava",
+    "Ein steiler Vulkan",
+    "Ein Vulkan im Eis"
+   ],
+   "answer": "Ein flacher Vulkan mit dünnflüssiger Lava",
+   "hint": "Flach.",
+   "explain": "Schildvulkane sind flach und haben dünnflüssige Lava."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Mittelozeanischer Rücken?",
+   "options": [
+    "Ein Gebirge am Meeresboden, an dem neue Kruste entsteht",
+    "Ein Flusslauf",
+    "Eine Insel"
+   ],
+   "answer": "Ein Gebirge am Meeresboden, an dem neue Kruste entsteht",
+   "hint": "Neue Kruste.",
+   "explain": "Am Mittelozeanischen Rücken dringt Magma aus und bildet neue Kruste."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Folge hat Vulkanismus oft für das Klima?",
+   "options": [
+    "Asche kann kurzfristig die Sonne abschirmen",
+    "Es wird immer wärmer",
+    "Es regnet nie mehr"
+   ],
+   "answer": "Asche kann kurzfristig die Sonne abschirmen",
+   "hint": "Asche.",
+   "explain": "Vulkanische Asche kann Sonnenlicht abhalten."
+  }
+ ]
+}

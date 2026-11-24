@@ -1,0 +1,368 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Umwelt und Nachhaltigkeit",
+ "key": "Nachhaltigkeit verbindet Naturschutz, Klimaschutz und Ressourcen. Biodiversität und Fußabdruck zeigen, wie wir die Erde nutzen.\nIm Buch: Atlas: Umwelt und Nachhaltigkeit",
+ "slides": [
+  {
+   "title": "Nachhaltigkeit",
+   "text": "Heute gut leben, ohne die Zukunft zu verspielen. Drei Säulen: Wirtschaft, Umwelt, Soziales.",
+   "emoji": "♻️"
+  },
+  {
+   "title": "Naturschutz",
+   "text": "Naturschutzgebiete und Nationalparks bewahren Arten und Lebensräume.",
+   "emoji": "🌳"
+  },
+  {
+   "title": "Wasser und Boden",
+   "text": "Wasserknappheit, Erosion und Desertifikation bedrohen Lebensgrundlagen.",
+   "emoji": "💧"
+  },
+  {
+   "title": "Luft und Klima",
+   "text": "Feinstaub, Smog und CO₂. Klimaschutz verringert, Klimaanpassung bereitet vor.",
+   "emoji": "🌍"
+  },
+  {
+   "title": "Ökologischer Fußabdruck",
+   "text": "Zeigt, wie viel Fläche ein Mensch oder Land für Konsum benötigt.",
+   "emoji": "👣"
+  },
+  {
+   "title": "Ziele der UN",
+   "text": "17 SDGs bis 2030, z. B. sauberes Wasser, Klimaschutz, weniger Armut.",
+   "emoji": "🎯"
+  }
+ ],
+ "vocab": [
+  [
+   "Nachhaltigkeit",
+   "Entwicklung ohne Zukunftsschaden"
+  ],
+  [
+   "Biodiversität",
+   "Vielfalt des Lebens"
+  ],
+  [
+   "Naturschutzgebiet",
+   "streng geschütztes Gebiet"
+  ],
+  [
+   "Nationalpark",
+   "großes, weitgehend ungestörtes Schutzgebiet"
+  ],
+  [
+   "Abholzung",
+   "Fällen von Wäldern"
+  ],
+  [
+   "Aufforstung",
+   "Neupflanzung von Wäldern"
+  ],
+  [
+   "Erosion",
+   "Abtragung von Boden"
+  ],
+  [
+   "Desertifikation",
+   "Ausbreitung der Wüsten"
+  ],
+  [
+   "Feinstaub",
+   "feine Partikel in der Luft"
+  ],
+  [
+   "Smog",
+   "verschmutzte Luft über Städten"
+  ],
+  [
+   "Klimaschutz",
+   "gegen Erderwärmung"
+  ],
+  [
+   "Klimaanpassung",
+   "Umgang mit Klimafolgen"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was bedeutet Nachhaltigkeit?",
+   "options": [
+    "Entwicklung, die heutige Bedürfnisse deckt, ohne die Zukunft zu gefährden",
+    "Nur sparen",
+    "Keine Entwicklung"
+   ],
+   "answer": "Entwicklung, die heutige Bedürfnisse deckt, ohne die Zukunft zu gefährden",
+   "hint": "Zukunft.",
+   "explain": "Nachhaltigkeit beachtet heute und morgen gleichermaßen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Naturschutzgebiet?",
+   "options": [
+    "Gebiet, das besonders vor Eingriffen geschützt wird",
+    "Ein Parkplatz",
+    "Eine Stadt"
+   ],
+   "answer": "Gebiet, das besonders vor Eingriffen geschützt wird",
+   "hint": "Schutz.",
+   "explain": "In Naturschutzgebieten sind Eingriffe streng geregelt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Biodiversität?",
+   "options": [
+    "Vielfalt von Arten, Lebensräumen und Genen",
+    "Die Anzahl der Städte",
+    "Die Größe der Wälder"
+   ],
+   "answer": "Vielfalt von Arten, Lebensräumen und Genen",
+   "hint": "Vielfalt.",
+   "explain": "Biodiversität umfasst die Vielfalt des Lebens auf der Erde."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Abholzung?",
+   "options": [
+    "Das Fällen von Wäldern",
+    "Das Pflanzen von Bäumen",
+    "Das Wässern von Feldern"
+   ],
+   "answer": "Das Fällen von Wäldern",
+   "hint": "Fällen.",
+   "explain": "Abholzung entfernt Wälder und gefährdet die Artenvielfalt."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Aufforstung?",
+   "options": [
+    "Neues Pflanzen von Bäumen auf einer Fläche",
+    "Abholzen",
+    "Bau einer Straße"
+   ],
+   "answer": "Neues Pflanzen von Bäumen auf einer Fläche",
+   "hint": "Pflanzen.",
+   "explain": "Bei der Aufforstung werden Wälder neu angelegt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Bodenerosion?",
+   "options": [
+    "Abtragung der fruchtbaren Bodenschicht",
+    "Bildung eines Sees",
+    "Bau eines Hauses"
+   ],
+   "answer": "Abtragung der fruchtbaren Bodenschicht",
+   "hint": "Boden.",
+   "explain": "Erosion trägt den fruchtbaren Oberboden ab."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Desertifikation?",
+   "options": [
+    "Ausbreitung von Wüsten in trockenen Gebieten",
+    "Bau einer Stadt",
+    "Eine Regenzeit"
+   ],
+   "answer": "Ausbreitung von Wüsten in trockenen Gebieten",
+   "hint": "Wüste.",
+   "explain": "Durch Übernutzung und Trockenheit breiten sich Wüsten aus."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Wasserknappheit?",
+   "options": [
+    "Zu wenig Trinkwasser für die Bevölkerung",
+    "Zu viel Regen",
+    "Ein Fluss ohne Strömung"
+   ],
+   "answer": "Zu wenig Trinkwasser für die Bevölkerung",
+   "hint": "Trinkwasser.",
+   "explain": "Wasserknappheit bedeutet, dass nicht genug sauberes Wasser verfügbar ist."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wasserverbrauch-Beispiel für die Landwirtschaft?",
+   "options": [
+    "Bewässerung von Feldern",
+    "Schwimmen im See",
+    "Trinken im Haus"
+   ],
+   "answer": "Bewässerung von Feldern",
+   "hint": "Felder.",
+   "explain": "Die Landwirtschaft verbraucht den größten Teil des Süßwassers."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Recycling?",
+   "options": [
+    "Wiederverwertung von Materialien",
+    "Wegwerfen",
+    "Verbrennen"
+   ],
+   "answer": "Wiederverwertung von Materialien",
+   "hint": "Wieder verwenden.",
+   "explain": "Recycling verwendet Materialien erneut."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ökosystem?",
+   "options": [
+    "Lebensgemeinschaft aus Lebewesen und ihrer Umwelt",
+    "Ein Stromnetz",
+    "Ein Verkehrsweg"
+   ],
+   "answer": "Lebensgemeinschaft aus Lebewesen und ihrer Umwelt",
+   "hint": "Zusammenhang.",
+   "explain": "Ökosysteme bestehen aus Lebewesen und ihrem Lebensraum."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ökologischer Fußabdruck?",
+   "options": [
+    "Maß für den Verbrauch an Natur durch einen Menschen oder Staat",
+    "Ein Abdruck im Schlamm",
+    "Eine Schuhgröße"
+   ],
+   "answer": "Maß für den Verbrauch an Natur durch einen Menschen oder Staat",
+   "hint": "Naturverbrauch.",
+   "explain": "Der Fußabdruck zeigt, wie viel Fläche für Konsum und Abfall benötigt wird."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Schutzmaßnahme gegen Hochwasser?",
+   "options": [
+    "Deiche und Rückhalteflächen",
+    "Mehr Bebauung im Überschwemmungsgebiet",
+    "Abholzung am Fluss"
+   ],
+   "answer": "Deiche und Rückhalteflächen",
+   "hint": "Schutz.",
+   "explain": "Deiche und Rückhalteräume schützen vor Überschwemmungen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Smog-Lage?",
+   "options": [
+    "Verschmutzte Luft mit Schadstoffen über einer Stadt",
+    "Eine Wolke mit Regen",
+    "Eine Nebelbank am Meer"
+   ],
+   "answer": "Verschmutzte Luft mit Schadstoffen über einer Stadt",
+   "hint": "Luft.",
+   "explain": "Smog entsteht aus Abgasen und Feinstaub bei ungünstigem Wetter."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Feinstaub?",
+   "options": [
+    "Feine Partikel in der Luft, z. B. aus Verkehr",
+    "Staub aus dem Sand",
+    "Pollen"
+   ],
+   "answer": "Feine Partikel in der Luft, z. B. aus Verkehr",
+   "hint": "Partikel.",
+   "explain": "Feinstaub stammt aus Verkehr, Industrie und Heizung."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Artenschutz?",
+   "options": [
+    "Schutz gefährdeter Tier- und Pflanzenarten",
+    "Abschuss von Tieren",
+    "Verkauf von Pflanzen"
+   ],
+   "answer": "Schutz gefährdeter Tier- und Pflanzenarten",
+   "hint": "Arten.",
+   "explain": "Artenschutz soll bedrohte Arten erhalten."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Nationalpark?",
+   "options": [
+    "Großes Schutzgebiet, in dem die Natur weitgehend sich selbst überlassen wird",
+    "Ein Freizeitpark",
+    "Eine Industriezone"
+   ],
+   "answer": "Großes Schutzgebiet, in dem die Natur weitgehend sich selbst überlassen wird",
+   "hint": "Natur lassen.",
+   "explain": "Nationalparks sind groß und überwiegend ungestört."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Müllverbrennung?",
+   "options": [
+    "Verbrennen von Abfall, oft zur Energiegewinnung",
+    "Vergraben von Müll",
+    "Verkauf von Müll"
+   ],
+   "answer": "Verbrennen von Abfall, oft zur Energiegewinnung",
+   "hint": "Verbrennen.",
+   "explain": "Bei der Müllverbrennung entsteht Wärme oder Strom."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Nachteil von Massentierhaltung für die Umwelt?",
+   "options": [
+    "Viel Gülle und hoher Futterbedarf belasten Boden und Wasser",
+    "Sie hilft der Umwelt",
+    "Sie braucht keinen Platz"
+   ],
+   "answer": "Viel Gülle und hoher Futterbedarf belasten Boden und Wasser",
+   "hint": "Gülle.",
+   "explain": "Massentierhaltung belastet Boden und Wasser durch Gülle und Futteranbau."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Klimaschutz?",
+   "options": [
+    "Maßnahmen gegen die Erderwärmung, z. B. weniger CO2",
+    "Mehr Autos bauen",
+    "Mehr Kohle verbrennen"
+   ],
+   "answer": "Maßnahmen gegen die Erderwärmung, z. B. weniger CO2",
+   "hint": "Weniger CO2.",
+   "explain": "Klimaschutz versucht, Treibhausgase zu verringern."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Klimaanpassung?",
+   "options": [
+    "Maßnahmen, um mit den Folgen des Klimawandels umzugehen",
+    "Den Klimawandel verschweigen",
+    "Die Temperatur erhöhen"
+   ],
+   "answer": "Maßnahmen, um mit den Folgen des Klimawandels umzugehen",
+   "hint": "Folgen.",
+   "explain": "Klimaanpassung bereitet Städte und Landschaften auf Hitze und Starkregen vor."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ziel für nachhaltige Entwicklung (SDG)?",
+   "options": [
+    "Ein Ziel der Vereinten Nationen für eine nachhaltige Welt",
+    "Ein Fußballturnier",
+    "Ein Schulfach"
+   ],
+   "answer": "Ein Ziel der Vereinten Nationen für eine nachhaltige Welt",
+   "hint": "UN-Ziele.",
+   "explain": "Die SDGs sind 17 Ziele der Vereinten Nationen bis 2030."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Unterschied zwischen Natur- und Umweltschutz?",
+   "options": [
+    "Naturschutz bewahrt Lebensräume, Umweltschutz beschränkt Belastungen",
+    "Es gibt keinen Unterschied",
+    "Umweltschutz ist nur für Städte"
+   ],
+   "answer": "Naturschutz bewahrt Lebensräume, Umweltschutz beschränkt Belastungen",
+   "hint": "Beides ergänzt sich.",
+   "explain": "Naturschutz schützt Arten und Gebiete, Umweltschutz vermindert Schadstoffe."
+  }
+ ]
+}

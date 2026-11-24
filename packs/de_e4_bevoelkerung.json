@@ -1,0 +1,380 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Bevölkerung und Städte",
+ "key": "Bevölkerungsdichte, Pyramiden, Urbanisierung und Migration erklären, wie Menschen verteilt leben.\nIm Buch: Atlas: Bevölkerung und Stadt",
+ "slides": [
+  {
+   "title": "Bevölkerungsdichte",
+   "text": "Einwohner geteilt durch Fläche. Viele Menschen auf wenig Fläche = hohe Dichte.",
+   "emoji": "👥"
+  },
+  {
+   "title": "Bevölkerungspyramide",
+   "text": "Breite Basis: viele Junge. Schmaler Sockel: wenige Junge, alternde Gesellschaft.",
+   "emoji": "📊"
+  },
+  {
+   "title": "Urbanisierung",
+   "text": "Immer mehr Menschen leben in Städten. Megastädte haben über 10 Millionen Einwohner.",
+   "emoji": "🏙️"
+  },
+  {
+   "title": "Stadtstrukturen",
+   "text": "City, Umland, Ballungsraum. Suburbanisierung zieht Menschen ins Umland.",
+   "emoji": "🏘️"
+  },
+  {
+   "title": "Migration",
+   "text": "Dauerhafte Wanderung: Zuwanderung und Abwanderung, z. B. Landflucht.",
+   "emoji": "🚶"
+  },
+  {
+   "title": "Lebensbedingungen",
+   "text": "Wasser, Boden, Klima und Arbeit bestimmen, wo Menschen leben.",
+   "emoji": "🌾"
+  }
+ ],
+ "vocab": [
+  [
+   "Bevölkerungsdichte",
+   "Einwohner je km²"
+  ],
+  [
+   "Geburtenrate",
+   "Geburten je 1000 Einwohner"
+  ],
+  [
+   "Bevölkerungspyramide",
+   "Diagramm der Altersgruppen"
+  ],
+  [
+   "Urbanisierung",
+   "Wachstum der Städte"
+  ],
+  [
+   "Metropole",
+   "große Stadt mit überregionaler Bedeutung"
+  ],
+  [
+   "Suburbanisierung",
+   "Wegzug ins Stadtumland"
+  ],
+  [
+   "Megastadt",
+   "über 10 Millionen Einwohner"
+  ],
+  [
+   "Gentrifizierung",
+   "Aufwertung mit Verdrängung"
+  ],
+  [
+   "Infrastruktur",
+   "Grundeinrichtungen"
+  ],
+  [
+   "Migration",
+   "dauerhafte Wanderung"
+  ],
+  [
+   "Landflucht",
+   "Wegzug vom Land"
+  ],
+  [
+   "Lebenserwartung",
+   "durchschnittliche Lebensjahre"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist die Bevölkerungsdichte?",
+   "options": [
+    "Einwohner je Quadratkilometer",
+    "Die Zahl der Städte",
+    "Die Größe des Landes"
+   ],
+   "answer": "Einwohner je Quadratkilometer",
+   "hint": "Einwohner durch Fläche.",
+   "explain": "Die Bevölkerungsdichte ergibt sich aus Einwohnerzahl geteilt durch Fläche."
+  },
+  {
+   "type": "choice",
+   "q": "Wie berechnet man die Bevölkerungsdichte?",
+   "options": [
+    "Einwohnerzahl durch Fläche",
+    "Fläche durch Einwohnerzahl",
+    "Einwohnerzahl mal Fläche"
+   ],
+   "answer": "Einwohnerzahl durch Fläche",
+   "hint": "Teilen.",
+   "explain": "Die Einwohnerzahl wird durch die Fläche geteilt."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Geburtenrate?",
+   "options": [
+    "Zahl der Geburten je 1000 Einwohner im Jahr",
+    "Zahl der Sterbefälle",
+    "Zahl der Städte"
+   ],
+   "answer": "Zahl der Geburten je 1000 Einwohner im Jahr",
+   "hint": "Geburten.",
+   "explain": "Die Geburtenrate gibt Geburten je 1000 Einwohner und Jahr an."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Bevölkerungspyramide?",
+   "options": [
+    "Ein Diagramm mit Altersgruppen nach Geschlecht",
+    "Ein Gebäude",
+    "Eine Landkarte"
+   ],
+   "answer": "Ein Diagramm mit Altersgruppen nach Geschlecht",
+   "hint": "Altersaufbau.",
+   "explain": "Die Bevölkerungspyramide zeigt Altersgruppen für Männer und Frauen."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt eine breite Basis einer Bevölkerungspyramide?",
+   "options": [
+    "Viele junge Menschen",
+    "Viele alte Menschen",
+    "Keine Kinder"
+   ],
+   "answer": "Viele junge Menschen",
+   "hint": "Unten breit.",
+   "explain": "Eine breite Basis bedeutet viele Kinder, also eine junge Bevölkerung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Urbanisierung?",
+   "options": [
+    "Wachstum der Städte durch Zuzug",
+    "Das Wachsen von Wäldern",
+    "Eine Wetterform"
+   ],
+   "answer": "Wachstum der Städte durch Zuzug",
+   "hint": "Stadt wächst.",
+   "explain": "Urbanisierung bedeutet, dass immer mehr Menschen in Städten leben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Metropole?",
+   "options": [
+    "Eine große Stadt mit überregionaler Bedeutung",
+    "Ein Dorf",
+    "Eine Insel"
+   ],
+   "answer": "Eine große Stadt mit überregionaler Bedeutung",
+   "hint": "Groß.",
+   "explain": "Metropolen sind große Städte mit wichtigen Funktionen für ein ganzes Gebiet."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Suburbanisierung?",
+   "options": [
+    "Abwanderung von Menschen aus der Stadt ins Umland",
+    "Zuzug in die Innenstadt",
+    "Bau eines Gebirges"
+   ],
+   "answer": "Abwanderung von Menschen aus der Stadt ins Umland",
+   "hint": "Umland.",
+   "explain": "Bei der Suburbanisierung ziehen Menschen ins Stadtumland."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Slum?",
+   "options": [
+    "Ein Stadtviertel mit schlechten Wohnbedingungen",
+    "Ein Park",
+    "Ein Flughafen"
+   ],
+   "answer": "Ein Stadtviertel mit schlechten Wohnbedingungen",
+   "hint": "Schlechte Bedingungen.",
+   "explain": "Slums sind Wohngebiete mit schlechter Infrastruktur und Wohnqualität."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Migration?",
+   "options": [
+    "Wanderung von Menschen über längere Zeit oder dauerhaft",
+    "Ein Tourismusbesuch",
+    "Eine Wetterlage"
+   ],
+   "answer": "Wanderung von Menschen über längere Zeit oder dauerhaft",
+   "hint": "Umzug.",
+   "explain": "Migration beschreibt dauerhafte oder längere Wanderungen von Menschen."
+  },
+  {
+   "type": "choice",
+   "q": "Was versteht man unter Landflucht?",
+   "options": [
+    "Wegzug vieler Menschen aus ländlichen Gebieten",
+    "Zuzug aufs Land",
+    "Wald am Stadtrand"
+   ],
+   "answer": "Wegzug vieler Menschen aus ländlichen Gebieten",
+   "hint": "Weg vom Land.",
+   "explain": "Landflucht ist der Wegzug vom Land in die Städte."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Wirkung hat eine alternde Bevölkerung?",
+   "options": [
+    "Mehr Bedarf an Pflege und weniger Erwerbstätige",
+    "Mehr Kinder",
+    "Weniger Rente"
+   ],
+   "answer": "Mehr Bedarf an Pflege und weniger Erwerbstätige",
+   "hint": "Pflege.",
+   "explain": "Eine alternde Gesellschaft braucht mehr Pflege und hat weniger Arbeitskräfte."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Megastadt?",
+   "options": [
+    "Stadt mit mehr als 10 Millionen Einwohnern",
+    "Stadt mit 100 Einwohnern",
+    "Stadt ohne Häuser"
+   ],
+   "answer": "Stadt mit mehr als 10 Millionen Einwohnern",
+   "hint": "Millionen.",
+   "explain": "Megastädte haben mindestens zehn Millionen Einwohner."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Stadtteil mit Hochhäusern und Geschäften, Innenstadt genannt?",
+   "options": [
+    "City",
+    "Vorort",
+    "Dorf"
+   ],
+   "answer": "City",
+   "hint": "Zentrum.",
+   "explain": "Die City ist das Zentrum mit Geschäften und Büros."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Gentrifizierung?",
+   "options": [
+    "Aufwertung eines Viertels, sodass ärmere Bewohner wegziehen",
+    "Abriss der Stadt",
+    "Neubau von Wäldern"
+   ],
+   "answer": "Aufwertung eines Viertels, sodass ärmere Bewohner wegziehen",
+   "hint": "Aufwertung.",
+   "explain": "Gentrifizierung verteuert Wohnungen und verdrängt oft die bisherigen Bewohner."
+  },
+  {
+   "type": "choice",
+   "q": "Was versteht man unter Infrastruktur?",
+   "options": [
+    "Grundlegende Einrichtungen wie Straßen, Schulen und Wasserversorgung",
+    "Die Bevölkerung",
+    "Die Tiere im Wald"
+   ],
+   "answer": "Grundlegende Einrichtungen wie Straßen, Schulen und Wasserversorgung",
+   "hint": "Grundeinrichtungen.",
+   "explain": "Infrastruktur umfasst Verkehr, Versorgung und Bildung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Ballungsraum?",
+   "options": [
+    "Dicht besiedeltes Gebiet mit einer Kernstadt und Umland",
+    "Dünn besiedelte Wüste",
+    "Ein Gebirgssee"
+   ],
+   "answer": "Dicht besiedeltes Gebiet mit einer Kernstadt und Umland",
+   "hint": "Dicht.",
+   "explain": "Ballungsräume sind dicht besiedelt und um eine Kernstadt herum angeordnet."
+  },
+  {
+   "type": "choice",
+   "q": "Warum wachsen viele Städte in Entwicklungsländern schnell?",
+   "options": [
+    "Viele Menschen ziehen auf der Suche nach Arbeit in die Stadt",
+    "Dort gibt es keine Menschen",
+    "Weil dort nie Regen fällt"
+   ],
+   "answer": "Viele Menschen ziehen auf der Suche nach Arbeit in die Stadt",
+   "hint": "Arbeit.",
+   "explain": "Die Suche nach Arbeit und Bildung zieht viele Menschen in Städte."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Bevölkerungswachstum?",
+   "options": [
+    "Die Einwohnerzahl steigt",
+    "Die Einwohnerzahl sinkt",
+    "Die Stadt wird kleiner"
+   ],
+   "answer": "Die Einwohnerzahl steigt",
+   "hint": "Mehr Menschen.",
+   "explain": "Bevölkerungswachstum bedeutet eine steigende Einwohnerzahl."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Lebenserwartung?",
+   "options": [
+    "Durchschnittliche Zahl der Lebensjahre bei Geburt",
+    "Das Alter eines Hauses",
+    "Die Zahl der Schulen"
+   ],
+   "answer": "Durchschnittliche Zahl der Lebensjahre bei Geburt",
+   "hint": "Jahre.",
+   "explain": "Die Lebenserwartung gibt an, wie alt Menschen im Durchschnitt werden."
+  },
+  {
+   "type": "choice",
+   "q": "Was beschreibt der Begriff Verstädterung?",
+   "options": [
+    "Der Anteil der Stadtbevölkerung nimmt zu",
+    "Die Städte werden kleiner",
+    "Die Städte verschwinden"
+   ],
+   "answer": "Der Anteil der Stadtbevölkerung nimmt zu",
+   "hint": "Anteil.",
+   "explain": "Verstädterung meint, dass ein größerer Teil der Bevölkerung in Städten lebt."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Faktoren beeinflussen die Bevölkerungsverteilung?",
+   "options": [
+    "Klima, Wasser, Boden und Wirtschaft",
+    "Nur die Farbe der Häuser",
+    "Nur der Verkehr"
+   ],
+   "answer": "Klima, Wasser, Boden und Wirtschaft",
+   "hint": "Lebensbedingungen.",
+   "explain": "Gute Lebensbedingungen wie Wasser und fruchtbarer Boden ziehen Menschen an."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Region ist in der Regel dünn besiedelt?",
+   "options": [
+    "Wüsten und Polargebiete",
+    "Großstädte",
+    "Industriegebiete"
+   ],
+   "answer": "Wüsten und Polargebiete",
+   "hint": "Lebensfeindlich.",
+   "explain": "Wüsten und Polargebiete bieten wenig Lebensgrundlage."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Zuwanderung?",
+   "options": [
+    "Das Kommen von Menschen in ein Gebiet",
+    "Das Verlassen eines Gebietes",
+    "Ein Baustoff"
+   ],
+   "answer": "Das Kommen von Menschen in ein Gebiet",
+   "hint": "Herkommen.",
+   "explain": "Zuwanderung bezeichnet Menschen, die in ein Gebiet ziehen."
+  }
+ ]
+}

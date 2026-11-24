@@ -1,0 +1,392 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Klima und Wetter",
+ "key": "Klima ist der Durchschnitt, Wetter der Moment. Druckgebiete, Klimazonen und Treibhauseffekt erklären die Unterschiede.\nIm Buch: Atlas: Klima und Wetter",
+ "slides": [
+  {
+   "title": "Wetter und Klima",
+   "text": "Wetter ist der Zustand jetzt. Klima ist der Durchschnitt über etwa 30 Jahre.",
+   "emoji": "🌦️"
+  },
+  {
+   "title": "Druckgebiete",
+   "text": "Hoch: absinkende Luft, meist schönes Wetter. Tief: aufsteigende Luft, oft Wolken und Regen.",
+   "emoji": "🌡️"
+  },
+  {
+   "title": "Klimazonen",
+   "text": "Tropisch, gemäßigt, polar und Trockenzonen. Die Lage zum Äquator bestimmt die Temperatur.",
+   "emoji": "🌍"
+  },
+  {
+   "title": "Klimadiagramm lesen",
+   "text": "Säulen zeigen den Niederschlag, Linie zeigt die Temperatur pro Monat.",
+   "emoji": "📊"
+  },
+  {
+   "title": "Treibhauseffekt",
+   "text": "Gase wie CO₂ halten Wärme zurück. Mehr davon bedeutet Erwärmung.",
+   "emoji": "🔥"
+  },
+  {
+   "title": "Regionale Einflüsse",
+   "text": "Gebirge, Meer und Höhe verändern das Klima: Föhn, Lee und Luv.",
+   "emoji": "⛰️"
+  }
+ ],
+ "vocab": [
+  [
+   "Klima",
+   "Durchschnittliches Wetter über etwa 30 Jahre"
+  ],
+  [
+   "Wetter",
+   "Zustand der Atmosphäre zu einer Zeit"
+  ],
+  [
+   "Hochdruckgebiet",
+   "absinkende Luft, meist schön"
+  ],
+  [
+   "Tiefdruckgebiet",
+   "aufsteigende Luft, oft Regen"
+  ],
+  [
+   "Passat",
+   "beständiger Wind in den Tropen"
+  ],
+  [
+   "Monsun",
+   "Wind, der sich nach Jahreszeit umkehrt"
+  ],
+  [
+   "Niederschlag",
+   "Wasser aus Wolken, z. B. Regen"
+  ],
+  [
+   "Treibhausgas",
+   "Gas, das Wärme zurückhält"
+  ],
+  [
+   "Klimawandel",
+   "langfristige Veränderung des Klimas"
+  ],
+  [
+   "Föhn",
+   "warmer, trockener Fallwind"
+  ],
+  [
+   "Isotherme",
+   "Linie gleicher Temperatur"
+  ],
+  [
+   "Luv und Lee",
+   "Wind- und Windschattenseite"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was ist der Unterschied zwischen Wetter und Klima?",
+   "options": [
+    "Wetter ist kurzfristig, Klima ist der Durchschnitt über viele Jahre",
+    "Wetter ist langfristig, Klima kurzfristig",
+    "Es gibt keinen Unterschied"
+   ],
+   "answer": "Wetter ist kurzfristig, Klima ist der Durchschnitt über viele Jahre",
+   "hint": "Zeitraum.",
+   "explain": "Klima beschreibt den durchschnittlichen Wetterverlauf über etwa 30 Jahre."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Klimazone liegt am Äquator?",
+   "options": [
+    "Tropische Zone",
+    "Polare Zone",
+    "Gemäßigte Zone"
+   ],
+   "answer": "Tropische Zone",
+   "hint": "Hitze.",
+   "explain": "Am Äquator herrscht ganzjährig warmes Klima."
+  },
+  {
+   "type": "choice",
+   "q": "Was verursacht Jahreszeiten?",
+   "options": [
+    "Die Neigung der Erdachse",
+    "Die Entfernung zur Sonne",
+    "Der Mond"
+   ],
+   "answer": "Die Neigung der Erdachse",
+   "hint": "Achse.",
+   "explain": "Die geneigte Erdachse bringt unterschiedliche Sonneneinstrahlung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Niederschlag?",
+   "options": [
+    "Wasser, das aus den Wolken fällt",
+    "Wind",
+    "Luftdruck"
+   ],
+   "answer": "Wasser, das aus den Wolken fällt",
+   "hint": "Regen, Schnee.",
+   "explain": "Niederschlag ist Regen, Schnee, Hagel oder Graupel."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Hochdruckgebiet?",
+   "options": [
+    "Ein Gebiet mit absinkender Luft und meist schönem Wetter",
+    "Ein Sturmgebiet",
+    "Ein Gebiet mit Regen"
+   ],
+   "answer": "Ein Gebiet mit absinkender Luft und meist schönem Wetter",
+   "hint": "Absinken.",
+   "explain": "Im Hochdruckgebiet sinkt die Luft ab, es bilden sich selten Wolken."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Tiefdruckgebiet?",
+   "options": [
+    "Ein Gebiet mit aufsteigender Luft und oft Wolken",
+    "Ein Gebiet mit Wüste",
+    "Ein Gebiet ohne Wind"
+   ],
+   "answer": "Ein Gebiet mit aufsteigender Luft und oft Wolken",
+   "hint": "Aufsteigen.",
+   "explain": "Im Tiefdruckgebiet steigt die Luft auf, es entstehen oft Wolken und Regen."
+  },
+  {
+   "type": "choice",
+   "q": "Was bewirkt der Passatwind?",
+   "options": [
+    "Er weht in den Tropen von Ost nach West",
+    "Er weht in Polen",
+    "Er ist ein Tornado"
+   ],
+   "answer": "Er weht in den Tropen von Ost nach West",
+   "hint": "Tropen.",
+   "explain": "Passate wehen aus den Subtropen zum Äquator, auf der Nordhalbkugel von Nordost."
+  },
+  {
+   "type": "choice",
+   "q": "Warum ist es in den Bergen kälter?",
+   "options": [
+    "Die Luft ist dünner und kühlt sich beim Aufsteigen ab",
+    "Die Sonne scheint dort nicht",
+    "Die Erde ist dort kälter"
+   ],
+   "answer": "Die Luft ist dünner und kühlt sich beim Aufsteigen ab",
+   "hint": "Höhe.",
+   "explain": "Mit der Höhe sinkt die Temperatur, etwa 0,6 Grad je 100 Meter."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Monsun?",
+   "options": [
+    "Ein Wind, der sich nach Jahreszeit umkehrt",
+    "Ein Sturm im Winter",
+    "Ein Regen ohne Wind"
+   ],
+   "answer": "Ein Wind, der sich nach Jahreszeit umkehrt",
+   "hint": "Jahreszeit.",
+   "explain": "Monsunwinde wechseln je nach Jahreszeit ihre Richtung."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Klimazone hat Frost und lange Winter?",
+   "options": [
+    "Polare Zone",
+    "Tropische Zone",
+    "Mittelmeerklima"
+   ],
+   "answer": "Polare Zone",
+   "hint": "Kälte.",
+   "explain": "Polare Klimate haben sehr kalte Winter und kurze Sommer."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wüstenklima?",
+   "options": [
+    "Wenig Niederschlag und große Temperaturunterschiede",
+    "Viel Regen",
+    "Dauernd Schnee"
+   ],
+   "answer": "Wenig Niederschlag und große Temperaturunterschiede",
+   "hint": "Trocken.",
+   "explain": "Wüsten haben wenig Regen und oft große Temperaturschwankungen zwischen Tag und Nacht."
+  },
+  {
+   "type": "choice",
+   "q": "Was beschreibt das Klimadiagramm?",
+   "options": [
+    "Temperatur und Niederschlag im Jahresverlauf",
+    "Die Bevölkerung",
+    "Die Verkehrswege"
+   ],
+   "answer": "Temperatur und Niederschlag im Jahresverlauf",
+   "hint": "Zwei Werte.",
+   "explain": "Klimadiagramme zeigen Monatstemperatur und Monatsniederschlag."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Treibhauswirkung?",
+   "options": [
+    "Wärme wird durch Gase in der Atmosphäre zurückgehalten",
+    "Die Erde kühlt ab",
+    "Die Sonne wird kälter"
+   ],
+   "answer": "Wärme wird durch Gase in der Atmosphäre zurückgehalten",
+   "hint": "Gase.",
+   "explain": "Treibhausgase wie Kohlendioxid halten Wärme in der Atmosphäre."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Gas ist ein wichtiges Treibhausgas?",
+   "options": [
+    "Kohlendioxid",
+    "Sauerstoff",
+    "Stickstoff allein"
+   ],
+   "answer": "Kohlendioxid",
+   "hint": "CO2.",
+   "explain": "Kohlendioxid entsteht vor allem durch die Verbrennung fossiler Energieträger."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Klimawandel?",
+   "options": [
+    "Die langfristige Veränderung des Klimas, besonders durch den Menschen",
+    "Ein kurzer Regen",
+    "Ein Sturm"
+   ],
+   "answer": "Die langfristige Veränderung des Klimas, besonders durch den Menschen",
+   "hint": "Langfristig.",
+   "explain": "Der Klimawandel beschreibt langfristige Veränderungen, die stark durch den Menschen verursacht werden."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Folge hat die Erderwärmung für Gletscher?",
+   "options": [
+    "Sie schmelzen zurück",
+    "Sie wachsen",
+    "Sie verschwinden nicht"
+   ],
+   "answer": "Sie schmelzen zurück",
+   "hint": "Wärme.",
+   "explain": "Mehr Wärme lässt Gletscher schmelzen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Jahresschwankung der Temperatur?",
+   "options": [
+    "Der Unterschied zwischen wärmstem und kältestem Monat",
+    "Die Tagestemperatur",
+    "Die Höhe über dem Meer"
+   ],
+   "answer": "Der Unterschied zwischen wärmstem und kältestem Monat",
+   "hint": "Differenz.",
+   "explain": "Die Jahresschwankung ist die Differenz zwischen dem wärmsten und dem kältesten Monat."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Klimazone ist in Mitteleuropa typisch?",
+   "options": [
+    "Gemäßigte Zone",
+    "Tropische Zone",
+    "Polare Zone"
+   ],
+   "answer": "Gemäßigte Zone",
+   "hint": "Vier Jahreszeiten.",
+   "explain": "Mitteleuropa liegt in der gemäßigten Zone mit vier Jahreszeiten."
+  },
+  {
+   "type": "choice",
+   "q": "Warum regnet es an Gebirgen oft mehr auf der Luvseite?",
+   "options": [
+    "Die Luft steigt am Gebirge auf und kühlt ab",
+    "Der Wind weht dort nicht",
+    "Das Gebirge zieht Wolken nicht an"
+   ],
+   "answer": "Die Luft steigt am Gebirge auf und kühlt ab",
+   "hint": "Stau.",
+   "explain": "Am Gebirge steigt die Luft auf, kühlt ab und die Feuchtigkeit fällt als Regen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Föhn?",
+   "options": [
+    "Ein warmer, trockener Fallwind auf der Leeseite eines Gebirges",
+    "Ein kalter Schneesturm",
+    "Ein Regenfluss"
+   ],
+   "answer": "Ein warmer, trockener Fallwind auf der Leeseite eines Gebirges",
+   "hint": "Warmer Wind.",
+   "explain": "Der Föhn ist ein trockener, warmer Wind auf der windabgewandten Seite eines Gebirges."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Bedeutung hat die Sonnenstrahlung für das Klima?",
+   "options": [
+    "Sie ist die wichtigste Energiequelle für das Klima",
+    "Sie spielt keine Rolle",
+    "Sie erzeugt nur Regen"
+   ],
+   "answer": "Sie ist die wichtigste Energiequelle für das Klima",
+   "hint": "Energie.",
+   "explain": "Die Sonne liefert die Energie, die das Klima und Wetter antreibt."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Isotherme?",
+   "options": [
+    "Eine Linie gleicher Temperatur auf der Karte",
+    "Eine Linie gleichen Niederschlags",
+    "Eine Höhenlinie"
+   ],
+   "answer": "Eine Linie gleicher Temperatur auf der Karte",
+   "hint": "Temperatur.",
+   "explain": "Isothermen verbinden Orte mit gleicher Temperatur."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Isohyete?",
+   "options": [
+    "Eine Linie gleicher Niederschlagsmenge",
+    "Eine Linie gleicher Temperatur",
+    "Eine Grenze zwischen Staaten"
+   ],
+   "answer": "Eine Linie gleicher Niederschlagsmenge",
+   "hint": "Regen.",
+   "explain": "Isohyeten verbinden Orte mit gleicher Niederschlagsmenge."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Auswirkung hat die Lage am Meer auf das Klima?",
+   "options": [
+    "Es wird im Sommer kühler und im Winter milder",
+    "Es wird überall heißer",
+    "Das Meer hat keinen Einfluss"
+   ],
+   "answer": "Es wird im Sommer kühler und im Winter milder",
+   "hint": "Ozean speichert Wärme.",
+   "explain": "Das Meer speichert Wärme und mildert so die Temperaturen."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Klimazone hat trockene Sommer und feuchte Winter?",
+   "options": [
+    "Mittelmeerklima",
+    "Polarklima",
+    "Tropisches Regenklima"
+   ],
+   "answer": "Mittelmeerklima",
+   "hint": "Mittelmeer.",
+   "explain": "Das Mittelmeerklima hat trockene heiße Sommer und milde, feuchte Winter."
+  }
+ ]
+}

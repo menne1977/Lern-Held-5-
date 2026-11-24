@@ -1,0 +1,380 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Wirtschaft und Energie",
+ "key": "Wirtschaft gliedert sich in Sektoren. Energie kommt aus fossilen und erneuerbaren Quellen.\nIm Buch: Atlas: Wirtschaft und Energie",
+ "slides": [
+  {
+   "title": "Energieträger",
+   "text": "Fossil: Kohle, Erdöl, Erdgas. Erneuerbar: Wind, Sonne, Wasser, Erdwärme.",
+   "emoji": "⚡"
+  },
+  {
+   "title": "Die drei Sektoren",
+   "text": "Primär: Rohstoffe gewinnen. Sekundär: verarbeiten. Tertiär: Dienstleistungen.",
+   "emoji": "🏭"
+  },
+  {
+   "title": "Strukturwandel",
+   "text": "Wirtschaft verändert sich, z. B. von Bergbau zu Dienstleistungen.",
+   "emoji": "🔄"
+  },
+  {
+   "title": "Import und Export",
+   "text": "Export: verkaufen ins Ausland. Import: einkaufen aus dem Ausland.",
+   "emoji": "🚢"
+  },
+  {
+   "title": "Gunsträume und Plantagen",
+   "text": "Gute Böden und Wasser fördern Anbau. Plantagen produzieren für den Export.",
+   "emoji": "🌱"
+  },
+  {
+   "title": "Energiewende",
+   "text": "Von fossiler zu erneuerbarer Energie: Wind, Sonne, Wasser, Erdwärme.",
+   "emoji": "🔋"
+  }
+ ],
+ "vocab": [
+  [
+   "fossile Energie",
+   "aus abgestorbenen Organismen"
+  ],
+  [
+   "erneuerbare Energie",
+   "erneuert sich immer wieder"
+  ],
+  [
+   "Primärsektor",
+   "Rohstoffe gewinnen"
+  ],
+  [
+   "Sekundärsektor",
+   "Industrie und Handwerk"
+  ],
+  [
+   "Tertiärsektor",
+   "Dienstleistungen"
+  ],
+  [
+   "Strukturwandel",
+   "Wandel der Wirtschaft"
+  ],
+  [
+   "Gunstraum",
+   "gut geeignet für Wirtschaft"
+  ],
+  [
+   "Export",
+   "Verkauf ins Ausland"
+  ],
+  [
+   "Import",
+   "Einkauf aus dem Ausland"
+  ],
+  [
+   "Plantage",
+   "großflächiger Anbau für den Export"
+  ],
+  [
+   "Subsistenz",
+   "Anbau für den Eigenbedarf"
+  ],
+  [
+   "Energiewende",
+   "Umstieg auf erneuerbare Energie"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was sind fossile Energieträger?",
+   "options": [
+    "Kohle, Erdöl und Erdgas",
+    "Wind und Sonne",
+    "Wasser und Holz"
+   ],
+   "answer": "Kohle, Erdöl und Erdgas",
+   "hint": "Aus Pflanzen vor Millionen Jahren.",
+   "explain": "Fossile Energieträger entstanden aus abgestorbenen Organismen und sind nicht erneuerbar."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein erneuerbarer Energieträger?",
+   "options": [
+    "Wind",
+    "Erdgas",
+    "Kohle"
+   ],
+   "answer": "Wind",
+   "hint": "Er erneuert sich.",
+   "explain": "Wind, Sonne und Wasser erneuern sich immer wieder."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Primärenergie?",
+   "options": [
+    "Energie, wie sie in der Natur vorkommt, z. B. Kohle",
+    "Strom aus der Steckdose",
+    "Wärme im Haus"
+   ],
+   "answer": "Energie, wie sie in der Natur vorkommt, z. B. Kohle",
+   "hint": "Rohstoff.",
+   "explain": "Primärenergie ist die Energie, bevor sie umgewandelt wird."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Rohstoffabhängigkeit?",
+   "options": [
+    "Ein Land ist auf Importe von Rohstoffen angewiesen",
+    "Ein Land exportiert alles",
+    "Ein Land hat keine Industrie"
+   ],
+   "answer": "Ein Land ist auf Importe von Rohstoffen angewiesen",
+   "hint": "Importe.",
+   "explain": "Länder mit wenig eigenen Rohstoffen sind auf Einfuhren angewiesen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Industriegebiet?",
+   "options": [
+    "Ein Gebiet mit vielen Fabriken und Produktion",
+    "Ein Wald",
+    "Ein See"
+   ],
+   "answer": "Ein Gebiet mit vielen Fabriken und Produktion",
+   "hint": "Fabriken.",
+   "explain": "Industriegebiete konzentrieren Fabriken und Produktion."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist der Primärsektor?",
+   "options": [
+    "Landwirtschaft, Fischerei, Bergbau",
+    "Industrie",
+    "Dienstleistungen"
+   ],
+   "answer": "Landwirtschaft, Fischerei, Bergbau",
+   "hint": "Erste Stufe.",
+   "explain": "Der Primärsektor gewinnt Rohstoffe direkt aus der Natur."
+  },
+  {
+   "type": "choice",
+   "q": "Was umfasst der Sekundärsektor?",
+   "options": [
+    "Industrie und Handwerk",
+    "Landwirtschaft",
+    "Schulen"
+   ],
+   "answer": "Industrie und Handwerk",
+   "hint": "Verarbeitung.",
+   "explain": "Der Sekundärsektor verarbeitet Rohstoffe zu Produkten."
+  },
+  {
+   "type": "choice",
+   "q": "Was umfasst der Tertiärsektor?",
+   "options": [
+    "Dienstleistungen wie Handel, Verkehr und Verwaltung",
+    "Landwirtschaft",
+    "Bergbau"
+   ],
+   "answer": "Dienstleistungen wie Handel, Verkehr und Verwaltung",
+   "hint": "Dienst.",
+   "explain": "Der Tertiärsektor bietet Dienstleistungen an."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Strukturwandel?",
+   "options": [
+    "Wandel der Wirtschaft, z. B. vom Bergbau zu Dienstleistungen",
+    "Ein Umbau von Häusern",
+    "Ein Wetterwechsel"
+   ],
+   "answer": "Wandel der Wirtschaft, z. B. vom Bergbau zu Dienstleistungen",
+   "hint": "Wirtschaft ändert sich.",
+   "explain": "Strukturwandel beschreibt, wie sich Wirtschaftszweige verschieben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Tourismus als Wirtschaftszweig?",
+   "options": [
+    "Reisen von Menschen und die Dienstleistungen dafür",
+    "Der Bau von Straßen",
+    "Die Fischerei"
+   ],
+   "answer": "Reisen von Menschen und die Dienstleistungen dafür",
+   "hint": "Reisen.",
+   "explain": "Tourismus verbindet Reisen mit Unterkunft, Verpflegung und Freizeit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Gunstraumfrage?",
+   "options": [
+    "Welche Standortbedingungen einen Ort für Wirtschaft besonders geeignet machen",
+    "Eine Frage nach dem Wetter",
+    "Eine Frage nach der Sprache"
+   ],
+   "answer": "Welche Standortbedingungen einen Ort für Wirtschaft besonders geeignet machen",
+   "hint": "Standort.",
+   "explain": "Ein Gunstraum bietet gute Bedingungen für Landwirtschaft oder Industrie."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Industriestandort?",
+   "options": [
+    "Ort, an dem sich Industriebetriebe ansiedeln",
+    "Ein Friedhof",
+    "Ein Wald"
+   ],
+   "answer": "Ort, an dem sich Industriebetriebe ansiedeln",
+   "hint": "Ansiedlung.",
+   "explain": "Standorte werden nach Verkehr, Arbeitskräften und Rohstoffen gewählt."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Globalisierung in der Wirtschaft?",
+   "options": [
+    "Länder sind wirtschaftlich eng miteinander verbunden",
+    "Jedes Land macht alles selbst",
+    "Es gibt keinen Handel"
+   ],
+   "answer": "Länder sind wirtschaftlich eng miteinander verbunden",
+   "hint": "Verbunden.",
+   "explain": "Globalisierung verbindet Märkte und Produktion weltweit."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Exportgut?",
+   "options": [
+    "Ware, die ein Land verkauft",
+    "Ware, die ein Land einkauft",
+    "Ein Fischnetz"
+   ],
+   "answer": "Ware, die ein Land verkauft",
+   "hint": "Verkauf ins Ausland.",
+   "explain": "Exporte sind Waren, die ins Ausland verkauft werden."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Importgut?",
+   "options": [
+    "Ware, die ein Land aus dem Ausland kauft",
+    "Ware, die ein Land verkauft",
+    "Eine Ware im eigenen Land"
+   ],
+   "answer": "Ware, die ein Land aus dem Ausland kauft",
+   "hint": "Einkauf.",
+   "explain": "Importe sind Waren, die aus dem Ausland eingekauft werden."
+  },
+  {
+   "type": "choice",
+   "q": "Was versteht man unter Landwirtschaft in Gunsträumen?",
+   "options": [
+    "Intensive Anbau mit guten Böden und Wasser",
+    "Nur Wald",
+    "Nur Eis"
+   ],
+   "answer": "Intensive Anbau mit guten Böden und Wasser",
+   "hint": "Gute Böden.",
+   "explain": "Gunsträume haben fruchtbare Böden und ausreichend Wasser."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Plantagenwirtschaft?",
+   "options": [
+    "Großflächiger Anbau für den Export, z. B. Kaffee oder Bananen",
+    "Ein Garten",
+    "Ein Stall"
+   ],
+   "answer": "Großflächiger Anbau für den Export, z. B. Kaffee oder Bananen",
+   "hint": "Großfläche.",
+   "explain": "Plantagen bauen große Mengen einer Pflanze für den Verkauf an."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Subsistenzwirtschaft?",
+   "options": [
+    "Anbau nur für die eigene Versorgung",
+    "Anbau für den Export",
+    "Industrie"
+   ],
+   "answer": "Anbau nur für die eigene Versorgung",
+   "hint": "Eigenbedarf.",
+   "explain": "Bei Subsistenzwirtschaft wird nur für den Eigenbedarf produziert."
+  },
+  {
+   "type": "choice",
+   "q": "Was versteht man unter Energieverbrauch pro Kopf?",
+   "options": [
+    "Die Energiemenge, die ein Mensch im Durchschnitt verbraucht",
+    "Die Zahl der Kraftwerke",
+    "Der Preis des Stroms"
+   ],
+   "answer": "Die Energiemenge, die ein Mensch im Durchschnitt verbraucht",
+   "hint": "Durchschnitt.",
+   "explain": "Der Pro-Kopf-Verbrauch zeigt, wie viel Energie je Person genutzt wird."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Solarenergie?",
+   "options": [
+    "Energie aus der Sonnenstrahlung",
+    "Energie aus Kohle",
+    "Energie aus Wind"
+   ],
+   "answer": "Energie aus der Sonnenstrahlung",
+   "hint": "Sonne.",
+   "explain": "Solarenergie nutzt Sonnenstrahlung für Strom oder Wärme."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist Geothermie?",
+   "options": [
+    "Nutzung der Wärme aus dem Erdinneren",
+    "Nutzung von Wind",
+    "Nutzung von Sonnenlicht"
+   ],
+   "answer": "Nutzung der Wärme aus dem Erdinneren",
+   "hint": "Erdwärme.",
+   "explain": "Geothermie nutzt Erdwärme für Heizung oder Strom."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Wasserkraftwerk?",
+   "options": [
+    "Kraftwerk, das Strom aus fließendem Wasser gewinnt",
+    "Kraftwerk mit Kohle",
+    "Kraftwerk im Weltraum"
+   ],
+   "answer": "Kraftwerk, das Strom aus fließendem Wasser gewinnt",
+   "hint": "Wasser treibt Turbinen an.",
+   "explain": "Die Strömung treibt Turbinen an, die Strom erzeugen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Nachteil von Kohlekraftwerken?",
+   "options": [
+    "Sie stoßen viel CO2 aus",
+    "Sie sind ganz ohne Schadstoffe",
+    "Sie brauchen kein Wasser"
+   ],
+   "answer": "Sie stoßen viel CO2 aus",
+   "hint": "CO₂.",
+   "explain": "Bei der Verbrennung von Kohle entsteht viel Kohlendioxid."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist die Energiewende?",
+   "options": [
+    "Umstellung von fossiler auf erneuerbare Energie",
+    "Verlängerung der Kohlekraft",
+    "Abschaffung von Strom"
+   ],
+   "answer": "Umstellung von fossiler auf erneuerbare Energie",
+   "hint": "Umstieg.",
+   "explain": "Die Energiewende bedeutet den Umstieg auf erneuerbare Energien."
+  }
+ ]
+}

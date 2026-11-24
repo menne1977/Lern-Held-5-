@@ -1,0 +1,356 @@
+{
+ "subject": "Erdkunde",
+ "book": "Diercke Weltatlas (privat)",
+ "klasse": 5,
+ "title": "Erdkunde 5 – Kartenlesen und Orientierung",
+ "key": "Karten lesen heißt, Maßstab, Gradnetz, Legende und Signaturen zu verstehen.\nIm Buch: Atlas: Kartenlesen",
+ "slides": [
+  {
+   "title": "Maßstab",
+   "text": "1:100.000 heißt: 1 cm auf der Karte entspricht 1 km in der Natur.",
+   "emoji": "📏"
+  },
+  {
+   "title": "Gradnetz",
+   "text": "Längenkreise (Meridiane) laufen von Pol zu Pol. Breitenkreise verlaufen parallel zum Äquator.",
+   "emoji": "🌐"
+  },
+  {
+   "title": "Legende und Signaturen",
+   "text": "Die Legende erklärt die Zeichen. Signaturen stellen Objekte dar.",
+   "emoji": "🗺️"
+  },
+  {
+   "title": "Höhenlinien",
+   "text": "Gleiche Höhe verbinden die Linien. Eng beieinander = steil.",
+   "emoji": "⛰️"
+  },
+  {
+   "title": "Zeitzonen",
+   "text": "360 Grad durch 24 Stunden: 15 Längengrade je Stunde.",
+   "emoji": "🕒"
+  },
+  {
+   "title": "Kartentypen",
+   "text": "Physisch: Natur. Politisch: Staaten. Thematisch: ein Thema wie Klima.",
+   "emoji": "🧭"
+  }
+ ],
+ "vocab": [
+  [
+   "Maßstab",
+   "Verhältnis von Karte zu Wirklichkeit"
+  ],
+  [
+   "Gradnetz",
+   "Netz aus Längen- und Breitenkreisen"
+  ],
+  [
+   "Meridian",
+   "Längenkreis von Pol zu Pol"
+  ],
+  [
+   "Äquator",
+   "Breitenkreis bei 0 Grad"
+  ],
+  [
+   "Legende",
+   "Erklärung der Zeichen"
+  ],
+  [
+   "Signatur",
+   "Zeichen für ein Objekt"
+  ],
+  [
+   "Höhenlinie",
+   "Linie gleicher Höhe"
+  ],
+  [
+   "thematische Karte",
+   "Karte zu einem Thema"
+  ],
+  [
+   "physische Karte",
+   "Karte mit Naturräumen"
+  ],
+  [
+   "politische Karte",
+   "Karte mit Staatsgrenzen"
+  ],
+  [
+   "Zeitzone",
+   "Gebiet mit gleicher Uhrzeit"
+  ],
+  [
+   "Atlas",
+   "Sammlung von Karten"
+  ]
+ ],
+ "dictation": [],
+ "tasks": [
+  {
+   "type": "choice",
+   "q": "Was gibt der Maßstab 1:100.000 an?",
+   "options": [
+    "1 cm auf der Karte entspricht 1 km in der Wirklichkeit",
+    "1 km auf der Karte entspricht 100 km",
+    "1 m entspricht 100 cm"
+   ],
+   "answer": "1 cm auf der Karte entspricht 1 km in der Wirklichkeit",
+   "hint": "100.000 cm = 1 km.",
+   "explain": "Bei 1:100.000 sind 1 cm auf der Karte 100.000 cm, also 1 km in der Natur."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Entfernung ergibt 5 cm auf einer Karte im Maßstab 1:100.000?",
+   "options": [
+    "5 km",
+    "500 m",
+    "50 km"
+   ],
+   "answer": "5 km",
+   "hint": "5 mal 1 km.",
+   "explain": "Jeder Zentimeter entspricht 1 km."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt das Gradnetz?",
+   "options": [
+    "Längen- und Breitenkreise",
+    "Nur Flüsse",
+    "Nur Städte"
+   ],
+   "answer": "Längen- und Breitenkreise",
+   "hint": "Meridiane und Parallelkreise.",
+   "explain": "Das Gradnetz besteht aus Meridianen und Breitenkreisen."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Breitenkreis teilt die Erde in Nord- und Südhalbkugel?",
+   "options": [
+    "Äquator",
+    "Nullmeridian",
+    "Wendekreis des Krebses"
+   ],
+   "answer": "Äquator",
+   "hint": "Der Breitengrad 0 Grad.",
+   "explain": "Der Äquator liegt bei 0 Grad Breite."
+  },
+  {
+   "type": "choice",
+   "q": "Welcher Meridian ist der Nullmeridian?",
+   "options": [
+    "Greenwich-Meridian",
+    "Äquator",
+    "Datumsgrenze"
+   ],
+   "answer": "Greenwich-Meridian",
+   "hint": "Er geht durch Greenwich in England.",
+   "explain": "Der Nullmeridian verläuft durch Greenwich."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeutet Legende auf einer Karte?",
+   "options": [
+    "Erklärung der Zeichen",
+    "Name des Kartografen",
+    "Der Titel"
+   ],
+   "answer": "Erklärung der Zeichen",
+   "hint": "Zeichen erklären.",
+   "explain": "Die Legende erklärt die Bedeutung der Signaturen."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Signatur?",
+   "options": [
+    "Ein Zeichen, das ein Objekt auf der Karte darstellt",
+    "Ein Unterschrift",
+    "Eine Himmelsrichtung"
+   ],
+   "answer": "Ein Zeichen, das ein Objekt auf der Karte darstellt",
+   "hint": "Zeichen für Dinge.",
+   "explain": "Signaturen stellen Objekte wie Städte oder Flüsse dar."
+  },
+  {
+   "type": "choice",
+   "q": "Wie unterscheidet man eine große von einer kleinen Karte?",
+   "options": [
+    "Der Maßstab: große Karten haben ein kleineres Verhältnis",
+    "Die Farbe",
+    "Die Größe des Papiers allein"
+   ],
+   "answer": "Der Maßstab: große Karten haben ein kleineres Verhältnis",
+   "hint": "Zahl klein gleich Karte groß.",
+   "explain": "Bei 1:25.000 ist die Karte größer als bei 1:1.000.000."
+  },
+  {
+   "type": "choice",
+   "q": "Was zeigt eine Höhenlinie?",
+   "options": [
+    "Punkte gleicher Höhe",
+    "Die Bevölkerungsdichte",
+    "Die Temperatur"
+   ],
+   "answer": "Punkte gleicher Höhe",
+   "hint": "Verbindung gleicher Höhe.",
+   "explain": "Höhenlinien verbinden Punkte mit gleicher Höhe."
+  },
+  {
+   "type": "choice",
+   "q": "Was bedeuten eng stehende Höhenlinien?",
+   "options": [
+    "Steiles Gelände",
+    "Flaches Gelände",
+    "Ein See"
+   ],
+   "answer": "Steiles Gelände",
+   "hint": "Viel Höhenunterschied auf kurzer Strecke.",
+   "explain": "Eng stehende Linien zeigen steile Hänge."
+  },
+  {
+   "type": "choice",
+   "q": "Welche Himmelsrichtung zeigt die Nordrichtung auf einer Karte an?",
+   "options": [
+    "Oben, wenn kein anderer Hinweis da ist",
+    "Unten",
+    "Rechts"
+   ],
+   "answer": "Oben, wenn kein anderer Hinweis da ist",
+   "hint": "Standard.",
+   "explain": "Auf den meisten Karten ist Norden oben."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine thematische Karte?",
+   "options": [
+    "Eine Karte zu einem bestimmten Thema, z. B. Klima",
+    "Eine Karte nur mit Städten",
+    "Eine Stadtplan"
+   ],
+   "answer": "Eine Karte zu einem bestimmten Thema, z. B. Klima",
+   "hint": "Thema.",
+   "explain": "Thematische Karten zeigen ein Thema wie Klima oder Bevölkerung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine physische Karte?",
+   "options": [
+    "Eine Karte mit Gebirgen, Flüssen und Meeren",
+    "Eine Karte mit Staatsgrenzen",
+    "Eine Verkehrskarte"
+   ],
+   "answer": "Eine Karte mit Gebirgen, Flüssen und Meeren",
+   "hint": "Natur.",
+   "explain": "Physische Karten zeigen Naturräume."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine politische Karte?",
+   "options": [
+    "Eine Karte mit Staatsgrenzen und Hauptstädten",
+    "Eine Karte mit Gebirgen",
+    "Eine Karte mit Klimazonen"
+   ],
+   "answer": "Eine Karte mit Staatsgrenzen und Hauptstädten",
+   "hint": "Staaten.",
+   "explain": "Politische Karten zeigen Staaten und Verwaltungseinheiten."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Grad hat ein Vollkreis?",
+   "options": [
+    "360",
+    "100",
+    "180"
+   ],
+   "answer": "360",
+   "hint": "Vollkreis.",
+   "explain": "Ein Vollkreis hat 360 Grad."
+  },
+  {
+   "type": "choice",
+   "q": "Wo liegt der Nordpol?",
+   "options": [
+    "Am oberen Ende der Erdachse",
+    "Am Äquator",
+    "In der Mitte des Pazifiks"
+   ],
+   "answer": "Am oberen Ende der Erdachse",
+   "hint": "Achse.",
+   "explain": "Der Nordpol liegt auf der Erdachse im Norden."
+  },
+  {
+   "type": "choice",
+   "q": "Was sind Zeitzonen?",
+   "options": [
+    "Gebiete mit gleicher Uhrzeit, meist 15 Längengrade breit",
+    "Gebiete mit gleichem Wetter",
+    "Gebiete mit gleicher Sprache"
+   ],
+   "answer": "Gebiete mit gleicher Uhrzeit, meist 15 Längengrade breit",
+   "hint": "360 durch 24 Stunden.",
+   "explain": "Die Erde dreht sich in 24 Stunden um 360 Grad, also 15 Grad pro Stunde."
+  },
+  {
+   "type": "choice",
+   "q": "Wie viele Längengrade entsprechen einer Stunde Zeitunterschied?",
+   "options": [
+    "15",
+    "1",
+    "24"
+   ],
+   "answer": "15",
+   "hint": "360 geteilt durch 24.",
+   "explain": "360 Grad durch 24 Stunden ergibt 15 Grad pro Stunde."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist ein Atlas?",
+   "options": [
+    "Eine Sammlung von Karten zu einem Thema oder Gebiet",
+    "Ein Wörterbuch",
+    "Ein Lexikon"
+   ],
+   "answer": "Eine Sammlung von Karten zu einem Thema oder Gebiet",
+   "hint": "Sammlung.",
+   "explain": "Ein Atlas ist eine Kartensammlung."
+  },
+  {
+   "type": "choice",
+   "q": "Welches Hilfsmittel nutzt man bei der Orientierung im Gelände?",
+   "options": [
+    "Kompass",
+    "Taschenrechner",
+    "Lineal"
+   ],
+   "answer": "Kompass",
+   "hint": "Richtungen.",
+   "explain": "Der Kompass zeigt die Nordrichtung."
+  },
+  {
+   "type": "choice",
+   "q": "Was ist eine Legende bei einem Diagramm?",
+   "options": [
+    "Erklärung der Farben und Muster",
+    "Die Überschrift",
+    "Die Zahlenwerte"
+   ],
+   "answer": "Erklärung der Farben und Muster",
+   "hint": "Farbe.",
+   "explain": "Die Legende erklärt, was die Farben oder Muster bedeuten."
+  },
+  {
+   "type": "choice",
+   "q": "Wie beschreibt man die Lage eines Ortes?",
+   "options": [
+    "Mit Breiten- und Längengrad",
+    "Mit der Farbe",
+    "Mit der Einwohnerzahl"
+   ],
+   "answer": "Mit Breiten- und Längengrad",
+   "hint": "Koordinaten.",
+   "explain": "Die Lage wird über Koordinaten angegeben."
+  }
+ ]
+}

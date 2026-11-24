@@ -294,5 +294,53 @@
   "words": 12,
   "tasks": 31,
   "book": "Blickpunkt Biologie 1"
+ },
+ {
+   "file": "de_e1_kartenlesen.json",
+   "title": "Erdkunde 5 – Kartenlesen und Orientierung",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 22,
+   "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_e2_klima.json",
+   "title": "Erdkunde 5 – Klima und Wetter",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 25,
+   "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_e3_tektonik.json",
+   "title": "Erdkunde 5 – Erdaufbau, Erdbeben und Vulkane",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 23,
+   "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_e4_bevoelkerung.json",
+   "title": "Erdkunde 5 – Bevölkerung und Städte",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 24,
+   "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_e5_wirtschaft.json",
+   "title": "Erdkunde 5 – Wirtschaft und Energie",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 24,
+   "book": "Diercke Weltatlas (privat)"
+ },
+ {
+   "file": "de_e6_umwelt.json",
+   "title": "Erdkunde 5 – Umwelt und Nachhaltigkeit",
+   "subject": "Erdkunde",
+   "words": 12,
+   "tasks": 23,
+   "book": "Diercke Weltatlas (privat)"
  }
 ]
