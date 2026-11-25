@@ -216,7 +216,7 @@ function calcWeg(){
   <input id="ex" class="ans" autocomplete="off" autocapitalize="off" placeholder="z. B. 345 + 278" inputmode="text">
   <div class="keys">${['+','−','·',':','(',')','/','von'].map(k=>`<button data-k="${k}">${k}</button>`).join('')}<button id="del">⌫</button></div>
   <button id="go" class="go big-btn">Rechnen</button><div id="out"></div>
-  <h2>Beispiele</h2><div class="chips">${['345 + 278','1203 − 457','47 · 6','345 · 27','1296 : 12','156 : 12','3 + 4 · 5','(3 + 4) · 5','3/4 von 20','3/4 + 1/6','2/3 · 3/5','20 % von 150','2^5','wurzel 144','teiler 36','4372 runden auf 100','48 · 11'].map(e=>`<button class="chip">${e}</button>`).join('')}</div>
+  <h2>Beispiele</h2><div class="chips">${['345 + 278','1203 − 457','47 · 6','345 · 27','1296 : 12','156 : 12','3 + 4 · 5','(3 + 4) · 5','3/4 von 20','3/4 + 1/6','2/3 · 3/5','12,5 + 3,75','4,2 · 1,5','7,5 : 2,5','10 : 3','primfaktoren 84','ggt 12 18','kgv 4 6','kürze 18/24','20 % von 150','2^5','wurzel 144','teiler 36','4372 runden auf 100','48 · 11'].map(e=>`<button class="chip">${e}</button>`).join('')}</div>
   <p class="hint">Auch möglich: Brüche (3/4 + 1/6), Prozent (20 % von 150), Potenzen (2^5), Wurzeln (wurzel 144). Tausenderpunkte bitte weglassen. Für Kommazahlen: 2,5 + 1,25. Teilen: <b>:</b> oder <b>/</b>.</p>`;
   const inp=$('#ex'),run=()=>{$('#out').innerHTML=`<div class="result">${solveWeg(inp.value)}</div>`};
   document.querySelectorAll('.wgm').forEach(b=>b.onclick=()=>{wegSet(b.dataset.v);document.querySelectorAll('.wgm').forEach(x=>x.classList.toggle('on',x===b));if(inp.value.trim())run()});

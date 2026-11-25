@@ -1,5 +1,5 @@
 /* ===== Quiz: Fächer, Allgemeinwissen, Geräusche, Tierlaute, Bilder-Rätsel (Funktionsdeklarationen) ===== */
-function qzSP(){return{allg:{name:'Allgemeinwissen',icon:'🧠',color:'#7c3aed',sub:'leicht bis schwer'},ton:{name:'Geräusche raten',icon:'👂',color:'#0891b2',sub:'Was hörst du?'},tier:{name:'Tierlaute raten',icon:'🐾',color:'#16a34a',sub:'Wer macht das?'},bild:{name:'Bilder-Rätsel',icon:'🧩',color:'#db2777',sub:'Emojis zum Wort erraten'}}}
+function qzSP(){return{allg:{name:'Allgemeinwissen',icon:'🧠',color:'#7c3aed',sub:'leicht bis schwer'},ton:{name:'Geräusche raten',icon:'👂',color:'#0891b2',sub:'Echte Aufnahmen · Internet nötig'},tier:{name:'Tierlaute raten',icon:'🐾',color:'#16a34a',sub:'Echte Tierstimmen · Internet nötig'},bild:{name:'Bilder-Rätsel',icon:'🧩',color:'#db2777',sub:'Emojis zum Wort erraten'}}}
 function qzOpt(){let o={};try{o=JSON.parse(localStorage.getItem('sh5qz')||'{}')}catch(e){}return Object.assign({src:'mix',typ:'all'},o)}
 function qzSet(k,v){const o=qzOpt();o[k]=v;try{localStorage.setItem('sh5qz',JSON.stringify(o))}catch(e){}}
 function quizPool(si){
@@ -42,10 +42,9 @@ function qzSounds_play(n){
 function qzSpecialSrc(id,opt){
   if(id==='allg'){const lv=opt==='leicht'?1:opt==='mittel'?2:opt==='schwer'?3:0,pool=qzAllg().filter(x=>!lv||x[0]===lv);let queue=shuffle(pool);
     return()=>{if(!queue.length)queue=shuffle(pool);const x=queue.shift();return Q(esc(x[1]),x[2],{kind:'choice',opts:shuffle([x[2]].concat(x[3])),steps:esc(x[4]),lv:x[0]})}}
-  if(id==='ton'){const L=qzSounds();let queue=shuffle(L);
-    return()=>{if(!queue.length)queue=shuffle(L);const x=queue.shift(),o=shuffle(L.filter(y=>y[0]!==x[0])).slice(0,3).map(y=>y[2]+' '+y[1]);return Q('Welches Geräusch hörst du?',x[2]+' '+x[1],{kind:'choice',opts:shuffle([x[2]+' '+x[1]].concat(o)),snd:x[0],steps:'Das war: '+x[2]+' '+x[1]})}}
-  if(id==='tier'){const L=qzAnimals();let queue=shuffle(L);
-    return()=>{if(!queue.length)queue=shuffle(L);const x=queue.shift(),o=shuffle(L.filter(y=>y[0]!==x[0])).slice(0,3).map(y=>y[2]+' '+y[0]);return Q('Welches Tier macht „'+x[1]+'“?',x[2]+' '+x[0],{kind:'choice',opts:shuffle([x[2]+' '+x[0]].concat(o)),speak:x[1],steps:x[2]+' '+x[0]+' macht „'+x[1]+'“'})}}
+  if(id==='ton'||id==='tier'){const L=(window.__qzAud&&window.__qzAud[id])||[],tier=id==='tier';let queue=shuffle(L);
+    return()=>{if(!queue.length)queue=shuffle(L);const x=queue.shift(),f=pick(x.files),lab=y=>y.emoji+' '+y.name,o=shuffle(L.filter(y=>y.name!==x.name)).slice(0,3).map(lab);
+      return Q(tier?'Welches Tier hörst du?':'Welches Geräusch hörst du?',lab(x),{kind:'choice',opts:shuffle([lab(x)].concat(o)),aud:f.url,audPage:f.page,steps:(tier?'Das war: ':'Das war: ')+lab(x)+'<br><small>Echte Aufnahme: <a target="_blank" rel="noopener" href="'+f.page+'">Wikimedia Commons ↗</a></small>'})}}
   const L=qzRiddles();let queue=shuffle(L),n=0;
   return()=>{n++;if(n%4===0){const k=R(3,12),e=pick(['⭐','🍎','🐟','🎈','🍪','🐞']);const o=new Set([k]);while(o.size<4)o.add(Math.max(1,k+R(-3,3)));return Q('Wie viele '+e+' siehst du?',String(k),{kind:'choice',opts:shuffle([...o].map(String)),big:e.repeat(k),steps:'Es sind '+k+'.'})}
     if(!queue.length)queue=shuffle(L);const x=queue.shift();return Q('Welches Wort ist gemeint?',x[1],{kind:'choice',opts:shuffle([x[1]].concat(x[2])),big:x[0],steps:x[0]+' = '+x[1]})}}
@@ -70,7 +69,12 @@ function qzModes(id,pre){const o=qzOpt(),len=o.len||'10';
 function qzModeBind(id,pre){
   document.querySelectorAll('.ql').forEach(b=>b.onclick=()=>{qzSet('len',b.dataset.v);document.querySelectorAll('.ql').forEach(c=>c.classList.toggle('on',c===b))});
   document.querySelectorAll('.qzb').forEach(b=>b.onclick=()=>{qzSet('typ',b.dataset.t);go(b.dataset.h+(qzOpt().len||'10'))})}
-function quizPlay(id,mode,opt){
+async function quizPlay(id,mode,opt){
+  if(id==='ton'||id==='tier'){setNav('home');app().innerHTML='<a class="back" href="#/quiz">← Quiz</a><div class="qcard" style="text-align:center"><div style="font-size:3rem">🎧</div><h2>Echte Aufnahmen werden gesucht …</h2><p class="hint">Aus Wikimedia Commons, dafür brauchst du Internet.</p></div>';
+    const L=await qzAudLoad(id);
+    if(L.length<4){app().innerHTML='<a class="back" href="#/quiz">← Quiz</a><div class="qcard" style="text-align:center"><div style="font-size:3rem">📡</div><h2>Kein Internet?</h2><p>Die echten Aufnahmen konnten nicht geladen werden ('+L.length+' gefunden, mindestens 4 nötig). Bitte Internet einschalten und noch einmal versuchen.</p><a class="go" style="display:block;text-align:center" href="#" id="qre">Nochmal versuchen</a></div>';$('#qre').onclick=e=>{e.preventDefault();quizPlay(id,mode,opt)};return}}
+  return quizPlay2(id,mode,opt)}
+function quizPlay2(id,mode,opt){
   const sp=qzSP()[id],s=sp||subjById(id);if(!s)return quizHome();setNav('home');
   const inf=mode==='inf',N=10,si=sp?-1:SUBJ.indexOf(s),src=sp?(()=>{const g=qzSpecialSrc(id,opt),ty=qzOpt().typ;return()=>{let q,n=0;do{q=qzFit(g(),ty)}while(!q&&n++<20);return q||g()}})():quizSrc(si,id),back=sp?'#/quiz/'+id:'#/quiz/'+id,ttl=sp?s.name+(opt&&opt!=='alle'?' · '+opt:''):s.name+'-Quiz';
   const S={n:0,ok:0,streak:0,bad:[],q:null,opts:null,done:false};
@@ -82,11 +86,11 @@ function quizPlay(id,mode,opt){
     $('#qa').onclick=e=>{e.preventDefault();quizPlay(id,mode,opt)}};
   const draw=()=>{const q=S.q;
     app().innerHTML=`<div class="stop"><a href="${back}">✕ Ende</a><div class="bar"><i style="width:${inf?(S.n%10)*10:S.n/N*100}%"></i></div><span>${inf?'♾️ ':''}⭐ ${S.ok}/${S.n}${inf?'':' · '+(S.n+1)+'/'+N}</span></div>
-    <div class="qcard" style="--c:${s.color}"><small class="qt">${s.icon} ${ttl}${q.lv?' · '+['','🟢 leicht','🟡 mittel','🔴 schwer'][q.lv]:''}</small>${q._it?'<div id="qimg"></div>':''}${q.big?`<div style="font-size:${q.big.length>16?'1.8':'3.2'}rem;text-align:center;line-height:1.3;margin:8px 0">${q.big}</div>`:''}<div class="q">${q.q}</div>${q.snd?`<button class="go" id="snd" style="margin:8px 0">🔊 Geräusch abspielen</button>`:''}${q.speak?`<button class="say spk" data-t="${esc(q.speak)}"${q.sl?` data-l="${q.sl}"`:''}>🔊 Anhören</button>`:''}
+    <div class="qcard" style="--c:${s.color}"><small class="qt">${s.icon} ${ttl}${q.lv?' · '+['','🟢 leicht','🟡 mittel','🔴 schwer'][q.lv]:''}</small>${q._it?'<div id="qimg"></div>':''}${q.big?`<div style="font-size:${q.big.length>16?'1.8':'3.2'}rem;text-align:center;line-height:1.3;margin:8px 0">${q.big}</div>`:''}<div class="q">${q.q}</div>${q.aud?`<button class="go" id="snd" style="margin:8px 0">🔊 Aufnahme abspielen</button>`:''}${q.speak?`<button class="say spk" data-t="${esc(q.speak)}"${q.sl?` data-l="${q.sl}"`:''}>🔊 Anhören</button>`:''}
     ${S.opts?`<div class="opts">${S.opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`:`<input id="in" class="ans" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="${q.kind==='num'?'decimal':'text'}" placeholder="Deine Antwort"><button id="chk" class="go">Prüfen</button>`}
     ${q.hint?`<button id="hb" class="lnk">💡 Tipp</button><div id="hint" class="tip" hidden>${q.hint}</div>`:''}<div id="fb"></div></div>`;
     if(q.speak&&q.auto)setTimeout(()=>speak(q.speak,q.sl),300);
-    if(q.snd){const pl=()=>{if(!qzSounds_play(q.snd))noSound()};$('#snd').onclick=pl}
+    if(q.aud){$('#snd').onclick=()=>qzAudPlay(q.aud);setTimeout(()=>qzAudPlay(q.aud),250)}
     if(q._it)imgGet(q._it).then(a=>{if(a&&a[0]&&$('#qimg'))$('#qimg').innerHTML='<img alt="" style="max-width:100%;max-height:240px;border-radius:12px;display:block;margin:0 auto 8px" src="data:image/jpeg;base64,'+a[0]+'">'});
     if(q.hint)$('#hb').onclick=()=>{$('#hint').hidden=false};
     if(S.opts)document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>fin(S.opts[+b.dataset.k],b));

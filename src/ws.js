@@ -10,7 +10,7 @@ function wsFromApp(o){
   let srcs=tops.concat(mine).map(qSource);if(!srcs.length&&TOPICS['gen_'+s.id])srcs=[qSource(TOPICS['gen_'+s.id])];
   return{srcs,info:`${tops.length} App-Themen · ${mine.length} aus Meine Sachen`+(words.length&&!tops.length&&!mine.length?' · zum Thema nichts gefunden, deshalb allgemeine Aufgaben':'')}}
 function wsCollect(srcs,o){const out=[],seen=new Set();let tries=0;
-  while(out.length<o.n&&tries++<o.n*25&&srcs.length){let q=pick(srcs)();if(!q||q.auto||q.snd)continue;q=o.typ==='tap'?qzTap(q):o.typ==='write'?qzWrite(q):q;if(!q)continue;const k=strip(q.q);if(seen.has(k))continue;seen.add(k);out.push(q)}
+  while(out.length<o.n&&tries++<o.n*25&&srcs.length){let q=pick(srcs)();if(!q||q.auto||q.snd||q.aud)continue;q=o.typ==='tap'?qzTap(q):o.typ==='write'?qzWrite(q):q;if(!q)continue;const k=strip(q.q);if(seen.has(k))continue;seen.add(k);out.push(q)}
   return out}
 function wsHtml(qs,o,title){
   const s=subjById(o.f)||SUBJ[0];
